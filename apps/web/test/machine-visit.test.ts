@@ -45,5 +45,45 @@ describe("机房访问不算独立访客", () => {
     ins.run("mvhome000000001", NOW, NOW, 0);
     expect([...machineBids(["mvbot0000000001", "mvcast000000001", "mvhome000000001", "mvlinked0000001"])]).toEqual(["mvbot0000000001"]);
   });
-});
 
+  it("11-27: a quiet browser on a home line is a machine when its user agent is a bot's or two years stale, or it blocked our stylesheet", async () => {
+    const { machineUa } = await import("../src/lib/machine-visit");
+    const at = Date.UTC(2026, 10, 27);
+    const ua = (bid: string, ip: string, u: string) =>
+      db().prepare("INSERT INTO browser_net (bid, ip, ua_key, first_at, last_at, hits, ua) VALUES (?, ?, ?, ?, ?, 1, ?)").run(bid, ip, u, NOW, NOW, u);
+    const OLD_CHROME = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36";
+    const OLD_FF = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0";
+    const NEW_CHROME = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36";
+    const WIN7 = "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36";
+    const OLD_PHONE = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.0.0 Mobile Safari/537.36";
+    const GOOGLEBOT = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/150.0.0.0 Safari/537.36";
+    expect(machineUa(OLD_CHROME, at)).toBe("stale");
+    expect(machineUa(OLD_FF, at)).toBe("stale");
+    expect(machineUa(GOOGLEBOT, at)).toBe("bot-ua");
+    expect(machineUa(NEW_CHROME, at)).toBeNull();
+    expect(machineUa(WIN7, at)).toBeNull();
+    expect(machineUa(OLD_PHONE, at)).toBeNull();
+
+    ua("mvstale00000001", "126.12.1.2", OLD_CHROME);
+    ua("mvbotua00000001", "126.12.1.3", GOOGLEBOT);
+    ua("mvwin7000000001", "126.12.1.4", WIN7);
+    ua("mvmixua00000001", "126.12.1.5", OLD_CHROME); // also seen with a current browser — a person
+    ua("mvmixua00000001", "126.12.1.5", NEW_CHROME);
+    ua("mvstalecast0001", "126.12.1.6", OLD_CHROME); // stale, but it cast
+    ua("mvsheet00000001", "126.12.1.7", NEW_CHROME); // current browser, blocked our font sheet
+    ua("mvsheetold00001", "126.12.1.8", NEW_CHROME); // a font-sheet error from the hydration-ish path that is not ours
+    const evs = [
+      vd("t1", "mvstale00000001"), vd("t2", "mvbotua00000001"), vd("t3", "mvwin7000000001"), vd("t4", "mvmixua00000001"),
+      vd("t5", "mvstalecast0001"), { t: NOW + 1, e: "cast_complete", s: "t5", b: "mvstalecast0001" },
+      vd("t6", "mvsheet00000001"), { t: NOW + 1, e: "client_error", s: "t6", b: "mvsheet00000001", method: "res:LINK jp.css?v=cb97eb" },
+      vd("t7", "mvsheetold00001"), { t: NOW + 1, e: "client_error", s: "t7", b: "mvsheetold00001", method: "res:SCRIPT page-1a2b.js" },
+    ];
+    expect([...machineBrowsers(evs, at)].sort()).toEqual(["mvbotua00000001", "mvsheet00000001", "mvstale00000001"]);
+  });
+
+  it("11-27: a self-declared bot that runs our scripts gets an address row (it used to leave none and count as a person)", async () => {
+    const { netFacts } = await import("../src/lib/browser-net");
+    const f = netFacts(new Headers({ "cf-connecting-ip": "66.249.66.1", "user-agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" }));
+    expect(f?.device).toBe("bot");
+  });
+});

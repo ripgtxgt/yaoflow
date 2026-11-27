@@ -9,7 +9,8 @@ import { deviceFromUA } from "./presence";
  * last seen, how many times. Country / region / city / timezone come from Cloudflare's visitor-location headers
  * (cf-ipcountry always; cf-region, cf-ipcity, cf-timezone once the "Add visitor location headers" managed transform is
  * on). After NET_KEEP_DAYS a row keeps its place but loses the address (city and device stay), as the privacy policy says.
- * Bots are not recorded. Written at most once per ten minutes per row.
+ * Written at most once per ten minutes per row. 11-27: a self-declared bot that runs our scripts is recorded too (device
+ * "bot") — before, it left no row, and a browser with no row on file counted as a person (lib/machine-visit.ts).
  */
 export const NET_KEEP_DAYS = 180;
 
@@ -39,13 +40,12 @@ const hdr = (h: Headers, k: string, max = 60) => { const v = h.get(k)?.trim(); i
 
 export type NetFacts = { ip: string; country: string | null; region: string | null; city: string | null; tz: string | null; os: string | null; app: string | null; device: string | null; model: string | null; lang: string | null; ua: string | null };
 
-/** What the request says about where and on what it came from; null for bots or no address. */
+/** What the request says about where and on what it came from; null with no address. */
 export function netFacts(headers: Headers): NetFacts | null {
   const ip = clientIp(headers);
   const ua = headers.get("user-agent");
   if (!ip) return null;
   const dev = deviceFromUA(ua);
-  if (dev === "bot") return null;
   const brief = uaBrief(ua) ?? "";
   const [os, ...app] = brief.split(" · ");
   const cc = headers.get("cf-ipcountry")?.trim().toUpperCase();
@@ -90,6 +90,13 @@ export function ipsOf(bids: string[]): { bid: string; ip: string }[] {
   return db().prepare(`SELECT bid, ip FROM browser_net WHERE bid IN (${bids.map(() => "?").join(",")})`).all(...bids) as { bid: string; ip: string }[];
 }
 
+/** 11-27 (lib/machine-visit.ts): every user agent each of these browsers was seen with (rows past NET_KEEP_DAYS have none) */
+export function uasOf(bids: string[]): { bid: string; ua: string | null }[] {
+  if (!bids.length) return [];
+  ensure();
+  return db().prepare(`SELECT bid, ua FROM browser_net WHERE bid IN (${bids.map(() => "?").join(",")})`).all(...bids) as { bid: string; ua: string | null }[];
+}
+
 /** Every address/device row of these browsers, latest first. */
 export function netOf(bids: string[]): NetRow[] {
   if (!bids.length) return [];
@@ -124,7 +131,7 @@ export function twinsOf(bids: string[], now = Date.now()): Twin[] {
   };
   for (const r of mine) {
     if (!r.ip) continue;
-    for (const o of d.prepare("SELECT bid, last_at, model FROM browser_net WHERE ip = ? AND last_at > ? LIMIT 50").all(r.ip, r.first_at - 30 * 86_400_000) as { bid: string; last_at: number; model: string | null }[])
+    for (const o of d.prepare("SELECT bid, last_at, model FROM browser_net WHERE ip = ? AND last_at > ? AND device IS NOT 'bot' LIMIT 50").all(r.ip, r.first_at - 30 * 86_400_000) as { bid: string; last_at: number; model: string | null }[])
       add(o.bid, `同一个 IP ${r.ip}${o.model && o.model === r.model ? "，同一型号设备" : ""}`, o.last_at);
     const net = r.ip.includes(".") ? r.ip.split(".").slice(0, 3).join(".") + "." : null;
     if (net && r.model && /iPhone|Galaxy|Pixel|SM-|iPad/.test(r.model)) {

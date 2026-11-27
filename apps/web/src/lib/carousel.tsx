@@ -76,37 +76,43 @@ export function casesFor(locale: CarouselLocale): GuaCase[] {
   return out.sort((a, b) => a.cast_at.localeCompare(b.cast_at) || a.code.localeCompare(b.code));
 }
 
-/** The case for a calendar day: walks the list one per day, so a daily post never repeats until it wraps. */
+/** The case for a calendar day: walks the list one per day, and the same case never comes back within NO_REPEAT_DAYS. */
 const ROTATION_FROM = Math.floor(Date.parse("2026-09-01T00:00:00Z") / 86_400_000);
-const pickMemo = new Map<string, number>(); // `${locale}|${dayN}` → index
+/** 11-10 进度表 145 ②: a locale shows a case at most once in any 30 days (before, only the day before was ruled out). */
+export const NO_REPEAT_DAYS = 30;
+const chains = new Map<string, number[]>(); // `${locale}|${list.length}` → pick for each day from ROTATION_FROM on
 
 export function caseForDay(locale: CarouselLocale, day: string): { index: number; c: GuaCase } {
   const list = casesFor(locale);
   const n = Math.floor(Date.parse(`${day}T00:00:00Z`) / 86_400_000);
-  // 11-01 进度表 132 ③: a case whose named days have all gone by is no advert for timing — each day takes its place in
-  // the list, walked forward to the next case still ahead and never the day before's. One chain from a fixed first day,
-  // so a day's case is the same whenever it is asked; the index stays the case's place in the whole list (slide URLs).
-  const at = (k: number): number => {
-    const key = `${locale}|${list.length}|${k}`;
-    const hit = pickMemo.get(key);
-    if (hit !== undefined) return hit;
-    const prev = k <= ROTATION_FROM ? -1 : at(k - 1);
-    const d = new Date(k * 86_400_000).toISOString().slice(0, 10);
-    const base = ((k % list.length) + list.length) % list.length;
-    let pick = -1;
-    for (let s = 0; s < list.length; s++) {
-      const j = (base + s) % list.length;
-      if (j !== prev && timingAhead(list[j]!, d)) { pick = j; break; }
-    }
-    if (pick < 0) pick = base === prev ? (base + 1) % list.length : base; // none ahead: the plain rotation
-    if (pickMemo.size > 20_000) pickMemo.clear();
-    pickMemo.set(key, pick);
-    return pick;
-  };
-  // warm the chain forward so a far day never recurses deep
-  for (let k = ROTATION_FROM; k < n; k += 200) at(k);
-  const index = at(n);
+  const index = n < ROTATION_FROM ? pickFor(list, n, []) : chainTo(locale, list, n);
   return { index, c: list[index]! };
+}
+
+// 11-01 进度表 132 ③ + 11-10 145 ②: each day takes its place in the list and walks forward to the next case whose days
+// are still ahead and that none of the last 30 days showed. With none such, the next one not shown in 30 days (the plain
+// rotation, never bouncing between a few); only a list of 30 or fewer can repeat. One chain from a fixed first day, so a
+// day's case is the same whenever it is asked; the index stays the case's place in the whole list (slide URLs).
+function chainTo(locale: CarouselLocale, list: GuaCase[], n: number): number {
+  const key = `${locale}|${list.length}`;
+  let chain = chains.get(key);
+  if (!chain) { chain = []; chains.set(key, chain); }
+  for (let k = ROTATION_FROM + chain.length; k <= n; k++) chain.push(pickFor(list, k, chain.slice(-NO_REPEAT_DAYS)));
+  return chain[n - ROTATION_FROM]!;
+}
+
+function pickFor(list: GuaCase[], k: number, recent: number[]): number {
+  const d = new Date(k * 86_400_000).toISOString().slice(0, 10);
+  const base = ((k % list.length) + list.length) % list.length;
+  const shown = new Set(recent);
+  let fresh = -1;
+  for (let s = 0; s < list.length; s++) {
+    const j = (base + s) % list.length;
+    if (shown.has(j)) continue;
+    if (timingAhead(list[j]!, d)) return j;
+    if (fresh < 0) fresh = j;
+  }
+  return fresh >= 0 ? fresh : base;
 }
 
 const aheadMemo = new Map<string, boolean>();
