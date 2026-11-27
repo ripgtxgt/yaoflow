@@ -1,4 +1,5 @@
 import data from "@/data/cloud-ranges.json";
+import { machineUa } from "./machine-ua";
 
 /**
  * 11-04 (Neil：「要做」): is this address in a cloud / hosting provider's network? A page opened from a server room is a
@@ -79,10 +80,20 @@ export const HUMAN_EVENTS = new Set(["cast_complete", "reading_click", "checkout
  * the live board's device class and model line for a request. A server-room address is a 爬虫, named by its network —
  * unless the visitor shows a person (signed in, known, or casting / paying): 255 of 950 browsers 10-31..11-04 came from
  * cloud networks (scanners, mostly 腾讯云／华为云) and 5 of those cast — readers behind a VPN hosted in a data centre.
+ *
+ * 11-27 (Sakura：「现在还是有异常的访问」): the same signs the visitor counts use (lib/machine-visit.ts) — a desktop
+ * browser about a year and a half out of date (`ua`), or our own stylesheet blocked before the page started
+ * (`sheetBlocked`) — file a visitor on a home line under 爬虫 too, until it does something a person does.
  */
-export function boardDevice<D extends string | null>(ip: string | null | undefined, uaDevice: D, uaModel: string | null, human = false): { device: D | "bot"; model: string | null; human: boolean } {
+export function boardDevice<D extends string | null>(ip: string | null | undefined, uaDevice: D, uaModel: string | null, human = false, more: { ua?: string | null; sheetBlocked?: boolean } = {}): { device: D | "bot"; model: string | null; human: boolean } {
   const cloud = cloudOf(ip);
-  if (!cloud) return { device: uaDevice, model: uaModel, human };
+  if (!cloud) {
+    if (!human && uaDevice !== "bot") {
+      if (more.sheetBlocked) return { device: "bot", model: `自动化浏览器 · 样式表被拦${uaModel ? ` · ${uaModel}` : ""}`, human: false };
+      if (machineUa(more.ua) === "stale") return { device: "bot", model: `自动化浏览器 · 旧版本${uaModel ? ` · ${uaModel}` : ""}`, human: false };
+    }
+    return { device: uaDevice, model: uaModel, human };
+  }
   if (human) return { device: uaDevice, model: `${uaModel ? `${uaModel} · ` : ""}机房网络 ${cloud}（多半是 VPN）`, human: true };
   return { device: "bot", model: `机房 · ${cloud}${uaModel ? ` · ${uaModel}` : ""}`, human: false };
 }

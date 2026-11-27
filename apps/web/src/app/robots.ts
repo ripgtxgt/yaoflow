@@ -10,8 +10,10 @@ const PRIVATE_PATHS = ["/*/reading", "/*/login", "/*/account", "/admin", "/api/"
  * separate token and stays allowed. Backlink-index crawlers for other people's SEO tools — blocked; Ahrefs and Semrush
  * stay, 推广 uses Ahrefs on our own site. ExaSearchBot (an AI search engine) stays but slower: a group naming a bot
  * replaces the * group for it, so the private paths are repeated there.
+ * 11-27 (Sakura): meta-externalagent — Meta's crawler for AI training, 30–44k requests a day 11-20..11-23 — blocked. Link
+ * previews in Threads / Facebook come from facebookexternalhit, a separate token that stays allowed.
  */
-const BLOCKED_BOTS = ["ElevenlabsCrawler", "MJ12bot", "SERankingBacklinksBot", "dotbot"];
+const BLOCKED_BOTS = ["ElevenlabsCrawler", "MJ12bot", "SERankingBacklinksBot", "dotbot", "meta-externalagent"];
 
 export default function robots(): MetadataRoute.Robots {
   const site = process.env.SITE_URL ?? "https://yaoflow.com";

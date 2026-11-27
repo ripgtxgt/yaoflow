@@ -2,6 +2,7 @@ import { readEventsBetween, type TrackedEvent } from "./analytics-server";
 import { activeMembership } from "./membership";
 import { standingKindOf, type StandingKind } from "./standing-label";
 import { PULSE_MS } from "./presence-const";
+import { BOT_UA_RE } from "./bot-ua";
 import type { BrowserStats } from "./browsers";
 
 /**
@@ -130,7 +131,7 @@ function store(): Store {
 
 export function deviceFromUA(ua: string | null | undefined): Device {
   if (!ua) return null;
-  if (/bot|crawl|spider|slurp|headless|lighthouse|pagespeed|preview|facebookexternalhit|embedly|quora link|whatsapp|telegrambot/i.test(ua)) return "bot";
+  if (BOT_UA_RE.test(ua)) return "bot";
   if (/iPad|Tablet|PlayBook|Silk/i.test(ua) || (/Android/i.test(ua) && !/Mobile/i.test(ua))) return "tablet";
   if (/Mobi|iPhone|iPod|Android|Windows Phone/i.test(ua)) return "phone";
   return "desktop";

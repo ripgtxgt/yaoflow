@@ -9,6 +9,7 @@ import { uaBrief } from "@/lib/ua-brief";
 import { knownFrom, marksFrom } from "@/lib/presence-marks";
 import { deviceModel } from "@/lib/ua-brief";
 import { boardDevice, HUMAN_EVENTS } from "@/lib/cloud-ip";
+import { isBlockedSheet } from "@/lib/machine-visit";
 import { AB_RE } from "@/lib/ab";
 import { bidOf, browserStats, noteBrowserEvent, noteSignedIn } from "@/lib/browsers";
 import { isNoiseClientError } from "@/lib/err-capture";
@@ -122,7 +123,7 @@ export async function POST(req: NextRequest) {
         if (isHopping(ev.s) && !/^[a-z_]+:\d{3}\b/.test(ev.method ?? "")) { recordOps("client_error_proxy", `${ev.s.slice(-6)} ${ev.method ?? ""} ${ua ? uaBrief(ua) : ""}`.slice(0, 120)); return; }
         record(ev);
         if (bid) noteBrowserEvent(bid, ev);
-        try { touch({ ...fromEvent(ev), customer: c ? { id: c.customerId, email: c.email } : null, known, ...boardDevice(clientIp(req.headers), deviceFromUA(ua), deviceModel(ua) ?? null, !!c || !!known || HUMAN_EVENTS.has(ev.e)), country, marks, bid, bstats: bid ? browserStats(bid) : null }); } catch { /* best-effort */ }
+        try { touch({ ...fromEvent(ev), customer: c ? { id: c.customerId, email: c.email } : null, known, ...boardDevice(clientIp(req.headers), deviceFromUA(ua), deviceModel(ua) ?? null, !!c || !!known || HUMAN_EVENTS.has(ev.e), { ua, sheetBlocked: isBlockedSheet(ev) }), country, marks, bid, bstats: bid ? browserStats(bid) : null }); } catch { /* best-effort */ }
       };
       if (hopping) commit();
       else if (hold === 0) commit();
@@ -145,7 +146,7 @@ export async function POST(req: NextRequest) {
       // 10-03 每日按身份: a signed-in browser is filed under its customer (lib/browsers.ts noteSignedIn)
       if (c && bid) noteSignedIn(bid, c.customerId);
       const ua = req.headers.get("user-agent");
-      touch({ ...fromEvent(ev), customer: c ? { id: c.customerId, email: c.email } : null, known: knownFrom(req, !!c), ...boardDevice(clientIp(req.headers), deviceFromUA(ua), deviceModel(ua) ?? null, !!c || !!knownFrom(req, !!c) || HUMAN_EVENTS.has(ev.e)), country, marks: marksFrom(req, !!c), bid, bstats: bid ? browserStats(bid) : null });
+      touch({ ...fromEvent(ev), customer: c ? { id: c.customerId, email: c.email } : null, known: knownFrom(req, !!c), ...boardDevice(clientIp(req.headers), deviceFromUA(ua), deviceModel(ua) ?? null, !!c || !!knownFrom(req, !!c) || HUMAN_EVENTS.has(ev.e), { ua }), country, marks: marksFrom(req, !!c), bid, bstats: bid ? browserStats(bid) : null });
     } catch { /* the board is best-effort */ }
   } catch {
     /* swallow */

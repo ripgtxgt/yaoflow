@@ -25,4 +25,17 @@ describe("机房地址", () => {
     expect(cloudOf("160.79.112.0")).not.toBe("自家 AI 巡检（Anthropic）");
     expect(boardDevice("160.79.106.35", "desktop", "Linux · Chrome").model).toBe("机房 · 自家 AI 巡检（Anthropic） · Linux · Chrome");
   });
+  it("11-27: on a home line, a two-year-old desktop browser or a blocked stylesheet is a 爬虫 until it does what a person does", () => {
+    const OLD = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36";
+    const NEW = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36";
+    expect(boardDevice("27.187.57.91", "desktop", "Windows · Chrome", false, { ua: OLD })).toEqual({ device: "bot", model: "自动化浏览器 · 旧版本 · Windows · Chrome", human: false });
+    expect(boardDevice("27.187.57.91", "desktop", "Windows · Chrome", false, { ua: NEW }).device).toBe("desktop");
+    expect(boardDevice("27.187.57.91", "desktop", "Windows · Chrome", false, { ua: NEW, sheetBlocked: true }).device).toBe("bot");
+    expect(boardDevice("27.187.57.91", "desktop", "Windows · Chrome", true, { ua: OLD, sheetBlocked: true })).toEqual({ device: "desktop", model: "Windows · Chrome", human: true });
+  });
+  it("11-27: Lightpanda and automation drivers are bots by user agent", async () => {
+    const { deviceFromUA } = await import("../src/lib/presence");
+    for (const ua of ["Lightpanda/1.0", "Mozilla/5.0 (X11; Linux x86_64) PhantomJS/2.1.1", "Mozilla/5.0 jsdom/22.1.0"]) expect(deviceFromUA(ua)).toBe("bot");
+    expect(deviceFromUA("Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148")).toBe("phone");
+  });
 });
