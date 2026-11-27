@@ -2,6 +2,7 @@ import { randomUUID } from "node:crypto";
 import { db } from "./db";
 import { isCrisis } from "./crisis";
 import { homeDay, homeDayStart } from "./clock";
+import { featureState } from "./features";
 
 /**
  * 11-27 运营 bot（Sakura：「我需要用 grokbot 新建另外一个 bot 去做自动运营」→「可以的」）.
@@ -30,7 +31,22 @@ export const SUBMIT_DAILY_CAP = 30;
 export const DAILY_TARGET: { platform: BotPlatform; lang: BotLang; n: number }[] = [
   { platform: "threads", lang: "zh-hant", n: 2 },
   { platform: "threads", lang: "zh", n: 2 },
+  { platform: "instagram", lang: "zh-hant", n: 1 },
+  { platform: "facebook", lang: "zh-hant", n: 1 },
 ];
+/**
+ * 11-28 自动放行（Sakura：「每天发贴子为什么还要我逐一批准呢，太麻烦了」）：检查全过的稿自动排进下一个空档，
+ * 至少留 AUTO_LEAD 给管理员在「已批准，等着发」里撤回；不看也照发。功能开关 ops-bot-auto 关掉＝回到逐条批准。
+ * 档期（台北时间，对上 bot 发帖例行 09:30／12:30／20:30／22:00）：每平台每语言每天至多 DAILY_TARGET 条。
+ */
+export const AUTO_LEAD = 2 * 60 * 60_000;
+export const SLOTS: Record<string, string[]> = {
+  "threads/zh-hant": ["12:30", "20:30"],
+  "threads/zh": ["12:30", "22:00"],
+  "instagram/zh-hant": ["20:30"],
+  "facebook/zh-hant": ["20:30"],
+};
+export const autoOn = () => featureState("ops-bot-auto") === "on";
 const DAY = 86_400_000;
 const LIMIT: Record<BotPlatform, number> = { threads: 500, instagram: 2200, facebook: 5000 };
 
@@ -86,7 +102,14 @@ function links(text: string): string[] {
 const ours = (u: string) => /^https?:\/\/(?:www\.)?yaoflow\.com(?:[/?#]|$)/i.test(u);
 
 /** 帖子（post）和回帖（reply）共用的检查。replyContext 只在回帖时传。 */
-export function checkText(platform: BotPlatform, text: string, opts: { kind: "post" | "reply"; targetText?: string; followUp?: boolean } = { kind: "post" }): Finding[] {
+/** 只在简体里出现、繁体不会用的常见字（11-28：一篇繁体 Threads 稿混了「面试」）。宁少勿错：两边通用的字不收。 */
+const SIMPLIFIED_ONLY = "这们说时会对发经过还进没问题书关点门间现应开动头见长两实东车买卖钱气单网让认识请读试员务观运话语论边层场处备难爱带术态尽听写学习觉医药价费报纸简级结给继续线练组织绿细终统总节约为国际图样谁该缘财运运势吗么谢阴圣笔记录选择变缘恋离复们刚岁归问应验验虑断这样让过时间较总从";
+const SIMP_RE = new RegExp(`[${[...new Set(SIMPLIFIED_ONLY)].join("")}]`, "g");
+export function simplifiedChars(text: string): string[] {
+  return [...new Set(text.match(SIMP_RE) ?? [])];
+}
+
+export function checkText(platform: BotPlatform, text: string, opts: { kind: "post" | "reply"; targetText?: string; followUp?: boolean; lang?: BotLang; title?: string } = { kind: "post" }): Finding[] {
   const f: Finding[] = [];
   const t = text.trim();
   if (!t) f.push({ level: "block", rule: "empty", message: "正文是空的" });
@@ -99,6 +122,11 @@ export function checkText(platform: BotPlatform, text: string, opts: { kind: "po
     if (!ours(u)) f.push({ level: "block", rule: "foreign-link", message: `只能放 yaoflow.com 的链接：${u.slice(0, 80)}` });
     else if (!/[?&]c=[a-z0-9-]+/i.test(u)) f.push({ level: "warn", rule: "link-tag", message: `链接要带来源标签 ?c=…（例 c=threads、c=threads-zh、c=threads-reply）：${u.slice(0, 80)}` });
   }
+  if (opts.lang === "zh-hant") {
+    const simp = simplifiedChars(`${opts.title ?? ""}\n${t}`);
+    if (simp.length) f.push({ level: "block", rule: "simplified-in-hant", message: `繁体稿里有简体字：${simp.slice(0, 12).join("、")}（标题也算）` });
+  }
+  if (opts.kind === "post" && opts.title !== undefined && /测试|測試|test/i.test(opts.title)) f.push({ level: "warn", rule: "test-title", message: "标题带「测试」，自动放行会跳过这篇" });
   if (opts.kind === "reply") {
     if (opts.targetText && isCrisis(opts.targetText)) f.push({ level: "block", rule: "crisis-target", message: "对方的帖子涉及自伤／轻生：不要回卦相关内容，跳过这一帖" });
     if (opts.targetText && FORBIDDEN.test(opts.targetText)) f.push({ level: "block", rule: "forbidden-target", message: "对方问的是赌博、股票、疾病或生死，跳过" });
@@ -125,7 +153,7 @@ export function getPost(id: string): BotPost | null {
 export function submitPost(i: { platform: BotPlatform; lang: BotLang; title: string; body: string; media_notes?: string | null; rationale: string; suggested_at?: number | null; topic_id?: string | null; task_id?: string | null }, now = Date.now()):
   { ok: true; post: BotPost } | { ok: false; error: string; findings?: Finding[] } {
   ensure();
-  const findings = checkText(i.platform, i.body, { kind: "post" });
+  const findings = checkText(i.platform, i.body, { kind: "post", lang: i.lang, title: i.title });
   if (hasBlock(findings)) return { ok: false, error: "检查没过，改完再交", findings };
   const today = (db().prepare("SELECT COUNT(*) AS n FROM bot_posts WHERE created_at >= ?").get(homeDayStart(now)) as { n: number }).n;
   if (today >= SUBMIT_DAILY_CAP) return { ok: false, error: `今天已经交了 ${today} 篇，上限 ${SUBMIT_DAILY_CAP}` };
@@ -138,6 +166,7 @@ export function submitPost(i: { platform: BotPlatform; lang: BotLang; title: str
     VALUES (?,?,?,?,?,?,?,?,?,?, 'review', ?, ?)`).run(id, i.topic_id || id, i.platform, i.lang, i.title.trim(), i.body.trim(), i.media_notes ?? null, i.rationale, i.task_id ?? null, i.suggested_at ?? null, now, now);
   if (i.task_id) db().prepare("UPDATE bot_tasks SET status = 'submitted', updated_at = ? WHERE id = ? AND status IN ('open','in_progress')").run(now, i.task_id);
   botLog("submit_draft", { platform: i.platform, lang: i.lang, title: i.title }, id, now);
+  autoSchedule(now);
   return { ok: true, post: getPost(id)! };
 }
 
@@ -147,14 +176,15 @@ export function revisePost(id: string, i: { title?: string; body?: string; reply
   if (!p) return { ok: false, error: "稿件不存在" };
   if (p.status !== "review" && p.status !== "rejected") return { ok: false, error: `「${STATUS_ZH[p.status]}」的稿件不能改` };
   const body = i.body?.trim() || p.body;
-  const findings = checkText(p.platform, body, { kind: "post" });
+  const findings = checkText(p.platform, body, { kind: "post", lang: p.lang, title: i.title?.trim() || p.title });
   if (hasBlock(findings)) return { ok: false, error: "检查没过，改完再交", findings };
   const changed = body !== p.body || (i.title?.trim() && i.title.trim() !== p.title);
-  db().prepare("UPDATE bot_posts SET title = ?, body = ?, status = 'review', text_version = text_version + ?, updated_at = ? WHERE id = ?")
+  db().prepare("UPDATE bot_posts SET title = ?, body = ?, status = 'review', decided_reason = NULL, text_version = text_version + ?, updated_at = ? WHERE id = ?")
     .run(i.title?.trim() || p.title, body, changed ? 1 : 0, now, id);
   db().prepare("UPDATE bot_notes SET resolved = 1 WHERE post_id = ? AND resolved = 0").run(id);
   db().prepare("INSERT INTO bot_notes (post_id, author, body, resolved, created_at) VALUES (?, 'bot', ?, 1, ?)").run(id, i.reply, now);
   botLog("revise_draft", { reply: i.reply }, id, now);
+  autoSchedule(now);
   return { ok: true, post: getPost(id)! };
 }
 
@@ -194,7 +224,8 @@ export function unschedulePost(id: string, reason: string, now = Date.now()): { 
   ensure();
   const p = getPost(id);
   if (!p || p.status !== "approved") return { ok: false, error: "只有已批准、还没发的能撤回" };
-  db().prepare("UPDATE bot_posts SET status = 'review', scheduled_at = NULL, decided_reason = ?, updated_at = ? WHERE id = ?").run(reason, now, id);
+  // 「撤回：」开头的不会再被自动放行，等管理员自己批或 bot 按批注改完
+  db().prepare("UPDATE bot_posts SET status = 'review', scheduled_at = NULL, decided_reason = ?, updated_at = ? WHERE id = ?").run(`撤回：${reason}`, now, id);
   botLog("admin_unschedule", { reason }, id, now);
   return { ok: true };
 }
@@ -211,6 +242,7 @@ export function addNote(postId: string, body: string, askRevision: boolean, now 
 /** 发帖：到点的已批稿（提前 10 分钟就给），它发完回报 */
 export function duePosts(now = Date.now()): BotPost[] {
   ensure();
+  autoSchedule(now);
   return db().prepare("SELECT * FROM bot_posts WHERE status = 'approved' AND scheduled_at <= ? ORDER BY scheduled_at LIMIT 20").all(now + 10 * 60_000) as BotPost[];
 }
 export function markPosted(id: string, externalUrl: string | null, now = Date.now()): { ok: boolean; error?: string } {
@@ -230,6 +262,55 @@ export function markFailed(id: string, error: string, now = Date.now()): { ok: b
   db().prepare("UPDATE bot_posts SET status = 'failed', error = ?, attempts = attempts + 1, updated_at = ? WHERE id = ?").run(error.slice(0, 500), now, id);
   botLog("mark_failed", { error }, id, now);
   return { ok: true };
+}
+
+/** 台北某天 HH:MM 的毫秒时间 */
+function slotAt(dayStart: number, hhmm: string): number {
+  const [h, m] = hhmm.split(":").map(Number);
+  return dayStart + (h * 60 + m) * 60_000;
+}
+
+/**
+ * 自动放行：把「待审」里检查全过、管理员没写过要改的批注、标题不带「测试」的稿，排进最早的空档（≥ now + AUTO_LEAD）。
+ * bot 有建议时间就优先排在建议的那一天。没过的留在待审，原因写进 decided_reason。返回排上的篇数。
+ */
+export function autoSchedule(now = Date.now(), maxDays = 21): number {
+  ensure();
+  if (!autoOn()) return 0;
+  const pending = db().prepare(`SELECT * FROM bot_posts p WHERE status = 'review' AND COALESCE(decided_reason, '') NOT LIKE '撤回：%'
+    AND NOT EXISTS (SELECT 1 FROM bot_notes n WHERE n.post_id = p.id AND n.author = 'admin' AND n.resolved = 0)
+    ORDER BY COALESCE(suggested_at, created_at), created_at`).all() as BotPost[];
+  if (!pending.length) return 0;
+  const taken = new Set((db().prepare("SELECT platform, lang, scheduled_at FROM bot_posts WHERE status IN ('approved','posted','failed') AND scheduled_at IS NOT NULL").all() as { platform: string; lang: string; scheduled_at: number }[])
+    .map((r) => `${r.platform}/${r.lang}@${r.scheduled_at}`));
+  const start = homeDayStart(now);
+  let n = 0;
+  for (const p of pending) {
+    const key = `${p.platform}/${p.lang}`;
+    const slots = SLOTS[key];
+    const f = checkText(p.platform, p.body, { kind: "post", lang: p.lang, title: p.title });
+    const why = !slots ? `${key} 没有固定档期，要人工排` : hasBlock(f) ? f.filter((x) => x.level === "block").map((x) => x.message).join("；") : f.some((x) => x.rule === "test-title") ? "标题带「测试」" : null;
+    if (why) {
+      if (p.decided_reason !== `自动放行没过：${why}`) db().prepare("UPDATE bot_posts SET decided_reason = ?, updated_at = ? WHERE id = ?").run(`自动放行没过：${why}`, now, p.id);
+      continue;
+    }
+    const earliest = now + AUTO_LEAD;
+    const firstDay = p.suggested_at && p.suggested_at > earliest ? homeDayStart(p.suggested_at) : start;
+    let at: number | null = null;
+    for (let d = 0; d <= maxDays && at === null; d++) {
+      const dayStart = firstDay + d * DAY;
+      for (const hhmm of slots) {
+        const t = slotAt(dayStart, hhmm);
+        if (t >= earliest && !taken.has(`${key}@${t}`)) { at = t; break; }
+      }
+    }
+    if (at === null) continue;
+    taken.add(`${key}@${at}`);
+    db().prepare("UPDATE bot_posts SET status = 'approved', scheduled_at = ?, decided_reason = '自动放行', error = NULL, updated_at = ? WHERE id = ? AND status = 'review'").run(at, now, p.id);
+    botLog("auto_approve", { scheduled_at: at, platform: p.platform, lang: p.lang }, p.id, now);
+    n++;
+  }
+  return n;
 }
 
 // ───────────────────────── 任务 ─────────────────────────

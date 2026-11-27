@@ -45,6 +45,8 @@ export const FEATURES: { name: string; label: string; def: FeatureState; where: 
   { name: "services", label: "全部服務頁＋首頁主推可配置（进度表 58）", def: "preview", where: "/zh-hant/services（九語）· 首頁、解籤頁、深斷頁底部「也可以試試」的主推" },
   // 11-27 运营 bot（Sakura：「我需要用 grokbot 新建另外一个 bot 去做自动运营」→「可以的」）：后台页本来就只有管理员能进；开关管 bot 的入口
   { name: "ops-bot", label: "社媒运营 bot：Grok Bot 写稿进待审、发已批稿、回帖登记（11-27）", def: "preview", where: "/admin/bot 待审与派任务 · POST /api/bot/mcp（Bearer BOT_MCP_TOKEN）· 关掉＝bot 的入口 404" },
+  // 11-28 Sakura：「每天发贴子为什么还要我逐一批准呢，太麻烦了」→ 检查全过的稿自动排期，发出前 2 小时可撤
+  { name: "ops-bot-auto", label: "社媒运营 bot 自动放行：检查全过的稿自动排进空档（11-28）", def: "on", where: "/admin/bot「已批准，等着发」里标「自动放行」，发出前可撤回 · 关掉＝回到逐条批准" },
   { name: "recover-offer", label: "挽回信改版（离开 5 分钟后一封、1 小时内 7 折）", def: "on", where: "勾了「沒付完時寄信提醒我」的深断、升级、会员、通卡结账 · /offer/<token> · 预览中只寄给我们自己的邮箱，旧的四封序列照常寄给客人；开放后旧序列停止" },
 ];
 export const isFeature = (x: unknown): x is string => typeof x === "string" && FEATURES.some((f) => f.name === x);

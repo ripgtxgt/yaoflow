@@ -3,7 +3,7 @@ import { ADMIN_COOKIE, isAdmin } from "@/lib/admin-auth";
 import { homeMinute } from "@/lib/clock";
 import { featureState } from "@/lib/features";
 import {
-  botActivity, lastBotCall, listPosts, listTasks, notesFor, PLATFORM_ZH, recentReplies, REPLY_DAILY_CAP, repliesToday, STATUS_ZH,
+  autoOn, autoSchedule, botActivity, lastBotCall, listPosts, listTasks, notesFor, PLATFORM_ZH, recentReplies, REPLY_DAILY_CAP, repliesToday, STATUS_ZH,
   type BotPost, type BotPlatform,
 } from "@/lib/ops-bot";
 import { AdminLogin, AdminShell, Legend, Section } from "../ui";
@@ -22,6 +22,7 @@ export default async function BotPage({ searchParams }: { searchParams: Promise<
   const sp = await searchParams;
   if (!(await isAdmin((await cookies()).get(ADMIN_COOKIE)?.value, sp.key))) return <AdminLogin denied={sp.denied === "1"} back="/admin/bot" />;
   const now = Date.now();
+  autoSchedule(now); // 页面打开时也扫一遍待审，之前交的稿一样自动排
   const review = listPosts(["review", "rejected"], 100);
   const approved = listPosts("approved", 100);
   const recent = listPosts(["posted", "failed"], 40);
@@ -70,6 +71,7 @@ export default async function BotPage({ searchParams }: { searchParams: Promise<
                   <pre className="whitespace-pre-wrap font-[inherit] mt-2 leading-relaxed">{p.body}</pre>
                   {p.media_notes && <p className="text-xs opacity-60 mt-2 whitespace-pre-wrap">配图：{p.media_notes}</p>}
                   {p.rationale && <p className="text-xs opacity-60 mt-1">依据：{p.rationale}</p>}
+                  {p.status === "review" && p.decided_reason && <p className="text-xs text-[var(--cinnabar)] mt-1">{p.decided_reason}</p>}
                   <p className="text-xs opacity-50 mt-1">交于 {homeMinute(p.created_at)}{p.suggested_at ? ` · 建议 ${homeMinute(p.suggested_at)}` : ""}{p.text_version > 1 ? ` · 第 ${p.text_version} 版` : ""}</p>
                   {notes.length > 0 && <ul className="text-xs mt-2 space-y-0.5">{notes.map((n) => <li key={n.id} className={n.resolved ? "opacity-50" : ""}>{n.author === "bot" ? "bot：" : "批注："}{n.body}</li>)}</ul>}
                   <div className="flex flex-wrap gap-4 mt-3 text-xs">
@@ -100,13 +102,13 @@ export default async function BotPage({ searchParams }: { searchParams: Promise<
         )}
       </Section>
 
-      <Section id="approved" title="已批准，等着发" sub="到点前 10 分钟 bot 就能领到">
+      <Section id="approved" title="已批准，等着发" sub={autoOn() ? "自动放行开着：检查全过的稿自动排进空档，标「自动放行」的发出前随时可以撤回" : "到点前 10 分钟 bot 就能领到"}>
         {approved.length === 0 ? <p className="text-sm opacity-50">没有。</p> : (
           <div className="space-y-2">
             {approved.map((p) => (
               <div key={p.id} className="border border-black/10 rounded-[2px] p-3 text-sm">
                 {head(p)}
-                <p className="text-xs mt-1"><span className="text-[var(--gold)]">{homeMinute(p.scheduled_at!)}</span> 发 · {p.body.slice(0, 80)}{p.body.length > 80 ? "…" : ""}</p>
+                <p className="text-xs mt-1"><span className="text-[var(--gold)]">{homeMinute(p.scheduled_at!)}</span> 发{p.decided_reason === "自动放行" ? " · 自动放行" : ""} · {p.body.slice(0, 80)}{p.body.length > 80 ? "…" : ""}</p>
                 <form method="post" action="/api/admin/bot" className="mt-2 flex flex-wrap items-center gap-2 text-xs">
                   <input type="hidden" name="op" value="unschedule" /><input type="hidden" name="id" value={p.id} />
                   <input name="reason" required minLength={2} placeholder="撤回的理由" className={input} />
