@@ -14,6 +14,12 @@ describe("robots.txt", () => {
       expect(rules.some((x) => agentsOf(x).includes(keep))).toBe(false);
   });
 
+  it("11-27: meta-externalagent (AI training) is blocked; facebookexternalhit (link previews) is not", () => {
+    const blocked = rules.find((x) => x.disallow === "/")!;
+    expect(agentsOf(blocked)).toContain("meta-externalagent");
+    expect(rules.some((x) => agentsOf(x).includes("facebookexternalhit"))).toBe(false);
+  });
+
   it("Exa gets a crawl delay and the same private paths as everyone", () => {
     const star = rules.find((x) => agentsOf(x).includes("*"))!;
     const exa = rules.find((x) => agentsOf(x).includes("ExaSearchBot"))!;
