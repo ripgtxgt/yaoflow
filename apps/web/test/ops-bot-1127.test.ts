@@ -90,4 +90,21 @@ describe("ops bot", async () => {
     expect(sent).toMatchObject({ source: "yaoflow", kind: "task", task_id: "x" });
     delete process.env.BOT_WEBHOOK_URL;
   });
+
+  it("a 401 from the webhook is logged as wake_failed against the task; double-click tasks are deduped", async () => {
+    process.env.BOT_WEBHOOK_URL = "https://hooks.example/abc";
+    const deny = (async () => new Response("no", { status: 401 })) as unknown as typeof fetch;
+    const r = await bot.wakeBot({ kind: "task", task_id: "t401" }, deny);
+    expect(r).toMatchObject({ ok: false, status: 401 });
+    const w = bot.botActivity(20).find((a) => a.ref === "t401");
+    expect(w?.action).toBe("wake_failed");
+    expect(w?.detail).toContain("401");
+    delete process.env.BOT_WEBHOOK_URL;
+    const a = bot.createTask({ title: "同一条", brief: "写 1 条试稿", platforms: ["threads"] }, 1_000_000);
+    const b = bot.createTask({ title: "同一条", brief: "写 1 条试稿", platforms: ["threads"] }, 1_000_500) as { id: string; duplicate?: boolean };
+    expect(b.id).toBe(a.id);
+    expect(b.duplicate).toBe(true);
+    const c = bot.createTask({ title: "同一条", brief: "写 1 条试稿", platforms: ["threads"] }, 1_100_000);
+    expect(c.id).not.toBe(a.id);
+  });
 });

@@ -66,6 +66,7 @@ export async function POST(req: NextRequest) {
     const platforms = form.getAll("platforms").map(String).filter((x): x is BotPlatform => (PLATFORMS as string[]).includes(x));
     if (title.length < 2 || brief.length < 5 || !platforms.length) return back(false, "标题、说明、平台都要填", "tasks");
     const t = createTask({ title, brief, platforms, due_at: tpe(f("due")) });
+    if ((t as { duplicate?: boolean }).duplicate) return back(true, "这条任务一分钟内已经派过，没有重复派", "tasks");
     log("bot_task", { id: t.id, title, platforms }, brief.slice(0, 200), true, "ok");
     const w = await wakeBot({ kind: "task", task_id: t.id, title, brief, platforms, due_at: t.due_at ? new Date(t.due_at).toISOString() : null, how_to: "get_guidelines → start_task(task_id) → 写稿 → check_draft → submit_draft（带 task_id）" });
     return back(true, w.ok ? "任务已派，bot 已被叫醒" : `任务已派；唤醒 bot 没成功（${w.error ?? w.status}），它下次例行运行会看到`, "tasks");
