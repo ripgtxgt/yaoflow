@@ -28,7 +28,17 @@ export default async function BotPage({ searchParams }: { searchParams: Promise<
   const tasks = listTasks(undefined, 40);
   const today = repliesToday(now);
   const replies = recentReplies(60);
-  const reports = botActivity(200).filter((a) => a.action.startsWith("report")).slice(0, 20);
+  const activity = botActivity(300);
+  const reports = activity.filter((a) => a.action.startsWith("report")).slice(0, 20);
+  // 11-27：叫醒 bot 的结果（成功／401 等）要在后台直接看得到
+  const wakes = activity.filter((a) => a.action.startsWith("wake"));
+  const wakeOf = (ref: string) => wakes.find((w) => w.ref === ref);
+  const wakeText = (w: { action: string; detail: string } | undefined) => {
+    if (!w) return null;
+    let d: { status?: number; error?: string; reason?: string } = {};
+    try { d = JSON.parse(w.detail); } catch { /* raw */ }
+    return w.action === "wake" ? { ok: true, text: `已叫醒（${d.status ?? "ok"}）` } : { ok: false, text: `没叫醒：${d.error ?? d.reason ?? w.detail}` };
+  };
   const last = lastBotCall();
   const configured = { mcp: (process.env.BOT_MCP_TOKEN ?? "").length >= 32, webhook: !!process.env.BOT_WEBHOOK_URL };
   const input = "bg-transparent border border-black/20 rounded-[2px] px-2 py-1.5";
@@ -152,7 +162,7 @@ export default async function BotPage({ searchParams }: { searchParams: Promise<
                 <tr key={t.id} className="border-t border-black/5 align-top">
                   <td className="py-1.5 pr-3 whitespace-nowrap">{homeMinute(t.created_at)}</td>
                   <td className="pr-3">{t.title}<span className="block opacity-50">{t.brief.slice(0, 120)}</span></td>
-                  <td className="pr-3 whitespace-nowrap">{{ open: "待做", in_progress: "在做", submitted: "已交稿", done: "完成", cancelled: "取消" }[t.status]}</td>
+                  <td className="pr-3 whitespace-nowrap">{{ open: "待做", in_progress: "在做", submitted: "已交稿", done: "完成", cancelled: "取消" }[t.status]}{(() => { const w = wakeText(wakeOf(t.id)); return w && <span className={`block text-xs ${w.ok ? "opacity-50" : "text-[var(--cinnabar)]"}`}>{w.text}</span>; })()}</td>
                   <td>
                     {t.status !== "done" && t.status !== "cancelled" && (
                       <form method="post" action="/api/admin/bot" className="flex gap-1">
@@ -186,7 +196,7 @@ export default async function BotPage({ searchParams }: { searchParams: Promise<
         <Legend>回帖不逐条审：bot 每条先过检查（不放链接、不提站名、不提 AI、不碰生死疾病投资赌博、对方有轻生字眼就跳过、每天名额、同一帖 24 小时最多两次），过了才发，发了才登记在这里。看到不妥的，在「派任务」里写一条规矩给它，或者关掉功能开关 ops-bot 让它整个停下。</Legend>
       </Section>
 
-      <Section id="reports" title="bot 汇报">
+      <Section id="reports" title="bot 汇报" sub={(() => { const w = wakes[0]; const t = wakeText(w); return w && t ? `最近一次叫醒 ${homeMinute(w.at)}：${t.text}` : "还没叫醒过"; })()}>
         {reports.length === 0 ? <p className="text-sm opacity-50">还没有。</p> : (
           <ul className="text-sm space-y-2">
             {reports.map((r, i) => {

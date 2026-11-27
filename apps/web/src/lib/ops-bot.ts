@@ -238,6 +238,9 @@ export interface BotTask { id: string; title: string; brief: string; platforms: 
 
 export function createTask(i: { title: string; brief: string; platforms: BotPlatform[]; due_at?: number | null }, now = Date.now()): BotTask {
   ensure();
+  // 11-27：按钮连点三下会派出三个一样的任务；一分钟内同标题同说明的直接返回已有那条
+  const dup = db().prepare("SELECT * FROM bot_tasks WHERE title = ? AND brief = ? AND created_at > ? ORDER BY created_at DESC LIMIT 1").get(i.title.trim(), i.brief.trim(), now - 60_000) as BotTask | undefined;
+  if (dup) return { ...dup, duplicate: true } as BotTask & { duplicate?: boolean };
   const id = randomUUID();
   db().prepare("INSERT INTO bot_tasks (id, title, brief, platforms, due_at, status, created_at, updated_at) VALUES (?,?,?,?,?, 'open', ?, ?)")
     .run(id, i.title.trim(), i.brief.trim(), JSON.stringify(i.platforms), i.due_at ?? null, now, now);
@@ -335,16 +338,19 @@ export function schedule(daysAhead = 7, now = Date.now()): { days: { day: string
 /** 派任务、要它改稿时，POST 到 Grok Bot 那个「YaoFlow 任务执行」例行任务的 Webhook。没配就只记一笔。 */
 export async function wakeBot(payload: Record<string, unknown>, fetcher: typeof fetch = fetch): Promise<{ ok: boolean; status?: number; error?: string }> {
   const url = process.env.BOT_WEBHOOK_URL;
-  if (!url) { botLog("wake_skipped", { reason: "BOT_WEBHOOK_URL 未配置", kind: payload.kind }); return { ok: false, error: "BOT_WEBHOOK_URL 未配置" }; }
+  const ref = typeof payload.task_id === "string" ? payload.task_id : typeof payload.post_id === "string" ? payload.post_id : null;
+  if (!url) { botLog("wake_skipped", { reason: "BOT_WEBHOOK_URL 未配置", kind: payload.kind }, ref); return { ok: false, error: "BOT_WEBHOOK_URL 未配置" }; }
   try {
     const headers: Record<string, string> = { "content-type": "application/json" };
     if (process.env.BOT_WEBHOOK_TOKEN) headers.authorization = `Bearer ${process.env.BOT_WEBHOOK_TOKEN}`;
     const r = await fetcher(url, { method: "POST", headers, body: JSON.stringify({ source: "yaoflow", ...payload }), signal: AbortSignal.timeout(8000) });
-    botLog("wake", { kind: payload.kind, status: r.status });
+    // 11-27 修：对方返回 401 之类也要记成失败（之前一律记 wake，后台看不出没叫醒）
+    if (r.ok) botLog("wake", { kind: payload.kind, status: r.status }, ref);
+    else botLog("wake_failed", { kind: payload.kind, status: r.status, error: `HTTP ${r.status}${r.status === 401 || r.status === 403 ? "（密钥不对：核对 BOT_WEBHOOK_TOKEN）" : ""}` }, ref);
     return { ok: r.ok, status: r.status };
   } catch (e) {
     const error = e instanceof Error ? e.message : String(e);
-    botLog("wake_failed", { kind: payload.kind, error });
+    botLog("wake_failed", { kind: payload.kind, error }, ref);
     return { ok: false, error };
   }
 }
