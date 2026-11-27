@@ -1,7 +1,9 @@
 import { db } from "./db";
 import { cloudOf, HUMAN_EVENTS } from "./cloud-ip";
 import { ipsOf, uasOf } from "./browser-net";
-import { deviceFromUA } from "./presence";
+import { machineUa } from "./machine-ua";
+
+export { machineUa };
 
 /**
  * 11-27 (Sakura：「为什么在我后台，很多机器的流量被判定是真人访客呢」): the cloud-network rule below misses a scraper that
@@ -14,32 +16,6 @@ import { deviceFromUA } from "./presence";
  *     last versions an old system can run (Chrome 109 on Windows 7/8, 116 and 128 on old macOS, Firefox ESR 115) are spared;
  *   - it reported one of our own stylesheets failing to load before the page started: scrapers block CSS and fonts.
  */
-const DAY = 86_400_000;
-/** a release every four weeks: Chrome 131 on 2024-11-12, Firefox 133 on 2024-11-26 */
-const expected = (base: number, at: number, now: number) => base + Math.floor((now - at) / (28 * DAY));
-const STALE_BEHIND = 20; // about a year and a half of updates missed
-const LAST_ON_OLD_SYSTEMS = new Set([109, 116, 128]);
-const LAST_FIREFOX_ESR = new Set([115]);
-
-/** why this user agent is a machine's, or null */
-export function machineUa(ua: string | null | undefined, now = Date.now()): "bot-ua" | "stale" | null {
-  if (!ua) return null;
-  if (deviceFromUA(ua) === "bot") return "bot-ua";
-  if (/Mobi|Android|iPhone|iPad|iPod/i.test(ua)) return null; // old phones and in-app browsers are real readers
-  const ch = /(?:Chrome|Edg)\/(\d+)\./.exec(ua);
-  if (ch && !/OPR\/|YaBrowser|SamsungBrowser/.test(ua)) {
-    const v = Number(ch[1]);
-    if (!LAST_ON_OLD_SYSTEMS.has(v) && v < expected(131, Date.UTC(2024, 10, 12), now) - STALE_BEHIND) return "stale";
-    return null;
-  }
-  const ff = /Firefox\/(\d+)\./.exec(ua);
-  if (ff) {
-    const v = Number(ff[1]);
-    if (!LAST_FIREFOX_ESR.has(v) && v < expected(133, Date.UTC(2024, 10, 26), now) - STALE_BEHIND) return "stale";
-  }
-  return null;
-}
-
 /**
  * one of our own stylesheets (the CJK font sheets, Next's css chunks) reported as failing before the page started — the
  * error script's "res:LINK jp.css?v=…" / "res:LINK 027e7750….css"; another host's file carries its host and a slash

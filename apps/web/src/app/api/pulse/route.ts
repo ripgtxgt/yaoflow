@@ -39,7 +39,7 @@ export async function POST(req: NextRequest) {
       customer: c ? { id: c.customerId, email: c.email } : null,
       known: knownFrom(req, !!c),
       // 11-04: a server-room address (cloud / hosting network) is a scanner, filed under 爬虫 (lib/cloud-ip.ts)
-      ...boardDevice(clientIp(req.headers), deviceFromUA(req.headers.get("user-agent")), deviceModel(req.headers.get("user-agent")) ?? null, !!c || !!knownFrom(req, !!c)),
+      ...boardDevice(clientIp(req.headers), deviceFromUA(req.headers.get("user-agent")), deviceModel(req.headers.get("user-agent")) ?? null, !!c || !!knownFrom(req, !!c), { ua: req.headers.get("user-agent") }),
       country: edgeCountry(req.headers),
       marks: marksFrom(req, !!c),
       bid: bidOf(req),
