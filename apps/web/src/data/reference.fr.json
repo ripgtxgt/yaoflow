@@ -1,0 +1,210 @@
+{
+ "glossary": {
+  "title": "Glossaire des termes du Liu Yao",
+  "lead": "Les termes que tu rencontres dans un hexagramme Liu Yao, expliqués clairement en une page : ce que chaque terme désigne et comment le lire sur le plateau. Les termes chinois d'origine sont conservés pour te repérer dans les textes anciens et les différentes écoles.",
+  "groups": [
+   {
+    "name": "Tirer l'hexagramme et le plateau",
+    "terms": [
+     {
+      "zh": "六爻",
+      "def": "Méthode de divination qui consiste à lancer trois pièces de monnaie six fois pour obtenir six traits (yao) et former un hexagramme. Aussi appelée « méthode des troncs et branches » (納甲筮法) ou « hexagramme de Wen Wang » (文王卦). Contrairement aux méthodes qui ne lisent que le texte de l'hexagramme, le Liu Yao intègre les troncs, les branches, les cinq éléments et les six relations dans chaque trait, ce qui permet de déduire des dates précises."
+     },
+     {
+      "zh": "本卦 / 之卦",
+      "def": "L'hexagramme obtenu au lancer est l'hexagramme de base (本卦) ; celui obtenu après la transformation des traits mouvants est l'hexagramme résultant (之卦, aussi appelé 變卦). L'hexagramme de base décrit le présent, l'hexagramme résultant indique la direction."
+     },
+     {
+      "zh": "動爻",
+      "def": "Le trait qui donne un vieux yang (trois faces) ou un vieux yin (trois revers) ; il se transforme de yang en yin ou de yin en yang. Les traits mouvants représentent « ce qui est en train de se produire » dans l'hexagramme. Un hexagramme sans trait mouvant est appelé hexagramme statique (靜卦)."
+     },
+     {
+      "zh": "納甲",
+      "def": "Règle qui associe les troncs célestes et les branches terrestres aux six traits, donnant à chacun son propre élément. C'est grâce à cela que l'échéance peut être fixée à un jour précis : chaque trait correspond à une date du calendrier."
+     },
+     {
+      "zh": "六親",
+      "def": "Les six relations : Parents (父母), Frères (兄弟), Enfants (子孫), Épouse/Biens (妻財), Officier/Démon (官鬼). Elles sont déterminées par la relation entre l'élément du trait et le palais auquel appartient l'hexagramme. Chacune représente une catégorie de personnes ou d'événements : Parents pour les documents et les aînés, Officier/Démon pour le travail et l'homme, Épouse/Biens pour l'argent et la femme, Enfants pour les cadets et les solutions, Frères pour les pairs et la concurrence."
+     },
+     {
+      "zh": "世爻 / 應爻",
+      "def": "Le trait du Monde (世爻) représente la personne qui pose la question ; le trait de la Réponse (應爻) représente l'autre partie ou l'autre extrémité de l'affaire. Pour les questions de couple ou de coopération, le trait de la Réponse est souvent le point central à examiner."
+     },
+     {
+      "zh": "六神",
+      "def": "Les six esprits : Dragon Vert (青龍), Oiseau Vermillon (朱雀), Serpent Enroulé (勾陳), Serpent Volant (螣蛇), Tigre Blanc (白虎), Tortue Noire (玄武). Ils sont placés à côté des six traits en fonction du tronc céleste du jour de tirage, ajoutant une qualité à chaque trait : le Dragon Vert pour les réjouissances, l'Oiseau Vermillon pour les paroles et les documents, le Tigre Blanc pour les blessures et les conflits."
+     }
+    ]
+   },
+   {
+    "name": "Choisir l'usage et la force",
+    "terms": [
+     {
+      "zh": "用神",
+      "def": "Le trait qui représente l'objet de la question. Pour une question sur l'autre, on prend le trait de la Réponse ou l'Officier/Démon ou l'Épouse/Biens ; pour l'argent, l'Épouse/Biens ; pour le travail, l'Officier/Démon ; pour un enfant, les Enfants. Il faut d'abord choisir le bon usage pour interpréter, et l'échéance en découle."
+     },
+     {
+      "zh": "原神 / 忌神",
+      "def": "Le trait qui engendre l'usage est l'Esprit d'Origine (原神) ; celui qui le contrôle est l'Esprit Interdit (忌神). Si l'Esprit d'Origine est fort et se met en mouvement pour engendrer l'usage, l'affaire a un soutien ; si l'Esprit Interdit se met en mouvement pour contrôler l'usage, l'affaire rencontre des obstacles."
+     },
+     {
+      "zh": "旺衰",
+      "def": "La force d'un trait. On regarde principalement le mois et le jour : un trait soutenu par le mois est fort ; un trait contrôlé par le mois ou heurté par le jour est faible. Un trait fort a son mot à dire, un trait faible a la volonté mais pas les moyens."
+     },
+     {
+      "zh": "月令 / 日辰",
+      "def": "La branche du mois et la branche du jour au moment du tirage : c'est la « météo » de tout le plateau. Le mois donne la tendance générale du mois, le jour donne le déclenchement du jour ; ensemble, ils déterminent la force de chaque trait."
+     },
+     {
+      "zh": "旬空",
+      "def": "Les deux branches terrestres qui ne sont pas atteintes dans la décade (dix jours) où se situe le jour du tirage. Un trait tombant sur ces branches est dit « vide » (旬空), c'est-à-dire « temporairement absent, temporairement sans effet » ; il ne revient qu'à la fin de cette décade ou lorsqu'il est heurté."
+     },
+     {
+      "zh": "月破",
+      "def": "Un trait heurté de plein fouet par la branche du mois. Comme s'il était percuté par la tendance du mois, sa force est presque réduite à néant ; il faut généralement attendre la fin du mois ou un jour qui le remplit pour qu'il y ait un revirement."
+     },
+     {
+      "zh": "入墓",
+      "def": "Un trait dont l'élément tombe dans la branche du tombeau (le bois dans 未, le feu dans 戌, le métal dans 丑, l'eau et la terre dans 辰). C'est comme s'il était enfermé dans un entrepôt, incapable de bouger pour un temps ; il faut attendre un jour qui ouvre le tombeau."
+     }
+    ]
+   },
+   {
+    "name": "Relations de mouvement et de transformation",
+    "terms": [
+     {
+      "zh": "化生 / 化剋",
+      "def": "Lorsqu'un trait mouvant se transforme en un trait qui l'engendre, on parle de transformation par engendrement (化生, ou 化回頭生) ; s'il se transforme en un trait qui le contrôle, c'est une transformation par contrôle (化剋, ou 回頭剋). Le contrôle en retour est une mauvaise nouvelle fréquente : à peine en mouvement, on est écrasé par ce que l'on a produit."
+     },
+     {
+      "zh": "化進 / 化退",
+      "def": "Un trait mouvant qui se transforme en un trait de même élément mais dont la branche avance est une transformation en avant (化進) ; si la branche recule, c'est une transformation en arrière (化退). La première donne de plus en plus d'élan, la seconde s'essouffle."
+     },
+     {
+      "zh": "伏吟 / 反吟",
+      "def": "Lorsque l'hexagramme ou le trait transformé est identique à l'original, on parle de « chant couché » (伏吟) : on tourne en rond, ni avancée ni recul. Lorsqu'il devient l'opposé exact, c'est « chant renversé » (反吟) : répétitions et revirements."
+     },
+     {
+      "zh": "六沖 / 六合",
+      "def": "Les branches terrestres s'opposent deux à deux (子午, 丑未, 寅申, 卯酉, 辰戌, 巳亥) et s'unissent deux à deux (子丑, 寅亥, 卯戌, 辰酉, 巳申, 午未). L'opposition signifie dispersion, mouvement, rapidité ; l'union signifie rassemblement, entrave, lenteur. L'échéance tombe souvent le jour où l'usage rencontre une opposition ou une union."
+     },
+     {
+      "zh": "暗動",
+      "def": "Un trait statique heurté par le jour : bien qu'il n'ait pas été tiré comme mouvant, il semble réveillé et entre en action. Il ne faut pas se contenter de regarder les traits mouvants tirés."
+     }
+    ]
+   },
+   {
+    "name": "Interprétation et échéance",
+    "terms": [
+     {
+      "zh": "斷語",
+      "def": "La conclusion sur la question posée : est-ce que ça se fera, est-ce que ça viendra, faut-il le faire. Le verdict du Liu Yao doit être suffisamment concret pour être vérifiable, et non une parole qui ne peut jamais être fausse."
+     },
+     {
+      "zh": "應期",
+      "def": "Le jour où l'affaire connaîtra un mouvement. On le déduit de l'état de l'usage : s'il est mouvant, on regarde les jours d'union ou de valeur ; s'il est statique, les jours d'opposition ou de valeur ; s'il est vide, la sortie du vide ; s'il est brisé par le mois, la fin du mois ; s'il est au tombeau, l'ouverture du tombeau. Pour un même hexagramme, tous les praticiens arrivent au même jour."
+     },
+     {
+      "zh": "逢值 / 逢沖 / 逢合",
+      "def": "« Valeur » signifie que c'est le jour de cette branche ; « opposition » signifie rencontrer la branche opposée ; « union » signifie rencontrer la branche unie. Ces trois types de jours sont les points de chute les plus fréquents de l'échéance."
+     },
+     {
+      "zh": "一事一占",
+      "def": "Une seule question, un seul tirage. Si l'on repose la même question plusieurs fois, l'hexagramme ne donnera pas une seconde réponse ; cela ne fait qu'embrouiller. Pour reposer la question, il faut attendre que l'échéance soit passée et que la situation ait réellement changé."
+     }
+    ]
+   }
+  ]
+ },
+ "timing": {
+  "title": "Comment déduire l'échéance : d'où vient ce « jour » dans un hexagramme Liu Yao",
+  "lead": "L'hexagramme dit « il y aura du mouvement autour du 29 septembre » ; cette date n'est pas donnée au feeling. À partir d'un hexagramme réel, voici le calcul de l'échéance pas à pas.",
+  "sections": [
+   {
+    "h": "D'abord la conclusion",
+    "p": [
+     "Ce que veut savoir celui qui interroge, ce n'est souvent pas « est-ce que » mais « quand ». Est-ce qu'il/elle va revenir me voir ? Quand ? Est-ce que ce travail va se conclure ? Jusqu'à quand attendre ?",
+     "C'est là que le Liu Yao diffère de nombreuses méthodes : il ne donne pas seulement une direction, il donne un jour précis, appelé « échéance » (應期) dans les textes anciens. Ce jour n'est pas dit au hasard par le devin ; il est déduit du plateau selon des règles — pour un même hexagramme et un même moment de tirage, tous arrivent au même jour."
+    ]
+   },
+   {
+    "h": "D'abord l'hexagramme",
+    "p": [
+     "J'ai posé une question sentimentale très courante et tiré un hexagramme : « Cela fait presque deux mois que je n'ai plus de nouvelles de mon ex ; est-ce qu'il/elle reviendra me voir avant la fin de l'année ? » Précisons : cette question est un exemple, il n'y a pas de personne réelle derrière, donc cet article n'aura pas de fin « et effectivement, ça s'est réalisé » ; on explique seulement comment le jour est calculé.",
+     "Le tirage a eu lieu le 20 septembre 2026, jour Ding You (丁酉), mois You (酉). L'hexagramme obtenu est Ze Lei Sui (澤雷隨, la Suite), avec les traits 3, 4 et 6 mouvants, devenant Feng Huo Jia Ren (風火家人, la Famille)."
+    ],
+    "list": [
+     "Pour l'autre, on prend le trait de la Réponse. La Réponse est au trait supérieur : Épouse/Biens, Terre Wei (未土).",
+     "La Terre Wei est en « repos » dans le mois You : elle ne reçoit pas la force du mois.",
+     "Le trait supérieur est mouvant et se transforme en Bois Mao (卯木) ; le bois contrôle la terre, c'est un « contrôle en retour » — à peine en mouvement, il est écrasé par ce qu'il produit. Le Bois Mao ainsi produit est en plus heurté par le mois You : c'est un « brisement par le mois » (月破).",
+     "Le trait du Monde (celui qui interroge) est au trait 3 : Épouse/Biens, Terre Chen (辰土). Chen et Si sont justement les vides de cette décade ; le trait du Monde est vide.",
+     "Le trait 4, Parents, Eau Hai (亥水), est mouvant et se transforme en Terre Wei avec contrôle en retour — le canal de communication, l'intermédiaire, est défavorable."
+    ],
+    "after": [
+     "D'après cela, le verdict est : il/elle ne reviendra pas de lui-même/elle-même avant la fin de l'année. De son côté, la volonté est faible ; au moindre mouvement, il/elle est écrasé(e) par ses propres réticences. Alors d'où vient le « 29 septembre » ?"
+    ]
+   },
+   {
+    "h": "Les quelques règles anciennes de l'échéance",
+    "p": [
+     "L'échéance se lit au jour où l'usage est « déclenché ». Les règles des textes anciens sont peu nombreuses, voici les plus courantes :"
+    ],
+    "list": [
+     "Si l'usage est mouvant, on regarde les jours d'union ou de valeur. Un trait mouvant est comme une personne déjà debout prête à partir ; il ne se concrétise que le jour où il est « uni » ou le jour où c'est son tour de « valoir ».",
+     "Si l'usage est statique, on regarde les jours d'opposition ou de valeur. Un trait statique est comme une personne endormie ; il ne bouge que s'il est réveillé par une opposition ou le jour de sa valeur.",
+     "Si l'usage est vide, on regarde la sortie du vide ou les jours d'opposition. Le vide est « temporairement absent » ; il ne revient qu'après la fin de la décade ou lorsqu'il est heurté.",
+     "Si l'usage est brisé par le mois, on regarde la fin du mois ou un jour qui le remplit.",
+     "Si l'usage est au tombeau, on regarde le jour qui ouvre le tombeau."
+    ],
+    "after": [
+     "Chaque règle correspond à un jour du calendrier, donc l'échéance se « consulte », elle ne se « devine » pas."
+    ]
+   },
+   {
+    "h": "Application à cet hexagramme",
+    "p": [
+     "L'usage est le trait supérieur, Terre Wei, et il est mouvant ; on applique donc la règle 1 : chercher les jours d'« union avec Wei » et de « valeur de Wei »."
+    ],
+    "list": [
+     "Dans les six unions des branches terrestres, Wu (午) s'unit à Wei (未).",
+     "Le premier jour Wu après le tirage est le 29 septembre (Bing Wu, 丙午), et le 30 septembre (Ding Wei, 丁未) est le jour de valeur de la Terre Wei elle-même."
+    ],
+    "after": [
+     "La première fenêtre est donc du 29 au 30 septembre — l'hexagramme indique « il/elle pourrait avoir un petit geste, un message, une story, ou passer par un ami commun ».",
+     "Les douze branches terrestres font un cycle ; les prochains jours Wu et Wei sont le 11 octobre (Wu Wu, 戊午) et le 12 octobre (Ji Wei, 己未) : c'est la deuxième série. L'hexagramme dit : pour juger si ça peut aboutir, regarde cette série ; si les deux séries passent sans aucune nouvelle, n'attends plus la fin de l'année.",
+     "Tu remarqueras que le « n'attends plus » du verdict découle aussi de l'échéance : l'usage subit un contrôle en retour, le trait produit est brisé par le mois, et si les deux jours de déclenchement passent sans mouvement, la situation aura bien du mal à se retourner avant la fin de l'année."
+    ]
+   },
+   {
+    "h": "Pourquoi fixer un jour précis",
+    "p": [
+     "Donner un jour précis, c'est facile de se faire dire « ce n'était pas ça ». Alors pourquoi le faire ?",
+     "Parce que sans jour, il n'y a pas de vérification. Des phrases comme « il/elle a encore des sentiments pour toi » ou « le destin n'est pas encore mûr » ne sont jamais fausses, et ne t'aident jamais à décider. À l'inverse, « regarde s'il y a du mouvement les 29 et 30 septembre » — ces deux jours-là, tu le sauras toi-même, sans que personne ait à t'expliquer.",
+     "Tu tires, et tu reçois un jour précis ; ce jour-là, nous t'envoyons une lettre qui te demande « est-ce que ça s'est réalisé ? »."
+    ]
+   },
+   {
+    "h": "Enfin, un petit conseil",
+    "p": [
+     "Si tu tires toi-même, essaie de poser une question étroite, avec un cadre vérifiable : ne demande pas « est-ce qu'il/elle m'aime encore », mais « avant la fin du mois, est-ce qu'il/elle m'enverra un message de lui-même/elle-même ». Plus la question est étroite, plus l'usage est facile à choisir, et plus l'échéance tombera un jour que tu peux vraiment attendre."
+    ]
+   }
+  ],
+  "note": "L'exemple de cet article est un plateau et un verdict réellement calculés ; le nom de l'hexagramme, les dates et le verdict n'ont pas été modifiés ; la question est un exemple, sans personne réelle.",
+  "example": {
+   "code": "786976",
+   "primary": 17,
+   "changed": 37
+  }
+ },
+ "table": {
+  "title": "Table de référence des 64 hexagrammes",
+  "lead": "Tous les 64 hexagrammes en une page : numéro, figure, trigrammes supérieur et inférieur, nom et sens en une phrase. Clique sur un nom pour voir la page complète avec le texte de l'hexagramme, les textes des traits et des exemples réels.",
+  "colNo": "N°",
+  "colFigure": "Figure",
+  "colName": "Nom",
+  "colTrigrams": "Supérieur / Inférieur",
+  "colMeaning": "Sens en une phrase"
+ }
+}

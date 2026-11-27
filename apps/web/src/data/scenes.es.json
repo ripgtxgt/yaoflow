@@ -1,0 +1,522 @@
+{
+ "job-change": {
+  "slug": "job-change",
+  "topic": "career",
+  "hexagrams": [
+   11,
+   5,
+   46,
+   35
+  ],
+  "title": "I Ching y trabajo: ¿acepto la oferta o espero?",
+  "h1": "¿Acepto la oferta de trabajo o espero?",
+  "meta": "Una tirada de Liu Yao para una oferta de trabajo o un cambio de empleo: el puesto, el contrato, el sueldo y el momento. La figura es fija; tú decides.",
+  "intro": [
+   "Tienes una oferta en el correo, o una empresa de la competencia ya te llamó dos veces, y la decisión tiene fecha límite. Das vueltas entre el sueldo, el cargo, el jefe que dejarías atrás y la sensación de que decir que sí demasiado rápido podría costarte algo que todavía no sabes nombrar.",
+   "Una tirada de Liu Yao no te dice qué hacer. Arma una figura fija a partir de tu pregunta —el puesto, el contrato, el sueldo, tu lado y el de ellos— y luego explica lo que esa figura muestra. Tú sigues sopesándolo frente a tu vida, tus gastos y lo que de verdad quieres."
+  ],
+  "how": {
+   "lead": "Para una oferta de trabajo o un cambio de empleo, la figura mira el puesto en sí, los papeles que lo respaldan, el dinero y de qué lado viene el impulso.",
+   "points": [
+    "La línea del Oficial (官鬼) representa el trabajo y el interés del empleador por ti. Si es fuerte y alimenta la línea del Yo, el puesto de verdad te quiere; si está vacía —una línea que se quedó sin fuerza en este ciclo de diez días—, el cargo no es lo que dice la descripción.",
+    "La línea de los Padres (父母) abarca el contrato, la carta de oferta, la fecha de ingreso, el papeleo. Una línea de los Padres débil junto a una línea del Oficial muy marcada significa que el entusiasmo es real, pero las condiciones todavía están en el aire.",
+    "La línea de la Riqueza (妻财) es el sueldo. Si es fuerte, el dinero es real y alcanzable; si está débil o chocada, la cifra cambia o se achica una vez que estás adentro.",
+    "La línea del Yo (世) eres tú, y la línea del Otro (应) es la empresa. Cuando la línea del Otro apoya a la del Yo, la otra parte juega a tu favor; cuando la presiona, el costo lo cargas tú.",
+    "Una línea de los Hermanos (兄弟) mutante señala competencia: otro candidato, un rival interno o un recorte discreto del paquete. Fíjate si esa línea va a tu favor o en tu contra."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "El puesto es real y te quiere",
+    "text": "El Oficial es fuerte, alimenta la línea del Yo y la línea del Otro lo respalda. El cargo es lo que parece y el interés del empleador es genuino. La pregunta ya no es si te quieren, sino si las condiciones te convienen."
+   },
+   {
+    "name": "Mucho entusiasmo, poco papel",
+    "text": "El Oficial es fuerte, pero los Padres están débiles o ausentes. El reclutador está entusiasmado y el cargo suena bien, pero las condiciones por escrito son vagas o siguen cambiando. No tomes una promesa verbal como si fuera un contrato."
+   },
+   {
+    "name": "El dinero es el punto débil",
+    "text": "La línea de la Riqueza está chocada o una línea de los Hermanos se mueve contra ella. El sueldo ofrecido puede recortarse, atrasarse o toparse con una contraoferta que cambie la forma del trato. Consigue la cifra por escrito antes de renunciar a nada."
+   },
+   {
+    "name": "El puesto no es lo que parece",
+    "text": "El Oficial está vacío o roto por el mes. Puede que reestructuren el cargo, que las funciones sean más acotadas de lo que te dijeron o que el equipo esté en plena reorganización. Es una figura que premia hacer preguntas incómodas antes de firmar."
+   }
+  ],
+  "example": {
+   "values": "777868",
+   "question": "Una empresa de la competencia me ofreció un puesto de gerente. ¿Lo acepto ya o espero?",
+   "text": "La figura es La Paz (地天泰), un hexagrama de seis combinaciones: las dos partes ya están vinculadas y en conversación. La línea 5 es la línea de la Riqueza, el sueldo, y es mutante: se convierte en una línea de los Hermanos, y la Tierra vence al Agua, así que el cambio va en contra del dinero. La oferta es real, pero el paquete no está cerrado; algo del sueldo o de las condiciones va a cambiar antes de concretarse.\n\nLa línea del Yo es la línea 3, tú, y la línea del Otro es la línea 6, la empresa; están en relación de combinación, así que la otra parte tiene un interés genuino. La línea del Oficial, en la línea 2, es el puesto en sí: está presente, no está vacía ni chocada, así que el cargo es real. En conjunto: el trabajo te quiere, lo que se mueve es el dinero. La figura pasa a La Espera (水天需): el momento dice que conviene esperar a que se asiente el papeleo y la cifra quede por escrito. Eso es la lectura, no una orden; tú decides si vale la pena esperar."
+  },
+  "faq": [
+   {
+    "q": "¿Una tirada de Liu Yao puede decirme si debo aceptar una oferta de trabajo?",
+    "a": "No. La tirada produce una figura fija del puesto, el contrato, el sueldo y las dos partes. Explica lo que esa figura muestra; la decisión sigue siendo tuya."
+   },
+   {
+    "q": "¿Qué significa que la línea del Oficial esté vacía en mi figura?",
+    "a": "Vacía significa que la línea se quedó sin fuerza en este ciclo de diez días. En una pregunta de trabajo sugiere que el cargo no es lo que dice la descripción: reestructurado, más acotado o en plena reorganización. Es una invitación a preguntar más, no un veredicto."
+   },
+   {
+    "q": "¿Hago otra tirada si no me gusta la respuesta?",
+    "a": "Una segunda tirada sobre el mismo asunto te da una segunda figura, no una más verdadera: las seis líneas caen como caen. La regla de la tradición es un asunto, una tirada: quédate con la primera lectura, decide, y vuelve a tirar solo cuando la situación en sí haya cambiado."
+   }
+  ],
+  "ask": "¿Acepto esta oferta de trabajo, espero o me quedo donde estoy?"
+ },
+ "moving": {
+  "slug": "moving",
+  "topic": "decision",
+  "hexagrams": [
+   35,
+   56,
+   53,
+   39
+  ],
+  "title": "I Ching para mudarse o emigrar: ¿me voy o me quedo?",
+  "h1": "¿Me mudo? Cómo leer una tirada de Liu Yao para una mudanza",
+  "meta": "Una tirada de I Ching (Liu Yao) para emigrar o cambiar de ciudad: el hogar, los trámites, los obstáculos y el tránsito. La figura es fija; tú decides.",
+  "intro": [
+   "Las cajas están a medio armar, el contrato de alquiler vence en dos meses y uno de los dos sigue actualizando la página de la visa a medianoche. Mudarse a otro país o a otra ciudad es un montón de pequeñas decisiones con un solo nombre, y casi todo el peso está en lo que todavía no se ve: los papeles, los tiempos, si el lugar nuevo te va a sostener.",
+   "Una tirada de Liu Yao no te dice si irte. Traza una figura fija y reproducible a partir de tus seis líneas, y la lectura explica lo que esa figura pone en la balanza: el hogar y los documentos, los obstáculos y la burocracia, la facilidad del tránsito y si de verdad estás en condiciones de moverte. Tú la lees, la discutes y decides."
+  ],
+  "how": {
+   "lead": "Para una mudanza, la figura pone en la balanza tu propia línea, la línea del hogar y los papeles, la de los obstáculos y la burocracia, y la de la facilidad y el tránsito seguro.",
+   "points": [
+    "La línea del Yo (世爻, la línea que te representa a ti, quien pregunta) muestra si de verdad estás en movimiento. Si es fuerte y mutante, puedes moverte; la decisión tiene peso detrás. Si está vacía (旬空, una línea que cae en un hueco del calendario donde no tiene fuerza), todavía no lo decidiste, diga lo que diga el calendario.",
+    "La línea de los Padres (父母, la línea del hogar, los documentos y la visa) muestra si el lugar nuevo te sostiene. Si es fuerte, la dirección, el contrato de alquiler y el permiso tienen algo firme debajo. Si está débil o chocada, el lado del hogar en esta mudanza es frágil.",
+    "La línea del Oficial (官鬼, la línea de los obstáculos y la burocracia) es la fila en el consulado, el sello que falta, el casero que no firma. Un Oficial mutante que vence a tu línea del Yo es papeleo o problemas en el camino: no un veredicto, sino un aviso de dónde está la fricción.",
+    "La línea de los Descendientes (子孙, la línea de la facilidad y el tránsito seguro) es la parte que fluye: el vuelo que aterriza, el amigo que te recibe, la semana que pasa tranquila. Si está presente e intacta, el viaje en sí no es el problema.",
+    "La línea del Otro (应爻, la otra parte: la ciudad, el empleador, el país) muestra hacia dónde vas. Léela frente a tu línea del Yo: apoyo, indiferencia o presión."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "El Yo fuerte y mutante",
+    "text": "Tu línea tiene fuerza y está cambiando: la figura dice que la mudanza ya tiene impulso en ti. La pregunta deja de ser si irte y pasa a ser cómo. Mira después la línea de los Padres: impulso sin un hogar donde llegar es solo una partida."
+   },
+   {
+    "name": "El Yo vacío",
+    "text": "Tu línea cae en un hueco del calendario, sin fuerza: se lee como todavía no decidido. No es un no. Suele significar que la pregunta de fondo está antes: el trabajo, el dinero, la persona a la que todavía no se lo dijiste."
+   },
+   {
+    "name": "El Oficial se mueve contra el Yo",
+    "text": "La línea de los obstáculos está activa y presiona tu línea: papeleo, burocracia, un retraso con nombre y apellido. La figura señala la fricción, no prohíbe la mudanza. Reserva tiempo y dinero para las filas."
+   },
+   {
+    "name": "Padres fuertes, Descendientes presentes",
+    "text": "La línea del hogar tiene sustancia y la de la facilidad está intacta: es la forma más estable para una mudanza. El lugar nuevo te sostiene y el tránsito es tranquilo. Lo que queda es el trabajo normal de irse."
+   }
+  ],
+  "example": {
+   "values": "888987",
+   "question": "¿Nos mudamos a otro país este año?",
+   "text": "La figura es 火地晋, El Progreso, que pasa a 山地剥, La Desintegración, con la línea 4 mutante. La línea 4 es tu línea del Yo —ustedes dos como quienes preguntan— y es yang y mutante, así que la mudanza de verdad está en marcha. La línea 1 es la línea del Otro, la otra parte, y es una línea de los Padres de tierra 未: el país hacia el que van es una línea de hogar, no una indiferente. La línea 5 también es de los Padres, así que el lado del hogar y los papeles tiene dos apoyos. Las líneas 6 y 2 son del Oficial, el lado de los obstáculos y la burocracia, y ninguna se mueve contra tu línea.\n\nLa única línea mutante es la tuya, y pasa de ser una línea de los Hermanos de metal 酉 a una línea de los Padres de tierra 戌. Dicho simple: lo que se mueve eres tú, y en lo que se convierte es hogar y papeles; además, lo que resulta alimenta de vuelta a la línea, así que sale del cambio más fuerte. En conjunto: la mudanza se abre y el papeleo se arrastra. Nada aquí dice vete o quédate. Dice que el paso es real, que el destino es una línea de hogar y que lo lento serán los documentos."
+  },
+  "faq": [
+   {
+    "q": "¿Una tirada puede decirme si me van a dar la visa?",
+    "a": "No. La figura puede mostrar la línea de los Padres —hogar y papeles— y si está fuerte o frágil, y puede mostrar si la línea del Oficial, la burocracia, presiona o está quieta. Eso te dice dónde es probable que esté la fricción. No emite la visa."
+   },
+   {
+    "q": "¿Y si mi línea del Yo está vacía?",
+    "a": "Vacía (旬空) significa que la línea cae en un hueco del calendario, sin fuerza; en una mudanza suele leerse como todavía no decidido, más que como un no. Detente en la pregunta de fondo —el trabajo, el dinero, la conversación pendiente— y vuelve a tirar cuando algo haya cambiado de verdad."
+   },
+   {
+    "q": "¿Hago una sola tirada o varias sobre la misma mudanza?",
+    "a": "Una tirada responde una pregunta en un momento dado, y la figura queda fija una vez trazada. Si la situación cambia de verdad —una oferta, un rechazo, una fecha—, eso es una pregunta nueva y una tirada nueva. Repetir la misma pregunta sin que nada haya cambiado casi siempre produce ruido."
+   }
+  ],
+  "ask": "¿Me mudo a otra ciudad u otro país este año?"
+ },
+ "negotiation-deal": {
+  "slug": "negotiation-deal",
+  "topic": "money",
+  "hexagrams": [
+   13,
+   49,
+   6,
+   14
+  ],
+  "title": "I Ching para negocios y contratos: ¿se cerrará el trato?",
+  "h1": "¿Se cerrará el trato, y en qué condiciones?",
+  "meta": "Una tirada de I Ching (Liu Yao) muestra si una negociación se cierra: la contraparte, el contrato y el dinero sobre la mesa. La figura es fija; tú decides.",
+  "intro": [
+   "Estás en plena negociación —un contrato, una venta, una ronda de inversión— y el terreno no deja de moverse. La otra parte parece interesada, después se enfría, después vuelve a interesarse, y quieres ver con claridad dónde está parado esto de verdad.",
+   "Una tirada de Liu Yao no decide el resultado ni te dice qué firmar. Te da una figura fija y reproducible del momento: quién es la contraparte en la lectura, si el papel está listo y dónde está el dinero. Tú la lees y después decides."
+  ],
+  "how": {
+   "lead": "En una negociación, la figura pone en la balanza tres cosas: la contraparte, el contrato en sí y el dinero sobre la mesa.",
+   "points": [
+    "La línea del Otro (应) es la contraparte, la otra parte al otro lado de la mesa. Su fuerza, su movimiento y si está vacía te dicen qué tan real es su posición ahora mismo.",
+    "La línea de los Padres (父母) es el contrato: el papel, las condiciones, la hoja de firmas. Si está vacía, el documento todavía no está listo, por muy bien que vaya la conversación.",
+    "La línea de la Riqueza (妻财) es el dinero sobre la mesa: el precio, los honorarios, la contraprestación. Dónde está y si tiene apoyo muestra qué se está negociando en realidad.",
+    "La línea del Yo (世) eres tú: tu posición, tu margen, lo que pides. Cuando el Yo y el Otro se combinan, las dos partes se encuentran. Cuando chocan, no hay punto de encuentro.",
+    "Una línea mutante muestra hacia dónde va la situación. Una línea que retrocede —misma fase, la rama da un paso atrás— pierde impulso, aunque siga siendo el mismo tipo de línea."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "El Yo y el Otro se combinan",
+    "text": "Las dos partes se encuentran. Es la señal más clara de que un trato se cierra: no porque esté escrito, sino porque la figura muestra un punto de contacto. Las condiciones todavía hay que redactarlas, pero la voluntad está."
+   },
+   {
+    "name": "El Otro vacío",
+    "text": "La contraparte no va en serio por ahora. Puede mostrarse amable, interesada, incluso entusiasta, pero que la línea del Otro esté vacía significa que su posición está hueca en este momento. Espera a que se llene antes de comprometerte."
+   },
+   {
+    "name": "El Yo y el Otro chocan",
+    "text": "No hay punto de encuentro. Las dos posiciones no se tocan: están hablando sin escucharse. No significa que el trato esté muerto para siempre, pero tal como está planteado no se cierra. Algo tiene que cambiar."
+   },
+   {
+    "name": "Los Padres vacíos",
+    "text": "El papel no está listo. El contrato, las condiciones, la hoja de firmas —la forma que tome el acuerdo— no está en condiciones de firmarse. No confundas una buena conversación con un trato cerrado."
+   }
+  ],
+  "example": {
+   "values": "787779",
+   "question": "¿Se va a cerrar esta inversión, y en qué condiciones?",
+   "text": "La figura es La Comunidad con los hombres (天火同人), que pasa a La Revolución (泽火革), con la línea 6 mutante. La línea 3 es la línea del Yo: la fundadora que pregunta. La línea 6 es la línea del Otro —el inversor— y es mutante. La línea 1 es la línea de los Padres, el contrato. La línea 5 es la línea de la Riqueza, el dinero sobre la mesa. La otra parte está activa: el inversor se mueve, así que el interés es real. La línea de los Padres está presente, así que el papel existe de alguna forma.\n\nPero la línea 6, el inversor, se mueve y retrocede. Sigue siendo una línea de los Descendientes, pero la rama da un paso atrás, de 戌 a 未. La contraparte pierde impulso en el último tramo. El trato se cierra en su forma general, pero las condiciones se reescriben por el camino. La Comunidad se convierte en Revolución: lo que empezó como un acuerdo mutuo termina como un documento reestructurado. La línea del dinero está en la línea 5, fuerte, pero las condiciones finales no son las que se hablaron al principio."
+  },
+  "faq": [
+   {
+    "q": "¿Una tirada de Liu Yao puede decirme si debo firmar?",
+    "a": "No. La figura muestra el estado de la contraparte, del contrato y del dinero. No te dice qué hacer. Tú lees la figura, la comparas con todo lo demás que sabes y decides."
+   },
+   {
+    "q": "¿Qué significa que la línea del Otro esté vacía?",
+    "a": "Que la contraparte no está firme por ahora. Puede estar esperando algo, o no estar del todo comprometida. No significa que mienta: significa que su posición está hueca en este momento. Dale tiempo a que se llene antes de actuar."
+   },
+   {
+    "q": "En la conversación el trato pinta bien, pero la figura muestra un choque. ¿Y ahora?",
+    "a": "Un choque entre el Yo y el Otro significa que las dos posiciones no se tocan. La conversación puede ser cálida, pero la estructura del trato no encaja. Algo tiene que cambiar —las condiciones, los tiempos o las partes— antes de que se cierre."
+   }
+  ],
+  "ask": "¿Se cerrará este trato, y en qué condiciones?"
+ },
+ "starting-a-business": {
+  "slug": "starting-a-business",
+  "topic": "money",
+  "hexagrams": [
+   48,
+   42,
+   3,
+   50
+  ],
+  "title": "I Ching para emprender: ¿es momento de independizarme?",
+  "h1": "¿Emprendo ahora, más adelante o no emprendo?",
+  "meta": "Una tirada de Liu Yao pone en la balanza ganancias, clientes, competencia y socios. Muestra lo que hay en la figura, no qué hacer. Tú decides.",
+  "intro": [
+   "Tienes un oficio por el que la gente paga, o una idea que no te sacas de la cabeza. La pregunta no es si puedes hacer el trabajo, sino si el dinero, los clientes y el momento se alinean. Quieres mirar bien el terreno antes de pisarlo.",
+   "Una tirada de Liu Yao arma una figura fija a partir de tu pregunta: seis líneas, cada una con un parentesco y un elemento. La figura no te dice que saltes ni que te quedes. Muestra dónde están las ganancias, quién las trae, qué las drena y si la estructura aguanta. Tú lo comparas con tus propios números y decides."
+  ],
+  "how": {
+   "lead": "Para una pregunta de negocio, la figura pone en la balanza la línea de las ganancias, la de los clientes, la de la presión y la de los gastos frente a la fuerza de tu propia posición.",
+   "points": [
+    "La línea de la Riqueza (妻财) es la ganancia: el dinero que de verdad llega. Una línea de la Riqueza fuerte en una posición fuerte significa que el terreno puede sostener ingresos; si está débil o ausente, los ingresos todavía no están, por buena que sea la idea.",
+    "La línea de los Descendientes (子孙) es la fuente de la ganancia y los clientes mismos. Si está presente y se mueve bien, hay demanda y la gente llega a ti. Si falta, estás vendiendo en una sala vacía.",
+    "La línea del Oficial (官鬼) es la presión sobre el proyecto: competencia, regulaciones, licencias, el costo de hacerse visible. Un Oficial pesado no es una señal de alto; te dice cuánto cuesta entrar y quién ya está ahí.",
+    "La línea de los Hermanos (兄弟) son los gastos y los socios que se llevan su parte. Si los Hermanos ocupan la línea del Yo (世爻, la línea que te representa), el dinero sale más rápido de lo que entra, muchas veces por gastos compartidos o por lo que retira un socio.",
+    "Una línea mutante que avanza (进神) muestra impulso creciente en ese ámbito. Un hexagrama de seis choques (六冲), donde las líneas tiran unas contra otras, es difícil de sostener: puede arrancar, pero rara vez dura."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Hay oficio, faltan clientes",
+    "text": "La línea de los Padres (la de la preparación y el oficio) es fuerte, pero la de los Descendientes (clientes y fuente de ganancia) está débil u oculta. Puedes hacer el trabajo; la gente que paga por él todavía no llegó. Es una señal de momento, no un veredicto sobre tu capacidad."
+   },
+   {
+    "name": "La ganancia es fuerte, tú no",
+    "text": "La Riqueza es fuerte en la figura, pero la línea del Yo (tú) está débil o bajo presión. El mercado es real, pero tu posición no alcanza a sostenerlo: quizá te falta capital, cargas con demasiados compromisos o te estás dispersando. El problema no es la oportunidad."
+   },
+   {
+    "name": "Los Hermanos ocupan el Yo",
+    "text": "La línea de los Hermanos (gastos, socios que se llevan su parte) está sobre la línea del Yo. El dinero se va tan rápido como llega, muchas veces por la parte de un socio, gastos fijos compartidos o el costo de mantener a flote a otros. Lee dos veces cualquier acuerdo de sociedad."
+   },
+   {
+    "name": "Seis choques, difícil de sostener",
+    "text": "Las seis líneas chocan entre sí en lugar de apoyarse. Un emprendimiento puede lanzarse con una figura de choque, pero le cuesta mantenerse unido: los primeros logros no se acumulan. Conviene esperar una figura en la que las líneas se apoyen unas a otras."
+   }
+  ],
+  "example": {
+   "values": "897878",
+   "question": "Soy diseñadora y estoy pensando en dejar mi trabajo para ser freelance. ¿Es el momento?",
+   "text": "La figura es 水风井 (El Pozo de agua, hexagrama 48), que pasa a 水山蹇 (El Impedimento, hexagrama 39) por la línea 2. La línea del Yo (tú) es la línea 5, una línea de la Riqueza fuerte: la capacidad de ganar dinero está, y el terreno bajo tus pies es firme. La línea del Otro (la otra parte: clientes, el mercado) es la línea 2, una línea de los Padres, y es la línea mutante. Los Padres son preparación y oficio, no clientes. La línea que traería la demanda no es la que te responde.\n\nLa línea 2 pasa de Padres a Descendientes: del oficio a la fuente de ganancia. Pero el movimiento es Agua que vence al Fuego: la línea se desgasta al hacer el cambio. La lectura no dice que ser freelance vaya a fracasar. Dice que el oficio está listo y los clientes todavía no aparecen en la figura. El Pozo está lleno; nadie ha venido a sacar agua. Arma tu cartera de clientes antes de renunciar al sueldo, y la misma figura se lee distinto."
+  },
+  "faq": [
+   {
+    "q": "¿Puedo volver a tirar si no me gusta la respuesta?",
+    "a": "Puedes, pero la figura es una foto de la pregunta que hiciste. Si haces la misma pregunta dos veces, obtienes dos figuras y ningún terreno más claro. Es mejor hacer una pregunta más precisa —sobre los clientes, el momento o el dinero— que repetir la misma."
+   },
+   {
+    "q": "¿Una figura desfavorable significa que no debo emprender?",
+    "a": "No. La figura muestra dónde está la presión y qué falta. Una línea de los Descendientes débil significa que los clientes todavía no se ven, no que nunca vayan a llegar. Tú decides si esperar, preparar el terreno o seguir adelante igual."
+   },
+   {
+    "q": "¿Y si la figura muestra ganancias fuertes pero no me siento preparada?",
+    "a": "La línea de la Riqueza es la capacidad del mercado, no tu preparación. Una Riqueza fuerte con una línea del Yo débil dice que la oportunidad es real pero tu posición necesita trabajo: capital, tiempo o un socio que no te drene. La figura no anula lo que tú misma sabes de tu preparación."
+   }
+  ],
+  "ask": "¿Es el momento de independizarme con mi trabajo?"
+ },
+ "get-back-together": {
+  "slug": "get-back-together",
+  "topic": "relationship",
+  "hexagrams": [
+   31,
+   24,
+   38,
+   45
+  ],
+  "title": "I Ching amor: ¿volverá mi ex? Tirada para una reconciliación",
+  "h1": "¿Volverá mi ex, y hay un camino de regreso?",
+  "meta": "Una tirada de Liu Yao para una reconciliación lee la línea de la otra persona, las líneas del Yo y del Otro, y si el hexagrama une o dispersa. Tú decides.",
+  "intro": [
+   "Después de una ruptura, la pregunta casi nunca es solo si va a volver. Es si tú quieres que vuelva, si algo cambió de verdad y si escribirle ayudaría o solo reabriría la herida. Repasas la última conversación, miras el teléfono, te preguntas si el silencio significa que está pasando página o que espera que tú des el primer paso.",
+   "Una tirada de Liu Yao no decide si tu ex vuelve, y no puede hacer que te quiera. Lo que hace es mostrar la forma de la situación en una figura fija y reproducible: quién se acerca, quién se contiene, si ustedes dos están unidos o dispersándose, y si tu propio esfuerzo tiene probabilidades de llegar o solo te va a desgastar. La lectura explica la figura. Tú decides qué hacer con ella."
+  ],
+  "how": {
+   "lead": "Para una pregunta de reconciliación, la figura mira la línea que representa a la otra persona, la que te representa a ti, y si las dos se alimentan o se enfrentan.",
+   "points": [
+    "Si eres mujer y preguntas por un hombre, la línea del Oficial (官鬼, la línea que lo representa) se lee como él. Si eres hombre y preguntas por una mujer, la línea de la Riqueza (妻财, la línea que la representa) se lee como ella. Cómo está esa línea en el hexagrama —apoyada, vacía, mutante o quieta— te dice qué tan presente y qué tan dispuesta está la otra persona.",
+    "La línea del Yo (世爻) eres tú, quien pregunta. La línea del Otro (应爻) es la otra persona en sentido general. Cuando la línea del Otro alimenta o se combina con la del Yo, la otra parte se acerca. Cuando la línea del Otro vence a la del Yo, lo que sientes de su lado es presión, no calidez.",
+    "Un hexagrama de seis combinaciones (六合) significa que las cosas se unen: ustedes dos siguen ligados y separarse cuesta. Un hexagrama de seis choques (六冲) significa que las cosas se dispersan: el vínculo está flojo, y tirar más fuerte suele alejarlo más.",
+    "Una línea mutante que se convierte en la misma rama (伏吟) significa dar vueltas en círculo: la misma discusión, el mismo silencio, el mismo casi contacto. Una línea que se convierte en su rama opuesta (反吟) significa ir y volver: un paso hacia ti, un paso lejos.",
+    "La línea mutante muestra lo que de verdad está en movimiento. Si tu propia línea se mueve y se convierte en algo que luego vence, la figura muestra esfuerzo con poco retorno: tú empujando, y el empuje mismo costándote más de lo que te da."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "La otra parte se acerca",
+    "text": "La línea del Otro alimenta o se combina con la del Yo, o la línea que representa a tu ex está apoyada y activa. La figura muestra a la otra persona todavía orientada hacia ti. Eso no significa que vaya a actuar bien ni pronto, pero el tirón es real y no está solo de tu lado."
+   },
+   {
+    "name": "Empujas contra la presión",
+    "text": "La línea del Otro vence a la del Yo. El contacto desde el otro lado se siente como un peso: una respuesta fría, una exigencia, un silencio que suena a juicio. Insistir más suele aumentar esa presión en lugar de suavizarla."
+   },
+   {
+    "name": "Unidos, pero en un círculo",
+    "text": "Un hexagrama de seis combinaciones con una línea que se convierte en la misma rama (伏吟). Ustedes dos siguen conectados, pero el contacto repite la misma forma: la misma conversación, la misma media promesa, el mismo retroceso. Estar unidos no es lo mismo que avanzar."
+   },
+   {
+    "name": "Dispersión, y tu esfuerzo te desgasta",
+    "text": "Un hexagrama de seis choques (六冲) con tu propia línea mutante convirtiéndose en algo que vence. El vínculo está flojo, y tus intentos de acortar la distancia te agotan sin mover a la otra persona. La figura no dice nunca; dice que este esfuerzo, ahora, da poco."
+   }
+  ],
+  "example": {
+   "values": "889778",
+   "question": "¿Mi ex va a volver conmigo?",
+   "text": "La figura es el hexagrama 31, El Influjo (泽山咸), con la tercera línea mutante, que pasa al hexagrama 45, La Reunión (泽地萃). La línea del Yo —tú, quien pregunta— es la línea 3, una línea de los Hermanos. La línea del Otro —la otra persona— es la línea 6, una línea de los Padres. El hexagrama es de influencia mutua: dos partes que se afectan, sentimientos que van en ambas direcciones. Eso es lo primero que dice la figura. El sentimiento no es de un solo lado.\n\nLa línea mutante es la tuya. La línea 3 empieza como Hermanos y se convierte en Riqueza, y al hacerlo vence aquello en lo que se convierte: el metal corta la madera, esfuerzo con poco retorno. Dicho simple: buscar, revisar el teléfono, escribir y borrar, eso es tuyo, y te está desgastando. La otra parte se mueve solo cuando dejas de empujar. El paso a La Reunión apunta a un reencuentro más adelante, pero llega después de que el empuje se detiene, no gracias a él."
+  },
+  "faq": [
+   {
+    "q": "¿Una tirada puede decirme con certeza si mi ex va a volver?",
+    "a": "No. La figura es fija y reproducible, y la lectura explica lo que muestra: quién se acerca, quién se contiene y si el vínculo se une o se dispersa. No decide el resultado, y no puede hacer que otra persona quiera algo que no quiere."
+   },
+   {
+    "q": "¿Qué significa que mi hexagrama sea de seis choques (六冲)?",
+    "a": "Un hexagrama de seis choques significa que las cosas se dispersan: el vínculo está flojo y tirar más fuerte suele alejarlo más. No es un veredicto de que la reconciliación sea imposible, pero sí dice que la fuerza es la herramienta equivocada aquí."
+   },
+   {
+    "q": "¿Debo escribirle según lo que diga la figura?",
+    "a": "La figura puede mostrar si tu esfuerzo tiene probabilidades de llegar o de desgastarte, y si la otra parte se acerca o presiona. Qué haces con eso es decisión tuya, y es la única parte de todo esto que siempre estuvo en tus manos."
+   }
+  ],
+  "ask": "¿Hay un camino de regreso con mi ex, y lo quiere también?"
+ },
+ "new-love": {
+  "slug": "new-love",
+  "topic": "relationship",
+  "hexagrams": [
+   61,
+   31,
+   32,
+   53
+  ],
+  "title": "I Ching amor: ¿esta nueva relación va a algún lado?",
+  "h1": "¿Esta nueva relación va a algún lado?",
+  "meta": "Una lectura de I Ching (Liu Yao) para una relación que empieza o un interés no declarado: qué pesa la figura, qué no puede decidir y cómo hacer tu tirada.",
+  "intro": [
+   "Se han visto unas cuantas veces. Los mensajes son cálidos, el tiempo juntos fluye, y aun así te descubres repasando la última conversación y preguntándote si es el comienzo de algo o unas semanas lindas que se van a apagar sin ruido. Preguntarle a una amiga solo te da su opinión; preguntarle directamente a la otra persona puede sentirse como demasiado, demasiado pronto.",
+   "Una tirada de Liu Yao no te dice lo que él o ella siente ni lo que va a pasar. Te da una figura fija y reproducible —seis líneas armadas a partir de tus lanzamientos— y una lectura que explica lo que esa figura muestra sobre los dos lados del asunto. Tú decides qué hacer con ella."
+  ],
+  "how": {
+   "lead": "Para una relación que empieza, la figura mira la línea de la otra persona, tu propia línea y si las dos van una hacia la otra o se mantienen a distancia.",
+   "points": [
+    "Si eres mujer y preguntas por un hombre, su línea es la del Oficial (官鬼), la que representa al hombre en el asunto. Si eres hombre y preguntas por una mujer, su línea es la de la Riqueza (妻财). En cualquier caso es la persona por la que preguntas, leída como una línea de la figura.",
+    "La línea del Yo (世爻) eres tú: tu posición, tu actitud, lo que aportas. La línea del Otro (应爻) es la otra parte en general, la persona o la situación que tienes enfrente. Cómo se ubican estas dos entre sí es la columna vertebral de la lectura.",
+    "Cuando la línea del Otro alimenta o se combina con la del Yo, la otra parte se acerca: hay un tirón hacia ti. Cuando la línea del Otro vence a la del Yo, eso es presión, no calidez; algo en la dinámica empuja en lugar de invitar.",
+    "Un hexagrama de seis combinaciones (六合) significa que las cosas se unen: el vínculo tiende a sostenerse. Un hexagrama de seis choques (六冲) significa que las cosas se dispersan: la energía se va en vez de reunirse. Ninguno es un veredicto; cada uno describe la forma del momento.",
+    "Una línea mutante puede convertirse en la misma rama de la que salió —eso es 伏吟, dar vueltas en círculo, movimiento sin avance—. O puede convertirse en su rama opuesta —反吟, ir y volver, un paso adelante y uno atrás—."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Los dos son sinceros, nada presiona",
+    "text": "La figura está quieta —ninguna línea mutante— y las líneas del Yo y del Otro no están enfrentadas. Es la forma de 中孚: verdad interior, una confianza que se construye despacio. Nada fuerza el ritmo y nada lo bloquea. Lo que hace falta es tiempo y un poco más de contacto, no un gran gesto."
+   },
+   {
+    "name": "La otra parte se acerca",
+    "text": "La línea del Otro alimenta o se combina con la del Yo. Dicho simple, la otra persona está orientada hacia ti: su línea apoya la tuya en lugar de presionarla. Eso no promete un resultado, pero sí dice que el interés no es de un solo lado."
+   },
+   {
+    "name": "Presión en lugar de calidez",
+    "text": "La línea del Otro vence a la del Yo. Algo del otro lado pesa sobre tu posición: puede ser su intensidad, las circunstancias que lo rodean o tu propia sensación de estar siendo evaluada. Se lee como fricción, no como afecto, y vale la pena nombrarlo antes de invertir más."
+   },
+   {
+    "name": "Dar vueltas en círculo",
+    "text": "Una línea mutante se convierte en la misma rama de la que salió: 伏吟. La misma conversación, los mismos casi planes, los mismos mensajes cálidos sin un paso siguiente. La figura no dice que esté condenado; dice que el movimiento es circular y que algo tiene que cambiar para que se vuelva avance."
+   }
+  ],
+  "example": {
+   "values": "778877",
+   "question": "Hemos salido tres veces. ¿Esto va a algún lado?",
+   "text": "La figura es 风泽中孚, La Verdad interior, sin ninguna línea mutante. Una figura quieta significa que ahora mismo nada en esta situación fuerza un cambio: ni empuje ni ruptura, solo la forma tal como está. La línea del Yo, que eres tú, está en la línea 4. La línea del Otro, la otra parte, está en la línea 1. No chocan ni se combinan, pero la del Otro, fuego 巳, alimenta a la tuya, tierra 未: la otra parte se inclina hacia ti, algo que encaja con tres citas cálidas y sin apuro.\n\nHay una línea del Oficial en la línea 2 y otra en la línea 6: el hombre del asunto aparece dos veces, lo que a menudo se lee como alguien presente en la situación pero que todavía no se ha declarado. Nada en esta figura dice que se esté alejando, y nada dice que esté a punto de dar el paso. 中孚 es el hexagrama de la verdad interior: lo que hay de real aquí se construye despacio, con contacto y constancia más que con un único momento decisivo. La lectura honesta es que el terreno es bueno y el ritmo lo pones tú: la figura no decide, tú sí."
+  },
+  "faq": [
+   {
+    "q": "¿Una lectura de I Ching para el amor puede decirme si le gusto?",
+    "a": "No. La figura muestra la forma de la situación —si la otra parte se acerca o presiona, si las cosas se unen o se dispersan—, pero no informa sentimientos. Te da una imagen fija con la cual pensar, no un veredicto sobre su corazón."
+   },
+   {
+    "q": "¿Qué significa que mi tirada sobre una relación nueva no tenga líneas mutantes?",
+    "a": "Una figura quieta significa que ahora mismo nada fuerza un cambio. Suele aparecer cuando la situación es sincera pero lenta, sin que ninguna de las partes empuje. No es una mala señal; es una imagen del momento tal como está, y el próximo paso sigue siendo tuyo."
+   },
+   {
+    "q": "¿Hago otra tirada si no me gusta la respuesta?",
+    "a": "Puedes, pero la segunda figura no anula la primera: solo agrega otra imagen. En el Liu Yao, el valor está en la figura fija y reproducible que ya tienes. Quédate con ella, actúa según lo que sabes y vuelve a tirar solo cuando la situación en sí haya cambiado de verdad."
+   }
+  ],
+  "ask": "¿Esta nueva relación va a algún lado?"
+ },
+ "exam-or-interview": {
+  "slug": "exam-or-interview",
+  "topic": "study",
+  "hexagrams": [
+   4,
+   35,
+   46,
+   26
+  ],
+  "title": "I Ching para un examen o entrevista: ¿voy a aprobar?",
+  "h1": "I Ching para un examen o una entrevista: ¿vas a aprobar?",
+  "meta": "Una tirada de I Ching (Liu Yao) para un examen, una certificación o una entrevista lee la línea de la nota, la del puesto y tu propio estado. Con un ejemplo.",
+  "intro": [
+   "Tienes una fecha marcada en el calendario —un examen de habilitación, una certificación, una entrevista final— y el resultado te importa más de lo que te gustaría admitir. Ya hiciste el trabajo, o casi todo, y ahora estás atrapado en esa semana rara en la que nada de lo que haces parece suficiente y todo lo que sientes es confianza o temor.",
+   "Una tirada de Liu Yao no te va a decir tu nota ni te va a dar el puesto. Lo que hace es fijar una figura pequeña y reproducible —seis líneas, calculadas siempre de la misma manera— y explicar lo que esa figura dice sobre tu preparación, el examen que tienes enfrente y la institución del otro lado. El examen lo sigues dando tú. A la sala sigues entrando tú. La figura solo te dice dónde estás parado."
+  ],
+  "how": {
+   "lead": "Para un examen o una entrevista, la figura pone en la balanza tres cosas: el examen y la nota, la institución o el puesto, y tu propio estado ese día.",
+   "points": [
+    "La línea de los Padres (父母) es la nota, el examen, el certificado, la carta de oferta en sí. Si es fuerte y está en su temporada, el resultado es bueno. Si está vacía —una línea que cayó en un hueco del calendario y no puede actuar— o rota, el resultado no es para esta vez.",
+    "La línea del Oficial (官鬼) es la institución, el examinador, el comité de selección, el puesto. Cuando alimenta la línea del Yo, la institución te quiere. Cuando se convierte en otra cosa, la relación está cambiando antes de que llegues.",
+    "La línea del Yo (世) eres tú: tu estado, tu preparación, tus nervios. Una línea del Yo fuerte significa que estás listo. Una débil o chocada significa que el riesgo está en el día en sí, no en el temario.",
+    "Una línea mutante es la parte de la figura que está cambiando. Cuando la línea del Oficial se mueve, el puesto o el comité están en movimiento, y aquello en lo que se convierte te dice si ese movimiento te ayuda o te desgasta.",
+    "La línea del Otro (应) es la otra parte: el examinador, el entrevistador, la sala. Si es una línea de los Padres y es fuerte, el examen mismo está de tu lado."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Padres fuertes, Yo fuerte",
+    "text": "El examen es sólido y tú también. Es la figura de alguien que hizo el trabajo y no está peleando consigo mismo. Presenta el examen, responde las preguntas y no te inventes problemas nuevos en la última semana."
+   },
+   {
+    "name": "Los Padres vacíos",
+    "text": "La línea de la nota cayó en un hueco del calendario. Eso suele significar que el resultado no es para esta vez: no que no seas capaz, sino que este examen, en este día, no se concreta. Usa la semana para consolidar en lugar de estudiar a última hora, y toma la convocatoria como información."
+   },
+   {
+    "name": "El Oficial alimenta al Yo",
+    "text": "La institución o el comité están activamente de tu lado. En una figura de entrevista se lee como una sala que quiere que le caigas bien. Tu tarea es no convencerlos de lo contrario: responde lo que te preguntan y detente."
+   },
+   {
+    "name": "El Oficial se convierte en Hermanos",
+    "text": "El puesto o el comité están en movimiento, y ese movimiento te cuesta. Sale esfuerzo y vuelve poco: rondas extra, fechas que cambian, un proceso que te desgasta. Prepárate para un proceso más largo de lo anunciado y cuida tu energía en consecuencia."
+   }
+  ],
+  "example": {
+   "values": "878867",
+   "question": "¿Voy a aprobar mi examen de habilitación la semana que viene?",
+   "text": "La figura es La Necedad juvenil (山水蒙), que pasa a La Disolución (风水涣), con la línea 5 mutante. La línea 4 es la línea del Yo —eres tú— y es una línea de los Descendientes, la línea de la soltura y la producción más que del esfuerzo forzado. La línea 1 es la línea del Otro, la otra parte, y es una línea de los Padres: el examen en sí. La línea 6 también es de los Padres. Así que la línea de la nota aparece dos veces y no está vacía. Estás suficientemente preparado. Esa es la lectura directa de esta figura.\n\nEl riesgo está en la línea 5, que es la línea del Oficial —el organismo que habilita, el examinador, el puesto— y es mutante. Pasa de Oficial a Hermanos, y al hacerlo se desgasta venciendo aquello en lo que se convierte. Dicho simple: la institución y el proceso te van a drenar más que el temario. A una semana, lo útil no es más contenido. Es dormir bien, hacer un simulacro cronometrado en condiciones de examen y tener un plan para los nervios de esa misma mañana. La figura dice que la preparación está; donde se puede perder es en el día."
+  },
+  "faq": [
+   {
+    "q": "¿Una lectura de I Ching puede decirme si voy a aprobar?",
+    "a": "Puede decirte lo que la figura muestra sobre el examen, la institución y tu propio estado: si la línea de la nota es fuerte o está vacía, si el comité está de tu lado, si estás listo. No puede darte una nota ni un sí. El examen lo das tú, y tú decides qué hacer con la lectura."
+   },
+   {
+    "q": "¿Cuándo conviene hacer la tirada antes de un examen o una entrevista?",
+    "a": "Una semana antes es un buen momento: lo bastante cerca para que tu estado sea real y lo bastante lejos para que todavía puedas actuar según lo que diga la figura. Tirar la noche anterior suele dar una figura sobre tus nervios más que sobre el examen."
+   },
+   {
+    "q": "¿Y si la figura sale mal?",
+    "a": "Una línea de los Padres vacía significa que el resultado no es para esta vez; no es un veredicto sobre ti. La figura es fija y reproducible; la lectura la explica; tú decides si presentarte, postergarlo o tomar el día como un ensayo para el próximo intento. Nada en la figura decide por ti."
+   }
+  ],
+  "ask": "¿Voy a aprobar el examen, y qué debería hacer esta semana?"
+ },
+ "waiting-for-news": {
+  "slug": "waiting-for-news",
+  "topic": "decision",
+  "hexagrams": [
+   5,
+   61,
+   25,
+   64
+  ],
+  "title": "I Ching: ¿cuándo tendré respuesta? El plazo de una espera",
+  "h1": "Esperando una respuesta: ¿qué dice el I Ching sobre el momento?",
+  "meta": "Una tirada de Liu Yao para una decisión que esperas lee las líneas mutantes y las ramas para señalar un plazo, no una promesa. La figura es fija; tú decides.",
+  "intro": [
+   "Enviaste la solicitud, el correo, el mensaje. Ahora pasan los días y la respuesta está en manos de otro: un reclutador, un funcionario de visas, un casero, un amigo que te debe una respuesta. Esperar es un trabajo en sí mismo, y cuesta hacerlo bien.",
+   "Una tirada de Liu Yao no puede hacer que la otra parte decida ni puede darte el resultado como un hecho. Lo que sí puede es mostrarte la forma de la espera: si el asunto avanza o está estancado, dónde está el poder y qué días señala la figura como plazo. Tú sigues eligiendo qué hacer cuando ese plazo se abre o se cierra."
+  ],
+  "how": {
+   "lead": "Para un asunto que está en manos de otro, la figura pone en la balanza la línea del Yo (tú, quien pregunta), la línea del Otro (la otra parte) y las líneas mutantes que marcan el momento.",
+   "points": [
+    "La línea del Yo es la que te representa en esta tirada. Si es fuerte y avanza, sigues en movimiento; si retrocede o se desgasta, tu energía se está yendo en la espera y no en el resultado.",
+    "La línea del Otro es la que representa a la otra parte: la persona u oficina que tiene tu respuesta. Dónde está, si está vacía (旬空, una línea cuya rama no tiene apoyo en el ciclo actual, así que solo se «llena» en su propio día) y si está activa te dice qué tan alcanzable es realmente la decisión.",
+    "Una línea vacía se llena en su propio día. Dicho simple: si la línea que lleva tu respuesta está vacía, la figura dice que el asunto no está vacío para siempre; se abre cuando llega el día de esa rama.",
+    "Una línea combinada se abre en el día que choca. Cuando dos ramas están en relación de combinación, la tensión se libera el día que choca con una de ellas; ese día de choque es tu plazo.",
+    "Una línea que avanza se concreta cuando llega su rama. Si una línea mutante pasa a una rama nueva, el asunto se resuelve cuando llega un día o un mes con esa rama. Una línea que retrocede pierde impulso: la rama da un paso atrás y el plazo se alarga."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "La respuesta va al ritmo de la otra parte",
+    "text": "Cuando la línea del Otro es fuerte pero la que se mueve y se desgasta es la del Yo, la figura te muestra empujando y a la otra parte que simplemente todavía no llega a tu puerta. El momento le pertenece a ella. Lo útil es fijar un plazo y dejar de revisar el correo hasta que pase."
+   },
+   {
+    "name": "La línea que lleva la respuesta está vacía",
+    "text": "Una línea del Otro vacía significa que la respuesta todavía no ha llegado en el ciclo en el que estás. Se llena en el día de su propia rama. Hasta entonces, insistir es ruido; después de ese día, un correo breve y claro es lo indicado."
+   },
+   {
+    "name": "Una línea mutante que retrocede",
+    "text": "Cuando una línea mutante da un paso atrás hacia una rama anterior, el asunto pierde impulso en lugar de resolverse. La figura dice que la espera será más larga de lo que sugiere el calendario, y que conviene organizarte alrededor del retraso en vez de pelear contra él."
+   },
+   {
+    "name": "Las dos líneas se mueven una hacia la otra",
+    "text": "Si la línea del Yo y la del Otro están activas y ninguna está vacía, las dos partes están en contacto aunque no lo parezca. El plazo suele ser corto —unos pocos días alrededor de la rama en la que caen las líneas mutantes— y un seguimiento enviado dentro de ese plazo suele recibir una respuesta real."
+   }
+  ],
+  "example": {
+   "values": "779678",
+   "question": "¿Cuándo voy a tener respuesta sobre mi solicitud de visa?",
+   "text": "El hexagrama original es el 5, La Espera (水天需), que pasa al 58, Lo Sereno (兑为泽). Las líneas 3 y 4 son mutantes. La línea 4 es la línea del Yo —tú, quien pregunta— y es una línea de los Descendientes, de metal, que se convierte en una línea de la Riqueza, de agua. El metal alimenta al agua, así que la línea gasta su propia fuerza en el cambio: eres tú quien espera, y la espera te está costando. La línea 1, la línea del Otro, es la otra parte —la oficina de visas— y está quieta. La línea 3 es una línea de los Hermanos que retrocede de la rama 辰 a 丑: la misma fase, la rama da un paso atrás, así que esa línea pierde impulso. La figura no dice que la respuesta sea no. Dice que la respuesta va al ritmo de la otra parte, no al tuyo, y que el retraso es estructural, no una señal de problemas.\n\nLa lectura del momento es esta: con la línea del Yo desgastándose en aquello en lo que se convierte y la línea del Otro quieta, el plazo no está en los próximos días. La línea de los Hermanos que retrocede apunta a una espera más larga que el tiempo de trámite publicado. Lo práctico es dejar de revisar a diario, elegir una fecha posterior al plazo de la rama que retrocede y enviar entonces un solo seguimiento breve, no antes. La figura señala un plazo; cuando ese plazo pasa, te escribimos para preguntarte cómo te fue."
+  },
+  "faq": [
+   {
+    "q": "¿El I Ching puede decirme el día exacto en que tendré respuesta?",
+    "a": "No. La figura señala un plazo según las líneas mutantes y sus ramas: una línea vacía se llena en su propio día, una línea combinada se abre en el día que choca, una línea que avanza se concreta cuando llega su rama. Tómalo como un plazo para organizarte, no como una fecha que la otra parte haya aceptado."
+   },
+   {
+    "q": "¿Debo escribir antes del plazo que señala la figura?",
+    "a": "La regla de lectura aquí es esperar a que pase el plazo y después enviar un solo seguimiento, breve y claro. Si la línea que lleva tu respuesta está vacía, el asunto todavía no ha llegado en el ciclo actual, y un seguimiento antes del día en que se llena suele recibir una no-respuesta."
+   },
+   {
+    "q": "¿Y si la figura muestra una línea que retrocede?",
+    "a": "Una línea que retrocede significa que la rama da un paso atrás y la línea pierde impulso. En un asunto de espera, se lee como una espera más larga de lo previsto, no como un rechazo. Organízate alrededor del retraso; no lo leas como un no."
+   }
+  ],
+  "ask": "¿Cuándo tendré respuesta, y qué hago mientras espero?"
+ }
+}

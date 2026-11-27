@@ -1,0 +1,13 @@
+{
+  "name": "yaoflow",
+  "private": true,
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "test": "npm run test -w @yaoflow/engine && npm run test -w web",
+    "typecheck": "npm run typecheck -w @yaoflow/engine"
+  }
+}

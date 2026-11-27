@@ -1,0 +1,548 @@
+[
+{
+"id": "00-fool",
+"zh": "愚者",
+"en": "Fool",
+"roman": "0",
+"arcana": "major"
+},
+{
+"id": "01-magician",
+"zh": "魔術師",
+"en": "Magician",
+"roman": "I",
+"arcana": "major"
+},
+{
+"id": "02-high-priestess",
+"zh": "女祭司",
+"en": "High Priestess",
+"roman": "II",
+"arcana": "major"
+},
+{
+"id": "03-empress",
+"zh": "皇后",
+"en": "Empress",
+"roman": "III",
+"arcana": "major"
+},
+{
+"id": "04-emperor",
+"zh": "皇帝",
+"en": "Emperor",
+"roman": "IV",
+"arcana": "major"
+},
+{
+"id": "05-hierophant",
+"zh": "教皇",
+"en": "Hierophant",
+"roman": "V",
+"arcana": "major"
+},
+{
+"id": "06-lovers",
+"zh": "戀人",
+"en": "Lovers",
+"roman": "VI",
+"arcana": "major"
+},
+{
+"id": "07-chariot",
+"zh": "戰車",
+"en": "Chariot",
+"roman": "VII",
+"arcana": "major"
+},
+{
+"id": "08-strength",
+"zh": "力量",
+"en": "Strength",
+"roman": "VIII",
+"arcana": "major"
+},
+{
+"id": "09-hermit",
+"zh": "隱者",
+"en": "Hermit",
+"roman": "IX",
+"arcana": "major"
+},
+{
+"id": "10-wheel-of-fortune",
+"zh": "命運之輪",
+"en": "Wheel of Fortune",
+"roman": "X",
+"arcana": "major"
+},
+{
+"id": "11-justice",
+"zh": "正義",
+"en": "Justice",
+"roman": "XI",
+"arcana": "major"
+},
+{
+"id": "12-hanged-man",
+"zh": "吊人",
+"en": "Hanged Man",
+"roman": "XII",
+"arcana": "major"
+},
+{
+"id": "13-death",
+"zh": "死神",
+"en": "Death",
+"roman": "XIII",
+"arcana": "major"
+},
+{
+"id": "14-temperance",
+"zh": "節制",
+"en": "Temperance",
+"roman": "XIV",
+"arcana": "major"
+},
+{
+"id": "15-devil",
+"zh": "惡魔",
+"en": "Devil",
+"roman": "XV",
+"arcana": "major"
+},
+{
+"id": "16-tower",
+"zh": "高塔",
+"en": "Tower",
+"roman": "XVI",
+"arcana": "major"
+},
+{
+"id": "17-star",
+"zh": "星星",
+"en": "Star",
+"roman": "XVII",
+"arcana": "major"
+},
+{
+"id": "18-moon",
+"zh": "月亮",
+"en": "Moon",
+"roman": "XVIII",
+"arcana": "major"
+},
+{
+"id": "19-sun",
+"zh": "太陽",
+"en": "Sun",
+"roman": "XIX",
+"arcana": "major"
+},
+{
+"id": "20-judgement",
+"zh": "審判",
+"en": "Judgement",
+"roman": "XX",
+"arcana": "major"
+},
+{
+"id": "21-world",
+"zh": "世界",
+"en": "World",
+"roman": "XXI",
+"arcana": "major"
+},
+{
+"id": "cups-01",
+"zh": "聖杯一",
+"en": "Ace of Cups",
+"roman": "I",
+"arcana": "minor"
+},
+{
+"id": "cups-02",
+"zh": "聖杯二",
+"en": "2 of Cups",
+"roman": "II",
+"arcana": "minor"
+},
+{
+"id": "cups-03",
+"zh": "聖杯三",
+"en": "3 of Cups",
+"roman": "III",
+"arcana": "minor"
+},
+{
+"id": "cups-04",
+"zh": "聖杯四",
+"en": "4 of Cups",
+"roman": "IV",
+"arcana": "minor"
+},
+{
+"id": "cups-05",
+"zh": "聖杯五",
+"en": "5 of Cups",
+"roman": "V",
+"arcana": "minor"
+},
+{
+"id": "cups-06",
+"zh": "聖杯六",
+"en": "6 of Cups",
+"roman": "VI",
+"arcana": "minor"
+},
+{
+"id": "cups-07",
+"zh": "聖杯七",
+"en": "7 of Cups",
+"roman": "VII",
+"arcana": "minor"
+},
+{
+"id": "cups-08",
+"zh": "聖杯八",
+"en": "8 of Cups",
+"roman": "VIII",
+"arcana": "minor"
+},
+{
+"id": "cups-09",
+"zh": "聖杯九",
+"en": "9 of Cups",
+"roman": "IX",
+"arcana": "minor"
+},
+{
+"id": "cups-10",
+"zh": "聖杯十",
+"en": "10 of Cups",
+"roman": "X",
+"arcana": "minor"
+},
+{
+"id": "cups-11",
+"zh": "聖杯侍者",
+"en": "Page of Cups",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "cups-12",
+"zh": "聖杯騎士",
+"en": "Knight of Cups",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "cups-13",
+"zh": "聖杯皇后",
+"en": "Queen of Cups",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "cups-14",
+"zh": "聖杯國王",
+"en": "King of Cups",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "wands-01",
+"zh": "權杖一",
+"en": "Ace of Wands",
+"roman": "I",
+"arcana": "minor"
+},
+{
+"id": "wands-02",
+"zh": "權杖二",
+"en": "2 of Wands",
+"roman": "II",
+"arcana": "minor"
+},
+{
+"id": "wands-03",
+"zh": "權杖三",
+"en": "3 of Wands",
+"roman": "III",
+"arcana": "minor"
+},
+{
+"id": "wands-04",
+"zh": "權杖四",
+"en": "4 of Wands",
+"roman": "IV",
+"arcana": "minor"
+},
+{
+"id": "wands-05",
+"zh": "權杖五",
+"en": "5 of Wands",
+"roman": "V",
+"arcana": "minor"
+},
+{
+"id": "wands-06",
+"zh": "權杖六",
+"en": "6 of Wands",
+"roman": "VI",
+"arcana": "minor"
+},
+{
+"id": "wands-07",
+"zh": "權杖七",
+"en": "7 of Wands",
+"roman": "VII",
+"arcana": "minor"
+},
+{
+"id": "wands-08",
+"zh": "權杖八",
+"en": "8 of Wands",
+"roman": "VIII",
+"arcana": "minor"
+},
+{
+"id": "wands-09",
+"zh": "權杖九",
+"en": "9 of Wands",
+"roman": "IX",
+"arcana": "minor"
+},
+{
+"id": "wands-10",
+"zh": "權杖十",
+"en": "10 of Wands",
+"roman": "X",
+"arcana": "minor"
+},
+{
+"id": "wands-11",
+"zh": "權杖侍者",
+"en": "Page of Wands",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "wands-12",
+"zh": "權杖騎士",
+"en": "Knight of Wands",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "wands-13",
+"zh": "權杖皇后",
+"en": "Queen of Wands",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "wands-14",
+"zh": "權杖國王",
+"en": "King of Wands",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "swords-01",
+"zh": "寶劍一",
+"en": "Ace of Swords",
+"roman": "I",
+"arcana": "minor"
+},
+{
+"id": "swords-02",
+"zh": "寶劍二",
+"en": "2 of Swords",
+"roman": "II",
+"arcana": "minor"
+},
+{
+"id": "swords-03",
+"zh": "寶劍三",
+"en": "3 of Swords",
+"roman": "III",
+"arcana": "minor"
+},
+{
+"id": "swords-04",
+"zh": "寶劍四",
+"en": "4 of Swords",
+"roman": "IV",
+"arcana": "minor"
+},
+{
+"id": "swords-05",
+"zh": "寶劍五",
+"en": "5 of Swords",
+"roman": "V",
+"arcana": "minor"
+},
+{
+"id": "swords-06",
+"zh": "寶劍六",
+"en": "6 of Swords",
+"roman": "VI",
+"arcana": "minor"
+},
+{
+"id": "swords-07",
+"zh": "寶劍七",
+"en": "7 of Swords",
+"roman": "VII",
+"arcana": "minor"
+},
+{
+"id": "swords-08",
+"zh": "寶劍八",
+"en": "8 of Swords",
+"roman": "VIII",
+"arcana": "minor"
+},
+{
+"id": "swords-09",
+"zh": "寶劍九",
+"en": "9 of Swords",
+"roman": "IX",
+"arcana": "minor"
+},
+{
+"id": "swords-10",
+"zh": "寶劍十",
+"en": "10 of Swords",
+"roman": "X",
+"arcana": "minor"
+},
+{
+"id": "swords-11",
+"zh": "寶劍侍者",
+"en": "Page of Swords",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "swords-12",
+"zh": "寶劍騎士",
+"en": "Knight of Swords",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "swords-13",
+"zh": "寶劍皇后",
+"en": "Queen of Swords",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "swords-14",
+"zh": "寶劍國王",
+"en": "King of Swords",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "pentacles-01",
+"zh": "錢幣一",
+"en": "Ace of Pentacles",
+"roman": "I",
+"arcana": "minor"
+},
+{
+"id": "pentacles-02",
+"zh": "錢幣二",
+"en": "2 of Pentacles",
+"roman": "II",
+"arcana": "minor"
+},
+{
+"id": "pentacles-03",
+"zh": "錢幣三",
+"en": "3 of Pentacles",
+"roman": "III",
+"arcana": "minor"
+},
+{
+"id": "pentacles-04",
+"zh": "錢幣四",
+"en": "4 of Pentacles",
+"roman": "IV",
+"arcana": "minor"
+},
+{
+"id": "pentacles-05",
+"zh": "錢幣五",
+"en": "5 of Pentacles",
+"roman": "V",
+"arcana": "minor"
+},
+{
+"id": "pentacles-06",
+"zh": "錢幣六",
+"en": "6 of Pentacles",
+"roman": "VI",
+"arcana": "minor"
+},
+{
+"id": "pentacles-07",
+"zh": "錢幣七",
+"en": "7 of Pentacles",
+"roman": "VII",
+"arcana": "minor"
+},
+{
+"id": "pentacles-08",
+"zh": "錢幣八",
+"en": "8 of Pentacles",
+"roman": "VIII",
+"arcana": "minor"
+},
+{
+"id": "pentacles-09",
+"zh": "錢幣九",
+"en": "9 of Pentacles",
+"roman": "IX",
+"arcana": "minor"
+},
+{
+"id": "pentacles-10",
+"zh": "錢幣十",
+"en": "10 of Pentacles",
+"roman": "X",
+"arcana": "minor"
+},
+{
+"id": "pentacles-11",
+"zh": "錢幣侍者",
+"en": "Page of Pentacles",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "pentacles-12",
+"zh": "錢幣騎士",
+"en": "Knight of Pentacles",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "pentacles-13",
+"zh": "錢幣皇后",
+"en": "Queen of Pentacles",
+"roman": null,
+"arcana": "minor"
+},
+{
+"id": "pentacles-14",
+"zh": "錢幣國王",
+"en": "King of Pentacles",
+"roman": null,
+"arcana": "minor"
+}
+]

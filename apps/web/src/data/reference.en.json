@@ -1,0 +1,210 @@
+{
+ "glossary": {
+  "title": "Liu Yao Terminology Reference",
+  "lead": "The terms you'll meet in Liu Yao (Six Lines) divination, explained on one page: what each term means and how to read it on the chart. The original Chinese terms are listed alongside for easy comparison with classical texts and various schools of interpretation.",
+  "groups": [
+   {
+    "name": "Casting and the Chart",
+    "terms": [
+     {
+      "zh": "六爻",
+      "def": "A divination method in which three coins are tossed six times to produce six lines, forming a hexagram (卦) for judgment. Also called \"Najia divination\" or \"King Wen hexagrams.\" Unlike methods that only read the hexagram statement, Liu Yao (Six Lines) assigns stems, branches, and the Five Elements to each line, along with the Six Relatives, allowing specific dates to be derived."
+     },
+     {
+      "zh": "本卦 / 之卦",
+      "def": "The hexagram cast is the primary hexagram (本卦); the hexagram obtained after moving lines change is the changed hexagram (之卦, 變卦). The primary hexagram speaks of the present, the changed hexagram of the direction."
+     },
+     {
+      "zh": "動爻",
+      "def": "The line that comes up as old yang (three heads) or old yin (three tails); it will change from yang to yin or yin to yang. Moving lines are the \"events in progress\" in the hexagram. A hexagram with no moving lines is called a static hexagram."
+     },
+     {
+      "zh": "納甲",
+      "def": "The rules for assigning Heavenly Stems and Earthly Branches to the six lines, giving each line its own Five Elements. The reason a timing can be pinned to a specific day is that each line corresponds to the calendar."
+     },
+     {
+      "zh": "六親",
+      "def": "Parents, Siblings, Offspring, Wife/Wealth, and Official/Ghost. Determined by the relationship between the line's Five Elements and the palace to which the primary hexagram belongs. Each represents a category of human affairs: Parents for documents and elders, Official/Ghost for work and the male party, Wife/Wealth for money and the female party, Offspring for juniors and resolution, Siblings for peers and competition."
+     },
+     {
+      "zh": "世爻 / 應爻",
+      "def": "The Self line (世爻) represents the person asking; the Other line (應爻) represents the other party or the other end of the matter. For matters involving two people, such as relationships or partnerships, the Other line is often the key focus."
+     },
+     {
+      "zh": "六神",
+      "def": "Azure Dragon, Vermilion Bird, Hooked Chen, Coiling Snake, White Tiger, and Dark Warrior, assigned to the six lines based on the Heavenly Stem of the casting day, adding a layer of quality to each line: Azure Dragon for celebrations, Vermilion Bird for disputes and documents, White Tiger for injury and conflict."
+     }
+    ]
+   },
+   {
+    "name": "Selecting the Useful God and Strength",
+    "terms": [
+     {
+      "zh": "用神",
+      "def": "The line in the hexagram that represents the matter asked about. For the other party, take the Other line or Official/Ghost or Wife/Wealth; for money, take Wife/Wealth; for work, take Official/Ghost; for children, take Offspring. In judgment, you must first select the correct Useful God (用神); the timing is also derived from it."
+     },
+     {
+      "zh": "原神 / 忌神",
+      "def": "The line that generates the Useful God is the Resource God (原神); the line that controls it is the Taboo God (忌神). If the Resource God is strong and activated, generating the Useful God, the matter has help; if the Taboo God is activated and controls the Useful God, the matter faces obstacles."
+     },
+     {
+      "zh": "旺衰",
+      "def": "The strength of a line. Mainly judged by the month and day: receiving support from the month makes it prosperous; being controlled by the month or clashed by the day makes it weak. A prosperous line has authority; a weak line lacks power."
+     },
+     {
+      "zh": "月令 / 日辰",
+      "def": "The month branch and day branch of the casting day; they are the \"weather\" of the entire chart. The month governs the general trend for the month, the day governs the trigger for the day; together they determine the strength of each line."
+     },
+     {
+      "zh": "旬空",
+      "def": "The two Earthly Branches not covered in the ten-day cycle (旬) of the casting day. Lines falling on these two branches are Void (旬空), meaning \"temporarily absent, temporarily not counting\"; they return after the cycle ends or when clashed."
+     },
+     {
+      "zh": "月破",
+      "def": "A line directly clashed by the month branch. As if hit head-on by the month's trend, its strength is nearly zero; usually there is a turn only after the month ends or on a day when it is filled."
+     },
+     {
+      "zh": "入墓",
+      "def": "When a line's Five Elements falls into its tomb branch (Wood's tomb in Wei 未, Fire's tomb in Xu 戌, Metal's tomb in Chou 丑, Water and Earth's tomb in Chen 辰), it is as if locked in a storehouse, unable to move for a time, until the day the tomb is clashed open."
+     }
+    ]
+   },
+   {
+    "name": "Moving and Changing Relationships",
+    "terms": [
+     {
+      "zh": "化生 / 化剋",
+      "def": "When the line a moving line changes into generates it back, it is called transforming to generate (化生, or \"returning generation\"); when it controls it back, it is called transforming to control (化剋, or \"returning control\"). Returning control is a common bad sign: as soon as it moves, it is suppressed by what it transforms into."
+     },
+     {
+      "zh": "化進 / 化退",
+      "def": "When a moving line changes into the same Five Elements with an Earthly Branch advancing forward, it is called advancing (化進); retreating backward is called retreating (化退). Advancing means growing stronger; retreating means losing power as it goes."
+     },
+     {
+      "zh": "伏吟 / 反吟",
+      "def": "When the changed hexagram or line is identical to the original, it is called Fu Yin (伏吟), meaning going in circles, unable to advance or retreat; when it changes into a direct clash, it is called Fan Yin (反吟), meaning repetition and tossing back and forth."
+     },
+     {
+      "zh": "六沖 / 六合",
+      "def": "Earthly Branches clash in pairs (Zi-Wu 子午, Chou-Wei 丑未, Yin-Shen 寅申, Mao-You 卯酉, Chen-Xu 辰戌, Si-Hai 巳亥) and combine in pairs (Zi-Chou 子丑, Yin-Hai 寅亥, Mao-Xu 卯戌, Chen-You 辰酉, Si-Shen 巳申, Wu-Wei 午未). Clash means dispersal, movement, speed; combination means gathering, entanglement, slowness. Timing often falls on the day the Useful God is clashed or combined."
+     },
+     {
+      "zh": "暗動",
+      "def": "A static line clashed by the day branch, though not cast as a moving line, is as if awakened and has action. When reading the chart, you cannot look only at the moving lines that were cast."
+     }
+    ]
+   },
+   {
+    "name": "Judgment and Timing",
+    "terms": [
+     {
+      "zh": "斷語",
+      "def": "The conclusion about the matter asked: will it happen, will they come, should you do it. A Liu Yao judgment should be specific enough to be verified, not a statement that can never be wrong."
+     },
+     {
+      "zh": "應期",
+      "def": "The day when something will happen. Derived from the state of the Useful God: if moving, look for the day of combination or the day of its value; if static, look for the day of clash or value; if Void, look for the day it leaves Void; if Month Broken, look for the day it leaves the month; if in Tomb, look for the day the tomb is clashed open. The same hexagram will yield the same day regardless of who calculates it."
+     },
+     {
+      "zh": "逢值 / 逢沖 / 逢合",
+      "def": "\"Value\" means the day when that Earthly Branch comes around; \"clash\" means encountering the branch that clashes with it; \"combination\" means encountering the branch that combines with it. These three types of days are the most common landing points for timing."
+     },
+     {
+      "zh": "一事一占",
+      "def": "Cast one hexagram for one matter. Casting repeatedly for the same matter will not give a second answer; it only confuses the questioner more. If you must ask again, wait until the timing has passed and the situation has truly changed."
+     }
+    ]
+   }
+  ]
+ },
+ "timing": {
+  "title": "How Timing Is Derived: Where the \"Day\" in a Liu Yao Hexagram Comes From",
+  "lead": "The hexagram says \"there will be movement around September 29.\" This date is not spoken from feeling. Using a real cast hexagram, we calculate the timing step by step for you.",
+  "sections": [
+   {
+    "h": "First, the Conclusion",
+    "p": [
+     "What the questioner most wants to know is often not \"whether\" but \"when.\" Will he come back to me? When? Will this job work out? Which day must I wait until?",
+     "This is where Liu Yao differs from many divination methods: it not only gives direction but also a specific day, called \"timing\" (應期) in classical texts. That day is not casually spoken by the diviner; it is derived from the chart according to rules—the same hexagram and the same casting time will yield the same day regardless of who calculates it."
+    ]
+   },
+   {
+    "h": "First, Look at the Hexagram",
+    "p": [
+     "I actually cast a hexagram for a very common relationship question: \"I've been out of contact with my ex for almost two months; will he come back to me before the end of the year?\" Let me be clear: this is a demonstration question with no real person behind it, so this article will not have an ending of \"and it indeed came true\"; it only explains how the day is calculated.",
+     "The casting time is September 20, 2026, Ding You day (丁酉日), You month (酉月). The hexagram cast is Ze Lei Sui (澤雷隨), with the third, fourth, and top lines moving, changing into Feng Huo Jia Ren (風火家人)."
+    ],
+    "list": [
+     "For the other party, take the Other line as the Useful God. The Other line is the top line: Wife/Wealth Wei Earth (妻財未土).",
+     "Wei Earth in You month is \"resting,\" not receiving the month's support.",
+     "The top line is moving, changing into Mao Wood (卯木); Wood controls Earth, called \"returning control\"—as soon as it moves, it is suppressed by what it transforms into. The transformed Mao Wood is also clashed by You month, making it \"Month Break.\"",
+     "The Self line (the questioner) is the third line: Wife/Wealth Chen Earth (妻財辰土). Chen and Si are exactly the Void of this ten-day cycle; the Self line is Void.",
+     "The fourth line, Parents Hai Water (父母亥水), is moving, changing into Wei Earth with returning control—the channel for messages and contact is not smooth."
+    ],
+    "after": [
+     "Based on these, the judgment is: he will not come back to you on his own before the end of the year. His will is weak; as soon as he moves, he is suppressed by his own concerns. So how did \"September 29\" come about?"
+    ]
+   },
+   {
+    "h": "A Few Old Rules for Timing",
+    "p": [
+     "Timing looks at the day when the Useful God is \"triggered.\" The classical rules are few; the commonly used ones are these:"
+    ],
+    "list": [
+     "If the Useful God is moving, look for the day of combination or the day of its value. A moving line is like a person already getting up to go; it lands only when it is \"combined\" or when its own \"value day\" comes around.",
+     "If the Useful God is static, look for the day of clash or the day of its value. A static line is like a sleeping person; it moves only when clashed awake or when its value day comes.",
+     "If the Useful God is Void, look for the day it leaves Void, or the day of clash. Void means \"temporarily absent\"; it counts as returned only after this ten-day cycle passes or it is clashed solid.",
+     "If the Useful God is Month Broken, look for the day it leaves the month or is filled.",
+     "If the Useful God is in Tomb, look for the day the tomb is clashed open."
+    ],
+    "after": [
+     "Each rule corresponds to a specific day on the calendar, so timing can be \"looked up,\" not \"guessed.\""
+    ]
+   },
+   {
+    "h": "Applying to This Hexagram",
+    "p": [
+     "The Useful God is the top line Wei Earth, and it is moving, so apply rule 1: find the days that \"combine with Wei\" and \"Wei's value day.\""
+    ],
+    "list": [
+     "Among the six combinations of Earthly Branches, Wu (午) combines with Wei (未).",
+     "The first Wu day after casting is September 29 (Bing Wu 丙午), and the next day, September 30 (Ding Wei 丁未), is Wei Earth's own value day."
+    ],
+    "after": [
+     "So the first window is September 29 to 30—the hexagram says \"he may make a small move, a message, a status update, or through a mutual friend.\"",
+     "The twelve Earthly Branches cycle once; the next Wu and Wei days are October 11 (Wu Wu 戊午) and October 12 (Ji Wei 己未), which is the second round. The hexagram says: to truly judge whether it will work, look at this round; if both rounds pass with no news, don't wait until the end of the year.",
+     "You will notice that the judgment's \"don't wait anymore\" is also derived from the timing: the Useful God is under returning control, and the transformed line is Month Broken; if both trigger days pass without movement, this situation is unlikely to turn around before the end of the year."
+    ]
+   },
+   {
+    "h": "Why Pin Down the Day",
+    "p": [
+     "Giving a specific day makes it easy to be called \"inaccurate.\" So why still give it?",
+     "Because without a day, there is no way to verify. Words like \"he still has you in his heart\" or \"the time is not yet right\" can never be wrong, and they never help you make a decision. In contrast, \"watch for movement on September 29 and 30\"—when those days come, you will know for yourself, without anyone explaining it to you.",
+     "Cast, and you get a specific day; when that day comes, we send you a letter asking one thing: “Did it come true?”"
+    ]
+   },
+   {
+    "h": "Finally, a Small Suggestion",
+    "p": [
+     "If you cast a hexagram yourself, make the question as narrow as possible, asking for a verifiable range: instead of \"Does he still love me,\" ask \"Will he send me a message on his own before the end of this month?\" A narrow question makes it easier to select the Useful God, and the timing will fall on a day you can actually wait for."
+    ]
+   }
+  ],
+  "note": "The hexagram example in this article is an actual cast chart and judgment; the hexagram names, dates, and judgments are unchanged. The question is for demonstration and has no real person involved.",
+  "example": {
+   "code": "786976",
+   "primary": 17,
+   "changed": 37
+  }
+ },
+ "table": {
+  "title": "Quick Reference Table of the Sixty-Four Hexagrams",
+  "lead": "See all sixty-four hexagrams on one page: sequence number, hexagram figure, upper and lower trigrams, hexagram name, and a one-line meaning. Click the hexagram name to see the full page with hexagram and line statements and real examples.",
+  "colNo": "No.",
+  "colFigure": "Figure",
+  "colName": "Name",
+  "colTrigrams": "Upper / Lower",
+  "colMeaning": "One-line Meaning"
+ }
+}

@@ -1,0 +1,649 @@
+{
+ "_note": "紫微斗數參考盤 (2026-10-19)。輸入: 國曆、臺北 tw-tpe、trueSolar=false、無夏令時。windada = fate.windada.com/cgi-bin/fate (POST, Hour=鐘點)；lifedna = lifedna.com.tw/t/map/f/ (飛星紫微)。亮度 Windada「地」= iztro「得」；Windada 無「不」級(記為陷)。Windada 宮名「事業」= 官祿。LifeDNA「天空」= 地空、「天馬」= 月馬。known 列出已分類的差異 (見 docs/mingli/ziwei-compare.md)；其餘欄位在目前設定下應完全相同。",
+ "cases": [
+  {
+   "id": "c01",
+   "note": "子時 早子, 庚年",
+   "input": {"calendar": "solar", "y": 1990, "m": 5, "d": 16, "timeMode": "exact", "h": 0, "mi": 30, "placeId": "tw-tpe", "trueSolar": false, "gender": "male"},
+   "windada": {
+    "lunar": "1990年 4月22日子時",
+    "ganzhi": "庚午年辛巳月辛巳日戊子時",
+    "fiveClass": "白蠟金四局",
+    "mutagen": "武曲化權,太陰化科,太陽化祿,天同化忌",
+    "soulStar": "武曲",
+    "bodyStar": "火星",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "命宮", "body": true, "decadal": [4, 13], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["武曲平權", "破軍平"], "aux": [], "other": ["破碎"], "changsheng": "長生", "boshi": "大耗"},
+     "午": {"stem": "壬", "name": "父母", "body": false, "decadal": [14, 23], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["太陽旺祿"], "aux": [], "other": ["天福", "空亡", "台輔", "恩光"], "changsheng": "沐浴", "boshi": "伏兵"},
+     "未": {"stem": "癸", "name": "福德", "body": false, "decadal": [24, 33], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["天府廟"], "aux": ["左輔", "右弼", "陀羅", "天鉞"], "other": ["截路", "天空"], "changsheng": "冠帶", "boshi": "官府"},
+     "申": {"stem": "甲", "name": "田宅", "body": false, "decadal": [34, 43], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["天機地", "太陰利科"], "aux": ["祿存", "天馬"], "other": ["孤辰", "陰煞"], "changsheng": "臨官", "boshi": "博士"},
+     "辰": {"stem": "庚", "name": "兄弟", "body": false, "decadal": [114, 123], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["天同平忌"], "aux": ["文曲"], "other": ["寡宿", "鳳閣", "天姚", "三台"], "changsheng": "養", "boshi": "病符"},
+     "酉": {"stem": "乙", "name": "事業", "body": false, "decadal": [44, 53], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["紫微旺", "貪狼利"], "aux": ["擎羊"], "other": ["紅鸞"], "changsheng": "帝旺", "boshi": "力士"},
+     "卯": {"stem": "己", "name": "夫妻", "body": false, "decadal": [104, 113], "ages": [12, 24, 36, 48, 60, 72, 84], "major": [], "aux": ["鈴星"], "other": ["天喜", "咸池"], "changsheng": "胎", "boshi": "喜神"},
+     "戌": {"stem": "丙", "name": "交友", "body": false, "decadal": [54, 63], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["巨門陷"], "aux": ["文昌"], "other": ["華蓋", "龍池", "解神", "八座", "旬空", "天殤"], "changsheng": "衰", "boshi": "青龍"},
+     "寅": {"stem": "戊", "name": "子女", "body": false, "decadal": [94, 103], "ages": [11, 23, 35, 47, 59, 71, 83], "major": [], "aux": [], "other": ["蜚廉", "天月", "封誥"], "changsheng": "絕", "boshi": "飛廉"},
+     "丑": {"stem": "己", "name": "財帛", "body": false, "decadal": [84, 93], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["廉貞利", "七殺廟"], "aux": ["火星", "天魁"], "other": [], "changsheng": "墓", "boshi": "奏書"},
+     "子": {"stem": "戊", "name": "疾厄", "body": false, "decadal": [74, 83], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["天梁廟"], "aux": [], "other": ["天哭", "天虛", "天刑", "天貴", "天使"], "changsheng": "死", "boshi": "將軍"},
+     "亥": {"stem": "丁", "name": "遷移", "body": false, "decadal": [64, 73], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["天相地"], "aux": ["地空", "地劫"], "other": ["天官", "天才", "天壽", "月馬", "天巫", "旬空"], "changsheng": "病", "boshi": "小耗"}
+    }
+   },
+   "lifedna": {
+    "lunar": "庚午年04月22日",
+    "fiveClass": "金四局",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "命宮", "stars": ["武曲權", "破軍"], "decStart": 4},
+     "午": {"stem": "壬", "name": "父母", "stars": ["太陽祿"], "decStart": 14},
+     "未": {"stem": "癸", "name": "福德", "stars": ["天府", "左輔", "右弼", "陀羅", "天鉞"], "decStart": 24},
+     "申": {"stem": "甲", "name": "田宅", "stars": ["天機", "太陰科", "祿存"], "decStart": 34},
+     "辰": {"stem": "庚", "name": "兄弟", "stars": ["天同忌", "文曲", "天姚"], "decStart": 114},
+     "酉": {"stem": "乙", "name": "官祿", "stars": ["紫微", "貪狼", "擎羊", "紅鸞"], "decStart": 44},
+     "卯": {"stem": "己", "name": "夫妻", "stars": ["鈴星", "天喜"], "decStart": 104},
+     "戌": {"stem": "丙", "name": "交友", "stars": ["巨門", "文昌"], "decStart": 54},
+     "寅": {"stem": "戊", "name": "子女", "stars": [], "decStart": 94},
+     "丑": {"stem": "己", "name": "財帛", "stars": ["廉貞", "七殺", "火星", "天魁"], "decStart": 84},
+     "子": {"stem": "戊", "name": "疾厄", "stars": ["天梁", "天刑"], "decStart": 74},
+     "亥": {"stem": "丁", "name": "遷移", "stars": ["天相", "地劫", "天空", "天馬"], "decStart": 64}
+    }
+   },
+   "known": ["LifeDNA 天馬為月馬 (與年馬位置不同)"]
+  },
+  {
+   "id": "c02",
+   "note": "丑時, 乙年",
+   "input": {"calendar": "solar", "y": 1955, "m": 3, "d": 10, "timeMode": "exact", "h": 2, "mi": 10, "placeId": "tw-tpe", "trueSolar": false, "gender": "female"},
+   "windada": {
+    "lunar": "1955年 2月17日丑時",
+    "ganzhi": "乙未年己卯月庚午日丁丑時",
+    "fiveClass": "城頭土五局",
+    "mutagen": "天梁化權,紫微化科,天機化祿,太陰化忌",
+    "soulStar": "祿存",
+    "bodyStar": "天相",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "田宅", "body": false, "decadal": [35, 44], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["巨門旺"], "aux": ["左輔", "文曲", "天馬"], "other": ["月馬", "天月", "八座", "旬空"], "changsheng": "絕", "boshi": "青龍"},
+     "午": {"stem": "壬", "name": "事業", "body": false, "decadal": [45, 54], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["廉貞平", "天相廟"], "aux": [], "other": ["截路"], "changsheng": "胎", "boshi": "小耗"},
+     "未": {"stem": "癸", "name": "交友", "body": false, "decadal": [55, 64], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["天梁旺權"], "aux": [], "other": ["空亡", "華蓋", "台輔", "天殤"], "changsheng": "養", "boshi": "將軍"},
+     "申": {"stem": "甲", "name": "遷移", "body": false, "decadal": [65, 74], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["七殺廟"], "aux": ["天鉞"], "other": ["天福", "天空", "紅鸞", "孤辰", "解神", "天巫", "天貴"], "changsheng": "長生", "boshi": "奏書"},
+     "辰": {"stem": "庚", "name": "福德", "body": true, "decadal": [25, 34], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["貪狼廟"], "aux": ["擎羊"], "other": ["天官", "寡宿", "旬空"], "changsheng": "墓", "boshi": "力士"},
+     "酉": {"stem": "乙", "name": "疾厄", "body": false, "decadal": [75, 84], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["天同平"], "aux": ["右弼", "文昌"], "other": ["天才", "三台", "天使"], "changsheng": "沐浴", "boshi": "飛廉"},
+     "卯": {"stem": "己", "name": "父母", "body": false, "decadal": [15, 24], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["太陰陷忌"], "aux": ["祿存"], "other": ["鳳閣", "蜚廉", "封誥"], "changsheng": "死", "boshi": "博士"},
+     "戌": {"stem": "丙", "name": "財帛", "body": false, "decadal": [85, 94], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["武曲廟"], "aux": ["地空", "火星"], "other": ["天刑"], "changsheng": "冠帶", "boshi": "喜神"},
+     "寅": {"stem": "戊", "name": "命宮", "body": false, "decadal": [5, 14], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["紫微旺科", "天府廟"], "aux": ["陀羅"], "other": ["天喜", "天姚"], "changsheng": "病", "boshi": "官府"},
+     "丑": {"stem": "己", "name": "兄弟", "body": false, "decadal": [115, 124], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["天機陷祿"], "aux": [], "other": ["天虛", "破碎"], "changsheng": "衰", "boshi": "伏兵"},
+     "子": {"stem": "戊", "name": "夫妻", "body": false, "decadal": [105, 114], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["破軍廟"], "aux": ["地劫", "天魁"], "other": ["咸池", "陰煞", "恩光"], "changsheng": "帝旺", "boshi": "大耗"},
+     "亥": {"stem": "丁", "name": "子女", "body": false, "decadal": [95, 104], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["太陽陷"], "aux": ["鈴星"], "other": ["天哭", "龍池", "天壽"], "changsheng": "臨官", "boshi": "病符"}
+    }
+   },
+   "lifedna": {
+    "lunar": "乙未年02月17日丑時",
+    "fiveClass": "土五局",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "田宅", "stars": ["巨門", "文曲", "左輔", "天馬"], "decStart": 35},
+     "午": {"stem": "壬", "name": "官祿", "stars": ["廉貞", "天相"], "decStart": 45},
+     "未": {"stem": "癸", "name": "交友", "stars": ["天梁權"], "decStart": 55},
+     "申": {"stem": "甲", "name": "遷移", "stars": ["七殺", "天鉞", "紅鸞"], "decStart": 65},
+     "辰": {"stem": "庚", "name": "福德", "stars": ["貪狼", "擎羊"], "decStart": 25},
+     "酉": {"stem": "乙", "name": "疾厄", "stars": ["天同", "文昌", "右弼"], "decStart": 75},
+     "卯": {"stem": "己", "name": "父母", "stars": ["太陰忌", "祿存"], "decStart": 15},
+     "戌": {"stem": "丙", "name": "財帛", "stars": ["武曲", "火星", "天空", "天刑"], "decStart": 85},
+     "寅": {"stem": "戊", "name": "命宮", "stars": ["紫微科", "天府", "天姚", "陀羅", "天喜"], "decStart": 5},
+     "丑": {"stem": "己", "name": "兄弟", "stars": ["天機祿"], "decStart": 115},
+     "子": {"stem": "戊", "name": "夫妻", "stars": ["破軍", "地劫", "天魁"], "decStart": 105},
+     "亥": {"stem": "丁", "name": "子女", "stars": ["太陽", "鈴星"], "decStart": 95}
+    }
+   },
+   "known": []
+  },
+  {
+   "id": "c03",
+   "note": "寅時, 壬年",
+   "input": {"calendar": "solar", "y": 1962, "m": 8, "d": 20, "timeMode": "exact", "h": 4, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "male"},
+   "windada": {
+    "lunar": "1962年 7月21日寅時",
+    "ganzhi": "壬寅年戊申月庚寅日戊寅時",
+    "fiveClass": "天河水二局",
+    "mutagen": "紫微化權,左輔化科,天梁化祿,武曲化忌",
+    "soulStar": "破軍",
+    "bodyStar": "天梁",
+    "palaces": {
+     "巳": {"stem": "乙", "name": "兄弟", "body": false, "decadal": [112, 121], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["天府地"], "aux": ["鈴星", "天鉞"], "other": ["孤辰", "旬空"], "changsheng": "絕", "boshi": "飛廉"},
+     "午": {"stem": "丙", "name": "命宮", "body": false, "decadal": [2, 11], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["天同陷", "太陰陷"], "aux": ["文曲"], "other": ["天福", "龍池", "三台"], "changsheng": "胎", "boshi": "喜神"},
+     "未": {"stem": "丁", "name": "父母", "body": false, "decadal": [12, 21], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["武曲廟忌", "貪狼廟"], "aux": [], "other": ["天喜", "天姚"], "changsheng": "養", "boshi": "病符"},
+     "申": {"stem": "戊", "name": "福德", "body": false, "decadal": [22, 31], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["太陽地", "巨門廟"], "aux": ["文昌", "天馬"], "other": ["天虛", "鳳閣", "天才", "台輔", "八座"], "changsheng": "長生", "boshi": "大耗"},
+     "辰": {"stem": "甲", "name": "夫妻", "body": false, "decadal": [102, 111], "ages": [1, 13, 25, 37, 49, 61, 73], "major": [], "aux": ["右弼"], "other": ["天哭", "封誥", "旬空"], "changsheng": "墓", "boshi": "奏書"},
+     "酉": {"stem": "己", "name": "田宅", "body": false, "decadal": [32, 41], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["天相陷"], "aux": ["地空"], "other": ["破碎"], "changsheng": "沐浴", "boshi": "伏兵"},
+     "卯": {"stem": "癸", "name": "子女", "body": false, "decadal": [92, 101], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["廉貞平", "破軍陷"], "aux": ["火星", "天魁"], "other": ["截路", "天空", "咸池", "天刑", "恩光"], "changsheng": "死", "boshi": "將軍"},
+     "戌": {"stem": "庚", "name": "事業", "body": true, "decadal": [42, 51], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["天機利", "天梁廟祿"], "aux": ["陀羅"], "other": ["左輔科", "天官", "華蓋", "蜚廉"], "changsheng": "冠帶", "boshi": "官府"},
+     "寅": {"stem": "壬", "name": "財帛", "body": false, "decadal": [82, 91], "ages": [11, 23, 35, 47, 59, 71, 83], "major": [], "aux": [], "other": ["空亡", "月馬", "解神", "天巫", "陰煞"], "changsheng": "病", "boshi": "小耗"},
+     "丑": {"stem": "癸", "name": "疾厄", "body": false, "decadal": [72, 81], "ages": [10, 22, 34, 46, 58, 70, 82], "major": [], "aux": ["地劫"], "other": ["紅鸞", "寡宿", "天貴", "天使"], "changsheng": "衰", "boshi": "青龍"},
+     "子": {"stem": "壬", "name": "遷移", "body": false, "decadal": [62, 71], "ages": [9, 21, 33, 45, 57, 69, 81], "major": [], "aux": ["擎羊"], "other": ["天壽"], "changsheng": "帝旺", "boshi": "力士"},
+     "亥": {"stem": "辛", "name": "交友", "body": false, "decadal": [52, 61], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["紫微旺權", "七殺平"], "aux": ["祿存"], "other": ["天月", "天殤"], "changsheng": "臨官", "boshi": "博士"}
+    }
+   },
+   "lifedna": {
+    "lunar": "壬寅年07月21日寅時",
+    "fiveClass": "水二局",
+    "palaces": {
+     "巳": {"stem": "乙", "name": "兄弟", "stars": ["天府", "鈴星", "天鉞"], "decStart": 112},
+     "午": {"stem": "丙", "name": "命宮", "stars": ["天同", "太陰", "文曲"], "decStart": 2},
+     "未": {"stem": "丁", "name": "父母", "stars": ["武曲忌", "貪狼", "天姚", "天喜"], "decStart": 12},
+     "申": {"stem": "戊", "name": "福德", "stars": ["太陽", "巨門", "文昌"], "decStart": 22},
+     "辰": {"stem": "甲", "name": "夫妻", "stars": ["右弼"], "decStart": 102},
+     "酉": {"stem": "己", "name": "田宅", "stars": ["天相", "天空"], "decStart": 32},
+     "卯": {"stem": "癸", "name": "子女", "stars": ["廉貞", "破軍", "火星", "天刑", "天魁"], "decStart": 92},
+     "戌": {"stem": "庚", "name": "官祿", "stars": ["天機", "天梁祿", "左輔科", "陀羅"], "decStart": 42},
+     "寅": {"stem": "壬", "name": "財帛", "stars": ["天馬"], "decStart": 82},
+     "丑": {"stem": "癸", "name": "疾厄", "stars": ["地劫", "紅鸞"], "decStart": 72},
+     "子": {"stem": "壬", "name": "遷移", "stars": ["擎羊"], "decStart": 62},
+     "亥": {"stem": "辛", "name": "交友", "stars": ["紫微權", "七殺", "祿存"], "decStart": 52}
+    }
+   },
+   "known": ["亮度: 午 太陰 iztro「不」/ Windada「陷」", "LifeDNA 天馬為月馬 (與年馬位置不同)"]
+  },
+  {
+   "id": "c04",
+   "note": "卯時, 立春後春節前 (農曆甲子年十二月)",
+   "input": {"calendar": "solar", "y": 1985, "m": 2, "d": 10, "timeMode": "exact", "h": 6, "mi": 20, "placeId": "tw-tpe", "trueSolar": false, "gender": "female"},
+   "windada": {
+    "lunar": "1984年12月21日卯時",
+    "ganzhi": "乙丑年戊寅月庚辰日己卯時",
+    "fiveClass": "山頭火六局",
+    "mutagen": "破軍化權,武曲化科,廉貞化祿,太陽化忌",
+    "soulStar": "祿存",
+    "bodyStar": "火星",
+    "palaces": {
+     "巳": {"stem": "己", "name": "疾厄", "body": false, "decadal": [56, 65], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["巨門旺"], "aux": ["火星"], "other": ["破碎", "封誥", "天使"], "changsheng": "絕", "boshi": "大耗"},
+     "午": {"stem": "庚", "name": "財帛", "body": false, "decadal": [46, 55], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["廉貞平祿", "天相廟"], "aux": [], "other": ["天哭", "天虛", "解神"], "changsheng": "墓", "boshi": "病符"},
+     "未": {"stem": "辛", "name": "子女", "body": false, "decadal": [36, 45], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["天梁旺"], "aux": ["文昌", "文曲", "天鉞"], "other": ["天官"], "changsheng": "死", "boshi": "喜神"},
+     "申": {"stem": "壬", "name": "夫妻", "body": false, "decadal": [26, 35], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["七殺廟"], "aux": ["地空"], "other": ["截路", "蜚廉", "天刑"], "changsheng": "病", "boshi": "飛廉"},
+     "辰": {"stem": "戊", "name": "遷移", "body": true, "decadal": [66, 75], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["貪狼廟"], "aux": [], "other": ["華蓋", "龍池", "天壽", "陰煞"], "changsheng": "胎", "boshi": "伏兵"},
+     "酉": {"stem": "癸", "name": "兄弟", "body": false, "decadal": [16, 25], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["天同平"], "aux": [], "other": ["天福", "空亡", "天喜", "咸池", "台輔"], "changsheng": "衰", "boshi": "奏書"},
+     "卯": {"stem": "丁", "name": "交友", "body": false, "decadal": [76, 85], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["太陰陷"], "aux": ["左輔", "擎羊"], "other": ["紅鸞", "八座", "天殤"], "changsheng": "養", "boshi": "官府"},
+     "戌": {"stem": "甲", "name": "命宮", "body": false, "decadal": [6, 15], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["武曲廟科"], "aux": [], "other": ["寡宿", "鳳閣", "天才", "旬空"], "changsheng": "帝旺", "boshi": "將軍"},
+     "寅": {"stem": "丙", "name": "事業", "body": false, "decadal": [86, 95], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["紫微旺", "天府廟"], "aux": ["地劫", "祿存", "天馬"], "other": ["孤辰", "天月", "恩光", "天貴"], "changsheng": "長生", "boshi": "博士"},
+     "丑": {"stem": "丁", "name": "田宅", "body": false, "decadal": [96, 105], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["天機陷"], "aux": ["鈴星", "陀羅", "天魁"], "other": ["天空"], "changsheng": "沐浴", "boshi": "力士"},
+     "子": {"stem": "丙", "name": "福德", "body": false, "decadal": [106, 115], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["破軍廟權"], "aux": [], "other": ["天姚"], "changsheng": "冠帶", "boshi": "青龍"},
+     "亥": {"stem": "乙", "name": "父母", "body": false, "decadal": [116, 125], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["太陽陷忌"], "aux": ["右弼"], "other": ["月馬", "天巫", "三台", "旬空"], "changsheng": "臨官", "boshi": "小耗"}
+    }
+   },
+   "lifedna": {
+    "lunar": "甲子年12月21日卯時",
+    "fiveClass": "火六局",
+    "palaces": {
+     "巳": {"stem": "己", "name": "疾厄", "stars": ["巨門", "火星"], "decStart": 56},
+     "午": {"stem": "庚", "name": "財帛", "stars": ["廉貞祿", "天相"], "decStart": 46},
+     "未": {"stem": "辛", "name": "子女", "stars": ["天梁", "文昌", "文曲", "天鉞"], "decStart": 36},
+     "申": {"stem": "壬", "name": "夫妻", "stars": ["七殺", "天空", "天刑"], "decStart": 26},
+     "辰": {"stem": "戊", "name": "遷移", "stars": ["貪狼"], "decStart": 66},
+     "酉": {"stem": "癸", "name": "兄弟", "stars": ["天同", "天喜"], "decStart": 16},
+     "卯": {"stem": "丁", "name": "交友", "stars": ["太陰", "左輔", "擎羊", "紅鸞"], "decStart": 76},
+     "戌": {"stem": "甲", "name": "命宮", "stars": ["武曲科"], "decStart": 6},
+     "寅": {"stem": "丙", "name": "官祿", "stars": ["紫微", "天府", "地劫", "祿存"], "decStart": 86},
+     "丑": {"stem": "丁", "name": "田宅", "stars": ["天機", "鈴星", "陀羅", "天魁"], "decStart": 96},
+     "子": {"stem": "丙", "name": "福德", "stars": ["破軍權", "天姚"], "decStart": 106},
+     "亥": {"stem": "乙", "name": "父母", "stars": ["太陽忌", "右弼", "天馬"], "decStart": 116}
+    }
+   },
+   "known": ["LifeDNA 天馬為月馬 (與年馬位置不同)"]
+  },
+  {
+   "id": "c05",
+   "note": "辰時, 戊年",
+   "input": {"calendar": "solar", "y": 1978, "m": 7, "d": 7, "timeMode": "exact", "h": 8, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "male"},
+   "windada": {
+    "lunar": "1978年 6月 3日辰時",
+    "ganzhi": "戊午年己未月庚午日庚辰時",
+    "fiveClass": "大溪水二局",
+    "mutagen": "太陰化權,右弼化科,貪狼化祿,天機化忌",
+    "soulStar": "文曲",
+    "bodyStar": "火星",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "福德", "body": false, "decadal": [22, 31], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["巨門旺"], "aux": ["火星", "祿存"], "other": ["右弼科", "破碎", "天壽", "月馬"], "changsheng": "絕", "boshi": "博士"},
+     "午": {"stem": "戊", "name": "田宅", "body": false, "decadal": [32, 41], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["廉貞平", "天相廟"], "aux": ["文昌", "擎羊"], "other": ["天姚", "封誥"], "changsheng": "胎", "boshi": "力士"},
+     "未": {"stem": "己", "name": "事業", "body": false, "decadal": [42, 51], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["天梁旺"], "aux": ["地空", "鈴星", "天鉞"], "other": ["天空", "恩光"], "changsheng": "養", "boshi": "青龍"},
+     "申": {"stem": "庚", "name": "交友", "body": false, "decadal": [52, 61], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["七殺廟"], "aux": ["文曲", "天馬"], "other": ["孤辰", "天巫", "天殤"], "changsheng": "長生", "boshi": "小耗"},
+     "辰": {"stem": "丙", "name": "父母", "body": false, "decadal": [12, 21], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["貪狼廟祿"], "aux": ["陀羅"], "other": ["寡宿", "鳳閣", "陰煞"], "changsheng": "墓", "boshi": "官府"},
+     "酉": {"stem": "辛", "name": "遷移", "body": false, "decadal": [62, 71], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["天同平"], "aux": ["左輔"], "other": ["紅鸞", "天才", "天貴"], "changsheng": "沐浴", "boshi": "將軍"},
+     "卯": {"stem": "乙", "name": "命宮", "body": false, "decadal": [2, 11], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["太陰陷權"], "aux": ["地劫"], "other": ["天官", "天福", "天喜", "咸池", "天月", "八座"], "changsheng": "死", "boshi": "伏兵"},
+     "戌": {"stem": "壬", "name": "疾厄", "body": false, "decadal": [72, 81], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["武曲廟"], "aux": [], "other": ["華蓋", "龍池", "台輔", "天使"], "changsheng": "冠帶", "boshi": "奏書"},
+     "寅": {"stem": "甲", "name": "兄弟", "body": false, "decadal": [112, 121], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["紫微旺", "天府廟"], "aux": [], "other": ["蜚廉", "天刑"], "changsheng": "病", "boshi": "大耗"},
+     "丑": {"stem": "乙", "name": "夫妻", "body": false, "decadal": [102, 111], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["天機陷忌"], "aux": ["天魁"], "other": ["空亡", "旬空"], "changsheng": "衰", "boshi": "病符"},
+     "子": {"stem": "甲", "name": "子女", "body": false, "decadal": [92, 101], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["破軍廟"], "aux": [], "other": ["截路", "天哭", "天虛", "解神", "旬空"], "changsheng": "帝旺", "boshi": "喜神"},
+     "亥": {"stem": "癸", "name": "財帛", "body": true, "decadal": [82, 91], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["太陽陷"], "aux": [], "other": ["三台"], "changsheng": "臨官", "boshi": "飛廉"}
+    }
+   },
+   "lifedna": {
+    "lunar": "戊午年06月03日辰時",
+    "fiveClass": "水二局",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "福德", "stars": ["巨門", "火星", "右弼科", "天馬", "祿存"], "decStart": 22},
+     "午": {"stem": "戊", "name": "田宅", "stars": ["廉貞", "天相", "文昌", "天姚", "擎羊"], "decStart": 32},
+     "未": {"stem": "己", "name": "官祿", "stars": ["天梁", "鈴星", "天空", "天鉞"], "decStart": 42},
+     "申": {"stem": "庚", "name": "交友", "stars": ["七殺", "文曲"], "decStart": 52},
+     "辰": {"stem": "丙", "name": "父母", "stars": ["貪狼祿", "陀羅"], "decStart": 12},
+     "酉": {"stem": "辛", "name": "遷移", "stars": ["天同", "左輔", "紅鸞"], "decStart": 62},
+     "卯": {"stem": "乙", "name": "命宮", "stars": ["太陰權", "地劫", "天喜"], "decStart": 2},
+     "戌": {"stem": "壬", "name": "疾厄", "stars": ["武曲"], "decStart": 72},
+     "寅": {"stem": "甲", "name": "兄弟", "stars": ["紫微", "天府", "天刑"], "decStart": 112},
+     "丑": {"stem": "乙", "name": "夫妻", "stars": ["天機忌", "天魁"], "decStart": 102},
+     "子": {"stem": "甲", "name": "子女", "stars": ["破軍"], "decStart": 92},
+     "亥": {"stem": "癸", "name": "財帛", "stars": ["太陽"], "decStart": 82}
+    }
+   },
+   "known": ["LifeDNA 天馬為月馬 (與年馬位置不同)"]
+  },
+  {
+   "id": "c06",
+   "note": "巳時, 閏四月十九 (閏月後半)",
+   "input": {"calendar": "solar", "y": 2001, "m": 6, "d": 10, "timeMode": "exact", "h": 10, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "female"},
+   "windada": {
+    "lunar": "2001年閏 4月19日巳時",
+    "ganzhi": "辛巳年甲午月甲辰日己巳時",
+    "fiveClass": "壁上土五局",
+    "mutagen": "太陽化權,文曲化科,巨門化祿,文昌化忌",
+    "soulStar": "貪狼",
+    "bodyStar": "天機",
+    "palaces": {
+     "巳": {"stem": "癸", "name": "交友", "body": false, "decadal": [55, 64], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["天梁陷"], "aux": [], "other": ["文昌忌", "天福", "截路", "鳳閣", "天才", "天殤"], "changsheng": "絕", "boshi": "病符"},
+     "午": {"stem": "甲", "name": "遷移", "body": false, "decadal": [65, 74], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["七殺旺"], "aux": ["地空", "天鉞"], "other": ["天空", "咸池"], "changsheng": "胎", "boshi": "大耗"},
+     "未": {"stem": "乙", "name": "疾厄", "body": false, "decadal": [75, 84], "ages": [1, 13, 25, 37, 49, 61, 73], "major": [], "aux": ["左輔", "右弼"], "other": ["蜚廉", "封誥", "天使"], "changsheng": "養", "boshi": "伏兵"},
+     "申": {"stem": "丙", "name": "財帛", "body": false, "decadal": [85, 94], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["廉貞廟"], "aux": ["火星", "陀羅"], "other": ["孤辰", "陰煞", "旬空"], "changsheng": "長生", "boshi": "官府"},
+     "辰": {"stem": "壬", "name": "事業", "body": false, "decadal": [45, 54], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["紫微地", "天相地"], "aux": ["地劫"], "other": ["空亡", "天喜", "寡宿", "天姚"], "changsheng": "墓", "boshi": "喜神"},
+     "酉": {"stem": "丁", "name": "子女", "body": false, "decadal": [95, 104], "ages": [11, 23, 35, 47, 59, 71, 83], "major": [], "aux": ["祿存"], "other": ["文曲科", "天官", "龍池", "破碎", "旬空"], "changsheng": "沐浴", "boshi": "博士"},
+     "卯": {"stem": "辛", "name": "田宅", "body": false, "decadal": [35, 44], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["天機旺", "巨門廟祿"], "aux": ["鈴星"], "other": ["天壽"], "changsheng": "死", "boshi": "飛廉"},
+     "戌": {"stem": "戊", "name": "夫妻", "body": true, "decadal": [105, 114], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["破軍旺"], "aux": ["擎羊"], "other": ["紅鸞", "解神", "恩光"], "changsheng": "冠帶", "boshi": "力士"},
+     "寅": {"stem": "庚", "name": "福德", "body": false, "decadal": [25, 34], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["貪狼平"], "aux": ["天魁"], "other": ["天月", "天貴"], "changsheng": "病", "boshi": "奏書"},
+     "丑": {"stem": "辛", "name": "父母", "body": false, "decadal": [15, 24], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["太陽陷權", "太陰廟"], "aux": [], "other": ["華蓋", "天哭", "三台", "八座"], "changsheng": "衰", "boshi": "將軍"},
+     "子": {"stem": "庚", "name": "命宮", "body": false, "decadal": [5, 14], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["武曲旺", "天府廟"], "aux": [], "other": ["天刑"], "changsheng": "帝旺", "boshi": "小耗"},
+     "亥": {"stem": "己", "name": "兄弟", "body": false, "decadal": [115, 124], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["天同廟"], "aux": ["天馬"], "other": ["天虛", "月馬", "天巫", "台輔"], "changsheng": "臨官", "boshi": "青龍"}
+    }
+   },
+   "lifedna": {
+    "lunar": "辛巳年",
+    "fiveClass": "土五局",
+    "palaces": {
+     "巳": {"stem": "癸", "name": "官祿", "stars": ["天梁", "文昌忌", "天姚"], "decStart": 45},
+     "午": {"stem": "甲", "name": "交友", "stars": ["七殺", "天空", "右弼", "天魁"], "decStart": 55},
+     "未": {"stem": "乙", "name": "遷移", "stars": [], "decStart": 65},
+     "申": {"stem": "丙", "name": "疾厄", "stars": ["廉貞", "火星", "左輔", "天馬", "陀羅"], "decStart": 75},
+     "辰": {"stem": "壬", "name": "田宅", "stars": ["紫微", "天相", "地劫", "天喜"], "decStart": 35},
+     "酉": {"stem": "丁", "name": "財帛", "stars": ["文曲科", "祿存"], "decStart": 85},
+     "卯": {"stem": "辛", "name": "福德", "stars": ["天機", "巨門祿", "鈴星"], "decStart": 25},
+     "戌": {"stem": "戊", "name": "子女", "stars": ["破軍", "擎羊", "紅鸞"], "decStart": 95},
+     "寅": {"stem": "庚", "name": "父母", "stars": ["貪狼", "天鉞"], "decStart": 15},
+     "丑": {"stem": "辛", "name": "命宮", "stars": ["太陽權", "太陰", "天刑"], "decStart": 5},
+     "子": {"stem": "庚", "name": "兄弟", "stars": ["武曲", "天府"], "decStart": 115},
+     "亥": {"stem": "己", "name": "夫妻", "stars": ["天同"], "decStart": 105}
+    }
+   },
+   "known": ["閏月: 我們與 LifeDNA 閏四月十九 算五月; Windada 整個閏月算四月 → 命身宮、宮名、大限、左右不同", "辛年魁鉞: 我們/LifeDNA 天魁午天鉞寅; Windada 天魁寅天鉞午", "亮度: 丑 太陽 iztro「不」/ Windada「陷」", "LifeDNA 天馬為月馬"]
+  },
+  {
+   "id": "c07",
+   "note": "午時, 庚年",
+   "input": {"calendar": "solar", "y": 2000, "m": 12, "d": 25, "timeMode": "exact", "h": 12, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "female"},
+   "windada": {
+    "lunar": "2000年11月30日午時",
+    "ganzhi": "庚辰年戊子月丁巳日丙午時",
+    "fiveClass": "楊柳木三局",
+    "mutagen": "武曲化權,太陰化科,太陽化祿,天同化忌",
+    "soulStar": "破軍",
+    "bodyStar": "文昌",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "兄弟", "body": false, "decadal": [13, 22], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["天府地"], "aux": ["地空", "地劫"], "other": ["天空", "天喜", "孤辰"], "changsheng": "病", "boshi": "小耗"},
+     "午": {"stem": "壬", "name": "命宮", "body": true, "decadal": [3, 12], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["天同陷忌", "太陰陷科"], "aux": [], "other": ["天福", "空亡", "鳳閣", "蜚廉", "解神", "陰煞"], "changsheng": "衰", "boshi": "青龍"},
+     "未": {"stem": "癸", "name": "父母", "body": false, "decadal": [113, 122], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["武曲廟權", "貪狼廟"], "aux": ["陀羅", "天鉞"], "other": ["截路", "天刑", "三台", "八座"], "changsheng": "帝旺", "boshi": "力士"},
+     "申": {"stem": "甲", "name": "福德", "body": false, "decadal": [103, 112], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["太陽地祿", "巨門廟"], "aux": ["火星", "祿存"], "other": ["龍池", "封誥", "恩光", "旬空"], "changsheng": "臨官", "boshi": "博士"},
+     "辰": {"stem": "庚", "name": "夫妻", "body": false, "decadal": [23, 32], "ages": [7, 19, 31, 43, 55, 67, 79], "major": [], "aux": ["文昌", "鈴星"], "other": ["華蓋"], "changsheng": "死", "boshi": "將軍"},
+     "酉": {"stem": "乙", "name": "田宅", "body": false, "decadal": [93, 102], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["天相陷"], "aux": ["擎羊"], "other": ["咸池", "旬空"], "changsheng": "冠帶", "boshi": "官府"},
+     "卯": {"stem": "己", "name": "子女", "body": false, "decadal": [33, 42], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["廉貞平", "破軍陷"], "aux": [], "other": [], "changsheng": "墓", "boshi": "奏書"},
+     "戌": {"stem": "丙", "name": "事業", "body": false, "decadal": [83, 92], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["天機利", "天梁廟"], "aux": ["文曲"], "other": ["天虛", "天才", "天壽", "天月"], "changsheng": "沐浴", "boshi": "伏兵"},
+     "寅": {"stem": "戊", "name": "財帛", "body": false, "decadal": [43, 52], "ages": [9, 21, 33, 45, 57, 69, 81], "major": [], "aux": ["左輔", "天馬"], "other": ["天哭", "月馬", "天巫", "天貴"], "changsheng": "絕", "boshi": "飛廉"},
+     "丑": {"stem": "己", "name": "疾厄", "body": false, "decadal": [53, 62], "ages": [10, 22, 34, 46, 58, 70, 82], "major": [], "aux": ["天魁"], "other": ["寡宿", "破碎", "天使"], "changsheng": "胎", "boshi": "喜神"},
+     "子": {"stem": "戊", "name": "遷移", "body": false, "decadal": [63, 72], "ages": [11, 23, 35, 47, 59, 71, 83], "major": [], "aux": ["右弼"], "other": ["台輔"], "changsheng": "養", "boshi": "病符"},
+     "亥": {"stem": "丁", "name": "交友", "body": false, "decadal": [73, 82], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["紫微旺", "七殺平"], "aux": [], "other": ["天官", "紅鸞", "天姚", "天殤"], "changsheng": "長生", "boshi": "大耗"}
+    }
+   },
+   "lifedna": {
+    "lunar": "庚辰年11月30日午時",
+    "fiveClass": "木三局",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "兄弟", "stars": ["天府", "地劫", "天空", "天喜"], "decStart": 13},
+     "午": {"stem": "壬", "name": "命宮", "stars": ["天同忌", "太陰科"], "decStart": 3},
+     "未": {"stem": "癸", "name": "父母", "stars": ["武曲權", "貪狼", "天刑", "陀羅", "天鉞"], "decStart": 113},
+     "申": {"stem": "甲", "name": "福德", "stars": ["太陽祿", "巨門", "火星", "祿存"], "decStart": 103},
+     "辰": {"stem": "庚", "name": "夫妻", "stars": ["文昌", "鈴星"], "decStart": 23},
+     "酉": {"stem": "乙", "name": "田宅", "stars": ["天相", "擎羊"], "decStart": 93},
+     "卯": {"stem": "己", "name": "子女", "stars": ["廉貞", "破軍"], "decStart": 33},
+     "戌": {"stem": "丙", "name": "官祿", "stars": ["天機", "天梁", "文曲"], "decStart": 83},
+     "寅": {"stem": "戊", "name": "財帛", "stars": ["左輔", "天馬"], "decStart": 43},
+     "丑": {"stem": "己", "name": "疾厄", "stars": ["天魁"], "decStart": 53},
+     "子": {"stem": "戊", "name": "遷移", "stars": ["右弼"], "decStart": 63},
+     "亥": {"stem": "丁", "name": "交友", "stars": ["紫微", "七殺", "天姚", "紅鸞"], "decStart": 73}
+    }
+   },
+   "known": ["亮度: 午 太陰 iztro「不」/ Windada「陷」"]
+  },
+  {
+   "id": "c08",
+   "note": "未時, 壬年",
+   "input": {"calendar": "solar", "y": 2012, "m": 3, "d": 15, "timeMode": "exact", "h": 14, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "male"},
+   "windada": {
+    "lunar": "2012年 2月23日未時",
+    "ganzhi": "壬辰年癸卯月乙亥日癸未時",
+    "fiveClass": "大驛土五局",
+    "mutagen": "紫微化權,左輔化科,天梁化祿,武曲化忌",
+    "soulStar": "廉貞",
+    "bodyStar": "文昌",
+    "palaces": {
+     "巳": {"stem": "乙", "name": "子女", "body": false, "decadal": [95, 104], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["太陽旺"], "aux": ["鈴星", "天鉞"], "other": ["左輔科", "天空", "天喜", "孤辰", "月馬", "天月"], "changsheng": "絕", "boshi": "飛廉"},
+     "午": {"stem": "丙", "name": "夫妻", "body": false, "decadal": [105, 114], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["破軍廟"], "aux": ["地劫"], "other": ["天福", "鳳閣", "蜚廉", "旬空"], "changsheng": "胎", "boshi": "喜神"},
+     "未": {"stem": "丁", "name": "兄弟", "body": false, "decadal": [115, 124], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["天機陷"], "aux": [], "other": ["旬空"], "changsheng": "養", "boshi": "病符"},
+     "申": {"stem": "戊", "name": "命宮", "body": false, "decadal": [5, 14], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["紫微旺權", "天府地"], "aux": [], "other": ["龍池", "解神", "天巫", "天貴"], "changsheng": "長生", "boshi": "大耗"},
+     "辰": {"stem": "甲", "name": "財帛", "body": false, "decadal": [85, 94], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["武曲廟忌"], "aux": ["地空"], "other": ["華蓋"], "changsheng": "墓", "boshi": "奏書"},
+     "酉": {"stem": "己", "name": "父母", "body": false, "decadal": [15, 24], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["太陰旺"], "aux": ["右弼", "火星"], "other": ["咸池", "封誥"], "changsheng": "沐浴", "boshi": "伏兵"},
+     "卯": {"stem": "癸", "name": "疾厄", "body": false, "decadal": [75, 84], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["天同平"], "aux": ["文昌", "天魁"], "other": ["截路", "三台", "天使"], "changsheng": "死", "boshi": "將軍"},
+     "戌": {"stem": "庚", "name": "福德", "body": true, "decadal": [25, 34], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["貪狼廟"], "aux": ["陀羅"], "other": ["天官", "天虛", "天刑"], "changsheng": "冠帶", "boshi": "官府"},
+     "寅": {"stem": "壬", "name": "遷移", "body": false, "decadal": [65, 74], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["七殺廟"], "aux": ["天馬"], "other": ["空亡", "天哭", "天壽", "天姚"], "changsheng": "病", "boshi": "小耗"},
+     "丑": {"stem": "癸", "name": "交友", "body": false, "decadal": [55, 64], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["天梁旺祿"], "aux": [], "other": ["寡宿", "破碎", "台輔", "天殤"], "changsheng": "衰", "boshi": "青龍"},
+     "子": {"stem": "壬", "name": "事業", "body": false, "decadal": [45, 54], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["廉貞平", "天相廟"], "aux": ["擎羊"], "other": ["天才", "陰煞", "恩光"], "changsheng": "帝旺", "boshi": "力士"},
+     "亥": {"stem": "辛", "name": "田宅", "body": false, "decadal": [35, 44], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["巨門旺"], "aux": ["文曲", "祿存"], "other": ["紅鸞", "八座"], "changsheng": "臨官", "boshi": "博士"}
+    }
+   },
+   "lifedna": {
+    "lunar": "壬辰年02月23日未時",
+    "fiveClass": "土五局",
+    "palaces": {
+     "巳": {"stem": "乙", "name": "子女", "stars": ["太陽", "鈴星", "左輔科", "天馬", "天鉞", "天喜"], "decStart": 95},
+     "午": {"stem": "丙", "name": "夫妻", "stars": ["破軍", "地劫"], "decStart": 105},
+     "未": {"stem": "丁", "name": "兄弟", "stars": ["天機"], "decStart": 115},
+     "申": {"stem": "戊", "name": "命宮", "stars": ["紫微權", "天府"], "decStart": 5},
+     "辰": {"stem": "甲", "name": "財帛", "stars": ["武曲忌", "天空"], "decStart": 85},
+     "酉": {"stem": "己", "name": "父母", "stars": ["太陰", "火星", "右弼"], "decStart": 15},
+     "卯": {"stem": "癸", "name": "疾厄", "stars": ["天同", "文昌", "天魁"], "decStart": 75},
+     "戌": {"stem": "庚", "name": "福德", "stars": ["貪狼", "天刑", "陀羅"], "decStart": 25},
+     "寅": {"stem": "壬", "name": "遷移", "stars": ["七殺", "天姚"], "decStart": 65},
+     "丑": {"stem": "癸", "name": "交友", "stars": ["天梁祿"], "decStart": 55},
+     "子": {"stem": "壬", "name": "官祿", "stars": ["廉貞", "天相", "擎羊"], "decStart": 45},
+     "亥": {"stem": "辛", "name": "田宅", "stars": ["巨門", "文曲", "祿存", "紅鸞"], "decStart": 35}
+    }
+   },
+   "known": ["LifeDNA 天馬為月馬 (與年馬位置不同)"]
+  },
+  {
+   "id": "c09",
+   "note": "申時, 庚年, 1950",
+   "input": {"calendar": "solar", "y": 1950, "m": 12, "d": 9, "timeMode": "exact", "h": 16, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "female"},
+   "windada": {
+    "lunar": "1950年11月 1日申時",
+    "ganzhi": "庚寅年戊子月戊寅日庚申時",
+    "fiveClass": "白蠟金四局",
+    "mutagen": "武曲化權,太陰化科,太陽化祿,天同化忌",
+    "soulStar": "廉貞",
+    "bodyStar": "天梁",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "父母", "body": false, "decadal": [114, 123], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["天府地"], "aux": [], "other": ["孤辰"], "changsheng": "長生", "boshi": "小耗"},
+     "午": {"stem": "壬", "name": "福德", "body": false, "decadal": [104, 113], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["天同陷忌", "太陰陷科"], "aux": [], "other": ["天福", "空亡", "龍池", "天才", "解神", "陰煞", "旬空"], "changsheng": "養", "boshi": "青龍"},
+     "未": {"stem": "癸", "name": "田宅", "body": false, "decadal": [94, 103], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["武曲廟權", "貪狼廟"], "aux": ["地劫", "陀羅", "天鉞"], "other": ["截路", "天喜", "天刑", "旬空"], "changsheng": "胎", "boshi": "力士"},
+     "申": {"stem": "甲", "name": "事業", "body": true, "decadal": [84, 93], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["太陽地祿", "巨門廟"], "aux": ["祿存", "天馬"], "other": ["天虛", "鳳閣"], "changsheng": "絕", "boshi": "博士"},
+     "辰": {"stem": "庚", "name": "命宮", "body": false, "decadal": [4, 13], "ages": [1, 13, 25, 37, 49, 61, 73], "major": [], "aux": [], "other": ["天哭"], "changsheng": "沐浴", "boshi": "將軍"},
+     "酉": {"stem": "乙", "name": "交友", "body": false, "decadal": [74, 83], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["天相陷"], "aux": ["火星", "擎羊"], "other": ["破碎", "天殤"], "changsheng": "墓", "boshi": "官府"},
+     "卯": {"stem": "己", "name": "兄弟", "body": false, "decadal": [14, 23], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["廉貞平", "破軍陷"], "aux": ["地空"], "other": ["天空", "咸池"], "changsheng": "冠帶", "boshi": "奏書"},
+     "戌": {"stem": "丙", "name": "遷移", "body": false, "decadal": [64, 73], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["天機利", "天梁廟"], "aux": [], "other": ["華蓋", "蜚廉", "天壽", "天月", "封誥"], "changsheng": "死", "boshi": "伏兵"},
+     "寅": {"stem": "戊", "name": "夫妻", "body": false, "decadal": [24, 33], "ages": [3, 15, 27, 39, 51, 63, 75], "major": [], "aux": ["左輔", "文昌"], "other": ["月馬", "天巫", "台輔", "三台"], "changsheng": "臨官", "boshi": "飛廉"},
+     "丑": {"stem": "己", "name": "子女", "body": false, "decadal": [34, 43], "ages": [4, 16, 28, 40, 52, 64, 76], "major": [], "aux": ["天魁"], "other": ["紅鸞", "寡宿", "恩光"], "changsheng": "帝旺", "boshi": "喜神"},
+     "子": {"stem": "戊", "name": "財帛", "body": false, "decadal": [44, 53], "ages": [5, 17, 29, 41, 53, 65, 77], "major": [], "aux": ["右弼", "文曲"], "other": ["八座"], "changsheng": "衰", "boshi": "病符"},
+     "亥": {"stem": "丁", "name": "疾厄", "body": false, "decadal": [54, 63], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["紫微旺", "七殺平"], "aux": ["鈴星"], "other": ["天官", "天姚", "天貴", "天使"], "changsheng": "病", "boshi": "大耗"}
+    }
+   },
+   "lifedna": {
+    "lunar": "庚寅年11月01日申時",
+    "fiveClass": "金四局",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "父母", "stars": ["天府"], "decStart": 114},
+     "午": {"stem": "壬", "name": "福德", "stars": ["天同忌", "太陰科"], "decStart": 104},
+     "未": {"stem": "癸", "name": "田宅", "stars": ["武曲權", "貪狼", "地劫", "天刑", "陀羅", "天鉞", "天喜"], "decStart": 94},
+     "申": {"stem": "甲", "name": "官祿", "stars": ["太陽祿", "巨門", "祿存"], "decStart": 84},
+     "辰": {"stem": "庚", "name": "命宮", "stars": [], "decStart": 4},
+     "酉": {"stem": "乙", "name": "交友", "stars": ["天相", "火星", "擎羊"], "decStart": 74},
+     "卯": {"stem": "己", "name": "兄弟", "stars": ["廉貞", "破軍", "天空"], "decStart": 14},
+     "戌": {"stem": "丙", "name": "遷移", "stars": ["天機", "天梁"], "decStart": 64},
+     "寅": {"stem": "戊", "name": "夫妻", "stars": ["文昌", "左輔", "天馬"], "decStart": 24},
+     "丑": {"stem": "己", "name": "子女", "stars": ["天魁", "紅鸞"], "decStart": 34},
+     "子": {"stem": "戊", "name": "財帛", "stars": ["文曲", "右弼"], "decStart": 44},
+     "亥": {"stem": "丁", "name": "疾厄", "stars": ["紫微", "七殺", "鈴星", "天姚"], "decStart": 54}
+    }
+   },
+   "known": ["亮度: 午 太陰 iztro「不」/ Windada「陷」", "LifeDNA 天馬為月馬"]
+  },
+  {
+   "id": "c10",
+   "note": "酉時, 戊寅年 (公曆1999)",
+   "input": {"calendar": "solar", "y": 1999, "m": 1, "d": 1, "timeMode": "exact", "h": 18, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "male"},
+   "windada": {
+    "lunar": "1998年11月14日酉時",
+    "ganzhi": "戊寅年甲子月癸丑日辛酉時",
+    "fiveClass": "大溪水二局",
+    "mutagen": "太陰化權,右弼化科,貪狼化祿,天機化忌",
+    "soulStar": "文曲",
+    "bodyStar": "天梁",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "福德", "body": false, "decadal": [22, 31], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["太陽旺"], "aux": ["祿存"], "other": ["孤辰", "天才"], "changsheng": "絕", "boshi": "博士"},
+     "午": {"stem": "戊", "name": "田宅", "body": false, "decadal": [32, 41], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["破軍廟"], "aux": ["擎羊"], "other": ["龍池", "解神", "陰煞"], "changsheng": "胎", "boshi": "力士"},
+     "未": {"stem": "己", "name": "事業", "body": false, "decadal": [42, 51], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["天機陷忌"], "aux": ["天鉞"], "other": ["天喜", "天刑"], "changsheng": "養", "boshi": "青龍"},
+     "申": {"stem": "庚", "name": "交友", "body": false, "decadal": [52, 61], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["紫微旺", "天府地"], "aux": ["地劫", "天馬"], "other": ["天虛", "鳳閣", "旬空", "天殤"], "changsheng": "長生", "boshi": "小耗"},
+     "辰": {"stem": "丙", "name": "父母", "body": false, "decadal": [12, 21], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["武曲廟"], "aux": ["陀羅"], "other": ["天哭"], "changsheng": "墓", "boshi": "官府"},
+     "酉": {"stem": "辛", "name": "遷移", "body": true, "decadal": [62, 71], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["太陰旺權"], "aux": [], "other": ["破碎", "旬空"], "changsheng": "沐浴", "boshi": "將軍"},
+     "卯": {"stem": "乙", "name": "命宮", "body": false, "decadal": [2, 11], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["天同平"], "aux": [], "other": ["天官", "天福", "天空", "咸池", "台輔", "三台"], "changsheng": "死", "boshi": "伏兵"},
+     "戌": {"stem": "壬", "name": "疾厄", "body": false, "decadal": [72, 81], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["貪狼廟祿"], "aux": ["火星"], "other": ["華蓋", "蜚廉", "天月", "天使"], "changsheng": "冠帶", "boshi": "奏書"},
+     "寅": {"stem": "甲", "name": "兄弟", "body": false, "decadal": [112, 121], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["七殺廟"], "aux": ["左輔", "地空"], "other": ["月馬", "天巫"], "changsheng": "病", "boshi": "大耗"},
+     "丑": {"stem": "乙", "name": "夫妻", "body": false, "decadal": [102, 111], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["天梁旺"], "aux": ["文昌", "文曲", "天魁"], "other": ["空亡", "紅鸞", "寡宿", "恩光", "天貴"], "changsheng": "衰", "boshi": "病符"},
+     "子": {"stem": "甲", "name": "子女", "body": false, "decadal": [92, 101], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["廉貞平", "天相廟"], "aux": ["鈴星"], "other": ["右弼科", "截路"], "changsheng": "帝旺", "boshi": "喜神"},
+     "亥": {"stem": "癸", "name": "財帛", "body": false, "decadal": [82, 91], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["巨門旺"], "aux": [], "other": ["天壽", "天姚", "封誥", "八座"], "changsheng": "臨官", "boshi": "飛廉"}
+    }
+   },
+   "lifedna": {
+    "lunar": "戊寅年11月14日酉時",
+    "fiveClass": "水二局",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "福德", "stars": ["太陽", "祿存"], "decStart": 22},
+     "午": {"stem": "戊", "name": "田宅", "stars": ["破軍", "擎羊"], "decStart": 32},
+     "未": {"stem": "己", "name": "官祿", "stars": ["天機忌", "天刑", "天鉞", "天喜"], "decStart": 42},
+     "申": {"stem": "庚", "name": "交友", "stars": ["紫微", "天府", "地劫"], "decStart": 52},
+     "辰": {"stem": "丙", "name": "父母", "stars": ["武曲", "陀羅"], "decStart": 12},
+     "酉": {"stem": "辛", "name": "遷移", "stars": ["太陰權"], "decStart": 62},
+     "卯": {"stem": "乙", "name": "命宮", "stars": ["天同"], "decStart": 2},
+     "戌": {"stem": "壬", "name": "疾厄", "stars": ["貪狼祿", "火星"], "decStart": 72},
+     "寅": {"stem": "甲", "name": "兄弟", "stars": ["七殺", "天空", "左輔", "天馬"], "decStart": 112},
+     "丑": {"stem": "乙", "name": "夫妻", "stars": ["天梁", "文昌", "文曲", "天魁", "紅鸞"], "decStart": 102},
+     "子": {"stem": "甲", "name": "子女", "stars": ["廉貞", "天相", "鈴星", "右弼科"], "decStart": 92},
+     "亥": {"stem": "癸", "name": "財帛", "stars": ["巨門", "天姚"], "decStart": 82}
+    }
+   },
+   "known": ["LifeDNA 天馬為月馬 (與年馬位置不同)"]
+  },
+  {
+   "id": "c11",
+   "note": "戌時, 2015",
+   "input": {"calendar": "solar", "y": 2015, "m": 11, "d": 11, "timeMode": "exact", "h": 20, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "female"},
+   "windada": {
+    "lunar": "2015年 9月30日戌時",
+    "ganzhi": "乙未年丁亥月辛卯日戊戌時",
+    "fiveClass": "霹靂火六局",
+    "mutagen": "天梁化權,紫微化科,天機化祿,太陰化忌",
+    "soulStar": "貪狼",
+    "bodyStar": "天相",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "交友", "body": false, "decadal": [56, 65], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["天機平祿"], "aux": ["天馬"], "other": ["天刑", "天巫", "三台", "旬空", "天殤"], "changsheng": "臨官", "boshi": "青龍"},
+     "午": {"stem": "壬", "name": "遷移", "body": false, "decadal": [66, 75], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["紫微廟科"], "aux": [], "other": ["截路", "天貴"], "changsheng": "帝旺", "boshi": "小耗"},
+     "未": {"stem": "癸", "name": "疾厄", "body": false, "decadal": [76, 85], "ages": [7, 19, 31, 43, 55, 67, 79], "major": [], "aux": ["火星"], "other": ["空亡", "華蓋", "天才", "天使"], "changsheng": "衰", "boshi": "將軍"},
+     "申": {"stem": "甲", "name": "財帛", "body": true, "decadal": [86, 95], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["破軍地"], "aux": ["鈴星", "天鉞"], "other": ["天福", "天空", "紅鸞", "孤辰", "月馬"], "changsheng": "病", "boshi": "奏書"},
+     "辰": {"stem": "庚", "name": "事業", "body": false, "decadal": [46, 55], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["七殺廟"], "aux": ["擎羊"], "other": ["天官", "寡宿", "解神", "台輔", "恩光", "旬空"], "changsheng": "冠帶", "boshi": "力士"},
+     "酉": {"stem": "乙", "name": "子女", "body": false, "decadal": [96, 105], "ages": [5, 17, 29, 41, 53, 65, 77], "major": [], "aux": ["地劫"], "other": ["天姚", "八座"], "changsheng": "死", "boshi": "飛廉"},
+     "卯": {"stem": "己", "name": "田宅", "body": false, "decadal": [36, 45], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["太陽廟", "天梁廟權"], "aux": ["祿存"], "other": ["鳳閣", "蜚廉", "天壽"], "changsheng": "沐浴", "boshi": "博士"},
+     "戌": {"stem": "丙", "name": "夫妻", "body": false, "decadal": [106, 115], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["廉貞利", "天府廟"], "aux": [], "other": ["陰煞"], "changsheng": "墓", "boshi": "喜神"},
+     "寅": {"stem": "戊", "name": "福德", "body": false, "decadal": [26, 35], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["武曲地", "天相廟"], "aux": ["右弼", "文曲", "陀羅"], "other": ["天喜", "天月"], "changsheng": "長生", "boshi": "官府"},
+     "丑": {"stem": "己", "name": "父母", "body": false, "decadal": [16, 25], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["天同陷", "巨門陷"], "aux": ["地空"], "other": ["天虛", "破碎"], "changsheng": "養", "boshi": "伏兵"},
+     "子": {"stem": "戊", "name": "命宮", "body": false, "decadal": [6, 15], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["貪狼旺"], "aux": ["左輔", "文昌", "天魁"], "other": ["咸池", "封誥"], "changsheng": "胎", "boshi": "大耗"},
+     "亥": {"stem": "丁", "name": "兄弟", "body": false, "decadal": [116, 125], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["太陰廟忌"], "aux": [], "other": ["天哭", "龍池"], "changsheng": "絕", "boshi": "病符"}
+    }
+   },
+   "lifedna": {
+    "lunar": "乙未年09月30日戌時",
+    "fiveClass": "火六局",
+    "palaces": {
+     "巳": {"stem": "辛", "name": "交友", "stars": ["天機祿", "天刑"], "decStart": 56},
+     "午": {"stem": "壬", "name": "遷移", "stars": ["紫微科"], "decStart": 66},
+     "未": {"stem": "癸", "name": "疾厄", "stars": ["火星"], "decStart": 76},
+     "申": {"stem": "甲", "name": "財帛", "stars": ["破軍", "鈴星", "天馬", "天鉞", "紅鸞"], "decStart": 86},
+     "辰": {"stem": "庚", "name": "官祿", "stars": ["七殺", "擎羊"], "decStart": 46},
+     "酉": {"stem": "乙", "name": "子女", "stars": ["地劫", "天姚"], "decStart": 96},
+     "卯": {"stem": "己", "name": "田宅", "stars": ["太陽", "天梁權", "祿存"], "decStart": 36},
+     "戌": {"stem": "丙", "name": "夫妻", "stars": ["廉貞", "天府"], "decStart": 106},
+     "寅": {"stem": "戊", "name": "福德", "stars": ["武曲", "天相", "文曲", "右弼", "陀羅", "天喜"], "decStart": 26},
+     "丑": {"stem": "己", "name": "父母", "stars": ["天同", "巨門", "天空"], "decStart": 16},
+     "子": {"stem": "戊", "name": "命宮", "stars": ["貪狼", "文昌", "左輔", "天魁"], "decStart": 6},
+     "亥": {"stem": "丁", "name": "兄弟", "stars": ["太陰忌"], "decStart": 116}
+    }
+   },
+   "known": ["亮度: 丑 天同、巨門 iztro「不」/ Windada「陷」", "LifeDNA 天馬為月馬"]
+  },
+  {
+   "id": "c12",
+   "note": "亥時, 戊年",
+   "input": {"calendar": "solar", "y": 2008, "m": 6, "d": 30, "timeMode": "exact", "h": 22, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "male"},
+   "windada": {
+    "lunar": "2008年 5月27日亥時",
+    "ganzhi": "戊子年戊午月辛丑日己亥時",
+    "fiveClass": "天上火六局",
+    "mutagen": "太陰化權,右弼化科,貪狼化祿,天機化忌",
+    "soulStar": "武曲",
+    "bodyStar": "火星",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "夫妻", "body": true, "decadal": [106, 115], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["天相地"], "aux": ["祿存"], "other": ["破碎", "天壽", "天姚", "天巫", "台輔"], "changsheng": "臨官", "boshi": "博士"},
+     "午": {"stem": "戊", "name": "兄弟", "body": false, "decadal": [116, 125], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["天梁廟"], "aux": ["擎羊"], "other": ["右弼科", "天哭", "天虛", "陰煞", "旬空"], "changsheng": "帝旺", "boshi": "力士"},
+     "未": {"stem": "己", "name": "命宮", "body": false, "decadal": [6, 15], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["廉貞利", "七殺廟"], "aux": ["天鉞"], "other": ["天才", "天月", "旬空"], "changsheng": "衰", "boshi": "青龍"},
+     "申": {"stem": "庚", "name": "父母", "body": false, "decadal": [16, 25], "ages": [11, 23, 35, 47, 59, 71, 83], "major": [], "aux": ["左輔"], "other": ["蜚廉", "月馬"], "changsheng": "病", "boshi": "小耗"},
+     "辰": {"stem": "丙", "name": "子女", "body": false, "decadal": [96, 105], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["巨門陷"], "aux": ["陀羅"], "other": ["華蓋", "龍池", "八座", "天貴"], "changsheng": "冠帶", "boshi": "官府"},
+     "酉": {"stem": "辛", "name": "福德", "body": false, "decadal": [26, 35], "ages": [12, 24, 36, 48, 60, 72, 84], "major": [], "aux": ["鈴星"], "other": ["天喜", "咸池"], "changsheng": "死", "boshi": "將軍"},
+     "卯": {"stem": "乙", "name": "財帛", "body": false, "decadal": [86, 95], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["紫微旺", "貪狼利祿"], "aux": ["文曲"], "other": ["天官", "天福", "紅鸞"], "changsheng": "沐浴", "boshi": "伏兵"},
+     "戌": {"stem": "壬", "name": "田宅", "body": false, "decadal": [36, 45], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["天同平"], "aux": ["地劫"], "other": ["寡宿", "鳳閣", "三台"], "changsheng": "墓", "boshi": "奏書"},
+     "寅": {"stem": "甲", "name": "疾厄", "body": false, "decadal": [76, 85], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["天機地忌", "太陰旺權"], "aux": ["天馬"], "other": ["孤辰", "天使"], "changsheng": "長生", "boshi": "大耗"},
+     "丑": {"stem": "乙", "name": "遷移", "body": false, "decadal": [66, 75], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["天府廟"], "aux": ["火星", "天魁"], "other": ["空亡", "天空", "天刑", "封誥"], "changsheng": "養", "boshi": "病符"},
+     "子": {"stem": "甲", "name": "交友", "body": false, "decadal": [56, 65], "ages": [3, 15, 27, 39, 51, 63, 75], "major": ["太陽陷"], "aux": ["地空"], "other": ["截路", "解神", "恩光", "天殤"], "changsheng": "胎", "boshi": "喜神"},
+     "亥": {"stem": "癸", "name": "事業", "body": false, "decadal": [46, 55], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["武曲平", "破軍平"], "aux": ["文昌"], "other": [], "changsheng": "絕", "boshi": "飛廉"}
+    }
+   },
+   "lifedna": {
+    "lunar": "戊子年05月27日亥時",
+    "fiveClass": "火六局",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "夫妻", "stars": ["天相", "天姚", "祿存"], "decStart": 106},
+     "午": {"stem": "戊", "name": "兄弟", "stars": ["天梁", "右弼科", "擎羊"], "decStart": 116},
+     "未": {"stem": "己", "name": "命宮", "stars": ["廉貞", "七殺", "天鉞"], "decStart": 6},
+     "申": {"stem": "庚", "name": "父母", "stars": ["左輔", "天馬"], "decStart": 16},
+     "辰": {"stem": "丙", "name": "子女", "stars": ["巨門", "陀羅"], "decStart": 96},
+     "酉": {"stem": "辛", "name": "福德", "stars": ["鈴星", "天喜"], "decStart": 26},
+     "卯": {"stem": "乙", "name": "財帛", "stars": ["紫微", "貪狼祿", "文曲", "紅鸞"], "decStart": 86},
+     "戌": {"stem": "壬", "name": "田宅", "stars": ["天同", "地劫"], "decStart": 36},
+     "寅": {"stem": "甲", "name": "疾厄", "stars": ["天機忌", "太陰權"], "decStart": 76},
+     "丑": {"stem": "乙", "name": "遷移", "stars": ["天府", "火星", "天刑", "天魁"], "decStart": 66},
+     "子": {"stem": "甲", "name": "交友", "stars": ["太陽", "天空"], "decStart": 56},
+     "亥": {"stem": "癸", "name": "官祿", "stars": ["武曲", "破軍", "文昌"], "decStart": 46}
+    }
+   },
+   "known": ["LifeDNA 天馬為月馬 (與年馬位置不同)"]
+  },
+  {
+   "id": "c13",
+   "note": "晚子時 23:30 (預設 23:00 換日)",
+   "input": {"calendar": "solar", "y": 1993, "m": 10, "d": 5, "timeMode": "exact", "h": 23, "mi": 30, "placeId": "tw-tpe", "trueSolar": false, "gender": "female"},
+   "windada": {
+    "lunar": "1993年 8月20日子時",
+    "ganzhi": "癸酉年辛酉月己未日甲子時",
+    "fiveClass": "石榴木三局",
+    "mutagen": "巨門化權,太陰化科,破軍化祿,貪狼化忌",
+    "soulStar": "文曲",
+    "bodyStar": "天同",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "財帛", "body": false, "decadal": [83, 92], "ages": [3, 15, 27, 39, 51, 63, 75], "major": [], "aux": ["天鉞"], "other": ["天福", "破碎"], "changsheng": "病", "boshi": "奏書"},
+     "午": {"stem": "戊", "name": "子女", "body": false, "decadal": [93, 102], "ages": [2, 14, 26, 38, 50, 62, 74], "major": ["天機廟"], "aux": [], "other": ["天官", "紅鸞", "咸池", "天才", "天壽", "台輔", "三台"], "changsheng": "死", "boshi": "飛廉"},
+     "未": {"stem": "己", "name": "夫妻", "body": false, "decadal": [103, 112], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["紫微廟", "破軍旺祿"], "aux": [], "other": ["寡宿", "天月"], "changsheng": "墓", "boshi": "喜神"},
+     "申": {"stem": "庚", "name": "兄弟", "body": false, "decadal": [113, 122], "ages": [12, 24, 36, 48, 60, 72, 84], "major": [], "aux": [], "other": ["天姚", "八座"], "changsheng": "絕", "boshi": "病符"},
+     "辰": {"stem": "丙", "name": "疾厄", "body": false, "decadal": [73, 82], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["太陽旺"], "aux": ["文曲"], "other": ["天刑", "恩光", "天使"], "changsheng": "衰", "boshi": "將軍"},
+     "酉": {"stem": "辛", "name": "命宮", "body": true, "decadal": [3, 12], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["天府旺"], "aux": [], "other": ["天哭"], "changsheng": "胎", "boshi": "大耗"},
+     "卯": {"stem": "乙", "name": "遷移", "body": false, "decadal": [63, 72], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["武曲利", "七殺旺"], "aux": ["右弼", "火星", "天魁"], "other": ["天虛"], "changsheng": "帝旺", "boshi": "小耗"},
+     "戌": {"stem": "壬", "name": "父母", "body": false, "decadal": [13, 22], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["太陰旺科"], "aux": ["文昌", "鈴星"], "other": ["天空", "天貴", "旬空"], "changsheng": "養", "boshi": "伏兵"},
+     "寅": {"stem": "甲", "name": "交友", "body": false, "decadal": [53, 62], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["天同利", "天梁廟"], "aux": [], "other": ["解神", "封誥", "天殤"], "changsheng": "臨官", "boshi": "青龍"},
+     "丑": {"stem": "乙", "name": "事業", "body": false, "decadal": [43, 52], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["天相廟"], "aux": ["擎羊"], "other": ["截路", "華蓋", "龍池", "鳳閣"], "changsheng": "冠帶", "boshi": "力士"},
+     "子": {"stem": "甲", "name": "田宅", "body": false, "decadal": [33, 42], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["巨門旺權"], "aux": ["祿存"], "other": ["空亡", "天喜", "陰煞"], "changsheng": "沐浴", "boshi": "博士"},
+     "亥": {"stem": "癸", "name": "福德", "body": false, "decadal": [23, 32], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["廉貞陷", "貪狼陷忌"], "aux": ["左輔", "地空", "地劫", "陀羅", "天馬"], "other": ["孤辰", "蜚廉", "月馬", "天巫", "旬空"], "changsheng": "長生", "boshi": "官府"}
+    }
+   },
+   "lifedna": {
+    "lunar": "癸酉年08月20日",
+    "fiveClass": "木三局",
+    "palaces": {
+     "巳": {"stem": "丁", "name": "財帛", "stars": ["天鉞"], "decStart": 83},
+     "午": {"stem": "戊", "name": "子女", "stars": ["天機", "紅鸞"], "decStart": 93},
+     "未": {"stem": "己", "name": "夫妻", "stars": ["紫微", "破軍祿"], "decStart": 103},
+     "申": {"stem": "庚", "name": "兄弟", "stars": ["天姚"], "decStart": 113},
+     "辰": {"stem": "丙", "name": "疾厄", "stars": ["太陽", "文曲", "天刑"], "decStart": 73},
+     "酉": {"stem": "辛", "name": "命宮", "stars": ["天府"], "decStart": 3},
+     "卯": {"stem": "乙", "name": "遷移", "stars": ["武曲", "七殺", "火星", "右弼", "天魁"], "decStart": 63},
+     "戌": {"stem": "壬", "name": "父母", "stars": ["太陰科", "文昌", "鈴星"], "decStart": 13},
+     "寅": {"stem": "甲", "name": "交友", "stars": ["天同", "天梁"], "decStart": 53},
+     "丑": {"stem": "乙", "name": "官祿", "stars": ["天相", "擎羊"], "decStart": 43},
+     "子": {"stem": "甲", "name": "田宅", "stars": ["巨門權", "祿存", "天喜"], "decStart": 33},
+     "亥": {"stem": "癸", "name": "福德", "stars": ["廉貞", "貪狼忌", "地劫", "天空", "左輔", "天馬", "陀羅"], "decStart": 23}
+    }
+   },
+   "known": ["晚子時: 兩個參考都「不換日」(農曆八月二十 子時); 我們預設 23:00 換日 (八月廿一) → 十四主星整盤不同。我們 zi=same 目前也等於換日 (bug), 改成同日 timeIndex 0 後與兩參考全同"]
+  },
+  {
+   "id": "c14",
+   "note": "巳時, 閏四月初十 (閏月前半)",
+   "input": {"calendar": "solar", "y": 2001, "m": 6, "d": 1, "timeMode": "exact", "h": 10, "mi": 0, "placeId": "tw-tpe", "trueSolar": false, "gender": "male"},
+   "windada": {
+    "lunar": "2001年閏 4月10日巳時",
+    "ganzhi": "辛巳年癸巳月乙未日辛巳時",
+    "fiveClass": "壁上土五局",
+    "mutagen": "太陽化權,文曲化科,巨門化祿,文昌化忌",
+    "soulStar": "貪狼",
+    "bodyStar": "天機",
+    "palaces": {
+     "巳": {"stem": "癸", "name": "交友", "body": false, "decadal": [75, 84], "ages": [11, 23, 35, 47, 59, 71, 83], "major": ["天相地"], "aux": [], "other": ["文昌忌", "天福", "截路", "鳳閣", "天才", "天貴", "天殤"], "changsheng": "臨官", "boshi": "將軍"},
+     "午": {"stem": "甲", "name": "遷移", "body": false, "decadal": [65, 74], "ages": [12, 24, 36, 48, 60, 72, 84], "major": ["天梁廟"], "aux": ["地空", "天鉞"], "other": ["天空", "咸池"], "changsheng": "冠帶", "boshi": "小耗"},
+     "未": {"stem": "乙", "name": "疾厄", "body": false, "decadal": [55, 64], "ages": [1, 13, 25, 37, 49, 61, 73], "major": ["廉貞利", "七殺廟"], "aux": ["左輔", "右弼"], "other": ["蜚廉", "封誥", "天使"], "changsheng": "沐浴", "boshi": "青龍"},
+     "申": {"stem": "丙", "name": "財帛", "body": false, "decadal": [45, 54], "ages": [2, 14, 26, 38, 50, 62, 74], "major": [], "aux": ["火星", "陀羅"], "other": ["孤辰", "陰煞", "旬空"], "changsheng": "長生", "boshi": "力士"},
+     "辰": {"stem": "壬", "name": "事業", "body": false, "decadal": [85, 94], "ages": [10, 22, 34, 46, 58, 70, 82], "major": ["巨門陷祿"], "aux": ["地劫"], "other": ["空亡", "天喜", "寡宿", "天姚", "三台"], "changsheng": "帝旺", "boshi": "奏書"},
+     "酉": {"stem": "丁", "name": "子女", "body": false, "decadal": [35, 44], "ages": [3, 15, 27, 39, 51, 63, 75], "major": [], "aux": ["祿存"], "other": ["文曲科", "天官", "龍池", "破碎", "旬空"], "changsheng": "養", "boshi": "博士"},
+     "卯": {"stem": "辛", "name": "田宅", "body": false, "decadal": [95, 104], "ages": [9, 21, 33, 45, 57, 69, 81], "major": ["紫微旺", "貪狼利"], "aux": ["鈴星"], "other": ["天壽"], "changsheng": "衰", "boshi": "飛廉"},
+     "戌": {"stem": "戊", "name": "夫妻", "body": true, "decadal": [25, 34], "ages": [4, 16, 28, 40, 52, 64, 76], "major": ["天同平"], "aux": ["擎羊"], "other": ["紅鸞", "解神", "八座"], "changsheng": "胎", "boshi": "官府"},
+     "寅": {"stem": "庚", "name": "福德", "body": false, "decadal": [105, 114], "ages": [8, 20, 32, 44, 56, 68, 80], "major": ["天機地", "太陰旺"], "aux": ["天魁"], "other": ["天月"], "changsheng": "病", "boshi": "喜神"},
+     "丑": {"stem": "辛", "name": "父母", "body": false, "decadal": [115, 124], "ages": [7, 19, 31, 43, 55, 67, 79], "major": ["天府廟"], "aux": [], "other": ["華蓋", "天哭", "恩光"], "changsheng": "死", "boshi": "病符"},
+     "子": {"stem": "庚", "name": "命宮", "body": false, "decadal": [5, 14], "ages": [6, 18, 30, 42, 54, 66, 78], "major": ["太陽陷權"], "aux": [], "other": ["天刑"], "changsheng": "墓", "boshi": "大耗"},
+     "亥": {"stem": "己", "name": "兄弟", "body": false, "decadal": [15, 24], "ages": [5, 17, 29, 41, 53, 65, 77], "major": ["武曲平", "破軍平"], "aux": ["天馬"], "other": ["天虛", "月馬", "天巫", "台輔"], "changsheng": "絕", "boshi": "伏兵"}
+    }
+   },
+   "lifedna": {
+    "lunar": "辛巳年",
+    "fiveClass": "土五局",
+    "palaces": {
+     "巳": {"stem": "癸", "name": "交友", "stars": ["天相", "文昌忌"], "decStart": 75},
+     "午": {"stem": "甲", "name": "遷移", "stars": ["天梁", "天空", "天魁"], "decStart": 65},
+     "未": {"stem": "乙", "name": "疾厄", "stars": ["廉貞", "七殺", "左輔", "右弼"], "decStart": 55},
+     "申": {"stem": "丙", "name": "財帛", "stars": ["火星", "陀羅"], "decStart": 45},
+     "辰": {"stem": "壬", "name": "官祿", "stars": ["巨門祿", "地劫", "天姚", "天喜"], "decStart": 85},
+     "酉": {"stem": "丁", "name": "子女", "stars": ["文曲科", "祿存"], "decStart": 35},
+     "卯": {"stem": "辛", "name": "田宅", "stars": ["紫微", "貪狼", "鈴星"], "decStart": 95},
+     "戌": {"stem": "戊", "name": "夫妻", "stars": ["天同", "擎羊", "紅鸞"], "decStart": 25},
+     "寅": {"stem": "庚", "name": "福德", "stars": ["天機", "太陰", "天鉞"], "decStart": 105},
+     "丑": {"stem": "辛", "name": "父母", "stars": ["天府"], "decStart": 115},
+     "子": {"stem": "庚", "name": "命宮", "stars": ["太陽權", "天刑"], "decStart": 5},
+     "亥": {"stem": "己", "name": "兄弟", "stars": ["武曲", "破軍", "天馬"], "decStart": 15}
+    }
+   },
+   "known": ["辛年魁鉞: 同 c06"]
+  }
+ ]
+}

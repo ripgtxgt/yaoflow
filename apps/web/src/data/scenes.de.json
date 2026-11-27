@@ -1,0 +1,522 @@
+{
+ "job-change": {
+  "slug": "job-change",
+  "topic": "career",
+  "hexagrams": [
+   11,
+   5,
+   46,
+   35
+  ],
+  "title": "I Ging Orakel Job: Stelle annehmen oder abwarten?",
+  "h1": "Soll ich das Jobangebot annehmen oder warten?",
+  "meta": "Ein Liu-Yao-Wurf zum Jobangebot oder Jobwechsel wägt Stelle, Vertrag, Gehalt und Zeitpunkt ab. Das Bild steht fest – entscheiden tust du.",
+  "intro": [
+   "Ein Angebot liegt in deinem Postfach, oder die Konkurrenz hat schon zweimal angerufen, und die Entscheidung hat eine Frist. Du springst hin und her zwischen Gehalt, Titel, der Chefin, die du zurücklassen würdest, und dem Gefühl, dass ein zu schnelles Ja dich etwas kosten könnte, das du noch nicht benennen kannst.",
+   "Ein Liu-Yao-Wurf sagt dir nicht, was du tun sollst. Er baut aus deiner Frage ein festes Bild – die Stelle, der Vertrag, das Gehalt, deine Seite und die der Firma – und erklärt dann, was dieses Bild zeigt. Abwägen musst du es weiter selbst: gegen dein Leben, deine Miete und das, was du wirklich willst."
+  ],
+  "how": {
+   "lead": "Bei einem Jobangebot oder Wechsel schaut das Bild auf die Stelle selbst, die Papiere dahinter, das Geld und darauf, welche Seite zieht.",
+   "points": [
+    "Die Beamten-Linie (官鬼) steht für den Job und für den Zug des Arbeitgebers zu dir hin. Ist sie stark und nährt die Selbst-Linie, will die Stelle dich wirklich; ist sie leer – eine Linie, der in diesem Zehn-Tage-Zyklus die Kraft ausgegangen ist –, ist die Stelle nicht das, was in der Ausschreibung steht.",
+    "Die Eltern-Linie (父母) steht für Vertrag, Angebotsschreiben, Startdatum und Papiere. Eine schwache Eltern-Linie neben einer lauten Beamten-Linie heißt: Die Begeisterung ist echt, aber die Konditionen sind noch weich.",
+    "Die Reichtums-Linie (妻财) ist das Gehalt. Starker Reichtum heißt, das Geld ist echt und erreichbar; schwacher oder getroffener Reichtum heißt, die Zahl verschiebt sich oder schrumpft, sobald du drin bist.",
+    "Die Selbst-Linie (世) bist du, die Gegenüber-Linie (应) ist die Firma. Stützt das Gegenüber das Selbst, arbeitet die andere Seite für dich; setzt es ihm zu, trägst du die Kosten.",
+    "Eine wandelnde Geschwister-Linie (兄弟) zeigt Konkurrenz – eine andere Bewerberin, einen internen Rivalen oder eine stille Kürzung des Pakets. Achte darauf, ob diese Geschwister-Linie auf dich zu- oder gegen dich arbeitet."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Die Stelle ist echt und will dich",
+    "text": "Beamte stark, nährt die Selbst-Linie, das Gegenüber stützt. Die Stelle ist, was sie zu sein scheint, und das Interesse des Arbeitgebers ist echt. Die Frage lautet dann nicht mehr, ob sie dich wollen, sondern ob die Konditionen passen."
+   },
+   {
+    "name": "Das Angebot ist laut, die Papiere sind dünn",
+    "text": "Beamte stark, Eltern schwach oder gar nicht da. Die Personalerin ist begeistert, der Titel lockt, aber die schriftlichen Konditionen sind vage oder noch in Bewegung. Halte eine mündliche Zusage nicht für einen Vertrag."
+   },
+   {
+    "name": "Das Geld ist der Knackpunkt",
+    "text": "Die Reichtums-Linie wird getroffen, oder eine Geschwister-Linie wandelt sich gegen sie. Das genannte Gehalt wird vielleicht gekürzt, verschoben oder durch ein Gegenangebot verändert, das den ganzen Deal umbaut. Lass dir die Zahl schriftlich geben, bevor du irgendetwas kündigst."
+   },
+   {
+    "name": "Die Stelle ist nicht, was sie scheint",
+    "text": "Beamte leer oder im Monatsbruch. Die Stelle wird vielleicht umstrukturiert, der Auftrag ist enger als beschrieben, oder das Team ist im Umbruch. Dieses Bild belohnt es, vor der Unterschrift härtere Fragen zu stellen."
+   }
+  ],
+  "example": {
+   "values": "777868",
+   "question": "Die Konkurrenz hat mir eine Führungsstelle angeboten. Soll ich jetzt zusagen oder warten?",
+   "text": "Das Hexagramm ist „Der Friede“ (地天泰), ein Hexagramm der sechs Verbindungen (六合) – die beiden Seiten sind schon verbunden und im Gespräch. Linie 5 ist die Reichtums-Linie, das Gehalt, und sie wandelt sich: Sie wird zur Geschwister-Linie, und Erde bezwingt Wasser, die Wandlung greift das Geld also von hinten an. Das Angebot ist echt, aber das Paket steht noch nicht; beim Gehalt oder bei den Konditionen wird sich etwas verschieben, bevor es festgezurrt ist.\n\nDie Selbst-Linie ist Linie 3, also du, die Gegenüber-Linie ist Linie 6, die Firma – die beiden verbinden sich, die andere Seite ist also ernsthaft interessiert. Die Beamten-Linie auf Linie 2 ist die Stelle selbst: Sie ist da, nicht leer, nicht gebrochen – die Position gibt es wirklich. Zusammengelesen: Der Job will dich, das Geld ist der bewegliche Teil. Das Wandlungshexagramm ist „Das Warten“ (水天需) – der Zeitpunkt sagt: warten, bis die Papiere stehen und die Zahl schriftlich festliegt. Das ist die Deutung, keine Anweisung; ob sich das Warten lohnt, entscheidest du."
+  },
+  "faq": [
+   {
+    "q": "Kann mir ein Liu-Yao-Wurf sagen, ob ich ein Jobangebot annehmen soll?",
+    "a": "Nein. Der Wurf ergibt ein festes Bild von Stelle, Vertrag, Gehalt und den beiden Seiten. Die Deutung erklärt, was dieses Bild zeigt; die Entscheidung bleibt bei dir."
+   },
+   {
+    "q": "Was bedeutet es, wenn die Beamten-Linie in meinem Bild leer ist?",
+    "a": "Leer heißt, der Linie ist in diesem Zehn-Tage-Zyklus die Kraft ausgegangen. Bei einer Jobfrage deutet das darauf hin, dass die Stelle nicht ist, was in der Ausschreibung steht – umstrukturiert, enger gefasst oder im Umbruch. Es ist ein Anlass, mehr zu fragen, keine Antwort auf alles."
+   },
+   {
+    "q": "Soll ich noch einmal werfen, wenn mir die Antwort nicht gefällt?",
+    "a": "Ein zweiter Wurf zur selben Sache gibt dir ein zweites Bild, kein wahreres – die sechs Linien fallen, wie sie fallen. Die Regel der Tradition lautet: eine Sache, ein Wurf. Bleib bei der ersten Deutung, entscheide, und wirf erst wieder, wenn sich die Lage selbst verändert hat."
+   }
+  ],
+  "ask": "Soll ich dieses Jobangebot annehmen, abwarten oder bleiben, wo ich bin?"
+ },
+ "moving": {
+  "slug": "moving",
+  "topic": "decision",
+  "hexagrams": [
+   35,
+   56,
+   53,
+   39
+  ],
+  "title": "I Ging Umzug & Auswandern: Soll ich gehen?",
+  "h1": "Soll ich umziehen? Ein Liu-Yao-Wurf zum Ortswechsel",
+  "meta": "Ein Liu-Yao-Wurf zu Auswandern oder Umzug: Zuhause, Papiere, Hindernisse und die Überfahrt im Bild. Das Bild steht fest – du entscheidest.",
+  "intro": [
+   "Die Kisten sind halb gepackt, der Mietvertrag endet in zwei Monaten, und einer von euch lädt um Mitternacht zum dritten Mal die Visa-Seite neu. Ein Umzug in ein anderes Land oder eine andere Stadt ist ein Stapel kleiner Entscheidungen unter einem großen Namen, und das meiste Gewicht liegt in den Teilen, die du noch nicht siehst: die Papiere, der Zeitpunkt, ob der neue Ort dich trägt.",
+   "Ein Liu-Yao-Wurf sagt dir nicht, ob du gehen sollst. Er zeichnet aus deinen sechs Linien ein festes, reproduzierbares Bild, und die Deutung erklärt, was dieses Bild abwägt – Zuhause und Dokumente, Hindernisse und Behörden, wie leicht die Überfahrt wird und ob du überhaupt schon bereit bist, dich zu bewegen. Du liest es, du streitest mit ihm, und du entscheidest."
+  ],
+  "how": {
+   "lead": "Bei einem Umzug wägt das Bild deine eigene Linie, die Linie von Zuhause und Papieren, die Linie von Hindernis und Behörde und die Linie von Leichtigkeit und sicherer Überfahrt ab.",
+   "points": [
+    "Die Selbst-Linie (世爻, die Linie, die für dich als Fragende oder Fragenden steht) zeigt, ob du tatsächlich in Bewegung bist. Stark und wandelnd: Du kannst gehen, die Entscheidung hat Gewicht. Ist sie leer (旬空, eine Linie in einer Kalenderlücke ohne Kraft), hast du dich noch nicht entschieden, egal was der Kalender sagt.",
+    "Die Eltern-Linie (父母, die Linie von Zuhause, Dokumenten und Visum) zeigt, ob der neue Ort trägt. Starke Eltern heißt: Adresse, Mietvertrag und Aufenthaltstitel haben etwas unter sich. Schwache oder getroffene Eltern heißt: Die Zuhause-Seite des Umzugs ist dünn.",
+    "Die Beamten-Linie (官鬼, die Linie von Hindernis und Behörde) ist die Schlange vor dem Konsulat, der fehlende Stempel, der Vermieter, der nicht unterschreibt. Wandelt sie sich und setzt deiner Selbst-Linie zu, ist das Bürokratie oder Ärger auf dem Weg – keine Antwort auf die Frage, sondern ein Hinweis, wo die Reibung sitzt.",
+    "Die Nachkommen-Linie (子孙, die Linie von Leichtigkeit und sicherer Überfahrt) ist der glatte Teil: der Flug, der landet, die Freundin, die dich abholt, die Woche, die ruhig verläuft. Ist sie da und ungebrochen, ist die Reise selbst nicht das Problem.",
+    "Die Gegenüber-Linie (应爻, die Linie der anderen Seite – Stadt, Arbeitgeber, Land) zeigt, worauf du dich zubewegst. Lies sie gegen deine Selbst-Linie: Stütze, Gleichgültigkeit oder Druck."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Selbst stark und wandelnd",
+    "text": "Deine Linie hat Kraft und wandelt sich – das Bild sagt, dass der Umzug in dir Schwung hat. Die Frage verschiebt sich von „ob“ zu „wie“. Schau als Nächstes auf die Eltern-Linie: Schwung ohne ein Zuhause zum Landen ist nur ein Aufbruch."
+   },
+   {
+    "name": "Selbst leer",
+    "text": "Deine Linie sitzt kraftlos in einer Kalenderlücke, das heißt: noch nicht entschieden. Das ist kein Nein. Meist liegt die eigentliche Frage noch davor – der Job, das Geld, der Mensch, dem du es noch nicht gesagt hast."
+   },
+   {
+    "name": "Beamte wandelt sich gegen das Selbst",
+    "text": "Die Linie des Hindernisses ist aktiv und drückt auf deine Linie: Papiere, Behörden, eine Verzögerung mit Namen. Das Bild zeigt auf die Reibung, es verbietet den Umzug nicht. Plane Zeit und Geld für die Warteschlange ein."
+   },
+   {
+    "name": "Eltern stark, Nachkommen da",
+    "text": "Die Zuhause-Linie hat Substanz und die Linie der Leichtigkeit ist ungebrochen – die stabilste Form für einen Umzug. Der neue Ort trägt, die Überfahrt ist ruhig. Was bleibt, ist die ganz normale Arbeit des Gehens."
+   }
+  ],
+  "example": {
+   "values": "888987",
+   "question": "Sollen wir dieses Jahr ins Ausland ziehen?",
+   "text": "Das Hexagramm ist „Der Fortschritt“ (火地晋) und wird zu „Die Zersplitterung“ (山地剥), Linie 4 wandelt sich. Linie 4 ist eure Selbst-Linie – ihr beide als Fragende –, sie ist Yang und wandelnd, der Umzug ist also wirklich in Bewegung. Linie 1 ist die Gegenüber-Linie, die andere Seite, und sie ist eine Eltern-Linie auf wèi-Erde: Das Land, in das ihr zieht, ist eine Zuhause-Linie, keine gleichgültige. Linie 5 ist ebenfalls Eltern, die Zuhause-und-Papiere-Seite dieses Umzugs hat also zwei Stützen. Linie 6 und Linie 2 sind Beamten-Linien, die Seite von Hindernis und Behörde, und keine von beiden wandelt sich gegen eure Linie.\n\nDie einzige wandelnde Linie ist eure eigene, und sie wird von einer Geschwister-Linie auf yǒu-Metall zu einer Eltern-Linie auf xū-Erde. Schlicht gesagt: Was sich bewegt, seid ihr, und was daraus wird, sind Zuhause und Papiere – und die Linie wird von ihrer Wandlung genährt, sie geht also gestärkt aus der Veränderung hervor. Zusammengelesen: Der Umzug öffnet sich, und die Papiere ziehen sich hin. Nichts hier sagt „geht“ oder „bleibt“. Es sagt: Der Weg ist echt, das Ziel ist eine Zuhause-Linie, und der langsame Teil werden die Dokumente sein."
+  },
+  "faq": [
+   {
+    "q": "Kann mir ein Wurf sagen, ob ich das Visum bekomme?",
+    "a": "Nein. Das Bild kann die Eltern-Linie zeigen – Zuhause und Papiere – und ob sie stark oder dünn ist, und es kann zeigen, ob die Beamten-Linie der Behörden drückt oder ruhig ist. Das sagt dir, wo die Reibung wahrscheinlich sitzt. Ein Visum stellt es nicht aus."
+   },
+   {
+    "q": "Was, wenn meine Selbst-Linie leer ist?",
+    "a": "Leer (旬空) heißt, die Linie sitzt kraftlos in einer Kalenderlücke; bei einem Umzug liest man das meist als „noch nicht entschieden“, nicht als Nein. Kümmere dich um die Frage, die davor liegt – der Job, das Geld, das Gespräch –, und wirf erneut, wenn sich tatsächlich etwas verändert hat."
+   },
+   {
+    "q": "Soll ich zum selben Umzug einmal oder mehrmals werfen?",
+    "a": "Ein Wurf beantwortet eine Frage in einem Moment, und das Bild steht fest, sobald es gezogen ist. Verändert sich die Lage wirklich – ein Angebot, eine Absage, ein Datum –, ist das eine neue Frage und ein neuer Wurf. Dieselbe unveränderte Frage neu zu werfen, erzeugt vor allem Rauschen."
+   }
+  ],
+  "ask": "Soll ich dieses Jahr in eine andere Stadt oder ein anderes Land ziehen?"
+ },
+ "negotiation-deal": {
+  "slug": "negotiation-deal",
+  "topic": "money",
+  "hexagrams": [
+   13,
+   49,
+   6,
+   14
+  ],
+  "title": "I Ging Verhandlung & Vertrag: Kommt der Deal zustande?",
+  "h1": "Kommt der Deal zustande – und zu wessen Bedingungen?",
+  "meta": "Ein Liu-Yao-Wurf zeigt, ob eine Verhandlung abschließt: die Gegenseite, der Vertrag und das Geld auf dem Tisch. Das Bild steht fest – du entscheidest.",
+  "intro": [
+   "Du steckst mitten in einer Verhandlung – ein Vertrag, ein Verkauf, ein Term Sheet – und der Boden bewegt sich ständig. Die andere Seite wirkt interessiert, dann zögerlich, dann wieder interessiert, und du willst einen klaren Blick darauf, wo das Ganze wirklich steht.",
+   "Ein Liu-Yao-Wurf entscheidet nicht über den Ausgang und sagt dir nicht, was du unterschreiben sollst. Er gibt dir ein festes, reproduzierbares Bild des Moments: wer die Gegenseite in der Deutung ist, ob das Papier fertig ist und wo das Geld liegt. Du liest es, dann entscheidest du."
+  ],
+  "how": {
+   "lead": "Bei einer Verhandlung wägt das Bild drei Dinge ab: die Gegenseite, den Vertrag selbst und das Geld auf dem Tisch.",
+   "points": [
+    "Die Gegenüber-Linie (应) ist die Gegenseite – die andere Partei am Tisch. Ihre Stärke, ihre Wandlung und ob sie leer ist, zeigen dir, wie belastbar deren Position gerade ist.",
+    "Die Eltern-Linie (父母) ist der Vertrag – das Papier, die Konditionen, die Unterschriftenseite. Ist sie leer, ist das Dokument noch nicht fertig, egal wie gut sich das Gespräch anfühlt.",
+    "Die Reichtums-Linie (妻财) ist das Geld auf dem Tisch – der Preis, das Honorar, die Gegenleistung. Wo sie sitzt und ob sie gestützt wird, zeigt, worüber eigentlich verhandelt wird.",
+    "Die Selbst-Linie (世) bist du – deine Position, dein Hebel, deine Forderung. Verbinden sich Selbst und Gegenüber, treffen sich die Seiten. Stoßen sie zusammen, gibt es keinen Treffpunkt.",
+    "Eine wandelnde Linie zeigt, wohin sich die Lage bewegt. Eine Linie, die zurückweicht – gleiche Wandlungsphase, der Erdzweig tritt einen Schritt zurück –, verliert an Schwung, auch wenn sie dieselbe Art Linie bleibt."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Selbst und Gegenüber verbinden sich",
+    "text": "Die beiden Seiten treffen sich. Das ist das deutlichste Zeichen, dass ein Deal zustande kommt – nicht, weil es Schicksal wäre, sondern weil das Bild einen Berührungspunkt zeigt. Die Konditionen müssen noch geschrieben werden, aber der Wille ist da."
+   },
+   {
+    "name": "Gegenüber leer",
+    "text": "Die Gegenseite meint es gerade nicht ernst. Sie mag höflich, interessiert, sogar begeistert sein, aber eine leere Gegenüber-Linie heißt: Ihre Position ist im Moment hohl. Warte, bis sie sich füllt, bevor du dich festlegst."
+   },
+   {
+    "name": "Selbst und Gegenüber stoßen zusammen",
+    "text": "Kein Treffpunkt. Die beiden Positionen berühren sich nicht – ihr redet aneinander vorbei. Das heißt nicht, dass der Deal für immer tot ist, aber in seiner jetzigen Form schließt er nicht ab. Etwas muss sich ändern."
+   },
+   {
+    "name": "Eltern leer",
+    "text": "Das Papier ist nicht fertig. Vertrag, Konditionen, Unterschriftenseite – in welcher Form auch immer die Vereinbarung kommt, sie ist nicht unterschriftsreif. Verwechsle ein gutes Gespräch nicht mit einem abgeschlossenen Deal."
+   }
+  ],
+  "example": {
+   "values": "787779",
+   "question": "Kommt diese Investition zustande, und zu welchen Bedingungen?",
+   "text": "Das Hexagramm ist „Gemeinschaft mit Menschen“ (天火同人) und wird zu „Die Umwälzung“ (泽火革), Linie 6 wandelt sich. Linie 3 ist die Selbst-Linie – die Gründerin, die fragt. Linie 6 ist die Gegenüber-Linie – der Investor –, und sie wandelt sich. Linie 1 ist die Eltern-Linie, der Vertrag. Linie 5 ist die Reichtums-Linie, das Geld auf dem Tisch. Selbst und Gegenüber verbinden sich nicht: Die Gegenüber-Linie steht auf xū-Erde, die Selbst-Linie auf hài-Wasser, und Erde bezwingt Wasser – der Investor sitzt am längeren Hebel. Die Eltern-Linie ist da, das Papier existiert also in irgendeiner Form.\n\nAber Linie 6, der Investor, wandelt sich – und weicht zurück. Sie bleibt eine Nachkommen-Linie, doch der Erdzweig tritt von xū auf wèi zurück. Die Gegenseite verliert auf dem letzten Stück an Schwung. Der Deal ist nicht vom Tisch, aber die Bedingungen werden unterwegs neu geschrieben. Aus „Gemeinschaft mit Menschen“ wird „Die Umwälzung“: Was als gemeinsame Absicht beginnt, endet als umgebautes Dokument. Die Geld-Linie sitzt auf Linie 5, doch die endgültigen Konditionen sind nicht die, über die zuerst gesprochen wurde."
+  },
+  "faq": [
+   {
+    "q": "Kann mir ein Liu-Yao-Wurf sagen, ob ich unterschreiben soll?",
+    "a": "Nein. Das Bild zeigt den Zustand von Gegenseite, Vertrag und Geld. Es sagt dir nicht, was du tun sollst. Du liest das Bild, wägst es gegen alles andere ab, was du weißt, und entscheidest."
+   },
+   {
+    "q": "Was bedeutet es, wenn die Gegenüber-Linie leer ist?",
+    "a": "Die Gegenseite ist gerade nicht belastbar. Vielleicht wartet sie auf etwas, oder sie ist nicht ganz dabei. Das heißt nicht, dass sie lügt – es heißt, dass ihre Position im Moment hohl ist. Gib ihr Zeit, sich zu füllen, bevor du handelst."
+   },
+   {
+    "q": "Im Gespräch sieht der Deal gut aus, aber das Bild zeigt einen Zusammenstoß. Was nun?",
+    "a": "Stoßen Selbst und Gegenüber zusammen, berühren sich die beiden Positionen nicht. Das Gespräch mag herzlich sein, aber die Struktur des Deals trifft sich nicht. Etwas muss sich ändern – die Konditionen, der Zeitpunkt oder die Beteiligten –, bevor er zustande kommt."
+   }
+  ],
+  "ask": "Kommt dieser Deal zustande, und zu wessen Bedingungen?"
+ },
+ "starting-a-business": {
+  "slug": "starting-a-business",
+  "topic": "money",
+  "hexagrams": [
+   48,
+   42,
+   3,
+   50
+  ],
+  "title": "I Ging Selbstständigkeit: Soll ich mich selbstständig machen?",
+  "h1": "Soll ich mein Business jetzt starten, später oder gar nicht?",
+  "meta": "Ein Liu-Yao-Wurf zur Selbstständigkeit wägt Gewinn, Kundschaft, Konkurrenz und Partner ab – was im Bild steht, nicht was du tun sollst.",
+  "intro": [
+   "Du kannst etwas, wofür Leute bezahlen, oder du hast eine Idee, um die du seit Monaten kreist. Die Frage ist nicht, ob du die Arbeit kannst – sondern ob Geld, Kundschaft und Zeitpunkt zusammenpassen. Du willst dir den Boden genau ansehen, bevor du ihn betrittst.",
+   "Ein Liu-Yao-Wurf baut aus deiner Frage ein festes Bild: sechs Linien, jede mit einer Beziehung und einer Wandlungsphase. Das Bild sagt dir nicht, ob du springen oder bleiben sollst. Es zeigt, wo der Gewinn sitzt, wer ihn bringt, was ihn abzieht und ob die Struktur hält. Das liest du gegen deine eigenen Zahlen und entscheidest."
+  ],
+  "how": {
+   "lead": "Bei einer Geschäftsfrage wägt das Bild die Gewinn-Linie, die Kundschafts-Linie, die Druck-Linie und die Ausgaben-Linie gegen die Stärke deiner eigenen Position ab.",
+   "points": [
+    "Die Reichtums-Linie (妻财) ist Gewinn – Geld, das wirklich ankommt. Eine starke Reichtums-Linie in starker Position heißt, der Boden kann Einkommen tragen; eine schwache oder fehlende heißt, der Umsatz ist noch nicht da, so gut die Idee auch ist.",
+    "Die Nachkommen-Linie (子孙) ist die Quelle des Gewinns und die Kundschaft selbst. Ist sie da und wandelt sie sich gut, gibt es Nachfrage und die Leute kommen zu dir. Fehlt sie, verkaufst du in einen stillen Raum.",
+    "Die Beamten-Linie (官鬼) ist der Druck auf das Vorhaben – Konkurrenz, Vorschriften, Genehmigungen, der Preis der Sichtbarkeit. Eine schwere Beamten-Linie ist kein Stoppschild; sie zeigt dir den Eintrittspreis und wer schon da ist.",
+    "Die Geschwister-Linie (兄弟) steht für Ausgaben und für Partner, die nehmen. Hält sie die Selbst-Linie (世爻, die Linie, die für dich steht), fließt das Geld schneller hinaus als herein, oft über geteilte Kosten oder die Entnahmen eines Partners.",
+    "Eine wandelnde Linie, die vorschreitet (进神), zeigt wachsenden Schwung in diesem Bereich. Ein Hexagramm der sechs Zusammenstöße (六冲), in dem die Linien gegeneinander ziehen, hält sich schwer – es kann starten, aber es hält selten."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Können da, Kundschaft fehlt",
+    "text": "Die Eltern-Linie (die Linie von Vorbereitung und Können) ist stark, aber die Nachkommen-Linie (Kundschaft und Quelle des Gewinns) ist schwach oder verborgen. Du kannst die Arbeit; die Leute, die dafür zahlen, sind noch nicht da. Das ist ein Hinweis auf den Zeitpunkt, kein Urteil über deine Fähigkeiten."
+   },
+   {
+    "name": "Gewinn-Linie stark, du nicht",
+    "text": "Reichtum ist stark im Bild, aber die Selbst-Linie (du) ist schwach oder unter Druck. Der Markt ist echt, doch deine Position kann ihn nicht halten – vielleicht fehlt Kapital, vielleicht hast du dich übernommen oder zu breit aufgestellt. Die Gelegenheit ist nicht das Problem."
+   },
+   {
+    "name": "Geschwister halten das Selbst",
+    "text": "Die Geschwister-Linie (Ausgaben, Partner, die nehmen) sitzt auf der Selbst-Linie. Das Geld geht so schnell, wie es kommt – oft über den Anteil eines Partners, gemeinsame Fixkosten oder die Kosten, andere über Wasser zu halten. Lies jeden Gesellschaftervertrag zweimal."
+   },
+   {
+    "name": "Sechs Zusammenstöße, schwer zu halten",
+    "text": "Die sechs Linien stoßen gegeneinander, statt einander zu stützen. Ein Vorhaben kann unter so einem Bild starten, aber es hält schwer zusammen – frühe Erfolge bauen nicht aufeinander auf. Das spricht dafür, auf ein Bild zu warten, in dem die Linien einander stützen."
+   }
+  ],
+  "example": {
+   "values": "897878",
+   "question": "Ich bin Designerin und überlege, meinen Job zu kündigen und freiberuflich zu arbeiten. Ist jetzt der richtige Zeitpunkt?",
+   "text": "Das Hexagramm ist „Der Brunnen“ (水风井, Hexagramm 48), das sich an Linie 2 zu „Das Hemmnis“ (水山蹇, Hexagramm 39) wandelt. Die Selbst-Linie (du) ist Linie 5, eine starke Reichtums-Linie – die Fähigkeit zu verdienen ist da, der Boden unter dir ist fest. Die Gegenüber-Linie (die andere Seite – Kundschaft, Markt) ist Linie 2, eine Eltern-Linie, und sie ist die wandelnde Linie. Eltern ist Vorbereitung und Können, nicht Kundschaft. Die Linie, die Nachfrage tragen würde, ist nicht die, die dir antwortet.\n\nLinie 2 wandelt sich von Eltern zu Nachkommen – vom Können zur Quelle des Gewinns. Aber die Wandlung ist Wasser, das Feuer bezwingt: Die Linie verbraucht sich beim Wandeln. Die Deutung lautet nicht, dass die Selbstständigkeit scheitert. Sie lautet: Das Können ist bereit, die Kundschaft steht noch nicht im Bild. Der Brunnen ist voll; es ist nur noch niemand gekommen, um daraus zu schöpfen. Bau die Kundenliste auf, bevor du auf das Gehalt verzichtest – dann liest sich dasselbe Bild anders."
+  },
+  "faq": [
+   {
+    "q": "Kann ich noch einmal werfen, wenn mir die Antwort nicht gefällt?",
+    "a": "Kannst du, aber das Bild ist eine Momentaufnahme der Frage, die du gestellt hast. Stellst du dieselbe Frage zweimal, bekommst du zwei Bilder und keinen klareren Boden. Besser eine schärfere Frage stellen – zur Kundschaft, zum Zeitpunkt oder zum Geld – als dieselbe zu wiederholen."
+   },
+   {
+    "q": "Heißt ein schlechtes Bild, dass ich nicht starten sollte?",
+    "a": "Nein. Das Bild zeigt, wo der Druck sitzt und was fehlt. Eine schwache Nachkommen-Linie heißt, dass die Kundschaft noch nicht sichtbar ist, nicht, dass sie nie kommt. Ob du wartest, aufbaust oder trotzdem loslegst, entscheidest du."
+   },
+   {
+    "q": "Was, wenn das Bild starken Gewinn zeigt, ich mich aber unvorbereitet fühle?",
+    "a": "Die Reichtums-Linie ist das, was der Markt tragen kann, nicht deine Bereitschaft. Eine starke Reichtums-Linie mit schwacher Selbst-Linie sagt: Die Gelegenheit ist echt, aber deine Position braucht Arbeit – Kapital, Zeit oder einen Partner, der dich nicht auszehrt. Deine eigene Einschätzung deiner Bereitschaft hebelt das Bild nicht aus."
+   }
+  ],
+  "ask": "Ist jetzt der richtige Zeitpunkt, mich mit meiner Arbeit selbstständig zu machen?"
+ },
+ "get-back-together": {
+  "slug": "get-back-together",
+  "topic": "relationship",
+  "hexagrams": [
+   31,
+   24,
+   38,
+   45
+  ],
+  "title": "I Ging Liebe Frage: Kommt mein Ex zurück?",
+  "h1": "Kommt mein Ex zurück – und gibt es einen Weg zurück?",
+  "meta": "Ein Liu-Yao-Wurf zur Versöhnung liest die Linie der anderen Person, Selbst- und Gegenüber-Linie und ob das Hexagramm bindet oder zerstreut. Du entscheidest.",
+  "intro": [
+   "Nach einer Trennung geht es selten nur darum, ob die andere Person zurückkommt. Es geht darum, ob du das willst, ob sich wirklich etwas verändert hat und ob eine Nachricht helfen oder nur die Wunde wieder aufreißen würde. Du spielst das letzte Gespräch noch einmal ab, du schaust aufs Handy, du fragst dich, ob Schweigen heißt, dass sie weiterzieht – oder dass sie wartet, bis du den ersten Schritt machst.",
+   "Ein Liu-Yao-Wurf entscheidet nicht, ob dein Ex zurückkommt, und er kann niemanden dazu bringen, dich zu wollen. Was er tut: Er legt die Lage in einem festen, reproduzierbaren Bild offen – wer sich zuwendet, wer sich zurückhält, ob ihr aneinander gebunden seid oder auseinanderdriftet und ob deine eigene Mühe eher ankommt oder dich aufreibt. Die Deutung erklärt das Bild. Was du damit machst, entscheidest du."
+  ],
+  "how": {
+   "lead": "Bei einer Frage zur Versöhnung schaut das Bild auf die Linie, die für die andere Person steht, auf die Linie, die für dich steht, und darauf, ob die beiden einander nähren oder bekämpfen.",
+   "points": [
+    "Fragst du als Frau nach einem Mann, wird die Beamten-Linie (官鬼, die Linie, die ihn vertritt) als er gelesen. Fragst du als Mann nach einer Frau, wird die Reichtums-Linie (妻财, die Linie, die sie vertritt) als sie gelesen. Wie diese Linie im Hexagramm steht – gestützt, leer, wandelnd oder ruhend –, zeigt, wie präsent und wie bereit die andere Person ist.",
+    "Die Selbst-Linie (世爻) bist du, die fragende Person. Die Gegenüber-Linie (应爻) ist die andere Person im allgemeinen Sinn. Nährt die Gegenüber-Linie die Selbst-Linie oder verbindet sich mit ihr, wendet sich die andere Seite dir zu. Bezwingt die Gegenüber-Linie die Selbst-Linie, ist das, was du von ihr spürst, Druck, keine Wärme.",
+    "Ein Hexagramm der sechs Verbindungen (六合) heißt: Die Dinge binden sich – ihr werdet zusammengehalten, und Trennung kostet Kraft. Ein Hexagramm der sechs Zusammenstöße (六冲) heißt: Die Dinge zerstreuen sich – die Verbindung ist locker, und stärkeres Ziehen treibt sie eher weiter auseinander.",
+    "Wird eine wandelnde Linie wieder zum selben Erdzweig (伏吟), tritt die Sache auf der Stelle – derselbe Streit, dasselbe Schweigen, derselbe Beinahe-Kontakt. Wird sie zu ihrem Gegenzweig (反吟), kehrt sie sich um: ein Schritt auf dich zu, ein Schritt weg.",
+    "Die wandelnde Linie zeigt, was tatsächlich in Bewegung ist. Wandelt sich deine eigene Linie in etwas, das sie dann bezwingt, zeigt das Bild Mühe mit wenig Ertrag – du drückst, und das Drücken selbst kostet dich mehr, als es bringt."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Die andere Seite wendet sich dir zu",
+    "text": "Die Gegenüber-Linie nährt die Selbst-Linie oder verbindet sich mit ihr, oder die Linie deines Ex ist gestützt und aktiv. Das Bild zeigt die andere Person noch auf dich ausgerichtet. Das heißt nicht, dass sie gut oder bald handelt, aber der Zug ist echt und nicht nur auf deiner Seite."
+   },
+   {
+    "name": "Du drückst gegen Druck",
+    "text": "Die Gegenüber-Linie bezwingt die Selbst-Linie. Kontakt von der anderen Seite fühlt sich wie Gewicht an – eine kühle Antwort, eine Forderung, ein Schweigen, das nach Urteil klingt. Mehr Annäherung verstärkt diesen Druck eher, als dass sie ihn löst."
+   },
+   {
+    "name": "Gebunden, aber in der Schleife",
+    "text": "Ein Hexagramm der sechs Verbindungen, in dem eine Linie zum selben Erdzweig wird (伏吟). Ihr bleibt verbunden, aber der Kontakt wiederholt dieselbe Form: dasselbe Gespräch, dasselbe halbe Versprechen, derselbe Rückzug. Gebunden sein ist nicht dasselbe wie vorankommen."
+   },
+   {
+    "name": "Zerstreuung, und deine Mühe reibt dich auf",
+    "text": "Ein Hexagramm der sechs Zusammenstöße (六冲), in dem sich deine eigene Linie in etwas wandelt, das sie bezwingt. Die Verbindung ist locker, und deine Versuche, den Abstand zu schließen, zehren an dir, ohne die andere Person zu bewegen. Das Bild sagt nicht „nie“; es sagt: Diese Mühe, jetzt, bringt wenig."
+   }
+  ],
+  "example": {
+   "values": "889778",
+   "question": "Kommt mein Ex zu mir zurück?",
+   "text": "Das Hexagramm ist Nr. 31, „Die Einwirkung“ (泽山咸), mit wandelnder dritter Linie; es wird zu Nr. 45, „Die Sammlung“ (泽地萃). Die Selbst-Linie – du, die fragende Person – ist Linie 3, eine Geschwister-Linie. Die Gegenüber-Linie – die andere Person – ist Linie 6, eine Eltern-Linie, und Erde nährt Metall: Sie stützt deine Linie. „Die Einwirkung“ ist ein Hexagramm gegenseitiger Berührung: Zwei Seiten wirken aufeinander, das Gefühl läuft in beide Richtungen. Das ist das Erste, was das Bild sagt. Das Gefühl ist nicht einseitig.\n\nDie wandelnde Linie ist deine eigene. Linie 3 beginnt als Geschwister und wird zu Reichtum, und dabei bezwingt sie, was aus ihr wird – Metall schneidet Holz, Mühe mit wenig Ertrag. Schlicht gelesen: Das Zugehen, das Nachschauen, das Schreiben und Wieder-Löschen kommt von dir, und es reibt dich auf. Die andere Seite bewegt sich erst, wenn du aufhörst zu drücken. Die Wandlung zu „Die Sammlung“ deutet auf ein späteres Zusammenkommen, aber es kommt, nachdem das Drücken aufhört, nicht wegen des Drückens."
+  },
+  "faq": [
+   {
+    "q": "Kann mir ein Wurf sicher sagen, ob mein Ex zurückkommt?",
+    "a": "Nein. Das Bild ist fest und reproduzierbar, und die Deutung erklärt, was es darüber zeigt, wer sich zuwendet, wer sich zurückhält und ob die Verbindung bindet oder sich zerstreut. Es entscheidet nicht über den Ausgang, und es kann niemanden dazu bringen, etwas zu wollen, was er nicht will."
+   },
+   {
+    "q": "Was bedeutet es, wenn mein Hexagramm eines der sechs Zusammenstöße (六冲) ist?",
+    "a": "Ein Hexagramm der sechs Zusammenstöße heißt, dass sich die Dinge zerstreuen – die Verbindung ist locker, und stärkeres Ziehen treibt sie eher weiter auseinander. Es ist keine Antwort, dass Versöhnung unmöglich ist, aber es sagt, dass Kraft hier das falsche Werkzeug ist."
+   },
+   {
+    "q": "Soll ich mich melden, je nachdem, was das Bild sagt?",
+    "a": "Das Bild kann zeigen, ob deine Mühe eher ankommt oder dich aufreibt und ob sich die andere Seite zuwendet oder Druck macht. Was du daraus machst, entscheidest du – und das war schon immer der einzige Teil, der bei dir lag."
+   }
+  ],
+  "ask": "Gibt es einen Weg zurück zu meinem Ex, und will er oder sie das auch?"
+ },
+ "new-love": {
+  "slug": "new-love",
+  "topic": "relationship",
+  "hexagrams": [
+   61,
+   31,
+   32,
+   53
+  ],
+  "title": "I Ging Liebe: Wird aus der neuen Beziehung etwas?",
+  "h1": "Wird aus dieser neuen Beziehung etwas?",
+  "meta": "Liu-Yao-Deutung für eine neue Beziehung oder unausgesprochenes Interesse: was das Bild abwägt, was es offenlässt und wie du fragst.",
+  "intro": [
+   "Ihr habt euch ein paar Mal gesehen. Die Nachrichten sind herzlich, die gemeinsame Zeit ist leicht, und trotzdem ertappst du dich dabei, wie du das letzte Gespräch noch einmal durchgehst und dich fragst, ob das der Anfang von etwas ist oder ein paar schöne Wochen, die still verebben. Eine Freundin zu fragen bringt dir nur ihre Sicht; die Person direkt zu fragen, fühlt sich vielleicht zu früh und zu viel an.",
+   "Ein Liu-Yao-Wurf sagt dir nicht, was er oder sie fühlt oder was passieren wird. Er gibt dir ein festes, reproduzierbares Bild – sechs Linien aus deinem Wurf – und eine Deutung, die erklärt, was dieses Bild über die beiden Seiten der Sache zeigt. Was du damit machst, entscheidest du."
+  ],
+  "how": {
+   "lead": "Bei einer neuen Beziehung schaut das Bild auf die Linie der anderen Person, auf deine eigene Linie und darauf, ob die beiden aufeinander zugehen oder auf Abstand bleiben.",
+   "points": [
+    "Fragst du als Frau nach einem Mann, ist seine Linie die Beamten-Linie (官鬼), die Linie, die in der Sache für den Mann steht. Fragst du als Mann nach einer Frau, ist ihre Linie die Reichtums-Linie (妻财). So oder so ist es die Person, nach der du fragst, gelesen als eine Linie im Bild.",
+    "Die Selbst-Linie (世爻) bist du – deine Position, deine Haltung, was du mitbringst. Die Gegenüber-Linie (应爻) ist die andere Seite im Allgemeinen, die Person oder Lage, der du gegenüberstehst. Wie diese beiden zueinander stehen, ist das Rückgrat der Deutung.",
+    "Nährt die Gegenüber-Linie die Selbst-Linie oder verbindet sich mit ihr, wendet sich die andere Seite dir zu – es gibt einen Zug zu dir hin. Bezwingt die Gegenüber-Linie die Selbst-Linie, ist das Druck, keine Wärme; etwas in der Dynamik drängt, statt einzuladen.",
+    "Ein Hexagramm der sechs Verbindungen (六合) heißt: Die Dinge binden sich, die Verbindung neigt dazu zu halten. Ein Hexagramm der sechs Zusammenstöße (六冲) heißt: Die Dinge zerstreuen sich, die Energie läuft auseinander, statt sich zu sammeln. Keins von beiden ist eine Antwort; beide beschreiben die Form des Moments.",
+    "Eine wandelnde Linie kann wieder zu dem Erdzweig werden, von dem sie kam – das ist 伏吟, sie tritt auf der Stelle, Bewegung ohne Fortschritt. Oder sie wird zu ihrem Gegenzweig – 反吟, sie kehrt sich um, ein Schritt vor, einer zurück."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Beide Seiten aufrichtig, nichts drängt",
+    "text": "Das Bild ist ruhig – keine Linie wandelt sich –, und Selbst- und Gegenüber-Linie liegen nicht im Streit. Das ist die Form von „Innere Wahrheit“ (中孚): Vertrauen, das langsam wächst. Nichts erzwingt das Tempo, und nichts blockiert es. Gebraucht werden Zeit und etwas mehr Kontakt, keine große Geste."
+   },
+   {
+    "name": "Die andere Seite wendet sich dir zu",
+    "text": "Die Gegenüber-Linie nährt die Selbst-Linie oder verbindet sich mit ihr. Schlicht gesagt: Die andere Person ist auf dich ausgerichtet – ihre Linie stützt deine, statt auf sie zu drücken. Das verspricht keinen Ausgang, aber es sagt, dass das Interesse nicht einseitig ist."
+   },
+   {
+    "name": "Druck statt Wärme",
+    "text": "Die Gegenüber-Linie bezwingt die Selbst-Linie. Etwas auf der anderen Seite lastet auf deiner Position – vielleicht ihre Intensität, vielleicht die Umstände um sie herum, vielleicht dein eigenes Gefühl, gewogen zu werden. Es liest sich als Reibung, nicht als Zuneigung, und es lohnt sich, das zu benennen, bevor du mehr investierst."
+   },
+   {
+    "name": "Auf der Stelle treten",
+    "text": "Eine wandelnde Linie wird wieder zum selben Erdzweig – 伏吟. Dasselbe Gespräch, dieselben Beinahe-Pläne, dieselben herzlichen Nachrichten ohne nächsten Schritt. Das Bild sagt nicht, dass es zum Scheitern verurteilt ist; es sagt, dass die Bewegung im Kreis läuft und sich etwas ändern muss, damit sie nach vorn führt."
+   }
+  ],
+  "example": {
+   "values": "778877",
+   "question": "Wir hatten drei Dates. Wird daraus etwas?",
+   "text": "Das Hexagramm ist „Innere Wahrheit“ (风泽中孚), keine Linie wandelt sich. Ein ruhiges Bild heißt: Nichts in dieser Lage erzwingt gerade eine Veränderung – kein Drängen, kein Bruch, nur die Form, wie sie ist. Die Selbst-Linie, also du, sitzt auf Linie 4. Die Gegenüber-Linie, die andere Seite, sitzt auf Linie 1. Die beiden stoßen nicht zusammen: Die Gegenüber-Linie ist Feuer, die Selbst-Linie Erde, und Feuer nährt Erde – die andere Seite wendet sich dir zu, ohne zu drängen. Das passt zu drei Dates, die herzlich und unaufgeregt waren.\n\nAuf Linie 2 und auf Linie 6 steht je eine Beamten-Linie – der Mann in der Sache erscheint zweimal, was oft auf jemanden deutet, der in der Lage präsent ist, sich aber noch nicht erklärt hat. Nichts in diesem Bild sagt, dass er sich zurückzieht, und nichts sagt, dass er gleich einen Schritt nach vorn macht. „Innere Wahrheit“ ist das Hexagramm des aufrichtigen Kerns: Was hier echt ist, wächst langsam, durch Kontakt und Beständigkeit, nicht durch einen einzigen entscheidenden Moment. Die ehrliche Deutung: Der Boden ist gut, und das Tempo bestimmst du – das Bild entscheidet nicht, du tust es."
+  },
+  "faq": [
+   {
+    "q": "Kann mir eine I-Ging-Liebesdeutung sagen, ob er mich mag?",
+    "a": "Nein. Das Bild zeigt die Form der Lage – ob sich die andere Seite zuwendet oder Druck macht, ob sich die Dinge binden oder zerstreuen –, aber es meldet keine Gefühle. Es gibt dir ein festes Bild zum Nachdenken, keine Antwort über sein Herz."
+   },
+   {
+    "q": "Was bedeutet es, wenn mein Wurf zur neuen Beziehung keine wandelnden Linien hat?",
+    "a": "Ein ruhiges Bild heißt, dass gerade nichts eine Veränderung erzwingt. Es zeigt sich oft, wenn die Lage aufrichtig, aber langsam ist und keine Seite drängt. Das ist kein schlechtes Zeichen; es ist ein Bild des Moments, wie er ist, und der nächste Schritt liegt weiter bei dir."
+   },
+   {
+    "q": "Soll ich noch einmal werfen, wenn mir die Antwort nicht gefällt?",
+    "a": "Kannst du, aber das zweite Bild hebt das erste nicht auf – es kommt nur ein weiteres dazu. Bei Liu Yao liegt der Wert in dem festen, reproduzierbaren Bild, das du schon hast. Bleib dabei, handle nach dem, was du weißt, und wirf erst wieder, wenn sich die Lage selbst wirklich verändert hat."
+   }
+  ],
+  "ask": "Wird aus dieser neuen Beziehung etwas?"
+ },
+ "exam-or-interview": {
+  "slug": "exam-or-interview",
+  "topic": "study",
+  "hexagrams": [
+   4,
+   35,
+   46,
+   26
+  ],
+  "title": "I Ging Prüfung & Vorstellungsgespräch: Bestehe ich?",
+  "h1": "I Ging vor Prüfung oder Vorstellungsgespräch: Wirst du bestehen?",
+  "meta": "Ein Liu-Yao-Wurf zu Prüfung oder Vorstellungsgespräch liest die Linie der Note, die Linie der Stelle und deine Verfassung. Mit Beispiel.",
+  "intro": [
+   "Im Kalender ist ein Datum eingekreist – eine Staatsprüfung, eine Zertifizierung, ein letztes Vorstellungsgespräch –, und der Ausgang ist dir wichtiger, als du zugeben magst. Du hast gelernt, oder das meiste davon, und jetzt steckst du in dieser seltsamen Woche, in der sich nichts, was du tust, nach genug anfühlt und alles, was du fühlst, entweder Zuversicht oder Bammel ist.",
+   "Ein Liu-Yao-Wurf nennt dir keine Punktzahl und besorgt dir keinen Job. Er legt ein kleines, reproduzierbares Bild fest – sechs Linien, jedes Mal auf dieselbe Weise berechnet – und erklärt dann, was dieses Bild über deine Vorbereitung, die Prüfung vor dir und die Institution auf der anderen Seite sagt. Die Prüfung schreibst du trotzdem selbst. In den Raum gehst du trotzdem selbst. Das Bild zeigt dir nur, wo du stehst."
+  ],
+  "how": {
+   "lead": "Bei einer Prüfung oder einem Vorstellungsgespräch wägt das Bild drei Dinge ab: Prüfung und Note, Schule oder Stelle und deine eigene Verfassung am Tag.",
+   "points": [
+    "Die Eltern-Linie (父母) ist die Note, die Prüfung, das Zertifikat, die Zusage selbst. Ist sie stark und in ihrer Jahreszeit, ist das Ergebnis gut. Ist sie leer – eine Linie, die in eine Lücke im Kalender gefallen ist und nicht wirken kann – oder gebrochen, klappt es diesmal nicht.",
+    "Die Beamten-Linie (官鬼) ist die Schule, der Prüfer, das Auswahlgremium, die Stelle. Nährt sie die Selbst-Linie, will die Institution dich. Wandelt sie sich in etwas anderes, verschiebt sich die Beziehung, noch bevor du ankommst.",
+    "Die Selbst-Linie (世) bist du: deine Verfassung, deine Bereitschaft, deine Nerven. Eine starke Selbst-Linie heißt, du bist bereit. Eine schwache oder getroffene Selbst-Linie heißt, das Risiko ist der Tag selbst, nicht der Stoff.",
+    "Eine wandelnde Linie ist der Teil des Bildes, der sich verändert. Wandelt sich die Beamten-Linie, ist die Stelle oder das Gremium in Bewegung – und worin sie sich wandelt, zeigt, ob diese Bewegung dir hilft oder dich aufreibt.",
+    "Die Gegenüber-Linie (应) ist die andere Seite: der Prüfer, die Interviewerin, der Raum. Ist sie eine Eltern-Linie und stark, steht die Prüfung selbst auf deiner Seite."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Eltern stark, Selbst stark",
+    "text": "Die Prüfung ist solide, und du bist es auch. Das ist das Bild von jemandem, der die Arbeit gemacht hat und nicht gegen sich selbst kämpft. Schreib die Prüfung, beantworte die Fragen, erfinde in der letzten Woche keine neuen Probleme."
+   },
+   {
+    "name": "Eltern leer",
+    "text": "Die Linie der Note ist in eine Lücke im Kalender gefallen. Meist heißt das: diesmal nicht – nicht, weil du es nicht kannst, sondern weil diese eine Prüfung an diesem einen Tag nicht aufgeht. Nutze die Woche zum Festigen statt zum Pauken, und nimm den Termin als Information."
+   },
+   {
+    "name": "Beamte nährt das Selbst",
+    "text": "Die Schule oder das Gremium steht aktiv auf deiner Seite. In einem Bild zum Vorstellungsgespräch heißt das: ein Raum, der dich mögen will. Deine Aufgabe ist, es ihnen nicht auszureden – beantworte die gestellte Frage, dann hör auf."
+   },
+   {
+    "name": "Beamte wandelt sich zu Geschwister",
+    "text": "Die Stelle oder das Gremium ist in Bewegung, und die Bewegung kostet dich. Es geht Kraft hinaus und wenig kommt zurück – zusätzliche Runden, verschobene Termine, ein Verfahren, das zermürbt. Stell dich darauf ein, dass es länger dauert als angekündigt, und teil dir deine Kraft entsprechend ein."
+   }
+  ],
+  "example": {
+   "values": "878867",
+   "question": "Bestehe ich nächste Woche meine Staatsprüfung?",
+   "text": "Das Hexagramm ist „Die Jugendtorheit“ (山水蒙) und wird zu „Die Auflösung“ (风水涣), Linie 5 wandelt sich. Linie 4 ist die Selbst-Linie – das bist du –, und sie ist eine Nachkommen-Linie, die Linie von Leichtigkeit und Ausdruck, nicht von Anspannung. Linie 1 ist die Gegenüber-Linie, die andere Seite, und sie ist eine Eltern-Linie: die Prüfung selbst. Auch Linie 6 ist eine Eltern-Linie. Die Linie der Note erscheint also zweimal und ist nicht leer. Du bist ausreichend vorbereitet. Das ist die schlichte Deutung dieses Bildes.\n\nDas Risiko sitzt in Linie 5, der Beamten-Linie – das Prüfungsamt, der Prüfer, die Stelle –, und sie wandelt sich. Sie wird von Beamte zu Geschwister, und dabei reibt sie sich auf, indem sie bezwingt, was aus ihr wird. Schlicht gesagt: Die Institution und das Verfahren zehren mehr an dir als der Stoff. Eine Woche vorher ist der sinnvolle Schritt nicht noch mehr Inhalt. Es sind Schlaf, ein Probedurchlauf unter Prüfungsbedingungen und ein Plan für die Nerven am Morgen selbst. Das Bild sagt: Die Vorbereitung ist da; verloren gehen kann es am Tag selbst."
+  },
+  "faq": [
+   {
+    "q": "Kann mir eine I-Ging-Deutung sagen, ob ich bestehe?",
+    "a": "Sie kann dir sagen, was das Bild über Prüfung, Institution und deine eigene Verfassung zeigt – ob die Linie der Note stark oder leer ist, ob das Gremium auf deiner Seite steht, ob du bereit bist. Eine Punktzahl oder ein Ja kann sie dir nicht nennen. Die Prüfung schreibst du, und was du mit der Deutung machst, entscheidest du."
+   },
+   {
+    "q": "Wann sollte ich vor einer Prüfung oder einem Vorstellungsgespräch werfen?",
+    "a": "Eine Woche vorher ist ein gutes Zeitfenster: nah genug, dass deine Verfassung echt ist, weit genug, dass du noch nach dem handeln kannst, was das Bild zeigt. Wer am Vorabend wirft, bekommt eher ein Bild seiner Nerven als eins der Prüfung."
+   },
+   {
+    "q": "Was, wenn das Bild schlecht aussieht?",
+    "a": "Eine leere Eltern-Linie heißt: diesmal nicht – es ist kein Urteil über dich. Das Bild ist fest und reproduzierbar; die Deutung erklärt es; du entscheidest, ob du antrittst, verschiebst oder den Tag als Generalprobe für den nächsten Versuch nimmst. Nichts im Bild entscheidet etwas für dich."
+   }
+  ],
+  "ask": "Bestehe ich meine Prüfung, und was sollte ich diese Woche tun?"
+ },
+ "waiting-for-news": {
+  "slug": "waiting-for-news",
+  "topic": "decision",
+  "hexagrams": [
+   5,
+   61,
+   25,
+   64
+  ],
+  "title": "I Ging: Wann bekomme ich eine Antwort? Zeitfenster beim Warten",
+  "h1": "Warten auf Rückmeldung: Was sagt das I Ging zum Zeitpunkt?",
+  "meta": "Ein Liu-Yao-Wurf zu einer Entscheidung, auf die du wartest: wandelnde Linien nennen ein Zeitfenster – kein Versprechen. Du entscheidest.",
+  "intro": [
+   "Du hast die Bewerbung abgeschickt, die Mail, die Nachricht. Jetzt vergehen die Tage, und die Antwort liegt bei jemand anderem – bei einer Personalerin, einer Ausländerbehörde, einem Vermieter, einem Freund, der dir eine Antwort schuldet. Warten ist eine eigene Art Arbeit, und sie gut zu machen ist schwer.",
+   "Ein Liu-Yao-Wurf kann die andere Seite nicht zur Entscheidung bringen, und er kann dir den Ausgang nicht als Tatsache nennen. Was er zeigen kann, ist die Form des Wartens: ob die Sache sich bewegt oder feststeckt, wo die Macht liegt und auf welche Tage das Bild als Zeitfenster zeigt. Was du tust, wenn dieses Fenster aufgeht oder sich schließt, entscheidest weiter du."
+  ],
+  "how": {
+   "lead": "Bei einer Sache, die bei jemand anderem liegt, wägt das Bild die Selbst-Linie (du, die fragende Person), die Gegenüber-Linie (die andere Seite) und die wandelnden Linien ab, die den Zeitpunkt tragen.",
+   "points": [
+    "Die Selbst-Linie ist die Linie, die in diesem Wurf für dich steht. Ist sie stark und schreitet vor, bist du noch in Bewegung; weicht sie zurück oder verausgabt sich, fließt deine eigene Kraft ins Warten statt ins Ergebnis.",
+    "Die Gegenüber-Linie ist die Linie, die für die andere Seite steht – die Person oder das Amt, bei dem deine Antwort liegt. Wo sie sitzt, ob sie leer ist (旬空, eine Linie, deren Erdzweig im aktuellen Zyklus keinen Halt hat und sich erst an ihrem eigenen Tag „füllt“) und ob sie aktiv ist, zeigt dir, wie erreichbar die Entscheidung wirklich ist.",
+    "Eine leere Linie füllt sich an ihrem eigenen Tag. Schlicht gesagt: Ist die Linie, die deine Antwort trägt, leer, sagt das Bild nicht, dass die Sache für immer leer bleibt – sie öffnet sich, wenn der Tag dieses Erdzweigs kommt.",
+    "Eine gebundene Linie öffnet sich am Tag des Zusammenstoßes. Stehen zwei Erdzweige in einer Verbindung, löst sich die Spannung an dem Tag, der einen von beiden trifft; dieser Tag ist dein Zeitfenster.",
+    "Eine vorschreitende Linie landet, wenn ihr Erdzweig kommt. Tritt eine wandelnde Linie auf einen neuen Erdzweig vor, löst sich die Sache, wenn ein Tag oder Monat mit diesem Zweig kommt. Eine zurückweichende Linie verliert an Schwung – der Erdzweig tritt zurück, und der Zeitpunkt dehnt sich."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Die Antwort läuft nach der Uhr der anderen Seite",
+    "text": "Ist die Gegenüber-Linie stark, während sich die Selbst-Linie wandelt und verausgabt, zeigt das Bild: Du drückst, und die andere Seite steht einfach noch nicht vor deiner Tür. Der Zeitpunkt gehört ihr. Sinnvoll ist, ein Zeitfenster zu benennen und bis dahin nicht ständig das Postfach neu zu laden."
+   },
+   {
+    "name": "Die Linie, die die Antwort trägt, ist leer",
+    "text": "Eine leere Gegenüber-Linie heißt, die Antwort ist im aktuellen Zyklus noch nicht gelandet. Sie füllt sich am Tag ihres eigenen Erdzweigs. Bis dahin ist Nachhaken Rauschen; nach diesem Tag ist eine kurze, schlichte Mail der richtige Schritt."
+   },
+   {
+    "name": "Eine zurückweichende wandelnde Linie",
+    "text": "Tritt eine wandelnde Linie auf einen früheren Erdzweig zurück, verliert die Sache an Schwung, statt sich zu lösen. Das Bild sagt: Das Warten wird länger, als der Kalender vermuten lässt, und du solltest um die Verzögerung herum planen statt gegen sie."
+   },
+   {
+    "name": "Beide Linien bewegen sich aufeinander zu",
+    "text": "Sind Selbst- und Gegenüber-Linie beide aktiv und keine ist leer, stehen die beiden Seiten in Kontakt, auch wenn es sich nicht so anfühlt. Das Fenster ist meist schmal – ein paar Tage um den Erdzweig, auf dem die wandelnden Linien landen –, und eine Nachfrage in diesem Fenster bekommt meist eine echte Antwort."
+   }
+  ],
+  "example": {
+   "values": "779678",
+   "question": "Wann höre ich etwas zu meinem Visumsantrag?",
+   "text": "Das Ausgangshexagramm ist Nr. 5, „Das Warten“ (水天需), das Wandlungshexagramm Nr. 58, „Das Heitere“ (兑为泽). Die Linien 3 und 4 wandeln sich. Linie 4 ist die Selbst-Linie – du, die fragende Person –, eine Nachkommen-Linie auf Metall, die zur Reichtums-Linie auf Wasser wird. Metall nährt Wasser, die Linie gibt beim Wandeln also ihre eigene Kraft ab: Du bist diejenige, die wartet, und das Warten kostet dich. Linie 1, die Gegenüber-Linie, ist die andere Seite – die Visastelle – und sie ruht. Linie 3 ist eine Geschwister-Linie, die vom Erdzweig chén auf chǒu zurückweicht: dieselbe Wandlungsphase, der Zweig tritt zurück, die Linie verliert also an Schwung. Das Bild sagt nicht, dass die Antwort Nein lautet. Es sagt, dass die Antwort nach der Uhr der anderen Seite kommt, nicht nach deiner, und dass die Verzögerung in der Struktur liegt, nicht in einem Problem.\n\nZum Zeitpunkt: Da die Selbst-Linie sich in das verausgabt, was aus ihr wird, und die Gegenüber-Linie ruhig ist, liegt das Zeitfenster nicht in den nächsten Tagen. Die zurückweichende Geschwister-Linie deutet auf ein längeres Warten, als die angegebene Bearbeitungszeit vermuten lässt. Praktisch heißt das: Hör auf, täglich nachzusehen, wähl ein Datum nach dem Fenster des zurückweichenden Zweigs und schick dann eine einzige kurze Nachfrage – nicht vorher. Das Bild nennt ein Zeitfenster; die Mail fragt, wie es ausgegangen ist, wenn das Fenster vorbei ist."
+  },
+  "faq": [
+   {
+    "q": "Kann mir das I Ging den genauen Tag sagen, an dem ich etwas höre?",
+    "a": "Nein. Das Bild nennt ein Zeitfenster anhand der wandelnden Linien und ihrer Erdzweige – eine leere Linie füllt sich an ihrem eigenen Tag, eine gebundene Linie öffnet sich am Tag des Zusammenstoßes, eine vorschreitende Linie landet, wenn ihr Zweig kommt. Nimm das als Fenster, um das herum du planst, nicht als Datum, dem die andere Seite zugestimmt hat."
+   },
+   {
+    "q": "Soll ich vor dem Zeitfenster, das das Bild nennt, nachhaken?",
+    "a": "Die Regel lautet hier: Warte, bis das Fenster vorbei ist, und schick dann eine einzige kurze, schlichte Nachfrage. Ist die Linie, die deine Antwort trägt, leer, ist die Sache im aktuellen Zyklus noch nicht gelandet, und wer vor dem Tag des Füllens nachhakt, bekommt meist eine Nicht-Antwort."
+   },
+   {
+    "q": "Was, wenn das Bild eine zurückweichende Linie zeigt?",
+    "a": "Eine zurückweichende Linie heißt, der Erdzweig tritt zurück und die Linie verliert an Schwung. Bei einer Wartesache liest sich das als längeres Warten als erwartet, nicht als Absage. Plan um die Verzögerung herum; lies sie nicht als Nein."
+   }
+  ],
+  "ask": "Wann bekomme ich eine Antwort, und was kann ich tun, während ich warte?"
+ }
+}

@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#e8e5de;font-family:system-ui,sans-serif}
+.dv-turn{padding:40px 44px 32px;border-bottom:1px solid rgba(0,0,0,.08);scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 20px}
+.dv-tid{font:600 10px ui-monospace,Menlo,monospace;padding:3px 7px;background:#1a1a1a;color:#fff;border-radius:4px;text-decoration:none}
+.dv-tname{font:600 13px/1.2 system-ui,sans-serif;color:#1a1a1a}
+.dv-opts{display:flex;flex-wrap:wrap;gap:36px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px ui-monospace,Menlo,monospace;padding:3px 7px;background:rgba(0,0,0,.09);color:#1a1a1a;border-radius:5px;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:8px;font:400 11.5px/1.4 system-ui,sans-serif;color:rgba(0,0,0,.55);max-width:840px}
+.dv-card{max-width:100%;background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.07);overflow:hidden}
+.dv-opt:target .dv-oid{background:#b0403c;color:#fff}
+.dv-next{margin:26px 0 0;font:12px/1.6 system-ui,sans-serif;color:rgba(0,0,0,.5)}
+a{color:#b0403c}a:hover{color:#8d3230}
+.gua{font-family:"Noto Sans Symbols 2","Segoe UI Symbol",serif;line-height:1}
+.rail{display:flex;gap:24px;flex-wrap:wrap;align-items:flex-start}
+.scr{width:390px;flex:none}
+.cap{font:500 10px/1 ui-monospace,Menlo,monospace;letter-spacing:.1em;text-transform:uppercase;color:rgba(0,0,0,.42);padding:0 0 8px}
+</style></helmet>
+
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">YaoFlow — 三个方向</span></div>
+
+<div class="dv-opts">
+
+<!-- ===================== 1a 纸本 ===================== -->
+<div class="dv-opt" id="1a">
+<div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a><span><b>纸本 / Letterpress.</b> 「这是一本严肃的古籍，只是能算。」浅纸底，古籍排印的界线与栏宽，卦符作为刻印字符。朱砂只出现在「判断」上，暗金只做发丝线。</span></div>
+<div class="dv-card" style="padding:28px 24px;background:#f4f2ec">
+<div class="rail">
+
+<div class="scr"><div class="cap">首页 · 中文</div>
+<div style="background:#f4f2ec;color:#14151c;font-family:'Noto Serif SC',serif;border:1px solid rgba(20,21,28,.16);border-radius:2px;overflow:hidden">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid rgba(20,21,28,.16);font-size:11px;letter-spacing:.14em">
+    <span style="font-weight:600">YAOFLOW</span><span style="color:rgba(20,21,28,.5)">中文 · <span style="opacity:.6">EN</span></span>
+  </div>
+  <div style="padding:34px 26px 10px;text-align:center;border-bottom:1px solid rgba(169,134,60,.45)">
+    <div class="gua" style="font-size:104px;color:#14151c">䷂</div>
+    <div style="margin-top:14px;font-size:11px;letter-spacing:.3em;color:rgba(20,21,28,.5)">水 雷 屯 · 第 三 卦</div>
+    <div style="height:22px"></div>
+  </div>
+  <div style="padding:26px 26px 4px">
+    <h1 style="margin:0;font-size:29px;line-height:1.42;font-weight:500;letter-spacing:.01em;text-wrap:pretty">问得具体，<br>卦才有用。</h1>
+    <p style="margin:16px 0 0;font-size:14px;line-height:1.85;color:rgba(20,21,28,.72);text-wrap:pretty">排盘遵循《卜筮正宗》的传统方法——纳甲、六亲、六神、旬空、月建日辰、旺衰。算法确定，结果可复现；AI 只把盘面译成人话。</p>
+  </div>
+  <div style="padding:24px 26px 28px">
+    <div style="border-top:1px solid rgba(20,21,28,.16);border-bottom:1px solid rgba(20,21,28,.16);padding:16px 0 18px">
+      <div style="font-size:10px;letter-spacing:.22em;color:rgba(20,21,28,.45)">你 的 问 题</div>
+      <div style="margin-top:10px;font-size:16px;line-height:1.7;color:rgba(20,21,28,.34)">写下此刻真正让你为难的事…</div>
+    </div>
+    <div style="margin-top:20px;display:flex;flex-direction:column;gap:10px">
+      <button style="all:unset;box-sizing:border-box;display:block;width:100%;text-align:center;padding:17px 0;background:#14151c;color:#f4f2ec;font-family:'Noto Serif SC',serif;font-size:15px;letter-spacing:.16em;cursor:pointer">按 住 投 第 一 爻</button>
+      <div style="text-align:center;font-size:11px;color:rgba(20,21,28,.45);letter-spacing:.04em">六次投掷，约需两分钟</div>
+    </div>
+  </div>
+  <div style="background:rgba(20,21,28,.035);border-top:1px solid rgba(20,21,28,.16);padding:24px 26px">
+    <div style="font-size:10px;letter-spacing:.22em;color:rgba(20,21,28,.45);margin-bottom:16px">我 们 如 何 工 作</div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div style="display:grid;grid-template-columns:26px 1fr;gap:12px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#b0403c;padding-top:3px">01</div>
+        <div><div style="font-size:14px;font-weight:600">排盘由算法完成</div><div style="margin-top:5px;font-size:12.5px;line-height:1.75;color:rgba(20,21,28,.66)">同一时刻、同一组爻，任何人都会得到同一张盘。我们公开算法说明。</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:26px 1fr;gap:12px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#b0403c;padding-top:3px">02</div>
+        <div><div style="font-size:14px;font-weight:600">AI 只做翻译</div><div style="margin-top:5px;font-size:12.5px;line-height:1.75;color:rgba(20,21,28,.66)">它读到的只有盘面字段，不替你补故事，也不预测结果。</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:26px 1fr;gap:12px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#b0403c;padding-top:3px">03</div>
+        <div><div style="font-size:14px;font-weight:600">引文可核对</div><div style="margin-top:5px;font-size:12.5px;line-height:1.75;color:rgba(20,21,28,.66)">每条判断都附原文出处与版本页码，可自行查证。</div></div>
+      </div>
+    </div>
+  </div>
+  <div style="padding:22px 26px 30px;border-top:1px solid rgba(20,21,28,.16)">
+    <div style="font-size:10px;letter-spacing:.22em;color:rgba(20,21,28,.45);margin-bottom:12px">依 据 版 本</div>
+    <div style="display:flex;flex-direction:column;gap:9px;font-size:12px;line-height:1.6">
+      <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted rgba(20,21,28,.22);padding-bottom:8px"><span>《周易》通行本 · 王弼注</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:11px">卦爻辞</span></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted rgba(20,21,28,.22);padding-bottom:8px"><span>《卜筮正宗》王洪绪 · 清康熙</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:11px">断法</span></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted rgba(20,21,28,.22);padding-bottom:8px"><span>《增删卜易》野鹤老人</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:11px">案例</span></div>
+      <div style="display:flex;justify-content:space-between;gap:10px"><span>寿星天文历 · 干支历算</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:11px">月建日辰</span></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap">Home · English</div>
+<div style="background:#f4f2ec;color:#14151c;font-family:Newsreader,Georgia,serif;border:1px solid rgba(20,21,28,.16);border-radius:2px;overflow:hidden">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid rgba(20,21,28,.16);font-size:11px;letter-spacing:.14em;font-family:'JetBrains Mono',monospace">
+    <span style="font-weight:500">YAOFLOW</span><span style="color:rgba(20,21,28,.5)"><span style="opacity:.6">中文</span> · EN</span>
+  </div>
+  <div style="padding:34px 26px 10px;text-align:center;border-bottom:1px solid rgba(169,134,60,.45)">
+    <div class="gua" style="font-size:104px;color:#14151c">䷂</div>
+    <div style="margin-top:14px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;color:rgba(20,21,28,.5)">HEXAGRAM 3 — ZHUN / DIFFICULTY AT THE BEGINNING</div>
+    <div style="height:22px"></div>
+  </div>
+  <div style="padding:26px 26px 4px">
+    <h1 style="margin:0;font-size:38px;line-height:1.14;font-weight:400;letter-spacing:-.015em;text-wrap:balance">A question,<br><i style="font-weight:300">cast by rule.</i></h1>
+    <p style="margin:16px 0 0;font-size:15px;line-height:1.72;color:rgba(20,21,28,.72);text-wrap:pretty">Six lines, three coins. The chart — stems, relations, spirits, void days, month and day influence, strength — is derived by a fixed method from <i>Bu Shi Zheng Zong</i>. The AI only translates the chart into plain language.</p>
+  </div>
+  <div style="padding:24px 26px 28px">
+    <div style="border-top:1px solid rgba(20,21,28,.16);border-bottom:1px solid rgba(20,21,28,.16);padding:16px 0 18px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45)">YOUR QUESTION</div>
+      <div style="margin-top:10px;font-size:17px;line-height:1.6;color:rgba(20,21,28,.34)">Write what's actually weighing on you…</div>
+    </div>
+    <div style="margin-top:20px;display:flex;flex-direction:column;gap:10px">
+      <button style="all:unset;box-sizing:border-box;display:block;width:100%;text-align:center;padding:16px 0;background:#14151c;color:#f4f2ec;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.18em;cursor:pointer">HOLD TO CAST LINE ONE</button>
+      <div style="text-align:center;font-size:12.5px;color:rgba(20,21,28,.45)">Six throws. About two minutes.</div>
+    </div>
+  </div>
+  <div style="background:rgba(20,21,28,.035);border-top:1px solid rgba(20,21,28,.16);padding:24px 26px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:16px">HOW THIS WORKS</div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div style="display:grid;grid-template-columns:26px 1fr;gap:12px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#b0403c;padding-top:4px">01</div>
+        <div><div style="font-size:16px;font-weight:600">The chart is computed</div><div style="margin-top:4px;font-size:14px;line-height:1.62;color:rgba(20,21,28,.66)">Same lines, same moment, same chart — for anyone. The method is published.</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:26px 1fr;gap:12px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#b0403c;padding-top:4px">02</div>
+        <div><div style="font-size:16px;font-weight:600">The AI only reads it</div><div style="margin-top:4px;font-size:14px;line-height:1.62;color:rgba(20,21,28,.66)">It sees the chart's fields, nothing else. It does not invent a story or predict an outcome.</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:26px 1fr;gap:12px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#b0403c;padding-top:4px">03</div>
+        <div><div style="font-size:16px;font-weight:600">Every citation is checkable</div><div style="margin-top:4px;font-size:14px;line-height:1.62;color:rgba(20,21,28,.66)">Each judgement carries its source text, edition and page.</div></div>
+      </div>
+    </div>
+  </div>
+  <div style="padding:22px 26px 30px;border-top:1px solid rgba(20,21,28,.16)">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:12px">SOURCES</div>
+    <div style="display:flex;flex-direction:column;gap:9px;font-size:13.5px;line-height:1.5">
+      <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted rgba(20,21,28,.22);padding-bottom:8px"><span><i>Zhou Yi</i> — Wang Bi commentary</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:10px">LINE TEXTS</span></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted rgba(20,21,28,.22);padding-bottom:8px"><span><i>Bu Shi Zheng Zong</i> — 1709</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:10px">METHOD</span></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted rgba(20,21,28,.22);padding-bottom:8px"><span><i>Zeng Shan Bu Yi</i> — Ye He</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:10px">CASES</span></div>
+      <div style="display:flex;justify-content:space-between;gap:10px"><span>Shouxing ephemeris</span><span style="color:rgba(20,21,28,.45);font-family:'JetBrains Mono',monospace;font-size:10px">CALENDAR</span></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap">起卦 · 第四爻</div>
+<div style="background:#f4f2ec;color:#14151c;font-family:'Noto Serif SC',serif;border:1px solid rgba(20,21,28,.16);border-radius:2px;overflow:hidden;min-height:760px;display:flex;flex-direction:column">
+  <div style="padding:16px 20px;border-bottom:1px solid rgba(20,21,28,.16);display:flex;justify-content:space-between;font-size:11px;letter-spacing:.1em;color:rgba(20,21,28,.55)">
+    <span>第 四 爻</span><span style="font-family:'JetBrains Mono',monospace">04 / 06</span>
+  </div>
+  <div style="padding:18px 24px;border-bottom:1px dotted rgba(20,21,28,.22);font-size:13px;line-height:1.8;color:rgba(20,21,28,.6)">「要不要接下这个项目？」</div>
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:36px 24px;gap:34px">
+    <div style="display:flex;gap:18px;align-items:center">
+      <div style="width:52px;height:52px;border-radius:50%;border:1.5px solid #14151c;display:flex;align-items:center;justify-content:center;font-size:12px;letter-spacing:.06em">背</div>
+      <div style="width:52px;height:8px;border-radius:4px;background:#a9863c;opacity:.8"></div>
+      <div style="width:52px;height:52px;border-radius:50%;border:1.5px solid rgba(20,21,28,.35);display:flex;align-items:center;justify-content:center;font-size:12px;color:rgba(20,21,28,.5)">面</div>
+    </div>
+    <div style="text-align:center">
+      <div style="font-size:15px;letter-spacing:.2em">按 住 不 放</div>
+      <div style="margin-top:8px;font-size:12px;color:rgba(20,21,28,.5)">松手即掷</div>
+      <div style="margin:16px auto 0;width:150px;height:2px;background:rgba(20,21,28,.14)"><div style="width:64%;height:2px;background:#b0403c"></div></div>
+    </div>
+  </div>
+  <div style="padding:26px 24px 34px;border-top:1px solid rgba(20,21,28,.16)">
+    <div style="font-size:10px;letter-spacing:.22em;color:rgba(20,21,28,.45);margin-bottom:16px">已 定 之 爻</div>
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div style="display:grid;grid-template-columns:34px 1fr 60px;align-items:center;gap:12px;opacity:.18"><span style="font-size:11px">六</span><div style="height:9px;border:1px dashed rgba(20,21,28,.5)"></div><span></span></div>
+      <div style="display:grid;grid-template-columns:34px 1fr 60px;align-items:center;gap:12px;opacity:.18"><span style="font-size:11px">五</span><div style="height:9px;border:1px dashed rgba(20,21,28,.5)"></div><span></span></div>
+      <div style="display:grid;grid-template-columns:34px 1fr 60px;align-items:center;gap:12px;opacity:.4"><span style="font-size:11px">四</span><div style="height:9px;border:1px dashed rgba(20,21,28,.5)"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.6)">投掷中</span></div>
+      <div style="display:grid;grid-template-columns:34px 1fr 60px;align-items:center;gap:12px"><span style="font-size:11px">三</span><div style="height:9px;display:flex;gap:16px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.55)">少阴 2</div></div>
+      <div style="display:grid;grid-template-columns:34px 1fr 60px;align-items:center;gap:12px"><span style="font-size:11px">二</span><div style="height:9px;display:flex;gap:16px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#b0403c">老阴 ✕</div></div>
+      <div style="display:grid;grid-template-columns:34px 1fr 60px;align-items:center;gap:12px"><span style="font-size:11px">初</span><div style="height:9px;background:#14151c"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.55)">少阳 3</div></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap">解读 · 层次</div>
+<div style="background:#f4f2ec;color:#14151c;font-family:'Noto Serif SC',serif;border:1px solid rgba(20,21,28,.16);border-radius:2px;overflow:hidden">
+  <div style="padding:22px 24px 20px;border-bottom:1px solid rgba(20,21,28,.16)">
+    <div style="display:flex;align-items:center;gap:14px">
+      <div class="gua" style="font-size:44px">䷂</div>
+      <div><div style="font-size:16px;font-weight:600">水雷屯 → 水火既济</div><div style="margin-top:4px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(20,21,28,.55)">动爻 二 · 甲辰月 丙子日 · 旬空 申酉</div></div>
+    </div>
+  </div>
+
+  <div style="padding:26px 24px 22px">
+    <div style="font-size:10px;letter-spacing:.22em;color:rgba(20,21,28,.45)">核 心 判 断</div>
+    <p style="margin:12px 0 0;font-size:23px;line-height:1.6;font-weight:500;color:#b0403c;text-wrap:pretty">可以接，但不能按对方给的时间表接。</p>
+    <p style="margin:14px 0 0;font-size:14px;line-height:1.9;color:rgba(20,21,28,.78)">用神受月建生扶而日辰不助，事有可成之象，成的条件在你自己一方，不在对方的承诺里。</p>
+  </div>
+
+  <div style="border-top:1px solid rgba(20,21,28,.16);padding:22px 24px">
+    <div style="font-size:10px;letter-spacing:.22em;color:rgba(20,21,28,.45)">当 下 处 境</div>
+    <p style="margin:10px 0 0;font-size:15px;line-height:1.95;color:rgba(20,21,28,.85)">屯者，物之始生。事情已经启动，但结构还没定型：资源在手，路径不清。你现在感到的犹豫不是判断力不足，是信息确实不够。</p>
+  </div>
+
+  <div style="border-top:1px solid rgba(20,21,28,.16);display:grid;grid-template-columns:1fr 1fr">
+    <div style="padding:20px 18px 22px 24px;border-right:1px solid rgba(20,21,28,.16)">
+      <div style="font-size:11px;letter-spacing:.1em;color:#14151c;font-weight:600">该 做</div>
+      <div style="margin-top:10px;font-size:13px;line-height:1.85;color:rgba(20,21,28,.78)">把范围写成文件；先要一小段试跑期。</div>
+    </div>
+    <div style="padding:20px 24px 22px 18px">
+      <div style="font-size:11px;letter-spacing:.1em;color:rgba(20,21,28,.5);font-weight:600">不 该 做</div>
+      <div style="margin-top:10px;font-size:13px;line-height:1.85;color:rgba(20,21,28,.6)">不要为了保住机会先答应再谈条件。</div>
+    </div>
+  </div>
+
+  <div style="border-top:1px solid rgba(20,21,28,.16);padding:18px 24px;display:flex;gap:20px;align-items:baseline">
+    <div style="font-size:11px;letter-spacing:.1em;color:rgba(20,21,28,.5);flex:none">时 机</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:12.5px;color:#14151c">申酉出空后 · 约 11–19 日</div>
+  </div>
+
+  <div style="border-top:1px solid rgba(20,21,28,.16);padding:16px 24px;font-size:12.5px;line-height:1.8;color:rgba(20,21,28,.6)">
+    <span style="letter-spacing:.1em;color:rgba(20,21,28,.45)">需要留意 · </span>兄弟持世，合作方可能另有一人未出面。
+  </div>
+
+  <div style="border-top:1px solid rgba(20,21,28,.16);background:rgba(20,21,28,.04);padding:22px 24px">
+    <div style="font-size:10px;letter-spacing:.22em;color:rgba(20,21,28,.45);margin-bottom:12px">原 文 依 据</div>
+    <p style="margin:0;font-size:15px;line-height:1.95;border-left:2px solid #a9863c;padding-left:14px">屯：元亨，利貞。勿用有攸往，利建侯。</p>
+    <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">《周易》屯卦卦辞 · 王弼注本 卷一</div>
+  </div>
+
+  <div style="border-top:1px solid rgba(20,21,28,.16);padding:26px 24px 28px;text-align:center">
+    <div style="font-size:19px;line-height:1.7;font-weight:500">先立规矩，后动身。</div>
+  </div>
+
+  <div style="border-top:1px solid rgba(20,21,28,.16);padding:16px 24px;display:flex;justify-content:space-between;align-items:center;background:rgba(20,21,28,.03)">
+    <span style="font-size:13px;letter-spacing:.06em">卦象排盘 · 六爻技术信息</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:rgba(20,21,28,.5)">＋</span>
+  </div>
+  <div style="border-top:1px solid rgba(20,21,28,.16);padding:20px 24px 26px">
+    <div style="display:flex;flex-direction:column;gap:13px">
+      <div style="display:grid;grid-template-columns:26px 88px 1fr;gap:10px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.55)"><span></span><span></span><span style="letter-spacing:.12em">纳甲 · 六亲 · 六神</span></div>
+      <div style="display:grid;grid-template-columns:26px 88px 1fr;gap:10px;align-items:center"><span style="font-size:11px;color:rgba(20,21,28,.5)">六</span><div style="height:9px;display:flex;gap:16px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(20,21,28,.7)">子水 兄弟 玄武</span></div>
+      <div style="display:grid;grid-template-columns:26px 88px 1fr;gap:10px;align-items:center"><span style="font-size:11px;color:rgba(20,21,28,.5)">五</span><div style="height:9px;background:#14151c"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(20,21,28,.7)">戌土 官鬼 白虎 <span style="color:#b0403c">世</span></span></div>
+      <div style="display:grid;grid-template-columns:26px 88px 1fr;gap:10px;align-items:center"><span style="font-size:11px;color:rgba(20,21,28,.5)">四</span><div style="height:9px;display:flex;gap:16px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(20,21,28,.7)">申金 父母 螣蛇 <span style="color:#a9863c">空</span></span></div>
+      <div style="display:grid;grid-template-columns:26px 88px 1fr;gap:10px;align-items:center"><span style="font-size:11px;color:rgba(20,21,28,.5)">三</span><div style="height:9px;display:flex;gap:16px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(20,21,28,.7)">辰土 官鬼 勾陈</span></div>
+      <div style="display:grid;grid-template-columns:26px 88px 1fr;gap:10px;align-items:center"><span style="font-size:11px;color:rgba(20,21,28,.5)">二</span><div style="height:9px;display:flex;gap:16px;position:relative"><div style="flex:1;background:#b0403c"></div><div style="flex:1;background:#b0403c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#b0403c">寅木 妻财 朱雀 ✕动</span></div>
+      <div style="display:grid;grid-template-columns:26px 88px 1fr;gap:10px;align-items:center"><span style="font-size:11px;color:rgba(20,21,28,.5)">初</span><div style="height:9px;background:#14151c"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:rgba(20,21,28,.7)">子水 兄弟 青龙 <span style="color:rgba(20,21,28,.45)">应</span></span></div>
+    </div>
+  </div>
+  <div style="border-top:1px solid rgba(20,21,28,.16);padding:20px 24px 26px">
+    <div style="border:1px solid rgba(20,21,28,.2);padding:14px 16px;font-size:13.5px;color:rgba(20,21,28,.4);line-height:1.6">就这一卦继续问… <span style="float:right;color:rgba(20,21,28,.55);font-family:'JetBrains Mono',monospace;font-size:11px">余 4 问</span></div>
+  </div>
+</div></div>
+
+</div></div></div>
+
+<!-- ===================== 1b 墨盘 ===================== -->
+<div class="dv-opt" id="1b">
+<div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a><span><b>墨盘 / Instrument.</b> 「这是一台确定性的仪器，不是夜空。」深墨底，但气质来自仪表盘与技术手册：发丝网格、等宽字段标签、爻线即数据。朱砂＝动爻与判断，暗金＝旬空与时间。</span></div>
+<div class="dv-card" style="padding:28px 24px;background:#14151c;border-color:rgba(244,242,236,.14)">
+<div class="rail">
+
+<div class="scr"><div class="cap" style="color:rgba(244,242,236,.45)">首页 · 中文</div>
+<div style="background:#14151c;color:#f4f2ec;font-family:'Noto Serif SC',serif;border:1px solid rgba(244,242,236,.16);overflow:hidden">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid rgba(244,242,236,.14);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.16em">
+    <span>YAOFLOW</span><span style="color:rgba(244,242,236,.5)">中文 / <span style="opacity:.55">EN</span></span>
+  </div>
+  <div style="padding:40px 24px 32px;background:linear-gradient(rgba(244,242,236,.045),rgba(244,242,236,0))">
+    <div style="display:flex;flex-direction:column;gap:11px;width:172px;margin:0 auto">
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;background:#f4f2ec"></div>
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;background:#f4f2ec"></div>
+    </div>
+    <div style="margin-top:20px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.22em;color:rgba(244,242,236,.45)">䷂ &nbsp;03 &nbsp;水雷屯</div>
+  </div>
+  <div style="padding:4px 24px 0">
+    <h1 style="margin:0;font-size:30px;line-height:1.4;font-weight:400;letter-spacing:.01em">一次投掷，<br>一张可复现的盘。</h1>
+    <p style="margin:16px 0 0;font-size:14px;line-height:1.85;color:rgba(244,242,236,.62)">纳甲、六亲、六神、旬空、月建日辰、旺衰，全部由算法排定。AI 拿到的是这张盘，不是你的情绪。</p>
+  </div>
+  <div style="padding:26px 24px 30px">
+    <div style="border:1px solid rgba(244,242,236,.22);padding:15px 16px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42)">QUESTION</div>
+      <div style="margin-top:9px;font-size:15.5px;line-height:1.7;color:rgba(244,242,236,.34)">写下此刻真正让你为难的事…</div>
+    </div>
+    <button style="all:unset;box-sizing:border-box;display:block;width:100%;margin-top:14px;text-align:center;padding:17px 0;background:#f4f2ec;color:#14151c;font-family:'Noto Serif SC',serif;font-size:15px;letter-spacing:.16em;cursor:pointer">按 住 投 第 一 爻</button>
+    <div style="margin-top:10px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;color:rgba(244,242,236,.4)">6 THROWS · ~2 MIN</div>
+  </div>
+  <div style="border-top:1px solid rgba(244,242,236,.14);padding:24px 24px 8px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42);margin-bottom:18px">如何工作 / HOW IT WORKS</div>
+    <div style="display:flex;flex-direction:column;gap:0">
+      <div style="display:grid;grid-template-columns:30px 1fr;gap:12px;padding-bottom:18px;border-bottom:1px solid rgba(244,242,236,.1)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#a9863c;padding-top:3px">01</div>
+        <div><div style="font-size:14.5px">排盘是算法，不是灵感</div><div style="margin-top:6px;font-size:12.5px;line-height:1.75;color:rgba(244,242,236,.55)">同一组爻、同一时刻，得到的盘完全一致，可自行验算。</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:30px 1fr;gap:12px;padding:18px 0;border-bottom:1px solid rgba(244,242,236,.1)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#a9863c;padding-top:3px">02</div>
+        <div><div style="font-size:14.5px">AI 只做翻译</div><div style="margin-top:6px;font-size:12.5px;line-height:1.75;color:rgba(244,242,236,.55)">输入是盘面字段，输出是人话。不预测结果，不补故事。</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:30px 1fr;gap:12px;padding:18px 0 0">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#a9863c;padding-top:3px">03</div>
+        <div><div style="font-size:14.5px">引文可核对</div><div style="margin-top:6px;font-size:12.5px;line-height:1.75;color:rgba(244,242,236,.55)">每条判断标注原文与版本，附断法依据。</div></div>
+      </div>
+    </div>
+  </div>
+  <div style="padding:26px 24px 30px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42);margin-bottom:14px">SOURCES · 依据版本</div>
+    <div style="display:grid;grid-template-columns:1fr;gap:0;font-size:12.5px">
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1)"><span>《周易》王弼注本</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">卦爻辞</span></div>
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1)"><span>《卜筮正宗》1709</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">断法</span></div>
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1)"><span>《增删卜易》野鹤老人</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">案例</span></div>
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1);border-bottom:1px solid rgba(244,242,236,.1)"><span>寿星天文历</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">干支历</span></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap" style="color:rgba(244,242,236,.45)">Home · English</div>
+<div style="background:#14151c;color:#f4f2ec;font-family:Spectral,Georgia,serif;border:1px solid rgba(244,242,236,.16);overflow:hidden">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid rgba(244,242,236,.14);font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.16em">
+    <span>YAOFLOW</span><span style="color:rgba(244,242,236,.5)"><span style="opacity:.55">中文</span> / EN</span>
+  </div>
+  <div style="padding:40px 24px 32px;background:linear-gradient(rgba(244,242,236,.045),rgba(244,242,236,0))">
+    <div style="display:flex;flex-direction:column;gap:11px;width:172px;margin:0 auto">
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;background:#f4f2ec"></div>
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+      <div style="height:10px;background:#f4f2ec"></div>
+    </div>
+    <div style="margin-top:20px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.22em;color:rgba(244,242,236,.45)">䷂ &nbsp;03 &nbsp;ZHUN</div>
+  </div>
+  <div style="padding:4px 24px 0">
+    <h1 style="margin:0;font-size:35px;line-height:1.16;font-weight:400;letter-spacing:-.01em">One throw.<br>One reproducible chart.</h1>
+    <p style="margin:16px 0 0;font-size:15px;line-height:1.7;color:rgba(244,242,236,.62)">Stems, relations, spirits, voids, month and day influence, strength — all fixed by method. What the AI receives is the chart, not your mood.</p>
+  </div>
+  <div style="padding:26px 24px 30px">
+    <div style="border:1px solid rgba(244,242,236,.22);padding:15px 16px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42)">QUESTION</div>
+      <div style="margin-top:9px;font-size:16.5px;line-height:1.6;color:rgba(244,242,236,.34)">Write what's actually weighing on you…</div>
+    </div>
+    <button style="all:unset;box-sizing:border-box;display:block;width:100%;margin-top:14px;text-align:center;padding:16px 0;background:#f4f2ec;color:#14151c;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.18em;cursor:pointer">HOLD TO CAST LINE ONE</button>
+    <div style="margin-top:10px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;color:rgba(244,242,236,.4)">6 THROWS · ~2 MIN</div>
+  </div>
+  <div style="border-top:1px solid rgba(244,242,236,.14);padding:24px 24px 8px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42);margin-bottom:18px">HOW IT WORKS</div>
+    <div style="display:flex;flex-direction:column">
+      <div style="display:grid;grid-template-columns:30px 1fr;gap:12px;padding-bottom:18px;border-bottom:1px solid rgba(244,242,236,.1)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#a9863c;padding-top:4px">01</div>
+        <div><div style="font-size:16px">Computed, not intuited</div><div style="margin-top:5px;font-size:13.5px;line-height:1.62;color:rgba(244,242,236,.55)">The same lines at the same moment yield the same chart. You can check the arithmetic.</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:30px 1fr;gap:12px;padding:18px 0;border-bottom:1px solid rgba(244,242,236,.1)">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#a9863c;padding-top:4px">02</div>
+        <div><div style="font-size:16px">The AI translates only</div><div style="margin-top:5px;font-size:13.5px;line-height:1.62;color:rgba(244,242,236,.55)">In: chart fields. Out: plain language. No predictions, no invented narrative.</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:30px 1fr;gap:12px;padding:18px 0 0">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#a9863c;padding-top:4px">03</div>
+        <div><div style="font-size:16px">Citations you can check</div><div style="margin-top:5px;font-size:13.5px;line-height:1.62;color:rgba(244,242,236,.55)">Every judgement names its source text, edition and rule.</div></div>
+      </div>
+    </div>
+  </div>
+  <div style="padding:26px 24px 30px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42);margin-bottom:14px">SOURCES</div>
+    <div style="font-size:13.5px">
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1)"><span><i>Zhou Yi</i> · Wang Bi</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">LINE TEXTS</span></div>
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1)"><span><i>Bu Shi Zheng Zong</i> · 1709</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">METHOD</span></div>
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1)"><span><i>Zeng Shan Bu Yi</i> · Ye He</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">CASES</span></div>
+      <div style="display:flex;justify-content:space-between;padding:10px 0;border-top:1px solid rgba(244,242,236,.1);border-bottom:1px solid rgba(244,242,236,.1)"><span>Shouxing ephemeris</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.42)">CALENDAR</span></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap" style="color:rgba(244,242,236,.45)">起卦 · 蓄力中</div>
+<div style="background:#14151c;color:#f4f2ec;font-family:'Noto Serif SC',serif;border:1px solid rgba(244,242,236,.16);overflow:hidden;min-height:760px;display:flex;flex-direction:column">
+  <div style="padding:15px 20px;border-bottom:1px solid rgba(244,242,236,.14);display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:rgba(244,242,236,.55)">
+    <span>LINE 04 / 06</span><span style="color:#a9863c">CHARGING</span>
+  </div>
+  <div style="padding:14px 22px;border-bottom:1px solid rgba(244,242,236,.1);font-size:12.5px;line-height:1.7;color:rgba(244,242,236,.5)">「要不要接下这个项目？」</div>
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;padding:40px 22px;position:relative">
+    <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(244,242,236,.05) 1px,transparent 1px);background-size:100% 26px"></div>
+    <div style="position:relative;width:196px;height:196px;border-radius:50%;border:1px solid rgba(244,242,236,.18);display:flex;align-items:center;justify-content:center">
+      <div style="position:absolute;inset:-1px;border-radius:50%;background:conic-gradient(#a9863c 0 62%,transparent 62% 100%);mask:radial-gradient(circle,transparent 96px,#000 97px);-webkit-mask:radial-gradient(circle,transparent 96px,#000 97px)"></div>
+      <div style="display:flex;gap:12px;align-items:center">
+        <div style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(244,242,236,.55);display:flex;align-items:center;justify-content:center;font-size:11px;color:rgba(244,242,236,.8)">背</div>
+        <div style="width:40px;height:6px;background:#a9863c;border-radius:3px"></div>
+        <div style="width:40px;height:40px;border-radius:50%;border:1px solid rgba(244,242,236,.3);display:flex;align-items:center;justify-content:center;font-size:11px;color:rgba(244,242,236,.45)">面</div>
+      </div>
+    </div>
+    <div style="text-align:center;position:relative">
+      <div style="font-size:15px;letter-spacing:.24em">按 住 不 放</div>
+      <div style="margin-top:8px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;color:rgba(244,242,236,.42)">RELEASE TO THROW</div>
+    </div>
+  </div>
+  <div style="border-top:1px solid rgba(244,242,236,.14);padding:24px 22px 32px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42);margin-bottom:16px">SETTLED</div>
+    <div style="display:flex;flex-direction:column;gap:13px">
+      <div style="display:grid;grid-template-columns:30px 1fr 64px;gap:10px;align-items:center;opacity:.16"><span style="font-family:'JetBrains Mono',monospace;font-size:10px">06</span><div style="height:10px;background:repeating-linear-gradient(90deg,rgba(244,242,236,.6) 0 6px,transparent 6px 12px)"></div><span></span></div>
+      <div style="display:grid;grid-template-columns:30px 1fr 64px;gap:10px;align-items:center;opacity:.16"><span style="font-family:'JetBrains Mono',monospace;font-size:10px">05</span><div style="height:10px;background:repeating-linear-gradient(90deg,rgba(244,242,236,.6) 0 6px,transparent 6px 12px)"></div><span></span></div>
+      <div style="display:grid;grid-template-columns:30px 1fr 64px;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#a9863c">04</span><div style="height:10px;background:repeating-linear-gradient(90deg,rgba(169,134,60,.85) 0 6px,transparent 6px 12px)"></div><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:#a9863c">···</span></div>
+      <div style="display:grid;grid-template-columns:30px 1fr 64px;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.5)">03</span><div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.5)">少阴 2</span></div>
+      <div style="display:grid;grid-template-columns:30px 1fr 64px;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.5)">02</span><div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#b0403c"></div><div style="flex:1;background:#b0403c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:#b0403c">老阴 ✕</span></div>
+      <div style="display:grid;grid-template-columns:30px 1fr 64px;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.5)">01</span><div style="height:10px;background:#f4f2ec"></div><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.5)">少阳 3</span></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap" style="color:rgba(244,242,236,.45)">解读 · 判断优先</div>
+<div style="background:#14151c;color:#f4f2ec;font-family:'Noto Serif SC',serif;border:1px solid rgba(244,242,236,.16);overflow:hidden">
+  <div style="padding:16px 22px;border-bottom:1px solid rgba(244,242,236,.14);display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;color:rgba(244,242,236,.5)">
+    <span>䷂ → ䷾ &nbsp;03 → 63</span><span>甲辰月 丙子日</span>
+  </div>
+  <div style="padding:28px 22px 26px;background:rgba(176,64,60,.08);border-bottom:1px solid rgba(244,242,236,.14)">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#b0403c">核心判断 / THE CALL</div>
+    <p style="margin:14px 0 0;font-size:25px;line-height:1.55;font-weight:400;text-wrap:pretty">可以接，但不能按<br>对方给的时间表接。</p>
+    <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.1em">
+      <span style="border:1px solid rgba(244,242,236,.25);padding:4px 8px;color:rgba(244,242,236,.7)">用神 寅木 妻财</span>
+      <span style="border:1px solid rgba(244,242,236,.25);padding:4px 8px;color:rgba(244,242,236,.7)">月建生扶</span>
+      <span style="border:1px solid rgba(169,134,60,.6);padding:4px 8px;color:#a9863c">日辰不助</span>
+    </div>
+  </div>
+  <div style="padding:24px 22px 8px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42)">01 当下处境</div>
+    <p style="margin:10px 0 0;font-size:15px;line-height:1.95;color:rgba(244,242,236,.86)">屯者，物之始生。事情已经启动，结构尚未定型：资源在手，路径不清。你此刻的犹豫不是判断力不足，是信息确实不够。</p>
+  </div>
+  <div style="padding:22px 22px 8px;display:grid;grid-template-columns:1fr 1fr;gap:18px">
+    <div style="border-top:2px solid #f4f2ec;padding-top:12px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em">03 该做</div>
+      <div style="margin-top:9px;font-size:13px;line-height:1.85;color:rgba(244,242,236,.82)">把范围写成文件；先要一小段试跑期。</div>
+    </div>
+    <div style="border-top:2px solid rgba(244,242,236,.22);padding-top:12px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em;color:rgba(244,242,236,.55)">04 不该做</div>
+      <div style="margin-top:9px;font-size:13px;line-height:1.85;color:rgba(244,242,236,.55)">不要为保住机会先答应、后谈条件。</div>
+    </div>
+  </div>
+  <div style="margin:22px 22px 0;border:1px solid rgba(169,134,60,.45);padding:14px 16px;display:flex;justify-content:space-between;align-items:center">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em;color:#a9863c">05 时机</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:12px;color:#a9863c">出空后 11–19 日</span>
+  </div>
+  <div style="padding:20px 22px 0;font-size:12.5px;line-height:1.8;color:rgba(244,242,236,.5)">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em">06 需要留意 &nbsp;</span>兄弟持世，合作方可能另有一人未出面。
+  </div>
+  <div style="margin:22px 0 0;padding:22px 22px;border-top:1px solid rgba(244,242,236,.14);background:rgba(244,242,236,.03)">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42);margin-bottom:12px">07 原文依据</div>
+    <p style="margin:0;font-size:15.5px;line-height:1.95;border-left:2px solid #a9863c;padding-left:14px;color:#f4f2ec">屯：元亨，利貞。勿用有攸往，利建侯。</p>
+    <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.42)">《周易》屯卦卦辞 · 王弼注本 卷一</div>
+  </div>
+  <div style="padding:26px 22px 28px;border-top:1px solid rgba(244,242,236,.14);text-align:center">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(244,242,236,.42);margin-bottom:12px">08</div>
+    <div style="font-size:20px;line-height:1.7">先立规矩，后动身。</div>
+  </div>
+  <div style="border-top:1px solid rgba(244,242,236,.14);padding:15px 22px;display:flex;justify-content:space-between;align-items:center">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;color:rgba(244,242,236,.6)">CHART · 六爻排盘</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:13px;color:rgba(244,242,236,.5)">＋</span>
+  </div>
+  <div style="border-top:1px solid rgba(244,242,236,.1);padding:20px 22px 26px">
+    <div style="display:flex;flex-direction:column;gap:13px">
+      <div style="display:grid;grid-template-columns:24px 84px 1fr;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.45)">06</span><div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.7)">子水 兄弟 玄武</span></div>
+      <div style="display:grid;grid-template-columns:24px 84px 1fr;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.45)">05</span><div style="height:10px;background:#f4f2ec"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.7)">戌土 官鬼 白虎 <span style="color:#b0403c">世</span></span></div>
+      <div style="display:grid;grid-template-columns:24px 84px 1fr;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.45)">04</span><div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.7)">申金 父母 螣蛇 <span style="color:#a9863c">空</span></span></div>
+      <div style="display:grid;grid-template-columns:24px 84px 1fr;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.45)">03</span><div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.7)">辰土 官鬼 勾陈</span></div>
+      <div style="display:grid;grid-template-columns:24px 84px 1fr;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:#b0403c">02</span><div style="height:10px;display:flex;gap:18px"><div style="flex:1;background:#b0403c"></div><div style="flex:1;background:#b0403c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#b0403c">寅木 妻财 朱雀 ✕动</span></div>
+      <div style="display:grid;grid-template-columns:24px 84px 1fr;gap:10px;align-items:center"><span style="font-family:'JetBrains Mono',monospace;font-size:9.5px;color:rgba(244,242,236,.45)">01</span><div style="height:10px;background:#f4f2ec"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.7)">子水 兄弟 青龙 <span style="color:rgba(244,242,236,.5)">应</span></span></div>
+    </div>
+  </div>
+  <div style="border-top:1px solid rgba(244,242,236,.14);padding:18px 22px 24px">
+    <div style="border:1px solid rgba(244,242,236,.2);padding:13px 15px;font-size:13px;color:rgba(244,242,236,.38);display:flex;justify-content:space-between;align-items:center">
+      <span>就这一卦继续问…</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(244,242,236,.5)">4 LEFT</span>
+    </div>
+  </div>
+</div></div>
+
+</div></div></div>
+
+<!-- ===================== 1c 档案 ===================== -->
+<div class="dv-opt" id="1c">
+<div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a><span><b>档案 / Dossier.</b> 「一份为你一个人排的简报。」暖纸底＋大块墨色区块，六爻线作为贯穿全站的左侧标尺与刊头；判断放进墨块，其余落在纸上——层次靠明暗，不靠字号。</span></div>
+<div class="dv-card" style="padding:28px 24px;background:#efece4">
+<div class="rail">
+
+<div class="scr"><div class="cap">首页 · 中文</div>
+<div style="background:#f4f2ec;color:#14151c;font-family:'Noto Serif SC',serif;border:1px solid rgba(20,21,28,.14);overflow:hidden">
+  <div style="background:#14151c;color:#f4f2ec;padding:20px 22px 24px">
+    <div style="display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;color:rgba(244,242,236,.6)">
+      <span>YAOFLOW · 六爻</span><span>中文 / <span style="opacity:.55">EN</span></span>
+    </div>
+    <div style="margin-top:26px;display:flex;align-items:flex-end;gap:18px">
+      <div style="display:flex;flex-direction:column;gap:9px;width:104px;flex:none">
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;background:#f4f2ec"></div>
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;background:#f4f2ec"></div>
+      </div>
+      <h1 style="margin:0;font-size:31px;line-height:1.32;font-weight:500">先有盘，<br>再有话。</h1>
+    </div>
+    <p style="margin:20px 0 0;font-size:13.5px;line-height:1.85;color:rgba(244,242,236,.66)">一卦排出六爻的纳甲、六亲、六神、旬空与旺衰。这套推演是确定的、可复现的；AI 的工作只是把盘面讲清楚。</p>
+  </div>
+  <div style="padding:24px 22px 26px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45)">01 · 你的问题</div>
+    <div style="margin-top:12px;border-bottom:1.5px solid #14151c;padding-bottom:12px;font-size:16px;line-height:1.7;color:rgba(20,21,28,.32)">写下此刻真正让你为难的事…</div>
+    <div style="margin-top:10px;font-size:11.5px;line-height:1.7;color:rgba(20,21,28,.5)">问得越具体，盘面能回答的就越多。「该不该」比「会怎样」更适合起卦。</div>
+    <button style="all:unset;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;width:100%;margin-top:22px;padding:16px 20px;background:#b0403c;color:#f4f2ec;font-family:'Noto Serif SC',serif;font-size:15px;letter-spacing:.14em;cursor:pointer"><span>按 住 投 第 一 爻</span><span style="font-family:'JetBrains Mono',monospace;font-size:11px;opacity:.8">1/6</span></button>
+  </div>
+  <div style="border-top:1px solid rgba(20,21,28,.14);padding:24px 22px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:18px">02 · 我们如何工作</div>
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div style="display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:5px;padding-top:5px"><div style="height:5px;background:#14151c"></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div></div>
+        <div><div style="font-size:14.5px;font-weight:600">排盘由算法完成</div><div style="margin-top:6px;font-size:12.5px;line-height:1.8;color:rgba(20,21,28,.66)">同一组爻、同一时刻，任何人算出的盘完全一致。方法与代码逻辑公开。</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:5px;padding-top:5px"><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;background:#14151c"></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div></div>
+        <div><div style="font-size:14.5px;font-weight:600">AI 只做翻译</div><div style="margin-top:6px;font-size:12.5px;line-height:1.8;color:rgba(20,21,28,.66)">它读到的是盘面字段，不是你的措辞。不预测结果，也不替你补故事。</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:5px;padding-top:5px"><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;background:#14151c"></div></div>
+        <div><div style="font-size:14.5px;font-weight:600">引文可核对</div><div style="margin-top:6px;font-size:12.5px;line-height:1.8;color:rgba(20,21,28,.66)">每条判断附原文、版本与页码，你可以自己去查这句话是不是这么写的。</div></div>
+      </div>
+    </div>
+  </div>
+  <div style="border-top:1px solid rgba(20,21,28,.14);padding:24px 22px 30px;background:rgba(20,21,28,.04)">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:14px">03 · 依据版本</div>
+    <div style="font-size:12.5px">
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14)"><span>《周易》通行本 · 王弼注</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">卦爻辞</span></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14)"><span>《卜筮正宗》王洪绪 · 1709</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">断法</span></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14)"><span>《增删卜易》野鹤老人</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">案例</span></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14);border-bottom:1px solid rgba(20,21,28,.14)"><span>寿星天文历</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">月建日辰</span></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap">Home · English</div>
+<div style="background:#f4f2ec;color:#14151c;font-family:'EB Garamond',Georgia,serif;border:1px solid rgba(20,21,28,.14);overflow:hidden">
+  <div style="background:#14151c;color:#f4f2ec;padding:20px 22px 24px">
+    <div style="display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;color:rgba(244,242,236,.6)">
+      <span>YAOFLOW · I CHING</span><span><span style="opacity:.55">中文</span> / EN</span>
+    </div>
+    <div style="margin-top:26px;display:flex;align-items:flex-end;gap:18px">
+      <div style="display:flex;flex-direction:column;gap:9px;width:96px;flex:none">
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;background:#f4f2ec"></div>
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;display:flex;gap:14px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div>
+        <div style="height:8px;background:#f4f2ec"></div>
+      </div>
+      <h1 style="margin:0;font-size:40px;line-height:1.08;font-weight:400;letter-spacing:-.01em">The chart<br>comes first.</h1>
+    </div>
+    <p style="margin:20px 0 0;font-size:14.5px;line-height:1.68;color:rgba(244,242,236,.66)">One cast fixes six lines, their stems, relations, spirits, voids and strength. That derivation is deterministic and reproducible. The AI's only job is to read it back to you clearly.</p>
+  </div>
+  <div style="padding:24px 22px 26px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45)">01 · YOUR QUESTION</div>
+    <div style="margin-top:12px;border-bottom:1.5px solid #14151c;padding-bottom:12px;font-size:17.5px;line-height:1.6;color:rgba(20,21,28,.32)">Write what's actually weighing on you…</div>
+    <div style="margin-top:10px;font-size:12.5px;line-height:1.6;color:rgba(20,21,28,.5)">The more specific the question, the more the chart can answer. “Should I…” works better than “Will I…”.</div>
+    <button style="all:unset;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;width:100%;margin-top:22px;padding:15px 20px;background:#b0403c;color:#f4f2ec;font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.18em;cursor:pointer"><span>HOLD TO CAST LINE ONE</span><span style="opacity:.75">1/6</span></button>
+  </div>
+  <div style="border-top:1px solid rgba(20,21,28,.14);padding:24px 22px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:18px">02 · HOW THIS WORKS</div>
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div style="display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:5px;padding-top:6px"><div style="height:5px;background:#14151c"></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div></div>
+        <div><div style="font-size:16.5px;font-weight:600">The chart is computed</div><div style="margin-top:5px;font-size:14px;line-height:1.6;color:rgba(20,21,28,.66)">Same lines, same moment, same chart — for anyone. The method is documented in full.</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:5px;padding-top:6px"><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;background:#14151c"></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div></div>
+        <div><div style="font-size:16.5px;font-weight:600">The AI only translates</div><div style="margin-top:5px;font-size:14px;line-height:1.6;color:rgba(20,21,28,.66)">It reads the chart's fields, not your phrasing. No prediction, no invented narrative.</div></div>
+      </div>
+      <div style="display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:5px;padding-top:6px"><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;display:flex;gap:10px"><div style="flex:1;background:rgba(20,21,28,.25)"></div><div style="flex:1;background:rgba(20,21,28,.25)"></div></div><div style="height:5px;background:#14151c"></div></div>
+        <div><div style="font-size:16.5px;font-weight:600">Citations you can check</div><div style="margin-top:5px;font-size:14px;line-height:1.6;color:rgba(20,21,28,.66)">Each judgement carries its source text, edition and page, so you can verify the line yourself.</div></div>
+      </div>
+    </div>
+  </div>
+  <div style="border-top:1px solid rgba(20,21,28,.14);padding:24px 22px 30px;background:rgba(20,21,28,.04)">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:14px">03 · SOURCES</div>
+    <div style="font-size:14px">
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14)"><span><i>Zhou Yi</i> · Wang Bi commentary</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">LINE TEXTS</span></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14)"><span><i>Bu Shi Zheng Zong</i> · 1709</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">METHOD</span></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14)"><span><i>Zeng Shan Bu Yi</i> · Ye He</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">CASES</span></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-top:1px solid rgba(20,21,28,.14);border-bottom:1px solid rgba(20,21,28,.14)"><span>Shouxing ephemeris</span><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.45)">CALENDAR</span></div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap">起卦 · 第四爻落定</div>
+<div style="background:#14151c;color:#f4f2ec;font-family:'Noto Serif SC',serif;border:1px solid rgba(20,21,28,.14);overflow:hidden;min-height:760px;display:flex;flex-direction:column">
+  <div style="padding:16px 22px;display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(244,242,236,.12)">
+    <span style="font-size:13px;letter-spacing:.14em;color:rgba(244,242,236,.7)">第 四 爻</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:24px;color:#f4f2ec">04<span style="font-size:12px;color:rgba(244,242,236,.4)">/06</span></span>
+  </div>
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;padding:30px 22px;gap:30px">
+    <div style="display:flex;flex-direction:column;gap:16px">
+      <div style="display:grid;grid-template-columns:1fr 46px;gap:14px;align-items:center;opacity:.14"><div style="height:11px;background:repeating-linear-gradient(90deg,#f4f2ec 0 5px,transparent 5px 11px)"></div><span style="font-size:11px">六</span></div>
+      <div style="display:grid;grid-template-columns:1fr 46px;gap:14px;align-items:center;opacity:.14"><div style="height:11px;background:repeating-linear-gradient(90deg,#f4f2ec 0 5px,transparent 5px 11px)"></div><span style="font-size:11px">五</span></div>
+      <div style="display:grid;grid-template-columns:1fr 46px;gap:14px;align-items:center"><div style="height:11px;background:#a9863c"></div><span style="font-size:11px;color:#a9863c">四</span></div>
+      <div style="display:grid;grid-template-columns:1fr 46px;gap:14px;align-items:center"><div style="height:11px;display:flex;gap:20px"><div style="flex:1;background:#f4f2ec"></div><div style="flex:1;background:#f4f2ec"></div></div><span style="font-size:11px;color:rgba(244,242,236,.55)">三</span></div>
+      <div style="display:grid;grid-template-columns:1fr 46px;gap:14px;align-items:center"><div style="height:11px;display:flex;gap:20px"><div style="flex:1;background:#b0403c"></div><div style="flex:1;background:#b0403c"></div></div><span style="font-size:11px;color:#b0403c">二</span></div>
+      <div style="display:grid;grid-template-columns:1fr 46px;gap:14px;align-items:center"><div style="height:11px;background:#f4f2ec"></div><span style="font-size:11px;color:rgba(244,242,236,.55)">初</span></div>
+    </div>
+    <div style="border-top:1px solid rgba(244,242,236,.12);padding-top:26px;display:flex;flex-direction:column;align-items:center;gap:22px">
+      <div style="display:flex;gap:14px">
+        <div style="width:46px;height:46px;border-radius:50%;background:#f4f2ec;color:#14151c;display:flex;align-items:center;justify-content:center;font-size:13px">背</div>
+        <div style="width:46px;height:46px;border-radius:50%;background:#f4f2ec;color:#14151c;display:flex;align-items:center;justify-content:center;font-size:13px">背</div>
+        <div style="width:46px;height:46px;border-radius:50%;border:1px solid rgba(244,242,236,.4);color:rgba(244,242,236,.6);display:flex;align-items:center;justify-content:center;font-size:13px">面</div>
+      </div>
+      <div style="text-align:center">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;color:#a9863c">少阳 · 3 · 阳爻</div>
+        <div style="margin-top:14px;font-size:14px;letter-spacing:.2em;color:rgba(244,242,236,.55)">按 住 投 第 五 爻</div>
+      </div>
+      <div style="width:74px;height:74px;border-radius:50%;border:1px solid rgba(244,242,236,.3);display:flex;align-items:center;justify-content:center;font-size:11px;letter-spacing:.1em;color:rgba(244,242,236,.7)">按住</div>
+    </div>
+  </div>
+</div></div>
+
+<div class="scr"><div class="cap">解读 · 墨块承重</div>
+<div style="background:#f4f2ec;color:#14151c;font-family:'Noto Serif SC',serif;border:1px solid rgba(20,21,28,.14);overflow:hidden">
+  <div style="padding:18px 22px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(20,21,28,.14);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;color:rgba(20,21,28,.5)">
+    <span>REPORT · 2026-08-28</span><span>甲辰月 丙子日</span>
+  </div>
+  <div style="padding:22px 22px 20px;border-bottom:1px solid rgba(20,21,28,.14)">
+    <div style="font-size:12.5px;line-height:1.8;color:rgba(20,21,28,.6)">「要不要接下这个项目？」</div>
+    <div style="margin-top:14px;display:flex;align-items:center;gap:14px">
+      <div class="gua" style="font-size:34px">䷂</div><span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(20,21,28,.45)">→</span><div class="gua" style="font-size:34px;opacity:.55">䷾</div>
+      <div style="font-size:13.5px;line-height:1.5">水雷屯 <span style="color:rgba(20,21,28,.45)">变</span> 水火既济<br><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">动爻 二 · 旬空 申酉</span></div>
+    </div>
+  </div>
+  <div style="background:#14151c;color:#f4f2ec;padding:28px 22px 30px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#a9863c">核 心 判 断</div>
+    <p style="margin:14px 0 0;font-size:26px;line-height:1.5;font-weight:400;text-wrap:pretty">可以接，但不能按<br>对方给的时间表接。</p>
+    <p style="margin:16px 0 0;font-size:13.5px;line-height:1.85;color:rgba(244,242,236,.68)">用神受月建生扶、日辰不助：事有可成之象，成的条件在你这一侧，不在对方的承诺里。</p>
+  </div>
+  <div style="padding:24px 22px 6px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45)">当 下 处 境</div>
+    <p style="margin:10px 0 0;font-size:15.5px;line-height:1.95">屯者，物之始生。事情已经启动，结构还没定型——资源在手，路径不清。你现在的犹豫不是判断力不足，是信息确实不够。</p>
+  </div>
+  <div style="padding:22px 22px 4px;display:flex;flex-direction:column;gap:16px">
+    <div style="border-left:3px solid #14151c;padding-left:14px">
+      <div style="font-size:11.5px;letter-spacing:.14em;font-weight:600">该 做</div>
+      <div style="margin-top:8px;font-size:13.5px;line-height:1.85;color:rgba(20,21,28,.8)">把交付范围写成文件；先谈一小段试跑期，再谈全约。</div>
+    </div>
+    <div style="border-left:3px solid rgba(20,21,28,.2);padding-left:14px">
+      <div style="font-size:11.5px;letter-spacing:.14em;font-weight:600;color:rgba(20,21,28,.55)">不 该 做</div>
+      <div style="margin-top:8px;font-size:13.5px;line-height:1.85;color:rgba(20,21,28,.58)">不要为了保住机会先答应下来、事后再谈条件。</div>
+    </div>
+  </div>
+  <div style="margin:22px 22px 0;background:rgba(169,134,60,.14);border-left:3px solid #a9863c;padding:14px 16px">
+    <div style="font-size:11.5px;letter-spacing:.14em;color:#8a6c2c;font-weight:600">时 机</div>
+    <div style="margin-top:6px;font-size:13.5px;line-height:1.75">申酉出空之后，约 11 至 19 日之间见明确回应。</div>
+  </div>
+  <div style="padding:20px 22px 0;font-size:12.5px;line-height:1.85;color:rgba(20,21,28,.6)">
+    <span style="letter-spacing:.14em;font-weight:600;color:rgba(20,21,28,.5)">需要留意 · </span>兄弟持世，对方阵营可能另有一位未出面的决策者。
+  </div>
+  <div style="margin:24px 22px 0;border-top:1px solid rgba(20,21,28,.14);padding-top:20px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:12px">原 文 依 据</div>
+    <p style="margin:0;font-size:16px;line-height:2;letter-spacing:.04em">屯：元亨，利貞。<br>勿用有攸往，利建侯。</p>
+    <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">《周易》屯卦卦辞 · 王弼注本 卷一 &nbsp;|&nbsp; 断法：《卜筮正宗》卷三</div>
+  </div>
+  <div style="margin-top:26px;background:#b0403c;color:#f4f2ec;padding:26px 22px;text-align:center">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;opacity:.75">一 句 话</div>
+    <div style="margin-top:12px;font-size:21px;line-height:1.65">先立规矩，后动身。</div>
+  </div>
+  <div style="padding:16px 22px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(20,21,28,.14)">
+    <span style="font-size:13px">卦象排盘 · 给懂行的人</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(20,21,28,.5)">展开 ＋</span>
+  </div>
+  <div style="padding:20px 22px 26px;background:rgba(20,21,28,.04)">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div style="display:grid;grid-template-columns:74px 1fr;gap:12px;align-items:center"><div style="height:9px;display:flex;gap:14px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.7)">子水 兄弟 玄武</span></div>
+      <div style="display:grid;grid-template-columns:74px 1fr;gap:12px;align-items:center"><div style="height:9px;background:#14151c"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.7)">戌土 官鬼 白虎 <span style="color:#b0403c">世</span></span></div>
+      <div style="display:grid;grid-template-columns:74px 1fr;gap:12px;align-items:center"><div style="height:9px;display:flex;gap:14px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.7)">申金 父母 螣蛇 <span style="color:#a9863c">空</span></span></div>
+      <div style="display:grid;grid-template-columns:74px 1fr;gap:12px;align-items:center"><div style="height:9px;display:flex;gap:14px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.7)">辰土 官鬼 勾陈</span></div>
+      <div style="display:grid;grid-template-columns:74px 1fr;gap:12px;align-items:center"><div style="height:9px;display:flex;gap:14px"><div style="flex:1;background:#b0403c"></div><div style="flex:1;background:#b0403c"></div></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#b0403c">寅木 妻财 朱雀 ✕ 动 → 阳</span></div>
+      <div style="display:grid;grid-template-columns:74px 1fr;gap:12px;align-items:center"><div style="height:9px;background:#14151c"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.7)">子水 兄弟 青龙 <span style="color:rgba(20,21,28,.45)">应</span></span></div>
+    </div>
+  </div>
+  <div style="padding:20px 22px 26px;border-top:1px solid rgba(20,21,28,.14)">
+    <div style="display:flex;gap:10px;align-items:center;border:1.5px solid #14151c;padding:13px 15px">
+      <span style="flex:1;font-size:13.5px;color:rgba(20,21,28,.4)">就这一卦继续问…</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.55)">余 4 问</span>
+    </div>
+  </div>
+</div></div>
+
+</div></div></div>
+
+<!-- ===================== 1d 系统基底 ===================== -->
+<div class="dv-opt" id="1d">
+<div class="dv-olabel"><a class="dv-oid" href="#1d">1d</a><span><b>共通基底.</b> 三个方向共用的字号阶梯、间距尺度与颜色语义（含中英文重量差的处理规则）。选定方向后按它展开。</span></div>
+<div class="dv-card" style="padding:30px 28px;background:#f4f2ec;width:820px;font-family:'Noto Serif SC',serif;color:#14151c">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:34px">
+    <div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:14px">字号阶梯 · 手机 (中文 / 英文)</div>
+      <div style="display:flex;flex-direction:column">
+        <div style="display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-top:1px solid rgba(20,21,28,.14);align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">30 / 38</span><span style="font-size:15px">D1 首屏标题 · 中文 500，英文 400</span></div>
+        <div style="display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-top:1px solid rgba(20,21,28,.14);align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">23 / 27</span><span style="font-size:15px">D2 核心判断（每页仅一次）</span></div>
+        <div style="display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-top:1px solid rgba(20,21,28,.14);align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">19 / 21</span><span style="font-size:15px">D3 一句话总结 / 区块小标</span></div>
+        <div style="display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-top:1px solid rgba(20,21,28,.14);align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">15 / 16</span><span style="font-size:15px">正文 · 中文行高 1.95，英文 1.65</span></div>
+        <div style="display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-top:1px solid rgba(20,21,28,.14);align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">12.5/14</span><span style="font-size:15px">次要说明 · 灰 0.66</span></div>
+        <div style="display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-top:1px solid rgba(20,21,28,.14);border-bottom:1px solid rgba(20,21,28,.14);align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(20,21,28,.5)">9.5–10</span><span style="font-size:15px">等宽字段标签 · 字距 .2em，全大写</span></div>
+      </div>
+      <div style="margin-top:12px;font-size:12.5px;line-height:1.85;color:rgba(20,21,28,.6)">中英差异规则：同一层级下英文取更大字号但更紧行高；中文正文加 letter-spacing .02em，英文不加；英文标题可用斜体做次重音，中文改用字重与灰度，不用斜体。</div>
+
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin:26px 0 14px">间距尺度 · 4 的倍数</div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;width:26px;color:rgba(20,21,28,.5)">4</span><div style="height:8px;width:4px;background:#14151c"></div><span style="font-size:12px;color:rgba(20,21,28,.6)">爻线内缝隙</span></div>
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;width:26px;color:rgba(20,21,28,.5)">10</span><div style="height:8px;width:10px;background:#14151c"></div><span style="font-size:12px;color:rgba(20,21,28,.6)">标签与正文</span></div>
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;width:26px;color:rgba(20,21,28,.5)">14</span><div style="height:8px;width:14px;background:#14151c"></div><span style="font-size:12px;color:rgba(20,21,28,.6)">爻线行距</span></div>
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;width:26px;color:rgba(20,21,28,.5)">22</span><div style="height:8px;width:22px;background:#14151c"></div><span style="font-size:12px;color:rgba(20,21,28,.6)">页面左右留白（手机）</span></div>
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;width:26px;color:rgba(20,21,28,.5)">26</span><div style="height:8px;width:26px;background:#14151c"></div><span style="font-size:12px;color:rgba(20,21,28,.6)">区块内上下padding</span></div>
+        <div style="display:flex;align-items:center;gap:12px"><span style="font-family:'JetBrains Mono',monospace;font-size:10px;width:26px;color:rgba(20,21,28,.5)">44</span><div style="height:8px;width:44px;background:#14151c"></div><span style="font-size:12px;color:rgba(20,21,28,.6)">章节之间 · 也是最小点击高度</span></div>
+      </div>
+    </div>
+
+    <div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin-bottom:14px">颜色语义 · 什么时候用</div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start"><div style="height:44px;background:#14151c;border:1px solid rgba(20,21,28,.2)"></div><div><div style="font-size:13.5px;font-weight:600">墨 #14151c</div><div style="margin-top:3px;font-size:12px;line-height:1.7;color:rgba(20,21,28,.65)">文字、爻线、承重区块。深色方向里作底。</div></div></div>
+        <div style="display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start"><div style="height:44px;background:#f4f2ec;border:1px solid rgba(20,21,28,.2)"></div><div><div style="font-size:13.5px;font-weight:600">纸 #f4f2ec</div><div style="margin-top:3px;font-size:12px;line-height:1.7;color:rgba(20,21,28,.65)">底色或反白文字。灰阶只用它的 .86 / .66 / .45 三档。</div></div></div>
+        <div style="display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start"><div style="height:44px;background:#b0403c"></div><div><div style="font-size:13.5px;font-weight:600">朱砂 #b0403c</div><div style="margin-top:3px;font-size:12px;line-height:1.7;color:rgba(20,21,28,.65)">只标「动」与「判断」：动爻、世位、核心判断、主按钮。一屏不超过两处。不用于警告或错误。</div></div></div>
+        <div style="display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start"><div style="height:44px;background:#a9863c"></div><div><div style="font-size:13.5px;font-weight:600">暗金 #a9863c</div><div style="margin-top:3px;font-size:12px;line-height:1.7;color:rgba(20,21,28,.65)">只标「时间与未定」：旬空、月建日辰、时机、蓄力进度。浅底上仅作发丝线与小字（正文用 #8a6c2c 保对比）。</div></div></div>
+      </div>
+      <div style="margin-top:14px;font-size:12.5px;line-height:1.85;color:rgba(20,21,28,.6)">建议不新增颜色。状态色（成功/失败/付费）用墨与纸的明暗差表达，避免出现第五种色相破坏「古籍」质感。</div>
+
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:rgba(20,21,28,.45);margin:26px 0 14px">品牌资产 · 爻线与卦符</div>
+      <div style="display:flex;gap:20px;align-items:center">
+        <div style="display:flex;flex-direction:column;gap:14px;width:96px">
+          <div style="height:9px;display:flex;gap:14px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div>
+          <div style="height:9px;background:#14151c"></div>
+          <div style="height:9px;display:flex;gap:14px"><div style="flex:1;background:#14151c"></div><div style="flex:1;background:#14151c"></div></div>
+        </div>
+        <div class="gua" style="font-size:56px">䷂</div>
+        <div style="font-size:12px;line-height:1.8;color:rgba(20,21,28,.65);flex:1">爻线比例固定：线高 = 缝隙 = 行距×0.6；阴爻断口 = 线长的 1/6。Unicode 卦符只在标题与元数据出现，正文中的盘面一律用爻线绘制，保证跨平台一致。</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+</div>
+
+<p class="dv-next">下一步可以说：「深色定 <a class="dv-oid" href="#1b">1b</a>，但解读页用 <a class="dv-oid" href="#1c">1c</a> 的墨块层次」 · 「<a class="dv-oid" href="#1a">1a</a> 展开成完整站点」 · 「起卦页再给两种蓄力交互」</p>
+</section>
+
+</x-dc>
+</body>
+</html>

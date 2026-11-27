@@ -1,0 +1,537 @@
+@import "tailwindcss";
+
+/* ============================================================
+   YaoFlow design system — direction "档案 / Dossier"
+   Warm paper ground, ink blocks carry weight. Hierarchy comes
+   from light/dark, not from type size — which is what makes it
+   survive the jump between Chinese and English.
+   ============================================================ */
+
+:root {
+  /* --- palette: four colours, no more ------------------------------- */
+  --ink: #14151c;
+  --paper: #f4f2ec;
+  --paper-dim: #efece4; /* recessed panels on paper */
+  --cinnabar: #b0403c; /* ONLY movement + the call */
+  --gold: #a9863c; /* ONLY time + the undecided */
+  --gold-text: #8a6c2c; /* gold at body contrast on paper */
+  --accent: var(--cinnabar); /* legacy alias */
+
+  /* Grey is never a new colour — always ink or paper at three stops. */
+  --ink-86: rgba(20, 21, 28, 0.86);
+  --ink-66: rgba(20, 21, 28, 0.66);
+  --ink-45: rgba(20, 21, 28, 0.45);
+  /* 09-29 PageSpeed: small mono labels at 45% measured 3.3:1 on paper; 62% is 4.8:1 (AA) */
+  --ink-62: rgba(20, 21, 28, 0.62);
+  --ink-16: rgba(20, 21, 28, 0.16);
+  --ink-08: rgba(20, 21, 28, 0.08);
+  --ink-035: rgba(20, 21, 28, 0.035);
+
+  --paper-86: rgba(244, 242, 236, 0.86);
+  --paper-66: rgba(244, 242, 236, 0.66);
+  --paper-45: rgba(244, 242, 236, 0.45);
+  --paper-20: rgba(244, 242, 236, 0.2);
+  --paper-12: rgba(244, 242, 236, 0.12);
+
+  /* --- spacing scale: multiples of 4 -------------------------------- */
+  --s-1: 4px;   /* gap inside a broken yin line */
+  --s-2: 10px;  /* label to body */
+  --s-3: 14px;  /* line-to-line in a hexagram */
+  --s-4: 22px;  /* page gutter on mobile */
+  --s-5: 26px;  /* padding inside a block */
+  --s-6: 44px;  /* between sections — also the min tap target */
+
+  /* --- type ---------------------------------------------------------- */
+  /* 09-29: the CJK faces are plain stylesheets under /fonts/cjk/ (scripts/fetch-cjk-fonts.mjs),
+     linked per page by the locale layout — a face whose sheet isn't on the page just falls through */
+  --serif-zh: "yf-serif-sc", "Songti SC", "Source Han Serif SC", "Noto Serif SC", serif;
+  --serif-hant: "yf-serif-tc", "Songti TC", "Source Han Serif TC", "Noto Serif TC", "yf-serif-sc", serif;
+  --serif-ja: "yf-serif-jp", "Hiragino Mincho ProN", "Yu Mincho", "Source Han Serif JP", "Noto Serif JP", serif;
+  --serif-ko: "yf-serif-kr", "Apple Myungjo", "Nanum Myeongjo", "Source Han Serif KR", "Noto Serif KR", serif;
+  --serif-en: var(--font-serif-en), Georgia, "Times New Roman", serif;
+  --mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --lh-zh: 1.95;
+  --lh-en: 1.65;
+
+  /* Yao geometry. These MUST live on :root — the yin line's segments are not
+     descendants of .yao, so defining them there leaves height unresolved and
+     every broken line collapses to zero height (i.e. invisible). */
+  --yao-h: 8px;
+  --yao-gap: 8px;
+}
+
+/* Page ground. Deliberately not transparent — the dossier is a printed
+   object, and it should read the same in every browser theme. */
+/* One surface everywhere: paper. Hierarchy and the rite's drama come from
+   ink blocks, motion and sound — never from switching the page's ground. */
+/* 09-30 对照测试 h (lib/ab.ts): the home page's inline script sets data-abh="1" before paint;
+   one hero or the other, never both, never a flash */
+.abh-b { display: none; }
+html[data-abh="1"] .abh-a { display: none; }
+html[data-abh="1"] .abh-b { display: block; }
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* iPhone Safari zooms the whole page in when a focused field is smaller than
+   16px — and never zooms back out, so the right edge stays clipped for the
+   rest of the visit. On phones every field is at least 16px. The :not()s only
+   lift specificity above .t-body / text-[11px]. */
+@media (max-width: 767px) {
+  input:not([type="checkbox"]):not([type="radio"]),
+  textarea:not([hidden]),
+  select:not([hidden]) {
+    font-size: 16px;
+  }
+}
+
+/* Tailwind v4 puts utilities in a cascade layer, so unlayered rules here win
+   over them without !important — and utility !importants would win over ours,
+   which is why the chrome colours live in these classes, not in utilities. */
+.site-chrome .brand-mark {
+  color: var(--ink);
+}
+
+/* Hover for label-styled links everywhere (the layered hover: utility cannot
+   override the unlayered .t-label colour, so it never worked). */
+a.t-label:hover,
+button.t-label:hover {
+  color: var(--ink);
+}
+
+.site-chrome .t-small {
+  color: var(--ink-62);
+}
+
+body {
+  font-family: var(--serif-zh);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* One face per script. <html data-script> is set by the locale layout
+   (sc · hant · jp · kr · latin); the :lang(en) fallback covers pages outside
+   it, such as the admin. Before this, only English was treated as Latin —
+   French, German, Spanish and Portuguese were set in the Chinese face and on
+   the Chinese scale (full-width quotation marks, 1.95 leading, no italic). */
+[data-script="hant"] body { font-family: var(--serif-hant); }
+[data-script="jp"] body { font-family: var(--serif-ja); }
+[data-script="kr"] body { font-family: var(--serif-ko); }
+
+/* Latin copy gets its own face, a larger size and a tighter leading:
+   the same nominal step reads lighter in English than in Chinese. */
+[data-script="latin"] body,
+:lang(en) body {
+  font-family: var(--serif-en);
+}
+
+/* A run of classical Chinese inside another script's page — the 漢文 name
+   under a French heading, the received text beneath its Korean rendering —
+   keeps a Chinese face and Chinese spacing rather than falling through to
+   whatever the system finds. */
+[data-script="latin"] [lang|="zh"],
+[data-script="jp"] [lang|="zh"],
+[data-script="kr"] [lang|="zh"] {
+  font-family: var(--serif-hant);
+  letter-spacing: 0.02em;
+}
+
+/* ---------------------------------------------------------------------
+   Type scale. Chinese and English take different values at the SAME
+   level — English larger and tighter, Chinese tracked out slightly.
+   --------------------------------------------------------------------- */
+
+.t-d1 {
+  font-size: 30px;
+  line-height: 1.32;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-wrap: pretty;
+}
+
+.t-d2 {
+  font-size: 23px;
+  line-height: 1.42;
+  font-weight: 500;
+  text-wrap: pretty;
+}
+
+.t-d3 {
+  font-size: 19px;
+  line-height: 1.55;
+  font-weight: 500;
+}
+
+.t-body {
+  font-size: 15px;
+  line-height: var(--lh-zh);
+  letter-spacing: 0.02em;
+  text-wrap: pretty;
+}
+
+.t-small {
+  font-size: 12.5px;
+  line-height: 1.75;
+  color: var(--ink-66);
+}
+
+/* Monospaced field labels: uppercase, widely tracked, never larger. */
+/* 09-29: the admin keeps its old label grey (the 62% contrast fix is for the public pages) */
+[data-admin] .t-label,
+[data-admin] .t-sect,
+[data-admin] .site-chrome .t-small {
+  color: var(--ink-45);
+}
+
+.t-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-62);
+}
+
+/* ---- inline hints under the question (time frame · topic) ----
+   A typeset marginal note, not a widget: the value reads as a filled-in
+   blank (dotted underline), the caret is a small gold tick, and the unfolded
+   options are one row of plain words with the chosen one underscored in
+   cinnabar. Body serif at 14px so it sits under the question, not beside it. */
+.hint-value {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink);
+  border-bottom: 1px dotted var(--ink-45);
+  transition: border-color 0.15s;
+}
+.hint-value:hover, .hint-value.is-open { border-bottom-color: var(--ink); }
+.hint-caret {
+  display: inline-block;
+  margin-left: 0.3em;
+  font-size: 9px;
+  color: var(--gold-text);
+  transform: translateY(-1px);
+  transition: transform 0.15s;
+}
+.hint-value.is-open .hint-caret { transform: translateY(-1px) rotate(180deg); }
+.hint-options {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.4em;
+  row-gap: 0.35em;
+  margin-top: 0.6em;
+  padding-left: 0.1em;
+}
+.hint-opt {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-66);
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.hint-opt:hover { color: var(--ink); }
+.hint-opt.is-on { color: var(--ink); border-bottom-color: var(--cinnabar); }
+
+/* Chinese section headings space out rather than shout. */
+.t-sect {
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  color: var(--ink-62);
+}
+
+[data-script="latin"] .t-d1, :lang(en) .t-d1 {
+  font-size: 38px;
+  line-height: 1.14;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+/* 10-01 审计: a German compound in a 38px title (/de/gua/table) ran 21px past a phone screen — titles may break inside words */
+[data-script="latin"] .t-d1, [data-script="latin"] .t-d2, [data-script="latin"] .t-d3 {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+[data-script="latin"] .t-d2, :lang(en) .t-d2 {
+  font-size: 27px;
+  line-height: 1.22;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+[data-script="latin"] .t-d3, :lang(en) .t-d3 {
+  font-size: 21px;
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+[data-script="latin"] .t-body, :lang(en) .t-body {
+  font-size: 16px;
+  line-height: var(--lh-en);
+  letter-spacing: 0;
+}
+
+[data-script="latin"] .t-small, :lang(en) .t-small {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Latin may use italic for secondary stress; the CJK scripts must not —
+   none of them has a true italic, and the browser synthesises an ugly
+   slant. They use weight and grey instead. */
+.stress {
+  font-style: normal;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+[data-script="latin"] .stress, :lang(en) .stress {
+  font-style: italic;
+  font-weight: 400;
+  opacity: 0.86;
+}
+
+@media (min-width: 768px) {
+  .t-d1 { font-size: 40px; }
+  [data-script="latin"] .t-d1, :lang(en) .t-d1 { font-size: 52px; }
+  .t-d2 { font-size: 27px; }
+  [data-script="latin"] .t-d2, :lang(en) .t-d2 { font-size: 32px; }
+  .t-body { font-size: 16px; }
+  [data-script="latin"] .t-body, :lang(en) .t-body { font-size: 17px; }
+}
+
+/* ---------------------------------------------------------------------
+   Ink block — the load-bearing element of this direction.
+   Anything inside it is the thing the reader must not miss.
+   --------------------------------------------------------------------- */
+
+.ink-block {
+  background: var(--ink);
+  color: var(--paper);
+  padding: var(--s-5) var(--s-4);
+  border-radius: 2px;
+}
+
+.ink-block .t-label,
+.ink-block .t-sect {
+  color: var(--paper-45);
+}
+
+.ink-block .t-small {
+  color: var(--paper-66);
+}
+
+/* Recessed panel on paper: one step down, never a new colour. */
+.panel {
+  background: var(--ink-035);
+  border-top: 1px solid var(--ink-16);
+  border-bottom: 1px solid var(--ink-16);
+}
+
+.rule {
+  border-top: 1px solid var(--ink-16);
+}
+
+.rule-hair {
+  border-top: 1px solid rgba(169, 134, 60, 0.45);
+}
+
+/* ---------------------------------------------------------------------
+   Yao lines — the brand's only real visual asset.
+   Fixed ratio: line height = gap = row spacing x 0.6,
+   and a yin break of one sixth of the line's length.
+   --------------------------------------------------------------------- */
+
+.yao {
+  display: block;
+  height: var(--yao-h);
+  border-radius: 1px;
+  background: currentColor;
+}
+
+.yao-yin {
+  display: grid;
+  grid-template-columns: 1fr calc(100% / 6) 1fr;
+  gap: 0;
+}
+
+.yao-yin > span {
+  height: var(--yao-h);
+  border-radius: 1px;
+}
+
+.yao-yin > span:nth-child(odd) {
+  background: currentColor;
+}
+
+.yao-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
+
+.yao-stack {
+  display: flex;
+  flex-direction: column-reverse; /* line 1 at the bottom, as cast */
+  gap: var(--s-3);
+}
+
+/* A moving line is the one place cinnabar appears in the chart. */
+.yao-moving {
+  color: var(--cinnabar);
+}
+
+/* ---------------------------------------------------------------------
+   Motion. Restrained: this is a document, not an app.
+   --------------------------------------------------------------------- */
+
+.fade-in {
+  animation: fadein 0.6s cubic-bezier(0.2, 0.6, 0.2, 1) both;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+
+.settle {
+  animation: settle 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes settle {
+  from { opacity: 0; transform: scaleX(0.72); }
+  to { opacity: 1; transform: none; }
+}
+
+.coin {
+  transition: transform 0.5s ease, color 0.2s, border-color 0.2s;
+}
+
+.coin-spin {
+  animation: coinflip 0.55s ease-in-out infinite;
+}
+
+@keyframes coinflip {
+  0% { transform: rotateX(0) translateY(0); }
+  40% { transform: rotateX(540deg) translateY(-14px); }
+  100% { transform: rotateX(1080deg) translateY(0); }
+}
+
+/* Coins turning over in a cupped hand: the shake tightens as you hold. */
+.coin-rattle {
+  animation-name: rattle;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rattle {
+  0%   { transform: translate3d(0, 0, 0) rotate(0deg); }
+  25%  { transform: translate3d(-1.5px, -1px, 0) rotate(-4deg); }
+  50%  { transform: translate3d(1px, 1.5px, 0) rotate(3deg); }
+  75%  { transform: translate3d(1.5px, -0.5px, 0) rotate(5deg); }
+  100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+}
+
+/* A coin arriving: it strikes, then settles. */
+.coin-land {
+  animation: coinland 0.34s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+
+@keyframes coinland {
+  0%   { transform: translateY(-10px) scale(1.14); opacity: 0.5; }
+  55%  { transform: translateY(1px) scale(0.96); opacity: 1; }
+  100% { transform: none; }
+}
+
+/* Reading the finished figure upward: each line lights as it is counted. */
+.line-lit {
+  animation: linelit 0.5s ease-out both;
+}
+
+@keyframes linelit {
+  0%   { transform: translateX(-4px); filter: brightness(2.6); }
+  100% { transform: none; filter: none; }
+}
+
+/* The hexagram naming itself — the moment the whole cast builds to. */
+.figure-in {
+  animation: figurein 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.figure-in-late {
+  animation: figurein 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.28s both;
+}
+
+@keyframes figurein {
+  0%   { opacity: 0; transform: translateY(14px) scale(0.94); }
+  100% { opacity: 1; transform: none; }
+}
+
+/* The call arrives with a little more weight than the blocks under it. */
+.call-in {
+  animation: callin 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes callin {
+  0%   { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: none; }
+}
+
+/* The stage currently being worked on, in the reading progress list. */
+.work-pulse {
+  animation: workpulse 1.4s ease-in-out infinite;
+}
+
+@keyframes workpulse {
+  0%, 100% { opacity: 0.35; }
+  50%      { opacity: 1; }
+}
+
+/* Thinking, in the follow-up thread. */
+.think-dot {
+  animation: thinkdot 1.25s ease-in-out infinite;
+}
+
+@keyframes thinkdot {
+  0%, 60%, 100% { opacity: 0.25; transform: translateY(0); }
+  30%           { opacity: 0.9; transform: translateY(-3px); }
+}
+
+/* Fully charged: the throw is ready to leave the hand. */
+.ready-pulse {
+  animation: readypulse 1.05s ease-in-out infinite;
+}
+
+@keyframes readypulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(169, 134, 60, 0); }
+  50%      { box-shadow: 0 0 0 3px rgba(169, 134, 60, 0.22); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in, .settle, .coin-spin, .coin-rattle, .coin-land, .ready-pulse,
+  .line-lit, .figure-in, .figure-in-late, .call-in, .think-dot {
+    animation: none;
+  }
+  /* these two carry meaning (what is in progress), so keep them as a fade */
+  .work-pulse { animation: workpulse 2.4s ease-in-out infinite; }
+  .coin { transition: color 0.2s, border-color 0.2s; }
+}
+
+/* Tailwind's `truncate` sets white-space: nowrap inside its utilities layer; the unlayered
+   .t-body sets text-wrap: pretty, and text-wrap is a shorthand that resets text-wrap-mode
+   back to wrap — so a "truncated" line wrapped, with an ellipsis on every overflowing line
+   (seen on /fr/gua and the account list). Restated unlayered, after the type classes. */
+.truncate { text-wrap: nowrap; }
+
+/* 10-29 进度表 127 尋物: the three dice tumbling while the throw is filed */
+@keyframes xwtumble {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25%      { transform: translateY(-10px) rotate(-14deg); }
+  50%      { transform: translateY(0) rotate(10deg); }
+  75%      { transform: translateY(-5px) rotate(-7deg); }
+}
+.xw-tumble { animation: xwtumble 0.34s ease-in-out infinite; transform-origin: 50% 60%; }
+@media (prefers-reduced-motion: reduce) { .xw-tumble { animation: none; } }

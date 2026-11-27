@@ -1,0 +1,36 @@
+node_modules/
+books/
+.next/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.data/
+
+# local backups and private keys — never commit
+backups/
+deploy/keys/
+
+# 09-21: never commit key notes left in the folder
+*apikey*
+*api-key*
+*secret*.txt
+apps/web/tsconfig.tsbuildinfo
+_backups/
+
+# 09-29: CJK font slices fetched at build time (scripts/fetch-cjk-fonts.mjs)
+apps/web/public/fonts/cjk/
+
+# 11-27: initial GitHub commit hardening
+.next*/
+*.db
+*.db-*
+*.pem
+*.key
+_palm_p0/
+客服附件/
+_disputes/
+tsconfig.tsbuildinfo

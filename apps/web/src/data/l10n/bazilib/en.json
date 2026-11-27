@@ -1,0 +1,729 @@
+{
+ "elements": {
+  "水": {
+   "plain": "Your useful element leans toward Water, which points to a need for flow and flexibility. In your rhythm, you don't have to plan everything tightly. Leave some gaps for inspiration and last-minute chances. In your surroundings, quiet places where you can settle and think suit you. In teamwork, you do well with people who have a lot of information and react quickly: listen more, ask more, connect more. Reading, walking, and deep conversation can all help you get moving again."
+  },
+  "木": {
+   "plain": "A useful element leaning toward Wood means a rhythm of growth and extension suits you. In daily life, give yourself a long-term learning plan, like a tree growing slowly, without expecting to get there all at once. Spend more time outdoors when you can. In teamwork, partners who grow together and guide each other will go better than working alone. Things that call for planning, teaching, or nurturing something from scratch also suit you well."
+  },
+  "火": {
+   "plain": "A useful element leaning toward Fire means you need warmth and to be seen. In your rhythm, express yourself more actively, for example by sharing progress, speaking on stage, or writing down your thoughts. You do better in bright, lively spaces than in stuffy ones. In teamwork, pair up with enthusiastic, quick-moving people who light each other's drive. Get more sunlight and keep exercising, and your mood warms up too."
+  },
+  "土": {
+   "plain": "A useful element leaning toward Earth means you need stability and accumulation. A regular routine and a steady work rhythm will help you feel more secure. You prefer familiar places you can stay in, without constant changes. In teamwork, work long-term with grounded, reliable people and lay the foundation step by step. Give yourself more time when deciding. Walking steadily will bring results more easily than rushing to leap."
+  },
+  "金": {
+   "plain": "A useful element leaning toward Metal means you need order and the ability to choose what to keep. In your rhythm, practice setting boundaries and rules, and tidy up your to-do list. You prefer neat, simple spaces, where less clutter means clearer thinking. In teamwork, pair up with people who value efficiency and speak directly, and state your terms clearly to each other. Work that needs judgment and professional skill also suits you well."
+  }
+ },
+ "dayun": {
+  "比肩": "In a Friend luck pillar, these ten years center on yourself. You want to make your own decisions, your confidence and opinions grow stronger, and you may meet companions or rivals a lot like you. This is a good time to build your own expertise and rhythm, and to learn to keep the lead in a partnership. Where you may get stuck: comparing yourself with others, and having resources split. Spell out the division of work and your boundaries, and this pillar will leave you standing more firmly.",
+  "劫財": "A Rob Wealth luck pillar often brings competition and a lively social life: many friends, many chances, and more time and money spent. In these ten years you act with energy and dare to try, which suits widening your network and going after visibility. Watch for impulsive decisions and favors owed. Before lending, borrowing, or partnering, think through the terms. Put your competitive drive into sharpening your skills, and this pillar becomes a great training period.",
+  "食神": "In an Eating God luck pillar, life turns toward talent and enjoyment. You want to do what you love and polish your work, and you become more relaxed. These ten years suit learning a craft, building a personal brand, or slowly turning an interest into income. Where you may get stuck: getting too comfortable and losing drive. Set a few milestones you can see, and you can still produce results while staying at ease.",
+  "傷官": "A Hurting Officer luck pillar brings more ideas and a stronger urge to express them, and you want to break out of your old frame. These ten years suit changing direction, starting a business, or doing creative professional work. You may also disagree with rules and bosses at work. The key is to turn your dissatisfaction into proposals and let results speak. Think one step further before you speak, and your sharpness will be seen as talent, not provocation.",
+  "偏財": "In an Indirect Wealth luck pillar, chances often come from outside: new contacts, new projects, new markets, or ways to earn extra income. Your outlook becomes more flexible, and you're willing to try unfamiliar fields. This pillar suits expanding, sales work, and meeting different kinds of people. Watch for rising expenses and taking on too much. Manage your income, spending, and energy well, and pick one or two main opportunities to develop in depth.",
+  "正財": "The focus of a Direct Wealth luck pillar is running things and building up. In these ten years you value steady income, family responsibilities, and order in daily life more, and you work in a grounded way, laying the foundation step by step. It suits deepening your expertise, organizing household finances, and setting long-term plans. Where you may get stuck: focusing only on what you should do and forgetting what you want. Leave some room for your interests, and life will have more flavor.",
+  "七殺": "A Seven Killings luck pillar often puts you in a position where you have to carry things: new responsibilities, a demanding environment, or challenges that need quick decisions. These ten years bring more pressure, but they also build your courage and ability the most, and many people move into management during this pillar. The key is to look after your routine, break big goals into small ones, and find people you trust to share the load. Then the pressure becomes a push forward.",
+  "正官": "The focus of a Direct Officer luck pillar is reputation and responsibility. You care more about your social role, position, or being recognized, and you're more willing to follow rules and take a steady path. These ten years suit seeking promotion in an organization, earning certifications, or building an image people trust. Where you may get stuck: giving yourself too many \"shoulds.\" Now and then, set aside what others think and ask which direction you really want to go.",
+  "偏印": "In an Indirect Resource luck pillar, you want to look inward more, and you become interested in niche knowledge, technical skills, or inner cultivation. These ten years suit further study, research, and learning a specialized skill, and inspiration comes often. Where you may get stuck: having many ideas that are hard to put into practice, or slowly drifting from people. Give yourself a steady rhythm of output and keep a few stable connections, and this pillar will give you more depth.",
+  "正印": "A Direct Resource luck pillar often brings support and chances to learn: you meet seniors willing to help you along, you have room for further study, and your mood is steadier. These ten years suit earning a degree, building expertise, and sorting out your inner life. Where you may get stuck: leaning on your comfort zone and putting off decisions. Use what you learn and take on some things yourself, and the support will turn into your own strength."
+ },
+ "liunian": {
+  "比肩": {
+   "plain": "This year's annual pillar is Friend, so you especially want to make your own decisions, and you may run into cooperation or comparison among peers. It suits building your own rhythm and strengthening your expertise. When you work with others, spell out who does what, and you'll avoid a lot of friction.",
+   "ask_next": "Is the thing you most want to decide for yourself this year about work, or about daily life?"
+  },
+  "劫財": {
+   "plain": "A Rob Wealth annual pillar makes social life lively, with more gatherings, cooperation, and competition, and you're bolder about charging ahead. Watch for promises and spending made on impulse. Before lending money or partnering, think through the terms, so your enthusiasm doesn't become a burden.",
+   "ask_next": "When do you think the opportunity you most want to go for this year will come?"
+  },
+  "食神": {
+   "plain": "An Eating God annual pillar feels more relaxed. It suits developing your interests, creating, and improving your quality of life, and you get along well with people. Set a small goal for what you love, so a comfortable year still leaves you with work of your own.",
+   "ask_next": "Which piece of work or plan do you most want to see through this year?"
+  },
+  "傷官": {
+   "plain": "A Hurting Officer annual pillar brings many ideas and a strong urge to speak, and you want to change the status quo. You may also disagree with rules or a boss. Turning your ideas into concrete proposals and letting results speak will work better than pushing back directly.",
+   "ask_next": "Whom should you talk to first about the thing you most want to change this year, and when?"
+  },
+  "偏財": {
+   "plain": "In an Indirect Wealth annual pillar, chances mostly come from outside, and new contacts, projects, or side-income ideas may appear. You may also spend more freely. Keep a clear record of every expense, and pick one or two chances to do well.",
+   "ask_next": "Among the new chances that have appeared this year, which one do you most want to know is worth grabbing?"
+  },
+  "正財": {
+   "plain": "The focus of a Direct Wealth annual pillar is steady, grounded management: income, family, and daily order all need your attention. It suits organizing finances and steadying your work rhythm. Don't focus only on what you should do. Leave yourself some room to breathe.",
+   "ask_next": "What do you most want to steady this year: your income, your work, or arrangements at home?"
+  },
+  "七殺": {
+   "plain": "A Seven Killings annual pillar brings more pressure and challenge. You may get a hard assignment or face something that needs a quick decision. It's also a year for building ability. Look after your routine and find people to share the load, and the pressure can become a push.",
+   "ask_next": "When would be the right time to act on the thing that weighs on you most this year?"
+  },
+  "正官": {
+   "plain": "The focus of a Direct Officer annual pillar is responsibility and reputation, with more chances for promotion, reviews, and being given a formal role. Follow the rules and do your work well, and you'll be noticed. Don't let others' opinions weigh on you too heavily.",
+   "ask_next": "Whose recognition do you most want this year? How will you speak up for it?"
+  },
+  "偏印": {
+   "plain": "An Indirect Resource annual pillar suits further study, research, and sorting things out inside. Intuition and inspiration are especially strong, and you may want time alone. Be careful not to think too much and put off acting. Pick one thing and see it through.",
+   "ask_next": "What do you most want to study or learn well this year?"
+  },
+  "正印": {
+   "plain": "A Direct Resource annual pillar makes it easy to get support from elders, teachers, or helpful people, and it suits learning, earning certifications, and resting body and mind. Besides accepting help, remember to make decisions yourself, so the support becomes your own confidence.",
+   "ask_next": "Whose support do you most hope for this year? And how do you plan to ask?"
+  }
+ },
+ "nayin": {
+  "海中金": "Metal hidden in the deep sea, its shine kept out of sight. It stands for quiet strength that needs time and the right chance to be slowly noticed.",
+  "爐中火": "A fire burning inside a furnace, steady and focused. It stands for putting your passion in one place and slowly forging results through concentration.",
+  "大林木": "A whole great forest, leaves and branches thick and leaning on one another. It stands for a wide outlook and strong tolerance, and suits growing within a group.",
+  "路旁土": "Earth laid along the roadside, carrying the people and carts that pass. It stands for being plain and giving, quietly supporting others on their way.",
+  "劍鋒金": "Metal forged into a blade, sharp and decisive. It stands for strong judgment and the nerve to decide, and it also reminds you to know when to sharpen and when to sheathe.",
+  "山頭火": "A fire lit on a mountaintop, visible from far away. It stands for a strong presence and ideas that spread outward, and it asks you to watch the pace of the flames.",
+  "澗下水": "Clear stream water running through a valley, thin but unbroken. It stands for a clear mind and patience, going far through steady accumulation.",
+  "城頭土": "Earth built into a city wall, thick and protective. It stands for a strong sense of responsibility and the ability to protect those around you, along with boundaries of your own.",
+  "白蠟金": "Metal just smelted, soft and bright, still taking shape. It stands for high adaptability, gaining more luster through hard training.",
+  "楊柳木": "Willows by the river, branches soft and swaying in the wind. It stands for gentleness and flexibility, going with the flow while still putting down roots.",
+  "泉中水": "Spring water welling up from underground, never running dry. It stands for rich inner resources, with thoughts and feelings that often rise on their own.",
+  "屋上土": "Clay tiles covering a roof, sheltering people from wind and rain. It stands for caring about home and valuing stability, willing to hold up a patch of sky for those nearby.",
+  "霹靂火": "The flash of fire in lightning, quick to come and fierce in brightness. It stands for bursts of energy and inspiration, and it reminds you to find a way to keep the heat going.",
+  "松柏木": "Pines and cypresses that stay green through the cold winter, standing tall and lasting. They stand for backbone and the ability to get through tests, with resilience that shows more the longer things go on.",
+  "長流水": "A long river that never stops, moving slowly forward. It stands for endurance and a long view: even when you push things along slowly, you can still reach far.",
+  "沙中金": "Gold mixed into sand, which only shows once it's been panned and washed. It stands for potential hidden in the ordinary, which shines after it has been sifted and honed.",
+  "山下火": "A fire at the foot of a hill, like lamplight from a home at dusk. It stands for warmth and caring for the people around you, a light that isn't strong but is very warm.",
+  "平地木": "Saplings and crops growing on a plain, close to people. They stand for being grounded and easy to get along with, growing slowly in a steady environment.",
+  "壁上土": "Earth plastered onto a wall, giving the house its shape. It stands for carefulness and a cooperative nature, and a knack for completing the structure behind the scenes.",
+  "金箔金": "Gold beaten into very thin leaf, delicate and precious. It stands for taste and ingenuity, and a knack for adding touches in the details that make people's eyes light up.",
+  "覆燈火": "A lamp flame under a shade, lighting the way in the dark. It stands for gentle wisdom, able to offer a little direction when others feel lost.",
+  "天河水": "Rain and dew falling from the sky, moistening the earth. They stand for acceptance and nourishment, with an influence that is often quiet but far-reaching.",
+  "大驛土": "The great road between post stations in ancient times, linking every direction. It stands for exchange and travel back and forth, and suits a role that keeps things moving and connects people.",
+  "釵釧金": "Gold worked into hairpins and bracelets, fine and worn close to the body. It stands for sensitivity and a sense of beauty, and for knowing how to tend the relationships around you.",
+  "桑柘木": "Mulberry and silk-thorn trees, whose leaves can feed silkworms. They stand for practicality and willingness to give, so that what you're good at often becomes other people's livelihood and warmth.",
+  "大溪水": "A big mountain stream rushing along, full of water and drive. It stands for action and boldness, and also needs a channel to guide its direction.",
+  "沙中土": "Soil from a sandy riverbank, loose and able to drain. It stands for acceptance and flexibility, able to take in what flows by, while remembering to steady your roots.",
+  "天上火": "Sunlight hanging high in the sky, shining in all directions. It stands for openness, enthusiasm and an upright nature, with a wide influence, and a reminder to rest.",
+  "石榴木": "A pomegranate tree heavy with fruit, tolerant of heat and full of seeds. It stands for strong vitality and a love of family and reunion, where effort often blossoms and bears fruit.",
+  "大海水": "A vast, boundless sea that takes in a hundred rivers. It stands for a broad mind that makes room for others, and also an inner world too deep to see the bottom of."
+ },
+ "gods": {
+  "偏財": {
+   "in_month": "With Indirect Wealth on the month pillar, you may do well in sales, freelance work, or roles built on connections. Opportunities often come through friends. Remember to go over your income and spending regularly.",
+   "in_hour": "With Indirect Wealth on the hour pillar, later plans may stir up thoughts of a side job or extra income. Try it on a small scale first, and expand slowly once you know it works.",
+   "plain": "Indirect Wealth is the element the Day Master controls, with the same yin-yang. It stands for flowing resources, opportunities, and connections. It makes you generous and flexible, with a good feel for ways to earn and for shifts in the market, and you're good at making friends. People with a strong Indirect Wealth often get unexpected opportunities and spend more freely. Where you can get stuck is spreading money and energy too thin, wanting to grab a little of everything. Sort opportunities into two columns, \"do now\" and \"note for later,\" and focus your resources on one or two things. That way flowing wealth can stay with you."
+  },
+  "正財": {
+   "plain": "Direct Wealth is the element that the Day Master controls, with the opposite yin-yang polarity. It stands for steady income, a sense of responsibility, and a feeling of control over daily life. It makes you practical and rule-abiding, someone who values building up step by step and avoids risk. People with strong Direct Wealth are usually good at managing everyday matters. They follow through on what they promise, and they are the dependable steward of a family or team. Where you can get stuck: being so careful that, when a chance comes, you think of the risks first, and life can shrink to what you should do. Each month, try leaving a little room for yourself, so there is some fun inside the steadiness.",
+   "in_month": "With Direct Wealth on the month pillar, you value stability and doing things in order at work. Jobs that call for care and trustworthiness suit you. Don't let the wish for security keep you from speaking up for what you want.",
+   "in_hour": "With Direct Wealth on the hour pillar, you value security more as time goes on. Later plans lean toward protecting what you have built, and you put more thought into caring for your family."
+  },
+  "七殺": {
+   "plain": "Seven Killings is the element that controls the Day Master, with the same yin-yang polarity. It is also called Indirect Officer, and it stands for pressure, challenge, and the force that draws out your potential. It gives you boldness and a willingness to take charge. You tend to stay calm in a crisis, and you are often pushed into the seat where decisions get made. People with a prominent Seven Killings act decisively and hold themselves to a high standard. Where you can get stuck: carrying too much pressure, and growing short-tempered after long tension. Try breaking big goals into small steps and setting aside time to truly relax, so pressure becomes energy for action rather than something that keeps weighing on you.",
+   "in_month": "With Seven Killings on the month pillar, your work setting often comes with challenges, and you are likely to be handed hard problems or asked to lead a team. Learn to share authority, and don't carry everything alone.",
+   "in_hour": "With Seven Killings on the hour pillar, you still have drive in the second half of life, and later plans often set new challenges for yourself. Remember to make time to rest. Slowing your pace a little is fine."
+  },
+  "正官": {
+   "plain": "Direct Officer is the element that controls the Day Master, with the opposite yin-yang polarity. It stands for rules, reputation, and self-discipline. It gives you a sense of propriety and responsibility, a care for how others see you, and an orderly way of working. People with strong Direct Officer are easily trusted by organizations and suit paths with clear systems and step-by-step promotion. Where you can get stuck: caring too much about right and wrong and about image, so that fear of mistakes keeps you from trying, and you carry many \"shoulds\" inside. Now and then, ask yourself \"What do I want?\" Find your own rhythm within the rules, and responsibility won't turn into a burden.",
+   "in_month": "With Direct Officer on the month pillar, you value rules and reputation at work. You suit settings with clear systems, and supervisors tend to notice you. Don't let others' opinions set your whole pace.",
+   "in_hour": "With Direct Officer on the hour pillar, later plans value reputation and legacy. You hope to leave behind results people can trust, and you care about where the younger generation is headed."
+  },
+  "偏印": {
+   "plain": "Indirect Resource is the element that produces the Day Master, with the same yin-yang polarity. It is also called the Owl, and it stands for unusual intuition, niche knowledge, and the ability to be alone. It gives you original ideas and a taste for digging into fields others overlook, and you often learn by figuring things out yourself. People with a prominent Indirect Resource carry a touch of mystery. Where you can get stuck: thinking more than doing, or running hot and cold on new things. Try giving your curiosity an outlet you can keep up, such as regular notes or small projects, so your distinctive ideas land.",
+   "in_month": "With Indirect Resource on the month pillar, you suit research, technical work, or roles that call for independent thinking. Sync up with colleagues on progress more often, and don't work in silence on your own.",
+   "in_hour": "With Indirect Resource on the hour pillar, you enjoy quiet study more as time goes on. Later plans often involve learning, self-cultivation, or a specialized craft."
+  },
+  "正印": {
+   "plain": "Direct Resource is the element that produces the Day Master, with the opposite yin-yang polarity. It stands for care, learning, and the power of being supported. It makes you warm and patient, fond of reading and taking in new knowledge, and you easily win help from elders or teachers. People with strong Direct Resource are generous with others. Where you can get stuck: being so used to being looked after that you hesitate when you must decide for yourself, or thinking things through thoroughly but taking a long time to act. Try the principle \"do first, fix later,\" and put what you learn to use, so support becomes your own inner footing.",
+   "in_month": "With Direct Resource on the month pillar, you often meet seniors at work who are willing to teach you. Education, paperwork, or fields that build expertise suit you. Once you have learned something, put it to use on your own initiative.",
+   "in_hour": "With Direct Resource on the hour pillar, later plans value peace of mind and learning. People often look after you, and you are glad to pass your experience on to the next generation."
+  },
+  "比肩": {
+   "plain": "Friend is the force with the same element and the same yin-yang as the Day Master, like a companion beside you who's a lot like you. It brings confidence, opinions, and independence, so when things come up you want to carry them yourself and finish them your own way. People with a lot of Friend usually dislike being told what to do, value fairness, and care about sibling-like loyalty. Where you can get stuck is each side holding to its own view, with neither giving way in a partnership, and resources getting divided up without you noticing. Try swapping \"I'll do it myself\" for \"let's split the work,\" and use your strong opinions to take the lead.",
+   "in_month": "With Friend on the month pillar, you're used to relying on yourself at work and in society. You often stand shoulder to shoulder with peers, and may also quietly compete with them. Things go much more smoothly when you spell out who does what.",
+   "in_hour": "With Friend on the hour pillar, you value independence more as time goes on, and in the later part of a plan you like making the calls yourself. When you work with younger people or a team, remember to listen to their ideas too."
+  },
+  "劫財": {
+   "plain": "Rob Wealth has the same element as the Day Master but a different yin-yang, like a friend who's warm and competitive. It makes you quick to act, willing to go for it, and wide in your social circle, and competition tends to energize you. People with a strong Rob Wealth are usually loyal and willing to put effort in for friends, and may lend out money or time on impulse. Where you can get stuck is deciding the moment your feelings surge, then finding out afterward that you came out behind. Build yourself a buffer, such as replying to important requests the next day, so that drive goes where it should.",
+   "in_month": "With Rob Wealth on the month pillar, you feel a lot of competition at work and are often pushed into a spot where you have to fight for credit. Think one step further before spending or lending money, and keep favors and accounts separate.",
+   "in_hour": "With Rob Wealth on the hour pillar, plans in the later part of life tend to involve partnering with others or sharing resources. Write the rules down and make them clear first, and the relationship will last longer."
+  },
+  "食神": {
+   "plain": "Eating God is the element the Day Master produces, with the same yin-yang. It stands for the talent that flows from you naturally and your ability to enjoy life. It makes people gentle and fond of good food, good at making days comfortable, and good at bringing others joy through their work, craft, or way of expressing themselves. People with a strong Eating God often don't like to compete and would rather do things well and with flavor. Where you can get stuck is being too comfortable, so that once you're at ease you don't want to move forward. Set a small goal for something you love, and let the interest slowly grow into results others can see.",
+   "in_month": "With Eating God on the month pillar, you do well at work that draws on craft, content, or expression, and you're most efficient when doing what you like. Remember to set your own pace, rather than stopping at thinking about it.",
+   "in_hour": "With Eating God on the hour pillar, you get better at enjoying and sharing as time goes on. Later plans often involve creating, teaching, or caring for people, and your days go at an unhurried pace."
+  },
+  "傷官": {
+   "plain": "Hurting Officer is the element the Day Master produces, with a different yin-yang. It stands for sharp talent, quick reactions, and the urge to express yourself. It makes you quick-witted and full of ideas, unwilling to go by the book, with your own views on rules. People with a strong Hurting Officer have charm, speak right to the point, and often shine in innovative roles. Where you can get stuck is speaking too fast and leaving a boss or elder with no way to save face. Try turning criticism into a proposal: say \"I have an approach\" before you name the problem, and your talent becomes something others are willing to take up.",
+   "in_month": "With Hurting Officer on the month pillar, you have plenty of ideas at work and dislike being managed, which suits roles that call for creativity or professional judgment. When you speak to your manager, leave a little more room.",
+   "in_hour": "With Hurting Officer on the hour pillar, you want more and more to go your own way in the later part of life. Later plans often have an unconventional flavor, and you're bolder about expressing yourself."
+  }
+ },
+ "strength": {
+  "偏強": {
+   "plain": "A fairly strong Day Master means many forces in the chart support you: the month branch helps you, the Earthly Branches give you roots, and the Heavenly Stems have companions. You have strong views and plenty of energy, you can carry a load, and you hardly need anyone to push you. Where you can get stuck: being so sure of yourself that you can't hear other opinions, and feeling stifled or impatient when your energy has nowhere to go. In the strengthen-and-restrain method, a fairly strong chart prefers to put its strength out into the world.",
+   "tips": "Put your energy where it can go outward, such as making things, leading projects, or taking on responsibility. When you hear a different opinion, listen all the way through before you respond."
+  },
+  "稍強": {
+   "plain": "A slightly strong Day Master means the forces supporting you are a bit greater than those draining you, so you lean confident and action-oriented. You can usually make your own decisions and hold up under pressure, though you may sometimes seem stubborn. In the strengthen-and-restrain method, a slightly strong chart suits a bit more output and restraint, giving your strength direction, for example by setting clear goals or rules for yourself.",
+   "tips": "Find a challenge that needs long-term commitment, so your extra energy has an outlet. When working with others, give a little more ground, and you often gain more."
+  },
+  "中和": {
+   "plain": "A balanced Day Master means the forces that help you and those that drain you are about equal, and the five elements are relatively even. This kind of chart has no particular direction that needs strengthening or restraining, so no separate useful element is given. You are usually quite flexible and can adjust when your surroundings change. Keep in mind that balance also means no standout push, so you need to set your own direction.",
+   "tips": "Set goals for yourself regularly and see clearly where you want to go. When luck pillars or annual pillars bring change, simply adjust along with them, with no need to force anything."
+  },
+  "稍弱": {
+   "plain": "A slightly weak Day Master means the forces draining you are a bit greater than those supporting you. You are usually careful and good at cooperating, and you think one step further before acting. When tired, you may feel willing but short of strength, and you need a good environment and partners to back you up. In the strengthen-and-restrain method, a slightly weak chart favors nourishing forces, such as learning, rest, and finding people who support you.",
+   "tips": "Look after your routine and your energy first, then take on new tasks. When you meet a hard problem, talk it over with someone you trust, and don't carry everything alone."
+  },
+  "偏弱": {
+   "plain": "A fairly weak Day Master means more forces in the chart drain or restrain you, and fewer support you. This is not good or bad. It means you do better by borrowing strength: you observe well, cooperate well, and sense your surroundings keenly. Where you can get stuck: taking on too many of other people's expectations and forgetting to save strength for yourself. In the strengthen-and-restrain method, a fairly weak chart favors Resource stars and Companion stars, which means learning, rest, and companions.",
+   "tips": "Say \"I need help\" out loud, and look for people and settings willing to support you. Sleep on important decisions, and decide when you are rested."
+  }
+ },
+ "stems": {
+  "甲": {
+   "plain": "As a Jia Wood Day Master, you're like a tall tree growing upward. You like to work with direction and a solid frame, and once you've settled on something, you carry it through. You value principle and are willing to shelter the people around you, so you're often the one others count on. Where you can get stuck is bending: when you think something is right, you push it through, and when others can't keep up, you hold it in. Try asking \"How do you see it?\" first, then decide whether to hold your ground. A tree that grows tall also needs to leave room for the branches beside it."
+  },
+  "乙": {
+   "plain": "As a Yi Wood Day Master, you're like vines and flowers: soft, resilient, and good at finding a way through whatever surrounds you. You notice details, read faces well, and are good at linking people and tasks, so many things come together in your hands without anyone noticing. That flexibility can sometimes make you wrong yourself, nodding yes when you don't want to. Try settling your bottom line in your own mind before you go along with others. Being soft doesn't mean having no position. When you know where you're climbing, even a detour is steady."
+  },
+  "丙": {
+   "plain": "As a Bing Fire Day Master, you're like the midday sun: warm and direct, and you brighten the mood as soon as you walk into a room. You like to share, you're generous with people, and it's hard for you to stay quiet when something is unfair. When the light is too strong, people around you may feel dazzled, or you may rush ahead so fast that no one picks up the details behind you. Before you speak, pause for three seconds and ask whether the other person needs company or advice. Give a little of that heat to patience, and your influence will carry further."
+  },
+  "丁": {
+   "plain": "As a Ding Fire Day Master, you're like a candle or a hearth fire at night: its warmth isn't showy, but it keeps the people around you cozy. You're delicate in thought and sensitive to other people's feelings, often noticing something is off before they do. Once you've worked something out, you can go very deep into it. Where you can get stuck is overthinking and letting worries burn quietly inside, even when you're tired. Give yourself regular time to zone out, and write down what's on your mind or talk with someone you trust. A fire needs air to burn long, and you need room to breathe too."
+  },
+  "戊": {
+   "plain": "As a Wu Earth Day Master, you're like a mountain or a stretch of thick, solid ground: steady and trustworthy, and you take your promises to heart. You don't rush to take a side. You like to see the situation clearly before you act, so people often come to you to talk things over. The other side of being steady is warming up slowly and disliking change, so when a new opportunity appears you tend to think of the risks first. Try setting yourself a small \"give it a try\" zone, taking one small step before you evaluate. A mountain doesn't need to move, but it can open a few more paths for people to walk in."
+  },
+  "己": {
+   "plain": "As a Ji Earth Day Master, you're like moist soil in a field: accepting and careful, good at catching other people's ideas and slowly growing them into results. You're practical, you look after the details, and you care whether the people around you are doing well. Where you can get stuck is taking everything on yourself, thinking a lot and saying little, until you start to feel unseen. Practice saying what you need plainly, such as \"I need your help with this.\" Earth nourishes all things, but remember to keep a plot for yourself."
+  },
+  "庚": {
+   "plain": "As a Geng Metal Day Master, you're like a piece of unpolished steel: decisive and loyal, used to handling things head-on, with no liking for dragging them out. You act on things, hold up especially well in a crisis, and step forward when a friend is in trouble. Where you can get stuck is speaking too bluntly, so that people get pushed along before they've made up their minds, and friction in relationships follows. Try replacing \"I'm doing this for your own good\" with \"I'd like to hear what you're planning.\" Steel only gets a good edge through forging, and patience is your fire."
+  },
+  "辛": {
+   "plain": "As a Xin Metal Day Master, you're like a polished jewel: refined, with good taste, and with a set of standards for yourself and for your work. You have a sense of propriety and care about quality, and you dislike sloppy arrangements. This care makes your results stand out, but it also makes you dwell on small flaws, and a careless remark from someone can circle in your mind many times. Sort out which things are worth being strict about and which you can let go. A jewel's shine comes from polishing, and also from being kept safely. Don't keep putting yourself on the testing table."
+  },
+  "壬": {
+   "plain": "As a Ren Water Day Master, you're like a great river or the sea: wide in outlook and quick to respond, with several ideas often turning in your head at once. You love freedom, dislike being boxed in, and adapt to new surroundings faster than most. When the water runs fast, you may jump to the next thing before finishing this one, or agree to too much and stretch yourself thin. Pick one or two main channels and let them run all the way through. Breadth is your strength, and water with a direction is what can carry a boat."
+  },
+  "癸": {
+   "plain": "As a Gui Water Day Master, you're like rain, dew, or a thin mountain spring: quiet, strongly intuitive, and often able to sense what others haven't said. You have a rich imagination, find inspiration in small details, and are very understanding of people. Where you can get stuck is that your feelings arrive like fog, so for a while you can't see what you want, and your mood is easily swayed by your surroundings. Leave yourself more time alone, and let your mind settle before you decide. A thin stream doesn't need to hurry into a great river. Seeping in slowly, it can still nourish a wide stretch of land."
+  }
+ },
+ "rizhu": {
+  "乙丑": {
+   "plain": "Yi is a soft vine that climbs up around whatever it can find. Chou is cold, damp winter field earth. The vine is you, and the field is the ground you walk on every day. The soil is cold, but it is real, solid earth, so you are practical at heart and good at building up bit by bit. You don't like the spotlight. You watch the surroundings first, then find your place. You seem gentle, yet your endurance is remarkable: you're still holding on to things others have given up. Security matters to you. You settle only when you have some savings and a way out. Things grow slowly in winter, so allow yourself to go slowly, and don't race anyone.",
+   "love": "In love you warm up slowly. Once you've decided, you're very devoted to home and show care through actions, like remembering the other person's habits or quietly taking care of things. Don't only give. Say what you want too, so the other person can meet you.",
+   "work": "You work steadily, carefully, and with stamina, which suits jobs that need patient tending, like managing accounts, caring for clients, or long-term projects. You don't mind hard work, but you dislike an environment that keeps changing. Give yourself a clear progress schedule, and what you build up will be considerable.",
+   "watch": "Fear of instability can tie you to a position that doesn't suit you. Now and then, ask yourself: am I staying because I like it, or only because I'm afraid of change?",
+   "ask_next": "Is the thing I've been holding on to still worth holding on to?",
+   "title": "A vine that won't let go in a winter field"
+  },
+  "丙寅": {
+   "title": "Morning sun over a spring forest",
+   "plain": "Picture yourself as the sun just rising. Bing is that light. Below you, Yin is an early-spring forest, a whole stand of trees adding fuel for you. So you have a natural drive to rush forward, with plenty of ideas and quick action, and you easily become the one who lifts the mood wherever you go. You are generous with people, and you want to speak up when you see unfairness. Your light is bright, sometimes so bright that people around you feel a bit overwhelmed, or you use up your energy all at once. Learn to pace your heat, and the morning sun can shine all the way to evening.",
+   "love": "When you like someone, it shows. Your pursuit is direct and warm, and you make the other person feel valued. Your heat comes fast, so give the relationship time to settle slowly. Don't decide they don't care just because they haven't replied yet.",
+   "work": "Roles that start things, lead people, or communicate with the outside suit you best, and you bring the most drive to a new project. Wrapping up and repetitive details are harder. Find a careful partner, or set checkpoints for yourself, and your enthusiasm can turn into visible results.",
+   "watch": "You may agree to too much at once and burn yourself out. Before saying yes, pause for three seconds, check how much energy is left today, and then decide whether to take it on.",
+   "ask_next": "Have I properly wrapped up the thing I've put the most passion into lately?"
+  },
+  "丁卯": {
+   "title": "A gentle lamp on a wooden table",
+   "plain": "Ding is a candle flame, a small lamp, and it stands for you. Mao is tender spring grass, flowers, and trees, the seat you sit in. Wood beneath the lamp slowly supplies fuel, so your warmth isn't harsh. It's the kind of warmth people want to move closer to. You are delicate and sensitive, especially attuned to beauty, words, and atmosphere, and you often sense feelings others haven't said. You need to be understood, and you are good at understanding people. But a candle flame flickers in the wind, and one remark from outside can unsettle you for a long time. Learn to shelter your heart from some of the wind.",
+   "love": "You care a lot about the details and the unspoken understanding in a relationship. A glance or a message stays with you. You are tender and considerate, and you can overthink. When something matters, asking directly will settle your heart more than guessing over and over.",
+   "work": "Delicate, creative, or caring work suits you, like design, writing, teaching, or supportive services. You do your best in an environment where you're trusted. When you receive criticism, hear the issue separately from the person, and don't take all of it to heart.",
+   "watch": "One remark from someone can make you doubt yourself. Keep a list of \"things I do well,\" and take it out when your heart wavers.",
+   "ask_next": "What is that remark that has unsettled me for so long really trying to tell me?"
+  },
+  "戊辰": {
+   "title": "A reservoir hidden at the foot of the mountain",
+   "plain": "Wu is a thick, massive mountain, which is you. Chen is damp late-spring earth with water hidden inside, the place where you take root. The mountain sits on its own kind of soil, so you have firm opinions, stand steady, and are not easily swayed. Chen earth holds water and wood, meaning you carry a lot inside: thoughts, feelings, plans not yet spoken, though you look calm on the outside. You are reliable and keep your word, and you stay cool when others panic. A mountain that steady finds it hard to turn around. Let a little of the water inside flow out now and then, and you'll feel much lighter.",
+   "love": "In love you are the dependable one. When you promise, you follow through, though you don't say many sweet words. You tend to keep feelings tucked away, so your partner may not sense that you care. Sharing what's in your heart now and then will loosen things between you.",
+   "work": "At work you are good at long-term building and steady execution. You can carry responsibility and keep to the rules. What's harder is sudden change, which often meets resistance first. Give yourself a little buffer time before you state your view, and your judgment will be more thorough.",
+   "watch": "You may hold words in for too long, and when they burst out, even you are startled. Talk to someone regularly or write things down, to open the floodgates on the reservoir inside.",
+   "ask_next": "What have I kept inside the longest without saying it?"
+  },
+  "己巳": {
+   "title": "A field warmed by early summer sun",
+   "plain": "You are Ji, a field where things can be planted. You sit on Si, which is early-summer sunshine and fire. A field warmed by the sun can grow things, so you look gentle and low-key, but inside you have real warmth and invest deeply in the people and things you care about. You are careful and good at looking after others, and you can sort out a mess one piece at a time. You think things through, which is also why you often worry for other people. Fire warms earth, but it can also dry it out. Before you care for others, remember to water yourself first.",
+   "love": "You look after your partner very well, remembering what they like and need. You're warm inside but reserved on the surface. Caring doesn't mean arranging everything for them. Leave some room for them to decide for themselves, and you'll both feel easier.",
+   "work": "Planning, coordinating, and nurturing people are your strengths, in roles like administration, education, or project management. You're the one who smooths things out for the team. Don't carry everything yourself. Learn to hand things off, and you'll have more room to breathe.",
+   "watch": "You can worry too much and treat other people's matters as your own responsibility. When it's hard to tell, ask yourself: does this really need me to handle it?",
+   "ask_next": "Of everything I'm worrying about for others right now, which can I let go of?"
+  },
+  "庚午": {
+   "title": "Iron slowly taking shape in the furnace",
+   "plain": "Geng is a piece of unpolished iron, hard and direct. That's you. Wu is the great fire of midsummer noon, the place you sit. Iron on fire is like iron being forged all the time, so you felt pressure and demands early, and that built your discipline and resilience. You value principles and loyalty, act decisively, and dislike dragging things out. You expect a lot of yourself and often push yourself without realizing it. Fire can refine iron into a fine blade, but being burned constantly is tiring. Learn to find moments to catch your breath under pressure.",
+   "love": "With someone you like, you are direct and serious about commitment, and you don't care for ambiguity. You may have quite a few expectations and rules for your partner. They may not show care the way you do, so loosen the ruler a little and look more at what they actually do.",
+   "work": "You suit work with clear goals that needs strong execution, and the more challenging it is, the better results you can push out. You're used to carrying pressure, but you can also push yourself too hard. Set a clear boundary for finishing the workday, so the forging doesn't turn into wearing down.",
+   "watch": "You can take pressure for granted and not say when you're tired. When your body or mood sends a signal, stop and rest. That isn't weakness.",
+   "ask_next": "Of the pressure I'm carrying now, how much have I added on myself?"
+  },
+  "辛未": {
+   "title": "A gemstone buried in dry earth",
+   "plain": "Xin is like a fine gemstone, delicate and particular. That describes you. Wei is dry, hot late-summer earth, the ground beneath you. A gem buried in earth is nourished by it and also covered by it, so you have real talent and taste, yet often feel you haven't been seen. You care about details and hold standards for yourself and your surroundings. You're perceptive with a good memory, and a small matter can turn over in your mind for a long time. When the earth is too thick, you feel stifled and need a chance to polish yourself. Showing people your work yourself is much faster than waiting to be discovered.",
+   "love": "You are picky about whom you choose, but once you choose, you're very devoted, and you take it to heart. You don't often express things first, yet you care a lot whether the other person understands you. Say your expectations a bit more clearly, and don't leave them losing points in a guessing game.",
+   "work": "Work that values taste and detail brings out your best, like quality control, design, editing, or fine handcraft. What you make has high quality, but you often hold back from handing it in for fear it isn't perfect. Set a delivery date for yourself: hand in first, then revise.",
+   "watch": "You may replay the same unhappy matter again and again. When you notice you're going in circles, change your surroundings and take a walk to clear your head, then come back to it.",
+   "ask_next": "What ability or work of mine have I kept hidden and not yet let anyone see?"
+  },
+  "甲子": {
+   "title": "A big tree by winter water",
+   "plain": "Jia is a big tree growing upward, and that's you. Zi is water on a winter night, the place where you sit. Water under the tree means you're used to drawing nourishment from books, from people, and from your own thinking. Your mind doesn't stop, and you're often wondering how something could be done even better. You have ideals and backbone, and you don't much like bending yourself just to fit in. But winter water runs cold, so your warmth often stays inside. Others see you as quiet and distant, when really you're still thinking. Give yourself a little sunlight, and your ideas can grow into action.",
+   "love": "You like people you can talk with in depth. Good looks or a lively crowd alone won't move you. You quietly look after the other person but don't say much about it, so they may think you're cold. When something matters to you, saying it plainly now and then takes less effort than making them guess.",
+   "work": "You suit work that involves planning, research and learning, and the more you can think the whole structure through yourself, the more energy you put in. Your weak spot is thinking a lot and moving slowly, often staying too long in the planning stage. Make a small version first and fix it as you go, and you'll move faster than you expect.",
+   "watch": "You can get stuck at \"not moving until I've thought it through.\" When you catch yourself rewriting the same plan for the third time, it's time to take one small step first.",
+   "ask_next": "What is the one thing I keep thinking about but haven't started on?"
+  },
+  "壬申": {
+   "title": "A river welling up from a crack in the rock",
+   "plain": "Ren is a big river, flowing and wide. That is your true nature. Shen is early-autumn rock and metal, the place you set out from. A river that wells up from a spring in the rock never runs dry, so your mind is quick and flexible, you pick things up fast, and when something blocks you, you usually find a way around it. You love anything new, you are curious about the world, and you make friends widely. Water that runs fast can be hard to stop. Your interests may switch a lot, or you may find you spoke too quickly. Now and then, let yourself be still like a lake, and your thoughts will get clearer.",
+   "love": "You are fun and easy to talk to, and people are drawn to you, but your feelings can run hot, then cold, quickly. When you like someone, go beyond the thrill of newness and practice sharing ordinary days with them. That is how a relationship puts down roots.",
+   "work": "Adapting, communicating and pulling information together are things you do well, in work like sales, planning, trade and media. Having lots of ideas and turning quickly are your strengths. What you most need to practice is focus. Pick one or two things and go deep, and your talent will be seen more clearly.",
+   "watch": "You tend to start too many things at once and leave each one half done. Each week, choose the one most important thing and finish it before you touch the next.",
+   "ask_next": "Of the several things I'm chasing right now, which one is most worth my full attention?"
+  },
+  "癸酉": {
+   "title": "Morning dew settled on metal",
+   "plain": "Gui is dew and fine rain, quiet and clear. That is you. You is delicate autumn metal, the place you sit. Metal turns cold and gathers droplets, and the dew is nourished by the metal in return, so your mind is clear, you observe closely, and you have a strong feel for right and wrong. You have your own standards of cleanliness and your own firm views, and you dislike mess and vagueness. You seem gentle on the outside, but inside you carry a ruler. Dew is very pure, and it can also be easily disappointed in people and things. If you allow the world and the people around you to be a little imperfect, life will feel much lighter.",
+   "love": "The love you give is real, and you care a great deal about whether the other person is honest. Even a small lie can send you stepping back a long way. Ask first before you reach a conclusion, give them a chance to explain, and give yourself a little flexibility too.",
+   "work": "You suit work that calls for analysis, judgment and research, such as data organizing, research, proofreading and review. You see details others miss. Don't let the pursuit of perfection slow your progress. When it is good enough, send it off.",
+   "watch": "You can be too strict with others and with yourself, and dwell on one small matter. Remind yourself that most mistakes can be fixed.",
+   "ask_next": "About the thing that disappointed me recently: is there another side to it that I haven't seen yet?"
+  },
+  "甲戌": {
+   "title": "A lone tree standing tall on an autumn hillside",
+   "plain": "You are Jia, a tall, straight tree, and beneath you is Xu, dry hillside earth of late autumn. A tree on dry soil has little water and must sink its roots deep on its own, so you learned independence early, you have a strong sense of responsibility, and you are used to shouldering things yourself. You are upright and principled, and protective of the people you care about. Xu Earth also hides fire, so you are actually warm inside, though you rarely show it. A tree on dry ground needs rain. Now and then, let someone you trust give you a hand, and don't grit your teeth and hold on alone every time.",
+   "love": "People feel safe with you around. You take responsibility and think about the future for both of you. But you are not good at showing weakness, and your partner may find you too hard. Saying \"I need you too\" won't lessen your strength. It will bring you closer.",
+   "work": "People feel at ease handing you responsibility and long-term work, and you could do well as a manager or project lead. You work by principle and don't compromise easily. Where you get stuck is in not asking for help. Learn to share the work, and you will go further.",
+   "watch": "You tend to take every responsibility onto yourself, and only when you are exhausted do you find that nobody knew you needed help. Speak up earlier, and things become easier.",
+   "ask_next": "Of the things I'm carrying alone right now, who could actually share the load?"
+  },
+  "乙亥": {
+   "title": "A vine blossoming on the water",
+   "plain": "Yi is soft flowers, grass and vines, and it stands for you. Hai is the great water of early winter, the place you sit. Flowers on water have plenty of moisture, so you are tender-hearted and imaginative, you sense other people's feelings well, and you are empathetic. You like being treated gently, and you are used to treating others gently. But with so much water, roots can drift. Sometimes you don't know what you want and simply follow your surroundings or the people near you. Find a place where you can take root, maybe something you love or a steady routine, and you will bloom well.",
+   "love": "You are romantic and caring, and easily moved by your partner's mood. When they are happy, you are happy. Don't hand all your emotions over to them. Keep your own friends and your own life, and the relationship will actually be steadier.",
+   "work": "You suit work that needs imagination and empathy, such as the arts, teaching, and roles of companionship and care. You make people feel understood. What you most need to practice is making decisions. Set yourself a deadline, and don't keep waiting for others to choose for you.",
+   "watch": "You tend to sway with other people's opinions and end up forgetting your own thoughts. On important matters, write down your own answer first, then ask others.",
+   "ask_next": "If I didn't think about what others would think, what would I truly want?"
+  },
+  "丙子": {
+   "title": "The sun reflected on a winter night lake",
+   "plain": "Bing is the sun, warm and bright. That is what you are like. Zi is deep winter-night water, the ground beneath you. A sun sitting on cold water looks cheerful and generous from outside, good at looking after a gathering, yet inside you often feel a quiet pressure, as if a voice reminds you to follow the rules and do well. This gives you more sense of measure than most warm people, and you know when to give and when to hold back. Your light shines outward and is also reflected on the water, so you care a lot about how others see you. Learn to keep part of the light for yourself, and your warmth will last longer.",
+   "love": "The people close to you often feel warmly cared for, and you care a lot about how they see you. You seem happy on the surface but have many worries inside. Say your real worries out loud, and let your partner know there are times you need care too.",
+   "work": "You do well in work with a public image and internal standards, such as PR, management and supervisory roles in service. You know the right measure and can carry an event. Don't take everyone's expectations onto yourself, and allow yourself to be imperfect sometimes.",
+   "watch": "You tend to swallow pressure with a smile. You seem fine, then can't sleep at night. Find someone you can be honest with, or some time that belongs only to you.",
+   "ask_next": "Of the things I say I don't mind, which one do I actually mind?"
+  },
+  "丁丑": {
+   "title": "Candlelight glowing in a winter storehouse",
+   "plain": "Ding is a candle flame, and it means you. Chou is damp, cold winter earth, like a storehouse for keeping things, the place you stay. Candlelight is especially precious on a cold day. Your warmth is not showy, but it lasts. You think carefully and have patience, you like to think things through before acting, and you are good at slowly turning what is inside you into work or results. Chou Earth draws off the fire's heat, so your energy is easily used up by small tasks, and when you get busy you forget to look after yourself. Keep some quiet time for yourself, so the light isn't smothered.",
+   "love": "A slow, steady stream is your way of loving. It isn't dramatic, but it is lasting, and you quietly do things for the other person. If you give too much without saying so, resentment can build up. Now and then, let them do something for you too.",
+   "work": "You suit work that needs patience and focus, such as research, writing, technical work, handcrafts or bookkeeping. You can make complicated things clear. Don't let chores eat your time. Put the most important thing in the part of the day when you have the most energy.",
+   "watch": "You tend to hide your tiredness until the light is nearly out. Each day, leave a little time that is only yours, with nothing scheduled, and let your heart slowly warm up again.",
+   "ask_next": "What kind of thing has drained me the most lately?"
+  },
+  "戊寅": {
+   "title": "A tall mountain covered in forest",
+   "plain": "Wu is a great mountain. That is you. Yin is the forest of early spring, the place you sit. A mountain covered in trees looks full of life, and it also means the mountain must support the whole forest. You naturally lead, you have a strong sense of responsibility, you are often pushed to the front to carry things, and you are willing to take it on. You act with boldness, dare to take on challenges, and are not much afraid of difficulty. But tree roots keep pushing into the mountain, the pressure is always there, and you are used to holding on. A mountain is steady, and it needs rest too. Learn to hand part of the forest over to others to tend.",
+   "love": "To your partner, you are like a mountain to lean on. You protect them and take the hits for them, and you may be a bit forceful, used to making the decisions yourself. Ask one more question, \"What do you think?\", so they feel part of it too.",
+   "work": "Leading a team, opening new ground and handling hard problems are where you shine. The more challenging the setting, the more you bring out. Don't decide everything yourself. Give the team some room, and your load will get lighter.",
+   "watch": "You tend to treat pressure as drive and keep pushing to your limit. Set a fixed rest day for yourself, with no talk of work and no replying to work messages.",
+   "ask_next": "Of the responsibilities I keep holding up, which part could I hand to someone else?"
+  },
+  "己卯": {
+   "title": "New sprouts coming up in a spring field",
+   "plain": "Ji is a field ready for planting, and that is you. Mao is the tender green of spring growth, rooted in you. New shoots push up and the field is full of life, but a field has to keep feeding them. You are gentle and accepting, you take good care of the people around you, and people often lean on you. You are kind to others, yet you often feel demanded of and chased, like a field being rushed to produce. You have a real gift for nurturing, and you suit the work of keeping someone or something company as it slowly grows. Remember that a field needs to lie fallow too. Now and then, let yourself produce nothing at all.",
+   "love": "Considerate and accepting is the first impression you give. You rarely keep score with others, and you may hold back your own feelings to keep the peace. When something bothers you, say so gently. That is how the other person learns where your boundaries are.",
+   "work": "You suit work that calls for patient nurturing, such as education, counseling, HR, or caring for plants and animals. You help people feel safe enough to grow. Be careful not to get buried under requests, and practice saying, \"Not this time.\"",
+   "watch": "You may give away all your time because it feels awkward to say no. Turning down something you don't want to do leaves a patch of fallow ground for your own heart.",
+   "ask_next": "Of the things I've agreed to lately, is there one I actually want to say no to?"
+  },
+  "丙戌": {
+   "plain": "Bing is the sun, and that's you. Xu is dry mountain earth at the end of autumn, and that's where you sit. Sun on an autumn mountain is like the evening glow: warm, generous, with a touch of nostalgia. You're warmhearted and like to share. You're good at passing on what you've learned, and happy to help. Xu Earth draws the fire inward, so your enthusiasm lasts and you finish what you start. You feel things deeply, hold on to the past, and are especially good to old friends. But you tend to give a lot, and sometimes forget that you need care too.",
+   "love": "When you love, you're generous and warm. You like doing things for the other person, and you take promises seriously. You give a great deal, and your partner may not be able to take it all in. Ask what they need, rather than only giving what you think is good.",
+   "work": "Expressing, sharing and passing things on are what you do with the most passion. Teaching, creating, consulting and mentoring newcomers all give knowledge some warmth. Be careful not to take on too many requests at once. Save some energy for your own plans.",
+   "watch": "You can be warmhearted to a fault and give away all your time. Before you agree to help, check whether your calendar this week actually has room.",
+   "ask_next": "Of everything I keep giving to others, is there something I need myself?",
+   "title": "Evening sun shining on an autumn mountain"
+  },
+  "丁亥": {
+   "title": "A lamp reflected on the water at night",
+   "plain": "Ding is a lamp flame, and that's you. Hai is the great water of early-winter night, and that's the ground beneath you. A flame reflected on water is small, yet it lights up a wide stretch of darkness. So your intuition is sharp, you often see a direction in the confusion, and you can become a guide in other people's hearts. You're gentle, have a sense of proportion, keep to the rules, and hold yourself to a standard. When the water is deep, the lamp flickers easily, and you feel the pressure and expectations around you. Steady your own light. You don't have to light up everyone; lighting a few people close to you is plenty.",
+   "love": "You know how to read the other person's heart. You're gentle and delicate, and you long to be understood. You easily adjust yourself for your partner, so keep some convictions that belong only to you, or the relationship may leave you smaller and smaller.",
+   "work": "Intuition, insight and leading others are your strengths at work. Teaching, creating, planning and listening-based services let you see directions others miss. When outside expectations pile up, you tense. Set your priorities first, then act.",
+   "watch": "You can be swamped by other people's moods and expectations. When you feel tired, switch off your messages for a while, quiet down and listen to your own voice.",
+   "ask_next": "Among the people I've been trying to light up lately, am I one of them?"
+  },
+  "戊子": {
+   "title": "A mountain guarding a winter lake",
+   "plain": "Wu is a solid mountain, and that's you. Zi is winter lake water, and that's where you sit. The mountain guards the lake and the lake is held by the mountain. This shows you're good at protecting and building up: you look after your resources and the people around you. You're practical and steady, you plan your work, and you don't like taking needless risks. You look a little serious on the outside but are quite gentle within. A winter lake is quiet, and you also keep what you care about inside. But guarding too tightly can make you miss the chances that come with movement, so let the lake flow a little.",
+   "love": "Your love is real and steady. You care for your partner through action, such as arranging the details of daily life. Don't be only practical. An occasional kind word or small surprise will mean more to them and help them understand your feelings.",
+   "work": "You suit work that needs steady management and resource planning, such as administration, accounting or operations, where you're reliable and careful. Don't let being too cautious make you miss new chances. Try them on a small scale first, then expand once you know they work.",
+   "watch": "You may change nothing for fear of making mistakes. Pick one small thing and try something new, like a different route to work, so you slowly get used to change.",
+   "ask_next": "Of what I keep guarding and don't dare move, is there some part I could try adjusting?"
+  },
+  "己丑": {
+   "title": "A field resting through winter",
+   "plain": "Ji is a field, and that's you. Chou is cold, damp winter earth, the same kind as you, and that's where you sit. A winter field isn't in a hurry to grow anything. It rests and stores up nutrients. So you're steady and patient, and you know how to wait for the right time. You don't like showing off, and you work step by step. When no one is watching, you're quietly building strength. You're nostalgic and deeply attached to familiar people and things. Your stubbornness can make you seem hard to talk to, but you simply need time to take things in. When spring comes, everything you've stored will grow.",
+   "love": "You're slow to warm up and devoted. Once you trust, you're very steady. You aren't good at sweet talk, but you'll always be there. When your partner needs a response, add one more sentence, so your silence isn't mistaken for coldness.",
+   "work": "Long-term, patient work fits your pace, such as research, accounting, farming or data management, where you can bear repetition and lay a solid foundation. You tend to resist new methods at first. Try one once, then decide whether to use it.",
+   "watch": "You can get stuck in old habits and not want to change. When you hear yourself say \"it's always been done this way,\" ask whether there's a better way.",
+   "ask_next": "For what I'm quietly building now, when do I hope it will bloom?"
+  },
+  "庚寅": {
+   "title": "An axe walking into a spring forest",
+   "plain": "Geng is like an axe or a piece of hard iron, and that's you. Yin is an early-spring forest, and that's where you sit. When an axe walks into a forest, all it sees is timber to clear a path and to use. So you're good at starting things. When you see an opportunity you want to act, and you're decisive and don't waste words. You like challenges and like holding the resources yourself. Yin also hides Fire, which gives you extra drive when you move. But an axe in a hurry swings too fast and may damage what it shouldn't. Pause a beat before you strike, and the path will open more smoothly.",
+   "love": "When you fall for someone, you're direct and take the first step. If you like them, you go after them. You're also practical and plan for your life together. Speaking plainly is a strength, but when your partner is sad, first sit quietly with them and give advice once they want to hear it.",
+   "work": "Starting new things, deciding and acting are your three keywords at work, in fields like founding a business, sales, engineering and opening new markets, where you turn ideas into action. Don't do too many things at once. Choose a direction, then work one cut at a time.",
+   "watch": "You can rush ahead and overlook other people's feelings or details. Before you start, spend five minutes listing where things might get stuck and who will be affected.",
+   "ask_next": "The road I most want to open: have I first seen clearly where it leads?"
+  },
+  "辛卯": {
+   "title": "A delicate pair of shears in the garden",
+   "plain": "Xin is like a fine little pair of shears, and that's you. Mao is a spring garden, and that's where you sit. Shears in a garden can trim plants to look better. So you have taste and a good eye, you see where things could be better, and you're good at tidying details beautifully. You're clever and sharp, and particular about beauty and quality. But you see problems, and can easily be picky about people and things. Your words can sometimes cut someone. Trimming is meant to help the flowers, not cut them all off, so spend more of your eye on appreciating.",
+   "love": "You have your own ideas about love and expectations of your partner, and you're attentive enough to notice small changes in them. Before you point something out, say something you appreciate first. They'll hear you better and be more willing to change.",
+   "work": "You suit work that needs a sense of beauty, detail and judgment, such as editing, design, styling and organizing spaces, where you turn rough things into refined ones. Don't stay stuck in details too long. Get the big direction first, then refine.",
+   "watch": "You can spot others' flaws at a glance and speak too quickly. Before you speak, ask yourself: is this to help, or just because it irks me?",
+   "ask_next": "Of the things I've been picky about lately, are some really just me being tired?"
+  },
+  "壬辰": {
+   "title": "A great river flowing into a deep reservoir",
+   "plain": "Ren is a great river, and that's you. Chen is damp late-spring earth, like a reservoir, and that's where you sit. A great river flowing into a reservoir is held and managed. So you have a large vision and ambition, and you also know how to restrain yourself. You think deeply, see the long-term picture, and often have plans others haven't thought of. Chen is also the dragon, and you carry a drive not to be ordinary. But the reservoir is sometimes shut too tight, and you feel restricted and stifled. Find an outlet where the water can run, and your energy becomes a force that moves things forward.",
+   "love": "In close relationships you lean toward the deep and reserved. You don't easily say what's inside, but you take responsibility. Your partner may not understand what you're thinking, so share your plans and worries now and then, and give them a chance to step into your world.",
+   "work": "Vision and organizing ability are your assets, in work like strategy, management, running a business and large projects, where you see the whole layout. Don't keep all the planning in your head. Talk with your team at the right moments so everyone keeps up with you.",
+   "watch": "You can feel bound by your surroundings and become gloomy. Write down what's stifling you and see which of those things you can change yourself.",
+   "ask_next": "For the bigger plan in my heart, what step can I take first now?"
+  },
+  "癸巳": {
+   "title": "Rain falling into early-summer sunlight",
+   "plain": "Gui is fine rain, and that's you. Si is early-summer sunshine and fire, and that's where you sit. Rain falling on warm ground quickly turns to mist, so you're sensitive and quick to react, and you feel the changes around you keenly. You're delicate in your thinking, you care about quality of life and real, practical gains, and you know how to seize a chance. Water and Fire meet in you, so you can be calm one moment and anxious the next, and your mood shifts faster than most people's. You're smart and flexible. Once you learn to steady your mood, that sensitivity becomes good judgment.",
+   "love": "In relationships you're attentive and caring, very sensitive to your partner's moods, and a small change can easily unsettle you. When you feel uneasy, ask first. Don't let your mind build the worst-case story on its own.",
+   "work": "You suit work that needs sharpness and quick adjustment, such as marketing, service, bookkeeping, or freelancing, where you can catch small openings. When you're anxious, you may take on too much at once. Set your order of priorities first, then act.",
+   "watch": "Small things can throw off your mood and then the rhythm of your whole day. When your mind feels scattered, do one simple small task to bring yourself back.",
+   "ask_next": "Does the thing worrying me lately really need an answer right now?"
+  },
+  "庚辰": {
+   "title": "A block of steel storing strength in damp earth",
+   "plain": "Geng is hard metal, and that is you. Chen is damp earth of late spring, holding water and Wood inside, and it is where you sit. Earth nourishes Metal, so you sit on ground that feeds you. That gives you solid footing and a lot of resilience, and difficulty doesn't knock you down easily. You are ambitious and willing to charge ahead, and you have an instinct to protect people. You are often the one who steps forward in your circle of friends. Chen earth hides many things, and you think more than you show, which can make you hard to read at times. Your strength is great, and if you point it in the right direction, you can go far.",
+   "love": "When you love someone, you are loyal and protective, and sometimes you take charge and make decisions for them. Put your strength into supporting rather than leading, and they will want to come closer and will feel safer sharing what's on their mind.",
+   "work": "You do best where boldness and follow-through are needed, such as starting a business, engineering, management, or any role where someone has to make the call. You can carry the load and deliver results. When you're in a hurry, you may speak too bluntly, so take a breath before you talk.",
+   "watch": "You may stay quiet because you feel you can handle it, or your tone may turn sharp when you're rushed. When you're worked up, step away for three minutes, drink some water, then come back to talk.",
+   "ask_next": "The thing I most want to charge at right now: is that direction really what I want?"
+  },
+  "辛巳": {
+   "title": "A jewel shining in firelight",
+   "plain": "Xin is a finely cut jewel, and that is you. Si is early-summer fire, and it is where you sit. A jewel shines brightest in firelight and is slowly refined by the flame. So you care about image, have good taste, and think a lot about whether you're doing well enough. You are smart and quick, you read people well, and you often come across as poised in a group. But the fire keeps burning, and so do your demands on yourself, which can make you feel it's still not enough. You already shine. Stepping away from the fire now and then and resting well is a kind of care too.",
+   "love": "You care a lot about how the other person sees you, and you want to be appreciated. You put real effort into the relationship, and you can also worry about losing it. Your worth doesn't come only from their approval. Affirm yourself first, and the relationship will feel steadier.",
+   "work": "You suit work that values image, quality, and rules, such as branding, service, luxury goods, or management. You do things beautifully and with good judgment. Don't treat every evaluation as a verdict on you. It is about the work, not about who you are.",
+   "watch": "You may tense up from fear of doing badly. Finished matters more than perfect. Complete one version first, then refine it slowly. Your yardstick can come out later.",
+   "ask_next": "What I'm working hard to prove right now: is it for others to see, or for myself?"
+  },
+  "壬午": {
+   "title": "Steam rising where water meets fire",
+   "plain": "Ren is a great river, and that is you. Wu is the blazing fire of midsummer, and it is where you sit. Water sitting on fire is like boiling water giving off steam, so you carry both calm and passion. Your mind is clear and you act on things, going after what you want. You have a good eye for opportunity and are especially sensitive to resources and connections. But with water and fire together, your moods swing more than most people's. One moment you're fully in, the next you want out. Find a rhythm that lets the two sides live in peace, and you'll have a great deal of energy.",
+   "love": "Your charm is easy to see. You take the initiative and love warmly, but your moods change fast and may leave the other person confused. When emotions rise, tell them, \"I'm a bit scrambled right now.\" That is much better than simply going cold.",
+   "work": "Spotting opportunities and adapting flexibly are your strengths, in work like sales, marketing, trade, or freelancing. You catch chances others miss. Don't chase too many goals at once. Get results on what's in your hands first.",
+   "watch": "You may make decisions at an emotional peak and regret them afterward. Don't rush to settle important things. Wait a night, and reply once you've calmed down.",
+   "ask_next": "The thing that has stirred my emotions most lately: what do I really care about in it?"
+  },
+  "癸未": {
+   "title": "Rain falling on dry late-summer earth",
+   "plain": "Gui is fine rain, quiet and gentle, and that is you. Wei is the dry, hot earth of late summer, and it is where you land. Rain on dry earth is soaked up quickly, so you are often giving and caring for others while feeling your own strength isn't quite enough. You are sensitive and considerate, you notice how hard others have it, and you tend to worry for them. Dry earth needs rain, and to others you matter a great deal. What you need to learn is that rain needs clouds to be replenished. Take good care of yourself, and you'll have the strength to keep nourishing others.",
+   "love": "Gentle and accepting, you often put the other person's needs first. Don't just quietly go along. Say what hurts and what you hope for, so the relationship doesn't rest on you alone, and the other person gets a chance to care for you.",
+   "work": "You do well in roles that need care and patience, such as customer service, caregiving, administration, or clerical work, where you handle many small details well. Be careful not to take on too much of other people's feelings and work. Look after your own range first.",
+   "watch": "You may easily think, \"Am I not good enough?\" When that thought shows up, take a sheet of paper, list three things you did today, and look again.",
+   "ask_next": "The worry I've been carrying for others lately: have I saved a little for myself?"
+  },
+  "甲申": {
+   "title": "A tree growing on a rock face",
+   "plain": "Jia is a great tree, and that is you. Shen is the rock and metal of early autumn, and it is where you take root. A tree on a rock face must push its roots through cracks in the stone to stand firm, so you have had more tempering than others, and that gives you special resilience. You act decisively, and under pressure you often show even more ability, growing up through hardship. You don't like being managed, yet you are very self-disciplined. A tree on a cliff has a distinctive shape, and your experiences set you apart too. Just don't keep meeting things head-on. Learn to find the easiest path through the cracks.",
+   "love": "Even in love, you are independent and have your own views. You dislike clinginess and don't lean on people much. Toughness is your shell. Let your partner see your softer side now and then, and you'll grow closer and they'll know better how to be there for you.",
+   "work": "The more pressure you're under, the better you perform, in work like crisis response, fiercely competitive sales, or roles that need fast decisions. The bigger the challenge, the more energy you have. Don't treat everything as a battle. Give yourself and your colleagues some breathing room.",
+   "watch": "You may take others' opinions as pressure and want to hit back right away. Hear them out first, take one deep breath, then decide whether to respond.",
+   "ask_next": "The thing I'm gritting my teeth through right now: is there an easier path?"
+  },
+  "乙酉": {
+   "title": "A flower blooming on an iron railing",
+   "plain": "Yi is soft flowers and climbing vines, and that is you. You is the refined metal of autumn, and it is where you sit. A flower climbing an iron railing looks delicate, but it has grown into its own shape in a harsh setting. You are gentle and polite on the outside and very resilient inside, with your own taste for beauty and order. You often feel boxed in by rules, and so you've learned to find room within limits. You know how to protect yourself and don't let people get too close easily. The railing gives you support and pressure both. Try seeing it as a handrail rather than a cage.",
+   "love": "In a new relationship, you are careful. You need time to be sure the other person can be trusted, and you value being respected. Guardedness protects you, but if it lasts too long, the other person tires too. Give each other some time and move closer one step at a time.",
+   "work": "You suit work that needs precision and standards, such as design, beauty, clerical work, or quality control, where you can make good work within limited conditions. Don't stay silent just because the environment has many restrictions. Speak up when you need something.",
+   "watch": "You may keep pressure inside while looking fine on the surface. When you're tired, take a walk and spend time in nature. It loosens your heart and gives your mind a change of scene.",
+   "ask_next": "The thing that makes me feel boxed in right now: is there any room to adjust it?"
+  },
+  "甲午": {
+   "title": "A big tree standing in the noon sun",
+   "plain": "Jia Wood is a big tree growing upward, and Wu is the hottest stretch of a summer noon. The tree gleams in the sun, its leaves sending water out all the while. You come across as generous and outspoken, and when you have an idea you want people to know it. Often you're the one who warms up the room. But the noon sun doesn't stay overhead forever. Your enthusiasm comes fast and gets used up fast. You feel best when you have something worth throwing yourself into, where your talent has room to work, and when you know to find a patch of shade for yourself while the sun is strongest.",
+   "love": "When you like someone, you're clearly good to them: quick replies, plenty to say. If the other person warms up slowly, you may feel you're the only one invested. Try slowing your pace a half beat and leave them room to come toward you.",
+   "work": "You suit roles that call for expression, creativity, or lifting the mood, such as planning, teaching, or sales. You have plenty of ideas and charge hard at the start, but you're more likely to lose patience midway. A partner who can help you finish will make things much easier.",
+   "watch": "You speak fast, and sometimes your words come out sharper than you meant. When emotions rise, pause for three seconds and ask whether this sentence is meant to solve the problem or just to win.",
+   "ask_next": "The thing that has you burning brightest lately: is it what you truly want, or are you being pushed along by expectations?"
+  },
+  "乙未": {
+   "title": "A vine climbing a field ridge in late summer",
+   "plain": "Picture a soft vine. That's Yi Wood, and that's you. Wei beneath your feet is the tail end of summer, farmland baked a little dry. Plants on dry fields look unremarkable, yet their roots hold on tight. The more ordinary the conditions, the better they are at finding a crack to live in. You seem gentle and easygoing, but you're tough underneath, and once you've decided on something you'll quietly keep at it for a long time. You're also nostalgic, and find it hard to let go of family, old friends, and familiar places. Your steadiness is very reliable, though sometimes you swallow your hardships, and others can't tell you're tired too.",
+   "love": "In relationships you're the one who takes care of people. You remember your partner's habits and are willing to adapt. But you rarely say what you want, and the hurt builds up until it bursts out. Try voicing small needs earlier.",
+   "work": "You suit work that needs patience and long-term care, such as administration, customer service, farm products, or a handmade brand. You don't like the spotlight, but what's handed to you gets done steadily, and managers usually trust you more over time. Remember to keep a record of your own contributions.",
+   "watch": "You tend to look after others first and put yourself last. When you're tired, saying \"I need a rest\" isn't selfish. It's caring for the roots of your vine.",
+   "ask_next": "Is there something you've been quietly holding up that you'd actually like to share with someone?"
+  },
+  "丙申": {
+   "title": "Sun shining on an autumn mountain road",
+   "plain": "Bing Fire is the sun, and Shen is early autumn, a place with a metallic edge that also carries a sense of roads and movement. The sun shines on a mountain road stretching into the distance, bright and open, always wanting to see what's ahead. Your mind turns fast and you're very curious. You like new places, new friends, and new ideas, and you're easily noticed in a crowd. The downside is that with so many interests you often start several roads at once and aren't sure which one to follow to the end. What you need isn't less enthusiasm, but a way to pick the one road you most want to take.",
+   "love": "You're drawn to people who are fun and easy to talk to. You're very charming in the early, undefined stage, but once the heat fades you can get distracted. If the other person needs a sense of security, use your actions to show you're still here and still want to walk together.",
+   "work": "You suit work that involves movement and frequent contact with people or information, such as marketing, sales, travel, or media. You're good at finding new openings, but watch out for promising too much. Pick one or two things each quarter to go deep on, and the results will be easier to see.",
+   "watch": "Starting too many things at once can leave them stalled halfway. Before you begin, ask yourself: will I still care about this in three months? If not, set it aside for now.",
+   "ask_next": "Of the roads in front of you now, if you could only take one first, which would you choose?"
+  },
+  "丁酉": {
+   "title": "Candlelight on a box of delicate jewelry",
+   "plain": "Think of yourself as a candle or a desk lamp. That's Ding Fire: the light isn't big, but it shows what's near very clearly. You is autumn's harvest, a place with a metallic shine, like a box of jewelry. Candlelight on jewelry makes every detail sparkle. You're sharp about beauty and quality, you look closely when choosing things or reading people, and you know how to give your days some flavor. You don't like loud show, but you put care into small things, and the people around you feel it. Still, your standards for detail can turn into being hard on yourself, and a small flaw may stay on your mind for a long time.",
+   "love": "You show love through small things, like remembering something your partner mentioned in passing. You want to be treated with the same care, and when they're careless you're disappointed but say nothing. Saying directly what matters to you works better than making them guess.",
+   "work": "You suit work that values quality and detail, such as design, editing, finance, jewelry, or beauty. You spot problems others miss and are good at quality control. Just don't polish everything to perfection before handing it in. Delivering at eighty percent is fine.",
+   "watch": "You're too strict with yourself and replay small mistakes. When you finish something, first note three things you did well, then look at what to change.",
+   "ask_next": "That small flaw you can't let go of lately: does it really matter that much?"
+  },
+  "戊戌": {
+   "title": "A mountain stacked on a high mountain",
+   "plain": "Wu Earth is a mountain, and Xu is late autumn, dry and thick earth, like a plateau on a summit. Mountain upon mountain, tall and steady, very hard to move. You have principles and do what you say, you don't change your stance easily, and in big matters you stay remarkably calm. People around you often treat you as their backing. Standing high, you're used to carrying things alone and rarely ask for help, which can make you seem hard to approach. Your steadiness is a great strength. Just let others climb up to see you now and then, so you don't have to guard everything alone.",
+   "love": "You're serious about love. You don't start easily, but once you do, you're devoted. You express yourself in a reserved way, often doing instead of saying. If the other person needs to hear a few words, try saying what you feel. It won't cost you face.",
+   "work": "You suit roles that carry responsibility and decisions, such as management, engineering, real estate, or public service. You can last through long projects and hold a room steady. Watch out for sticking too hard to your own way, and listen to the newer methods of younger colleagues.",
+   "watch": "When you're too stubborn, even good intentions can sound like orders. Starting with \"What do you think?\" often makes things easier to discuss, and the other person is more willing to cooperate.",
+   "ask_next": "Is there something you could actually let someone else try?"
+  },
+  "己亥": {
+   "title": "A moist field by the river",
+   "plain": "You're a field that can be farmed, which is Ji Earth. Hai, where you sit, is early-winter water, like a river or lake. A field beside water is soft and damp, and anything can grow in it, but the water can also carry some of it away. You're gentle and accepting, you sense other people's feelings well, and you can take in anyone who comes to you with troubles. Your head is full of ideas, and you're good at planning the small details of life. But your boundaries are a bit loose. Other people's emotions and demands flow in, and you often take them all on, until your own field is soaked. Building a small ridge around your heart is a practice you really need.",
+   "love": "You're very considerate in relationships and willing to accommodate. Afraid of upsetting the other person, you may step back so often that you can't say what you want anymore. Work out your own bottom line first, and then talking about compromise will feel more solid.",
+   "work": "You suit work that looks after people or pulls resources together, such as HR, social work, food service, or administration. You get along well and communicate easily, so people often ask you for favors. Practice turning down work that isn't yours, and keep your time for what truly matters.",
+   "watch": "You're so easygoing that you can get swamped by other people's business. Before agreeing, say \"Let me think about it,\" give yourself a little time, and reply once you're clear.",
+   "ask_next": "Lately, what is something you didn't really want to agree to but agreed to anyway?"
+  },
+  "庚子": {
+   "title": "A knife soaking in winter river water",
+   "plain": "Geng Metal is a knife or a piece of iron, and Zi is the water of deep winter. Iron dipped in an icy river gets washed bright and sharp, and its reflection comes out clear. Your mind is clear and quick. You see the key point of a matter at a glance, speak directly, and don't like talking around things. You have a strong sense of justice and will speak up about what you can't stand to see. This sharpness makes you good at solving problems, but it can also come across as cold. You care about people deeply; you're just used to giving reasons before feelings. Switch the order, and people will understand you better.",
+   "love": "In love you are honest and don't enjoy mind-reading games. But if you point out your partner's flaws too quickly, they may feel inspected. Listen to everything they want to say first, then share your view, and the relationship will soften a lot.",
+   "work": "You suit work that calls for judgment, analysis or technical skill, such as engineering, paralegal work, research or quality control. You are good at spotting gaps and you work efficiently. On a team, remember to give others more recognition, and your suggestions will be easier to accept.",
+   "watch": "Your words can land like a blade and easily hurt the people you care about. Before saying something harsh, ask yourself: am I trying to help, or trying to prove I'm right?",
+   "ask_next": "The thing you haven't said lately: if you said it at a different temperature, what would it sound like?"
+  },
+  "辛丑": {
+   "title": "A gem buried in cold winter soil",
+   "plain": "There is a gem, Xin Metal, buried in Chou, the coldest, dampest, most frozen soil of winter. A gem in the earth doesn't show from the outside, yet it stays well protected until the time comes to be dug out. You come across as low-key and steady, in no hurry to show off, though inside you have your own ideas and taste. You warm up slowly, move carefully step by step, and rarely act on impulse. This patience is your foundation. But sometimes you hide too deeply, and good things go unseen, so you miss the chance to be noticed.",
+   "love": "In love you are cautious and need a long time of watching before you trust someone with your heart. Once you're sure, you give a lot quietly. Your partner may not be able to read your calm, so saying now and then that you miss them can put them at ease.",
+   "work": "You suit work that builds up over time, such as accounting, research, technical work, or fields related to collecting and preservation. You can stand repetition and hold on to the details. Remember to share your results when the time is right, rather than finishing and tucking them away in a drawer.",
+   "watch": "You think about everything too long before moving, and may miss the right moment. Give yourself a deadline, and when time is up, take one small step first. The way becomes clear only once you walk it.",
+   "ask_next": "What good thing do you have in your hands that you still haven't shown anyone?"
+  },
+  "壬寅": {
+   "title": "A great river flowing through a spring forest",
+   "plain": "Ren Water is a great river, and Yin is early spring, when trees are just about to bud. The river runs through the forest, watering the new trees along the way and carrying itself farther on. You are open-hearted, like learning new things and meeting new people, and you're full of curiosity about the world. You take good care of others and are glad to share what you know, often the idea person in your circle of friends. But rivers don't like to stop. You tire quickly of unchanging days and your passions switch fast, so you need to learn to let one thing grow slowly.",
+   "love": "In love you are generous and easy to be with, and you take your partner to many new places. But you need freedom, and being held too tightly makes you want to run. Agreeing on each other's space is much better than quietly pulling away, and it reassures your partner too.",
+   "work": "You suit teaching, publishing, travel, creative work, or work that opens up new markets. You're good at guiding newcomers and at making complicated things simple. When choosing a job, look for room to grow. That is the key to your staying long.",
+   "watch": "You have many ideas and move fast, so you can end up doing a little of this and a little of that. Each day before you finish, take five minutes to see which thing really moved forward today.",
+   "ask_next": "If you were given a whole year to focus on growing just one tree, what would you plant?"
+  },
+  "癸卯": {
+   "title": "Fine rain falling on a spring meadow",
+   "plain": "Spring's fine rain is Gui Water, and Mao is mid-spring, when plants are at their most lush. Fine rain falls on the meadow quietly, yet a whole expanse of green grows from it. You are delicate and sensitive, attuned to the mood of a room and to other people's feelings, and often understand with just a glance. You have an artistic side, love words, music and beautiful things, and keep a little world of your own. Your gentleness nourishes the people around you. But when it rains too much, you can give away all your strength and forget that you need care too.",
+   "love": "In love you are gentle and considerate, and good at reading your partner's mood. Because you're so sensitive, a little coolness from them can set you thinking a lot. Rather than guessing over and over in your head, ask lightly, \"Are you doing okay today?\"",
+   "work": "You suit work that needs sensitivity and communication, such as design, writing, counseling, education, or anything related to aesthetics. You notice well how users or clients feel. Watch out for caring too much about others' opinions, which can cloud your judgment.",
+   "watch": "Your mood is easily carried along by other people. When you feel drained, step out of that setting for a while, let your own rain pause, and then decide whether to go back.",
+   "ask_next": "Lately, who have you given your gentleness to, and who is looking after your feelings?"
+  },
+  "甲辰": {
+   "title": "A great tree with roots sunk into moist, rich soil",
+   "plain": "Jia Wood is a big tree, and Chen is late spring, damp soil carrying moisture. Roots sunk into fertile earth can drink water and stand firm, so the tree grows tall and straight. You are ambitious and want to do big things, and you also have the stamina to bring plans down to earth. You work with a plan, like to hold the whole picture, and on a team you often become the one who makes the decisions without trying. Your foundation is thick, so change doesn't easily knock you down. What to practice is softening a little: don't keep everything in your own hands, and give others a chance to grow with you.",
+   "love": "In love you are reliable and responsible, and you think about the future for both of you. But sometimes you're too rational, used to planning and forgetting romance. Now and then, put the plan aside and do something with your partner that has no purpose.",
+   "work": "You suit work that needs coordination, planning and long-term running, such as management, construction, financial planning or starting a business. You can handle pressure and carry responsibility. Remember to delegate. You don't need to do every detail yourself.",
+   "watch": "When you want to control too much, the pressure keeps piling up. Each week, list one thing you can hand off. Practice letting go, and give others a chance to grow.",
+   "ask_next": "Of everything you're carrying now, which one thing could you actually hand to someone else?"
+  },
+  "乙巳": {
+   "title": "A flower blooming in early summer sunlight",
+   "plain": "Early summer sunlight gets stronger by the day. That is Si, and you are a flower in its light, Yi Wood. In early summer, as the sun grows stronger, a flower lit by it blooms beautifully and its scent travels far. You are outgoing and eloquent, express yourself well, and know how to dress and shape your image. You're quick and full of ideas, and people often remember you the moment you speak. But when the sun is too fierce, a flower can dry out. You shine in front of others, yet in private you're often worn out and need time alone to restore your moisture. For a flower to bloom long, its roots must reach water too.",
+   "love": "In love you are very charming and know how to create surprise and romance. You need to feel appreciated, and if your partner responds too little, you feel you're performing a solo act. Say how you want to be treated, and it will be easier for them to meet you.",
+   "work": "You suit work in performance, creativity and communication, such as marketing, hosting, design, public relations or the beauty industry. You're good at packaging ideas attractively. Watch for saying more than you do, and remember to turn your bright moments into results.",
+   "watch": "Caring too much about how others see you can wear you out. Each week, set aside a stretch of time when no one is watching and do only what makes you happy, with no photos and no sharing.",
+   "ask_next": "If no one were watching, what would you most want to spend your time on?"
+  },
+  "丙午": {
+   "title": "The noon sun hanging at its highest point",
+   "plain": "Bing Fire is the sun, and Wu is the time of day when the sun is highest and hottest. The noon sun shines strongest and most directly, and everyone can see it. You are passionate, frank and action-oriented. You do what you think of and dislike dragging things out. You are contagious, lifting the mood wherever you go, and loyal, always first to rush in when a friend is in trouble. This warmth is your greatest asset. But when fire is too strong, it can turn impatient, wanting to push straight through at the first snag, and you can burn yourself out in the busyness, forgetting that rest is a kind of strength too.",
+   "love": "In love you are passionate and direct. If you like someone, you say so, and you don't play hard to get. But you're hasty, and you get impatient when your partner replies slowly. Learn to wait a little and let the warmth travel over slowly, and the relationship will last longer.",
+   "work": "You suit work that needs drive and taking the lead, such as sales, starting a business, events, sports-related work or leadership roles. You act fast and dare to decide. Watch for rushing too hard toward results, and remember to leave time for details and communication.",
+   "watch": "Your temper comes quickly, and when you're in a hurry you say harsh things. When you notice your voice getting loud, drink some water and walk a lap away from your seat before coming back. The words will come out much easier.",
+   "ask_next": "The result you've been eager for lately: what would happen if it came a little slower?"
+  },
+  "丁未": {
+   "title": "Lamplight shining over a summer night field",
+   "plain": "A lamp in a summer-night field is what Ding Fire looks like; Wei is late summer, ground warmed by the sun. Lamplight over a summer-night field isn't glaring, yet it puts people at ease. You're gentle and loyal, devoted to home, and you look after the people around you. You're often the lamp in everyone's heart. You're patient in your work and like to make your days warm and comfortable. You have plenty of ideas inside; you just don't show them off. Watch out for shining so hard on others that you only notice your own lamp oil is nearly gone when it's already low. Lighting it again then is hard work.",
+   "love": "In love you're careful and gentle. You keep your partner's tastes in mind and care a lot about the feeling of home. Sometimes you hide your complaints to keep the peace. Mention small things while they're small, before they pile up into a mountain.",
+   "work": "You suit caring or service work, or work that needs long-term tending, such as food service, education, nursing administration, or community work. You help a team hold together. Remember to ask for the resources and recognition you've earned, too.",
+   "watch": "You often put yourself second for the sake of the bigger picture. Once a week, ask yourself: do I truly want to do this, or am I just too shy to say no? The answer will show you your next step.",
+   "ask_next": "The people around you are all cared for by you. How would you like to be cared for?"
+  },
+  "甲寅": {
+   "plain": "Jia Wood is a big tree, and Yin is early spring, when trees are in full growth. This tree stands in its own forest, with deep roots and straight branches, and it needs no one to prop it up. You are independent and principled, with a clear sense of direction, and you don't much like being told what to do. You are upright and driven. What you set out to do keeps growing upward, and you look after the friends around you. But a tree that grows very straight doesn't bend easily. When opinions differ you hold firm, and you can clash with others who are just as strong-minded. Learn to bend a little when the wind comes, and the tree stands longer.",
+   "love": "In love you are sincere. If you like someone, you say so, and you respect their space. You need respect too, and if too much is asked of you, you want to pull back. When you disagree, try first to understand where the other person is coming from.",
+   "work": "You suit work that calls for independence and starting new things, such as launching a business, planning, education, or technical development. You are good at leading the way on something new and don't like going in circles inside a framework. What to practice is cooperation: share the credit with the people who worked alongside you.",
+   "watch": "You want to rely on yourself so much that you may turn down help. Next time someone reaches out a hand, try saying \"Yes, thank you.\" It won't make you weaker.",
+   "ask_next": "Is there something you've been pushing through alone lately? Who could you ask to do it with you?",
+   "title": "The straightest tree in the forest"
+  },
+  "乙卯": {
+   "title": "Spring grass covering the whole hillside",
+   "plain": "You are like flowers and vines, which is Yi Wood. The Mao you sit on is mid-spring, when plants are at their lushest. Spring grass covers the whole slope, soft yet nearly impossible to pull out completely, growing into every gap. You are friendly and easy to be around, good with people, well liked, and adaptable. You seem easygoing, but you have your own ideas, and what you want to do you will get done, even if you take a detour. You value freedom and don't like being tied down. Watch out for caring so much about everyone's feelings that your own direction starts to sway, and you end up busy all around without knowing where you're headed.",
+   "love": "In love you are gentle and romantic, and good at setting the mood. You have many friends, so your partner may feel insecure. Let them know your circle, and let them feel they are the special one, and a sense of security will grow slowly.",
+   "work": "You suit work that involves people and flexibility, such as public relations, marketing, aesthetics, teaching, and client care. You are good at connecting people. Watch out for trying to please everyone and ending up unable to finish your own work.",
+   "watch": "You care so much about everyone's reaction that your decisions can go back and forth. Write down what you really want first, then listen to others' opinions, and your mind will feel steadier.",
+   "ask_next": "If you didn't have to worry about anyone's opinion, what decision would you most want to make?"
+  },
+  "丙辰": {
+   "title": "Morning light on a misty field",
+   "plain": "Bing Fire is the sun, and Chen is late spring, with damp, fertile soil. Sunlight falls warmly on a misty field, and everything in the soil grows well. You are generous and warm-hearted, happy to share, and you like making the people around you happy. You have plenty of creativity and know how to turn an idea into something everyone can join in. You are kind to others, don't keep score, and are often the life of your circle of friends. But you give too easily, often thinking more of others than of yourself, and you take on more than you can carry, until you have no time left for yourself.",
+   "love": "In love you are warm and generous, and you like planning things for your partner and creating happy moments. You hope for an equally warm response, and you feel let down when they are too cool. Say what kind of response you need.",
+   "work": "You suit work that involves creativity, sharing, and service, such as education, food and drink, events, content creation, and public welfare. You bring warmth to a team. Watch out for being too agreeable. Politely hand back what isn't yours to do.",
+   "watch": "When you give a lot but feel awkward asking for anything, you can feel things are out of balance. Before you give to others, check that you still have energy to spare. Giving within your means is a kind of thoughtfulness too.",
+   "ask_next": "You've done a lot for others lately. What would you like to do for yourself?"
+  },
+  "丁巳": {
+   "title": "A candle flame beside the stove fire before noon",
+   "plain": "A single candle flame is Ding Fire, and Si is early summer, when fire energy is growing strong. A candle set beside a stove fire, the two flames reflecting each other, burn brighter and brighter. You are passionate and perceptive, with strong inner drive, and very focused when you get serious. Your intuition is good, and your first impression often catches the key point. You like to express yourself and to be seen. Your fire can warm people and light the place you want to go. But when the fire is too strong, your moods swing: full of passion one moment, very tired the next, like a flame the wind keeps making bigger and smaller.",
+   "love": "In love you are devoted and love with full attention, and you care a lot about how your partner responds. When you heat up, you can overthink and rush. Slow the pace and give the relationship time to warm gradually, and your partner will feel more at ease coming closer.",
+   "work": "You suit work that calls for focus and passion, such as research, creative work, performance, technical work, and professional consulting. Once you commit, you go deep. Watch how you spread your heat, and save your energy for the moments that really matter.",
+   "watch": "Once your emotions rise, they are hard to stop, and you can wear yourself out. When you notice you're too wound up or too low, return first to a regular daily routine.",
+   "ask_next": "What is the one thing you most want to put your passion into right now?"
+  },
+  "戊午": {
+   "title": "A great mountain warmed by the sun",
+   "plain": "Wu Earth is a mountain, and Wu the branch is midday in summer. The mountain, warmed by the noon sun, looks steady outside but holds heat inside. You come across as reliable and weighty, and people like to talk things over with you. Inside, you actually have a lot of passion and ambition, and once you are sure, you give it everything. You care about face and keep your word. But the heat stays trapped in the mountain. You rarely talk about your stress, and if you hold on too long, your temper may flare suddenly and surprise even you. Give the heat somewhere to go, and the mountain stays steady.",
+   "love": "In love you are steady and responsible, and you give your partner a lot of security. You speak quite directly, which can sometimes come across as forceful. When your partner shares what's on their mind, listen first, and don't rush to offer solutions.",
+   "work": "You suit work that calls for stability and leadership, such as management, real estate, construction, public service, and team lead roles. You can carry the big picture. Watch out for caring too much about face. Asking for help early on a problem is better than pushing through alone.",
+   "watch": "When you keep stress bottled up, it can burst out suddenly. Each week, find a way to let the heat out, such as exercise, a walk, or a talk with a friend.",
+   "ask_next": "Who would you most like to tell about the pressure you've been keeping inside lately?"
+  },
+  "己未": {
+   "title": "Two connected fields in late summer",
+   "plain": "You are a field, Ji Earth. The Wei you sit on is also dry, warm late-summer earth, so field joins field into one thick stretch of land. You are practical and grounded, value a settled life, and do things step by step, rarely taking risks. You are sentimental, with deep feelings for family, familiar people, and familiar places, and you hold on well to what is yours. You look gentle, but inside you have firm opinions and are not easily persuaded. This stubbornness makes you reliable, but when you hold too tightly to your own way, a new opportunity may come close, and while you're still wondering whether to open the door, it has already moved on.",
+   "love": "In love you are faithful and take commitment seriously, and you like a steady, long-flowing relationship. You aren't one for sweet words and tend to show care instead of saying it. When your partner needs something fresh, try going somewhere new together.",
+   "work": "You suit work that calls for stability and patience, such as administration, finance, agriculture, real estate, and long-term client care. You are dependable and put people at ease. Watch out for fearing change too much, and now and then try a new tool or method.",
+   "watch": "When you hold too tightly to the old ways, you can miss new opportunities. When something is unfamiliar, don't say no right away. Give it one small try, and decide after you've tried it.",
+   "ask_next": "Is there something new you've wanted to try but never started?"
+  },
+  "庚申": {
+   "title": "Two freshly sharpened knives lying side by side",
+   "plain": "Geng Metal is a piece of iron or a blade, and Shen is early autumn, when Metal energy is strong. Iron meets iron, like two freshly sharpened knives side by side, sharp and clean. You are decisive and quick to act. Once you see clearly, you do it, and you don't like dragging things out. You are very competitive, you get more energized the bigger the challenge, and you are loyal to your friends. Your efficiency is admirable. But when the blade is too sharp, your words and decisions can be too hard, and when you meet someone as strong as you, neither of you gives way and things get stuck. Knowing how to sheathe the blade is rarer than knowing how to draw it.",
+   "love": "In love you are direct and clear. If you like someone, you go after them, and if you don't, you say so plainly. But you value efficiency so much that you may not give the companionship and patience your partner needs. Slow down and listen to how they feel.",
+   "work": "You suit work that calls for decisiveness and speed, such as sales, engineering, technical work, highly competitive fields, and starting a business. You dare to charge ahead. Watch out for friction with coworkers. Set the rules clearly before dividing up the work.",
+   "watch": "When you're very competitive, you can turn cooperation into a contest. When you notice you're fighting over who wins, ask first: what is this meant to achieve in the end?",
+   "ask_next": "Who have you been competing with lately, and is that contest really worth winning?"
+  },
+  "辛酉": {
+   "title": "A whole box of shining jewelry",
+   "plain": "The time in autumn when Metal energy is purest is called You, and you are one of its gems: Xin Metal. Picture a gem in a whole box of jewelry, where every piece is clean, bright, and well made. You care about taste and quality. You hold high standards for yourself and the things around you, and you work with care and precision. You have strong self-respect and clear principles, and you don't compromise easily. You have a good eye and can often pick out the best. But when your standards run too high, everything shows a flaw, and you often feel you aren't good enough yourself. Allow a little imperfection, and your light will feel more at ease.",
+   "love": "In love, you are picky but devoted. You only commit once you find someone you truly admire. You notice details, and you get disappointed when a partner is careless. Try saying your expectations out loud, and give the other person a little room to make mistakes.",
+   "work": "You suit work that needs precision and quality, such as jewelry, design, precision technical work, accounting, and quality control. Your work is fine and holds up well to a close look. Watch for chasing perfection too far, and remember that time is part of quality too.",
+   "watch": "Being too hard on others and yourself can make relationships tense. Each day, find one thing someone did well and say so out loud. Relationships will slowly loosen up.",
+   "ask_next": "Where have you been hardest on yourself lately, and could you ease up a little?"
+  },
+  "戊申": {
+   "title": "Hidden in the great mountain, roads that lead in every direction",
+   "plain": "Wu Earth is a mountain, and Shen is early autumn, a place with the feel of metal and roads. A mountain holds ore and paths; it looks heavy, but it opens in every direction. You seem steady outside and are very flexible inside. Your mind moves fast, and you're good at finding ways and resources. You're practical and like to turn ideas into results you can see, and you can often find another way through a difficulty. You don't care for empty talk, and you work efficiently. But your ideas change quickly, which can leave people around you behind, and you may take on too much at once and pack your schedule full.",
+   "love": "In love you're practical and show care through action, like solving problems or arranging daily life. But when you're busy, you can overlook your partner's feelings. Now and then, stop and listen without rushing to give an answer.",
+   "work": "You suit work that needs problem-solving and follow-through, such as engineering, logistics, technical work, business development, or project management. You adapt well and can carry practical work. Be careful not to take on too many projects, and save your best quality for what matters most.",
+   "watch": "When you rush to solve things, you may forget to ask first what the other person wants. Confirming the goal before you start saves a lot of redoing and cuts down on misunderstandings.",
+   "ask_next": "Of everything on your plate right now, which one do you most want to do as well as you possibly can?"
+  },
+  "己酉": {
+   "title": "A field carefully tended in harvest season",
+   "plain": "Autumn harvest time is You, and you are the field, Ji Earth. Carefully tended through autumn, the field bears cluster after cluster of fruit. You work with care and have clever hands. You like to make things with finesse and know the small pleasures of life. You have your own taste and methods, and you often quietly get things done beautifully. You speak gently but with insight, and you're easy to talk to once people know you. Watch out for holding yourself to a high standard. You often feel it isn't good enough yet and hesitate to show it, so good fruit stays on the branch.",
+   "love": "In love you're thoughtful and attentive to detail, and you remember your partner's little habits. You also hope they appreciate your effort, and you feel low when it goes unnoticed. Saying what you've done isn't taking credit.",
+   "work": "You suit work that needs craft, detail, and planning, such as design, baking, handmade goods, editing, or accounting. Your work holds up under a close look. What to practice is trusting yourself: name your price boldly and show your work openly.",
+   "watch": "Caring too much about perfection makes you put off handing things in. Tell yourself, \"Finish first, then revise.\" Put out a first version, and feedback will help you refine it.",
+   "ask_next": "That piece you keep refining: when could you let people see it, even as it is?"
+  },
+  "庚戌": {
+   "title": "An iron blade resting beside a thick city wall",
+   "plain": "Geng Metal is a piece of iron or a weapon, and Xu is late autumn, dry, heavy earth, like a city wall or fortress. Iron beside a wall can hold its ground and is ready to set out at any time. You're strong-willed and principled, loyal to your friends, and hard to move once you've decided. Under pressure you can bear a lot, and you have a refusal-to-give-in drive. You often step forward when others hold back. Your directness makes you seem dependable, but it can also make people feel distance. Inside you care deeply; your shell is just harder. If you let people see your soft side, you'll gain many more true friends.",
+   "love": "In love you're loyal and responsible, and you follow through on what you promise. You show love in a firm way, helping with things more than saying sweet words. Once in a while, soften your tone and say a caring word, and your partner will really appreciate it.",
+   "work": "You suit work that needs boldness and follow-through, such as management, engineering, disciplined services, starting a business, or technical roles. You dare to make the call and hold your bottom line. Leaving a little more flexibility in teamwork will win more support for your decisions.",
+   "watch": "Holding too firmly to your own sense of right and wrong can lead to head-on clashes. In a dispute, first find one point you agree on, then discuss the differences, and the mood will ease a lot.",
+   "ask_next": "For the thing you've been insisting on lately, is there another way to reach the same goal?"
+  },
+  "辛亥": {
+   "title": "A gem washed in clear water",
+   "plain": "Clear water of early winter is Hai, and you are a gem washed by it, Xin Metal. A gem washed in clear water shines clean, and stands out. You're smart and quick, and you express yourself well, often saying precisely what everyone wanted to say but didn't. You value cleanness and sharpness, hold standards for beauty and quality, and have strong opinions. Your talent is easy to notice, but when your words are too polished or too fast, they may sting someone without you realizing. Your light is bright. Soften it a little and it will reach more people.",
+   "love": "In love you're romantic and picky. You like a relationship with quality and care how your partner speaks. You talk well, but you're quick-tongued in arguments. When tempers run hot, don't reply to messages yet. Talking once you're calm leaves fewer regrets.",
+   "work": "You suit work that needs eloquence, creativity, and judgment, such as writing, design, consulting, teaching, or media. Your ideas are fresh and you express them well. Take care not to stop at thinking; pick one direction and keep producing work.",
+   "watch": "Your mouth moves faster than your heart, and one joke may be remembered for a long time. Before speaking, ask yourself: will this feel okay to the other person? It's never too late to think first.",
+   "ask_next": "Is there something you've said beautifully but haven't actually done yet?"
+  },
+  "壬子": {
+   "title": "The great sea flowing deep on a winter night",
+   "plain": "Ren Water is rivers and seas, and Zi is the water of deep winter. Water upon water is like a bottomless sea on a winter night: quiet on the surface, with a strong current below. You're smart and independent-minded, think deeply and far, and often have your own take on things. You're independent, dislike being managed, and need a lot of space. You adapt well to your surroundings and even gain energy from change. But with so much water, your worries sit deep, others find you hard to read, and you may stew alone too long, making simple things seem complicated.",
+   "love": "In love you're charming and you need freedom. You have many thoughts about love but don't always say them, so your partner may feel they can't quite reach you. Sharing what's on your mind now and then will bring you closer.",
+   "work": "You suit work that needs strategy, flexibility, and quick response, such as trade, logistics, research, consulting, or freelancing. You see far and spot opportunities well. Watch out for carrying too much alone, and learn to find partners you can trust.",
+   "watch": "Thinking too much without speaking can trap you in a dead end. When something is stuck in your mind, tell someone you trust, or even just write it down.",
+   "ask_next": "The thing you keep turning over in your mind lately: who would you most like to talk to about it?"
+  },
+  "癸丑": {
+   "title": "Winter rain falling on a frosted field",
+   "plain": "For Gui Chou, picture winter rain: Gui Water is rain, and Chou is the coldest earth, damp and frozen. Winter rain on a frosted field looks bleak, yet it's quietly nourishing next spring's soil. You're calm and reserved with great endurance, and you rarely complain in hard times; you quietly get through. You think deeply, often form your own judgments, and aren't easily persuaded. Your resilience is admirable, but you tend to tuck stress inside. Outside you seem fine while inside it weighs heavily, and it needs an outlet. Find someone you feel safe talking to, and winter won't be so cold.",
+   "love": "In love you warm up slowly and take a long time to give your whole heart, but once you've decided, you stay devoted. You rarely mention hardship, so your partner may not know you need support. Try saying \"I'm a bit tired today\" to give them a chance to come closer.",
+   "work": "You suit work that needs endurance and built-up expertise, such as research, finance, technical work, records management, or long-term projects. You can bear quiet stretches and keep progress on track. Remember to schedule rest for yourself rather than always pushing through.",
+   "watch": "Tucking all your stress inside leaves body and mind tense over time. Set aside some time each day to zone out and slow your pace, so you don't have to stay tight every moment.",
+   "ask_next": "For the thing you've been quietly holding up, what kind of support do you need most right now?"
+  },
+  "壬戌": {
+   "title": "A great river held steady by its banks",
+   "plain": "Ren Water is a great river, and Xu is dry, thick Earth at the end of autumn, like an embankment. The river is held in by its banks. The water is powerful, yet there is a boundary that keeps it from running wild. You are ambitious and bold, you think far ahead, and you dare to take on big things. You look calm on the outside, but inside you carry many thoughts and a lot of pressure, and you often feel you have to shoulder something. You do well within rules and know how to perform under pressure. But when a river is held back too long, feelings get bottled up. They pile up until they burst out all at once, and even you can't hold them back.",
+   "love": "In love, you are dependable and think a lot on your partner's behalf. But you rarely talk about your own pressure, so the other person may feel you are far away. Share a little of what's weighing on you, and they will understand better how to be there for you.",
+   "work": "You suit work that needs strategy and resilience under pressure, such as management, finance-related administration, logistics, consulting, and public-sector jobs. You can actually do your best under pressure. Watch for keeping going nonstop, and give yourself a regular rhythm of rest.",
+   "watch": "Pressure held in for too long can lead to a sudden outburst or burnout. Set aside a stretch each week when you don't talk about work at all, and let the river inside you flow.",
+   "ask_next": "Has the embankment in your heart been holding back too much lately?"
+  },
+  "癸亥": {
+   "title": "Rain falling into a boundless sea",
+   "plain": "Rain is Gui Water, and Hai is the river and sea of early winter. Rain falls into the sea, water meeting water, stretching as far as you can see with no edge in sight. You have strong intuition and a rich imagination, you are sensitive, and you can pick up on feelings others leave unsaid. You are accepting and gentle, you get along with all kinds of people, and you adapt well to change. Your inner world is vast, with many thoughts and feelings flowing through it. But when there is too much water, boundaries blur. Other people's emotions flow in, you rise and fall with them, and sometimes you can't tell which feelings are your own.",
+   "love": "In love, you are gentle and accepting, and you are good at caring for your partner's feelings. You easily take their emotions as your own, and when they're unhappy, you feel low too. Practice caring for them while keeping hold of your own mood.",
+   "work": "You suit work that needs imagination and sensitivity, such as creative work, counseling, community management, design, and travel. You understand people well. Watch for having too many directions. Pick one goal so the water has somewhere to go.",
+   "watch": "You are easily carried away by other people's emotions and end up tired yourself. Leave a little time alone each day, return to your own feelings, and sort out which moods are yours.",
+   "ask_next": "The feeling you've had lately: is it yours, or someone else's?"
+  }
+ },
+ "howto": "In BaZi, strength is about how much support the Day Master (the stem of the day pillar, which is you) gets across the whole chart. The traditional support-and-restrain method usually looks at three things. First is the month branch: the branch of your birth month stands for the element in season. If it matches the Day Master or helps it, that's called in season, and this counts for the most. Second is the Earthly Branches: it looks at the stems hidden in the four branches and how many match the Day Master or generate it. That's called rooted, which is like asking whether the Day Master has roots. Third is the Heavenly Stems: it counts how many helpers such as Friend, Rob Wealth, Direct Resource and Indirect Resource appear among the other stems. That's called supported. Taken together, if more forces help you, the chart leans strong; if more drain you, it leans weak; if the two sides are about even, it is balanced. A strong chart likes to put its strength out into the world, and a weak chart likes to be fed and supported. This is the view of the support-and-restrain method. Other schools, such as seasonal adjustment and structure, may see it differently, so take this as one angle for understanding yourself.",
+ "intro": "BaZi pairs the year, month, day and hour you were born with a set of Heavenly Stem and Earthly Branch, arranged into Four Pillars, eight characters in all. Each character carries an element, and they support and restrain one another to form a chart that is yours. From it you can see the Day Master, the essence of who you are. The Ten Gods show how you relate to talent, resources, pressure and learning. The balance and strength of the five elements show what kind of rhythm tends to go more smoothly for you. The luck pillars and annual pillars show where the focus falls in each ten years and each year. Many people don't know what time they were born, and that's fine: with just the year, month and day, you can get three pillars (year, month and day). The Day Master, month branch and most of the Ten Gods can still be read, and only the hour pillar is left blank for now. BaZi doesn't hand you a verdict. It's a map to help you see yourself more clearly.",
+ "faq": [
+  {
+   "q": "What if I don't know my birth hour?",
+   "a": "That's fine. BaZi can start with three pillars: year, month and day are all there, and so are the Day Master, month branch and most of the Ten Gods. Without the hour pillar, part of the strength reading is missing, and what relates to later life and children is harder to see. Once you learn the approximate hour, just add it and redo the chart."
+  },
+  {
+   "q": "What's the difference between early Zi hour and late Zi hour?",
+   "a": "The Zi hour runs from 23:00 to 01:00. The common approach counts the next day as soon as 23:00 passes, and the day pillar changes with it. This is called changing the day at the start of Zi. The other view is that the \"late Zi hour,\" from 23:00 to midnight, doesn't change the day: the day pillar stays on the current day, and the hour pillar's stem is worked out from the next day's Zi hour. For people born in this one hour, the day pillar differs between the two methods, so you can compare both."
+  },
+  {
+   "q": "What is true solar time? Should I turn it on?",
+   "a": "Clock time is standardized by time zone, but where the sun actually is differs with your longitude. Add the changing speed of Earth's orbit through the year, and the two can differ by ten-plus minutes. True solar time is the time with that gap worked back in. The hour pillar is based on the sun's position, so we suggest leaving it on. It makes the biggest difference for people born near the edge between two hours."
+  },
+  {
+   "q": "Why do the Chinese zodiac sign and the BaZi year pillar change at Start of Spring?",
+   "a": "BaZi uses a solar-term calendar, in which the year begins at Start of Spring, not on the first day of the first Chinese lunar month. So the year pillar and the Chinese zodiac sign both change at the exact moment of Start of Spring. If you were born between late January and early February, after the Chinese lunar New Year but before Start of Spring, your year pillar and zodiac sign count as the previous year. Conversely, if Start of Spring comes before the New Year, it counts as the new year."
+  },
+  {
+   "q": "Why is my chart different from other sites?",
+   "a": "Most of the time it's a difference in method. Three are most common. Whether true solar time is used affects the hour pillar. Whether the day changes at 23:00 or the late Zi hour doesn't change it affects the day pillar. And how precisely the moment of a solar term is counted can shift the year or month pillar by one for people born around Start of Spring or the day a month changes. Set these to match and the results usually line up."
+  },
+  {
+   "q": "What if one of the five elements is missing?",
+   "a": "You don't need to make up for it. BaZi looks at overall balance, and a missing element doesn't mean you lack something. Sometimes it even makes the chart simpler. What really matters is the Day Master's strength and how well the whole chart flows. That element may also be hidden in the Earthly Branches without showing on the surface. Understanding the rhythm that suits you is more practical than rushing to add a character."
+  },
+  {
+   "q": "What is a luck pillar? At what age do they begin?",
+   "a": "A luck pillar is a ten-year stretch of life rhythm. Stems and branches are laid out forward or backward from the month pillar, showing where the focus of those ten years lies. Whether it runs forward or backward depends on the yin or yang of the year stem and on gender. The age when luck pillars begin is calculated from the number of days between your birth and the nearest solar term before or after. It differs for everyone: some begin at one or two years old, others not until eight or nine."
+  },
+  {
+   "q": "How is BaZi different from Zi Wei Dou Shu?",
+   "a": "Both use your birth time, but they look at it differently. BaZi uses the Heavenly Stems, Earthly Branches and five elements to read the Day Master's strength and the Ten Gods, and it can chart three pillars even if you don't know your birth hour. Zi Wei Dou Shu places stars into twelve palaces and reads separate areas through the Life Palace, spouse palace, career palace and so on, and it needs your birth hour. You can think of BaZi as a map of the overall structure and Zi Wei as a map of each area of life."
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "glossary": {
+  "title": "六爻-Fachbegriffe im Überblick",
+  "lead": "Begriffe, die im Liu-Yao-Hexagramm vorkommen, auf einer Seite erklärt: was jeder Begriff bedeutet und wie man ihn im Diagramm liest. Die chinesischen Originalbegriffe sind zum Vergleich mit alten Büchern und verschiedenen Schulen aufgeführt.",
+  "groups": [
+   {
+    "name": "Hexagramm-Erstellung und Diagramm",
+    "terms": [
+     {
+      "zh": "六爻",
+      "def": "Eine Divinationsmethode, bei der man mit drei Kupfermünzen sechsmal wirft, um sechs Linien zu erhalten und ein Hexagramm zu bilden, um Dinge zu beurteilen. Auch „Naja-Zhanfa“ (纳甲筮法) oder „Wenwang-Gua“ (文王卦) genannt. Anders als Methoden, die nur den Hexagrammtext lesen, ordnet Liu Yao jedem Strich Himmelsstämme, Erdzweige, die fünf Elemente und die sechs Verwandtschaften zu, sodass konkrete Tage abgeleitet werden können."
+     },
+     {
+      "zh": "本卦 / 之卦",
+      "def": "Das geworfene Hexagramm ist das Ben-Gua (本卦), das Hexagramm nach der Veränderung der bewegten Linien ist das Zhi-Gua (之卦, auch Bian-Gua). Das Ben-Gua beschreibt die Gegenwart, das Zhi-Gua die Richtung."
+     },
+     {
+      "zh": "動爻",
+      "def": "Die Linie, die als altes Yang (drei Vorderseiten) oder altes Yin (drei Rückseiten) geworfen wurde und sich von Yang zu Yin oder Yin zu Yang wandelt. Bewegte Linien sind das, „was gerade geschieht“ im Hexagramm. Ein Hexagramm ohne bewegte Linien heißt stilles Hexagramm (Jing-Gua)."
+     },
+     {
+      "zh": "納甲",
+      "def": "Die Regel, mit der Himmelsstämme und Erdzweige den sechs Linien zugeordnet werden, wodurch jede Linie ihr eigenes Fünf-Elemente-Wesen erhält. Dass der Eintrittszeitpunkt auf einen bestimmten Tag fallen kann, liegt daran, dass jede Linie einem Kalendertag entspricht."
+     },
+     {
+      "zh": "六親",
+      "def": "Eltern, Geschwister, Kinder, Ehefrau/Reichtum, Beamter/Geist. Sie werden aus der Beziehung zwischen dem Fünf-Elemente-Wesen der Linie und dem Palast des Hexagramms bestimmt. Jede repräsentiert eine Art von menschlichen Angelegenheiten: Eltern stehen für Dokumente und Ältere, Beamter/Geist für Arbeit und den männlichen Partner, Ehefrau/Reichtum für Geld und die weibliche Partnerin, Kinder für Nachkommen und Auflösung, Geschwister für Gleichgestellte und Konkurrenz."
+     },
+     {
+      "zh": "世爻 / 應爻",
+      "def": "Die Welt-Linie (Shi) repräsentiert den Fragenden selbst, die Antwort-Linie (Ying) repräsentiert die Gegenseite oder das andere Ende der Angelegenheit. Bei Fragen zu Beziehungen oder Zusammenarbeit, bei denen es um zwei Personen geht, ist die Antwort-Linie oft der Schwerpunkt."
+     },
+     {
+      "zh": "六神",
+      "def": "Azurblauer Drache, Roter Vogel, Hakenkralle, Schlangenwurm, Weißer Tiger, Schwarze Schildkröte. Sie werden entsprechend dem Himmelsstamm des Wahltags neben die sechs Linien gesetzt und verleihen jeder Linie eine zusätzliche Eigenschaft: Azurblauer Drache steht für Freude, Roter Vogel für Wortwechsel und Dokumente, Weißer Tiger für Verletzung, Krankheit und Konflikt."
+     }
+    ]
+   },
+   {
+    "name": "Verwendungszweck und Stärke",
+    "terms": [
+     {
+      "zh": "用神",
+      "def": "Die Linie im Hexagramm, die die erfragte Angelegenheit repräsentiert. Fragt man nach der Gegenseite, nimmt man die Antwort-Linie oder Beamter/Geist bzw. Ehefrau/Reichtum; fragt man nach Geld, nimmt man Ehefrau/Reichtum; fragt man nach Arbeit, nimmt man Beamter/Geist; fragt man nach Kindern, nimmt man Kinder. Bei der Deutung muss zuerst das richtige Nutz-Shen (用神) bestimmt werden; auch der Eintrittszeitpunkt wird daraus abgeleitet."
+     },
+     {
+      "zh": "原神 / 忌神",
+      "def": "Eine Linie, die das Nutz-Shen erzeugt, heißt Ursprungs-Shen (原神); eine Linie, die es kontrolliert, heißt Tabu-Shen (忌神). Ist das Ursprungs-Shen stark und bewegt sich, hat die Sache Helfer; bewegt sich das Tabu-Shen und kontrolliert das Nutz-Shen, gibt es Widerstand."
+     },
+     {
+      "zh": "旺衰",
+      "def": "Die Stärke oder Schwäche einer Linie. Hauptsächlich betrachtet man Monatsbefehl und Tageszweig: Erhält sie Unterstützung vom Monatsbefehl, ist sie stark; wird sie vom Monat kontrolliert oder vom Tag gestoßen, ist sie schwach. Eine starke Linie hat Gewicht, eine schwache Linie hat den Willen, aber nicht die Kraft."
+     },
+     {
+      "zh": "月令 / 日辰",
+      "def": "Der Monatszweig und der Tageszweig des Wahltags sind das „Wetter“ des gesamten Diagramms. Der Monatsbefehl bestimmt die Großwetterlage des Monats, der Tageszweig die Auslösung des Tages; beide zusammen bestimmen die Stärke jeder Linie."
+     },
+     {
+      "zh": "旬空",
+      "def": "Die beiden Erdzweige, die in der Zehn-Tage-Periode (Xun) des Wahltags nicht vorkommen. Linien, die auf diese beiden Erdzweige fallen, heißen Xun-Kong (旬空), was bedeutet „vorübergehend abwesend, vorübergehend nicht zählend“. Sie kehren erst zurück, wenn diese Xun vorbei ist oder sie gestoßen werden."
+     },
+     {
+      "zh": "月破",
+      "def": "Eine Linie, die vom Monatszweig direkt gestoßen wird. Als ob die Großwetterlage des Monats frontal auf sie trifft; ihre Kraft ist nahezu null. Meist gibt es erst eine Wende, wenn dieser Monat vorbei ist oder ein Tag kommt, der sie auffüllt."
+     },
+     {
+      "zh": "入墓",
+      "def": "Wenn das Fünf-Elemente-Wesen einer Linie auf den Grab-Erdzweig fällt (Holz grab in Wei, Feuer grab in Xu, Metall grab in Chou, Wasser/Erde grab in Chen), ist sie wie in einem Lager eingeschlossen und kann sich vorübergehend nicht bewegen. Man wartet auf den Tag, an dem das Grab geöffnet wird."
+     }
+    ]
+   },
+   {
+    "name": "Bewegungs- und Wandlungsbeziehungen",
+    "terms": [
+     {
+      "zh": "化生 / 化剋",
+      "def": "Wenn die aus einer bewegten Linie entstandene Linie diese selbst erzeugt, heißt das Hua-Sheng (化生, Rückkehr erzeugt); wenn sie diese kontrolliert, heißt das Hua-Ke (化剋, Rückkehr kontrolliert). Rückkehr-Kontrolle ist eine häufige schlechte Nachricht: Kaum bewegt, wird sie von dem, was sie selbst hervorbringt, zurückgedrängt."
+     },
+     {
+      "zh": "化進 / 化退",
+      "def": "Wenn eine bewegte Linie eine Linie desselben Fünf-Elemente-Wesens hervorbringt, deren Erdzweig voranschreitet, heißt das Hua-Jin (化進, Voranschreiten); schreitet er zurück, heißt es Hua-Tui (化退, Rückzug). Voranschreiten bedeutet zunehmende Kraft, Rückzug bedeutet nachlassende Kraft."
+     },
+     {
+      "zh": "伏吟 / 反吟",
+      "def": "Wenn das verwandelte Hexagramm oder die Linie mit dem Original identisch ist, heißt das Fu-Yin (伏吟), was bedeutet, sich im Kreis zu drehen und weder vor noch zurück zu kommen; wenn es zu einem direkten Stoß wird, heißt das Fan-Yin (反吟), was Wiederholung und Hin und Her bedeutet."
+     },
+     {
+      "zh": "六沖 / 六合",
+      "def": "Erdzweige stoßen paarweise (Zi-Wu, Chou-Wei, Yin-Shen, Mao-You, Chen-Xu, Si-Hai) und verbinden sich paarweise (Zi-Chou, Yin-Hai, Mao-Xu, Chen-You, Si-Shen, Wu-Wei). Stoß bedeutet Zerstreuung, Bewegung, Schnelligkeit; Verbindung bedeutet Zusammenkunft, Fesselung, Langsamkeit. Der Eintrittszeitpunkt fällt oft auf den Tag, an dem das Nutz-Shen gestoßen oder verbunden wird."
+     },
+     {
+      "zh": "暗動",
+      "def": "Eine stille Linie, die vom Tageszweig gestoßen wird, wird zwar nicht als bewegte Linie geworfen, erwacht aber wie gerufen und hat eine Wirkung. Bei der Deutung darf man nicht nur die geworfenen bewegten Linien betrachten."
+     }
+    ]
+   },
+   {
+    "name": "Deutung und Eintrittszeitpunkt",
+    "terms": [
+     {
+      "zh": "斷語",
+      "def": "Das Fazit zur erfragten Angelegenheit: ob es gelingt, ob jemand kommt, ob man es tun sollte. Das Fazit von Liu Yao sollte so konkret sein, dass es überprüfbar ist, und nicht eine Aussage, die immer richtig ist."
+     },
+     {
+      "zh": "應期",
+      "def": "Der Tag, an dem sich bei der Sache etwas regt. Er wird aus dem Zustand des Nutz-Shen abgeleitet: Bei bewegten Linien schaut man auf Verbindung oder Wert-Tag, bei stillen auf Stoß oder Wert-Tag, bei Xun-Kong auf das Ende der Xun, bei Monats-Stoß auf das Ende des Monats, bei Grab auf die Öffnung des Grabes. Dasselbe Hexagramm führt bei jedem Deuter zum selben Tag."
+     },
+     {
+      "zh": "逢值 / 逢沖 / 逢合",
+      "def": "„Wert“ bedeutet, dass dieser Erdzweig an diesem Tag an der Reihe ist; „Stoß“ bedeutet, auf einen Erdzweig zu treffen, der mit ihm stößt; „Verbindung“ bedeutet, auf einen Erdzweig zu treffen, der sich mit ihm verbindet. Diese drei Arten von Tagen sind die häufigsten Punkte für den Eintrittszeitpunkt."
+     },
+     {
+      "zh": "一事一占",
+      "def": "Für eine Angelegenheit wirft man nur ein Hexagramm. Wirft man dieselbe Sache wiederholt, gibt das Hexagramm keine zweite Antwort, sondern verwirrt nur. Will man erneut fragen, wartet man, bis der Eintrittszeitpunkt vorbei ist und sich die Lage wirklich geändert hat."
+     }
+    ]
+   }
+  ]
+ },
+ "timing": {
+  "title": "Wie man den Eintrittszeitpunkt ableitet: Woher der „Tag“ im Liu-Yao-Hexagramm kommt",
+  "lead": "Das Hexagramm sagt „um den 29. September herum wird sich etwas regen“ – dieses Datum ist nicht aus dem Gefühl heraus genannt. An einem tatsächlich aufgestellten Hexagramm wird der Eintrittszeitpunkt Schritt für Schritt berechnet.",
+  "sections": [
+   {
+    "h": "Zuerst das Ergebnis",
+    "p": [
+     "Wer fragt, will meist nicht nur wissen „ob“, sondern „wann“. Kommt er zurück zu mir? Wann? Wird diese Arbeit zustande kommen? Bis wann muss ich warten?",
+     "Liu Yao unterscheidet sich von vielen Divinationsmethoden genau darin: Es gibt nicht nur eine Richtung, sondern auch einen konkreten Tag, den die alten Bücher „Yingqi“ (應期, Eintrittszeitpunkt) nennen. Dieser Tag ist nicht vom Wahrsager frei erfunden, sondern wird nach Regeln aus dem Diagramm abgeleitet – dasselbe Hexagramm und derselbe Zeitpunkt des Wurfs ergeben bei jedem denselben Tag."
+    ]
+   },
+   {
+    "h": "Zuerst das Hexagramm",
+    "p": [
+     "Ich habe eine sehr häufige Beziehungsfrage tatsächlich geworfen: „Ich habe seit fast zwei Monaten keinen Kontakt mehr zu meinem Ex. Wird er sich vor Jahresende bei mir melden?“ Zuerst klarstellen: Dies ist eine Beispielfrage, es gibt keine reale Person dahinter, daher endet dieser Artikel nicht mit „und tatsächlich traf es ein“, sondern erklärt nur, wie der Tag berechnet wird.",
+     "Geworfen wurde am 20. September 2026, einem Ding-You-Tag im You-Monat. Es fiel Ze Lei Sui (澤雷隨); die dritte, vierte und oberste Linie bewegten sich, und es wandelte sich zu Feng Huo Jia Ren (風火家人)."
+    ],
+    "list": [
+     "Für die Gegenseite nimmt man die Antwort-Linie als Nutz-Shen. Die Antwort liegt in der obersten Linie: Ehefrau/Reichtum Wei-Erde (未土).",
+     "Wei-Erde ist im You-Monat „ruhend“ und erhält keine Kraft vom Monatsbefehl.",
+     "Die oberste Linie bewegt sich und erzeugt Mao-Holz (卯木); Holz kontrolliert Erde, das heißt „Rückkehr-Kontrolle“ – kaum bewegt, wird sie von dem, was sie hervorbringt, zurückgedrängt. Das erzeugte Mao-Holz wird zudem vom You-Monat gestoßen, ist also „Monats-Stoß“.",
+     "Die Welt-Linie (der Fragende selbst) liegt in der dritten Linie: Ehefrau/Reichtum Chen-Erde (辰土). Chen und Si sind genau die Leerstellen dieser Xun, die Welt-Linie ist Xun-Kong.",
+     "Die vierte Linie, Eltern Hai-Wasser (亥水), bewegt sich und erzeugt Wei-Erde mit Rückkehr-Kontrolle – der Kanal für Weitergabe und Kontakt ist nicht günstig."
+    ],
+    "after": [
+     "Demnach lautet das Fazit: Er wird sich vor Jahresende nicht von selbst bei dir melden. Sein Wille ist schwach, kaum regt er sich, wird er von seinen eigenen Bedenken zurückgedrängt. Wie kommt dann der „29. September“ zustande?"
+    ]
+   },
+   {
+    "h": "Die alten Regeln für den Eintrittszeitpunkt",
+    "p": [
+     "Der Eintrittszeitpunkt betrachtet, an welchem Tag das Nutz-Shen „ausgelöst“ wird. Die alten Bücher haben wenige Regeln, die gebräuchlichen sind:"
+    ],
+    "list": [
+     "Bewegt sich das Nutz-Shen, schaut man auf Tage der Verbindung oder des Wertes. Eine bewegte Linie ist wie jemand, der schon aufgestanden ist und gehen will; sie landet erst an dem Tag, an dem sie „verbunden“ wird oder selbst „an der Reihe“ ist.",
+     "Ist das Nutz-Shen still, schaut man auf Tage des Stoßes oder des Wertes. Eine stille Linie ist wie ein Schlafender; sie wird erst durch einen Stoß geweckt oder wenn sie an der Reihe ist.",
+     "Ist das Nutz-Shen Xun-Kong, schaut man auf das Ende der Xun oder auf einen Tag des Stoßes. Leere bedeutet „vorübergehend abwesend“; erst wenn diese Xun vorbei ist oder ein Stoß erfolgt, ist sie zurück.",
+     "Ist das Nutz-Shen Monats-Stoß, schaut man auf das Ende des Monats oder einen Tag der Auffüllung.",
+     "Ist das Nutz-Shen im Grab, schaut man auf den Tag, an dem das Grab geöffnet wird."
+    ],
+    "after": [
+     "Jede Regel lässt sich einem bestimmten Tag im Kalender zuordnen, daher kann der Eintrittszeitpunkt „nachgeschlagen“ und nicht „geraten“ werden."
+    ]
+   },
+   {
+    "h": "Zurück zu diesem Hexagramm",
+    "p": [
+     "Das Nutz-Shen ist die oberste Linie Wei-Erde, und sie ist bewegt, also wendet man Regel 1 an: Suche Tage, an denen „Wei verbunden“ und „Wei an der Reihe“ ist."
+    ],
+    "list": [
+     "In den sechs Verbindungen der Erdzweige verbindet sich Wu (午) mit Wei (未).",
+     "Der erste Wu-Tag nach dem Werfen ist der 29. September (Bing-Wu), direkt danach der 30. September (Ding-Wei), an dem Wei-Erde selbst an der Reihe ist."
+    ],
+    "after": [
+     "Das erste Fenster ist also der 29. bis 30. September – das Hexagramm sagt: „Er könnte eine kleine Bewegung machen, eine Nachricht, ein Lebenszeichen oder über gemeinsame Freunde.“",
+     "Die zwölf Erdzweige laufen einmal durch; die nächsten Wu- und Wei-Tage sind der 11. Oktober (Wu-Wu) und der 12. Oktober (Ji-Wei), das ist die zweite Runde. Das Hexagramm sagt: Ob es wirklich zustande kommt, entscheidet sich in dieser Runde; sind beide Runden vorbei und nichts regt sich, dann warte nicht mehr bis Jahresende.",
+     "Man erkennt: Das „warte nicht mehr“ im Fazit ist ebenfalls aus dem Eintrittszeitpunkt abgeleitet – das Nutz-Shen wird rückkehr-kontrolliert, die erzeugte Linie ist zudem Monats-Stoß; sind beide Auslösetage vorbei und nichts bewegt sich, kann sich diese Lage vor Jahresende kaum wenden."
+    ]
+   },
+   {
+    "h": "Warum man den Tag so festlegt",
+    "p": [
+     "Einen konkreten Tag zu nennen, kann leicht als „unzutreffend“ abgetan werden. Warum nennt man ihn trotzdem?",
+     "Weil ohne Tag keine Überprüfung möglich ist. Aussagen wie „Er hat noch Gefühle für dich“ oder „Die Bestimmung ist noch nicht da“ sind immer richtig und helfen nie bei einer Entscheidung. Dagegen: „Am 29. und 30. September schau, ob sich etwas regt“ – an diesen Tagen weißt du es selbst, ohne dass es dir jemand erklären muss.",
+     "Du wirfst und bekommst einen bestimmten Tag; an diesem Tag schicken wir dir eine Nachricht mit der Frage: „Hat es sich bewahrheitet?“"
+    ]
+   },
+   {
+    "h": "Zum Schluss ein kleiner Rat",
+    "p": [
+     "Wenn du selbst werfen willst, formuliere die Frage möglichst eng und mit einem überprüfbaren Bereich: Frage nicht „Liebt er mich noch?“, sondern „Wird er sich bis Ende dieses Monats von selbst bei mir melden?“ Je enger die Frage, desto leichter ist das Nutz-Shen zu bestimmen, und der Eintrittszeitpunkt fällt auf Tage, die du wirklich erleben kannst."
+    ]
+   }
+  ],
+  "note": "Das Hexagrammbeispiel im Text ist ein tatsächlich aufgestelltes Diagramm mit Fazit; Hexagrammnamen, Daten und Fazit wurden nicht verändert. Die Frage dient als Beispiel, es gibt keine reale Person.",
+  "example": {
+   "code": "786976",
+   "primary": 17,
+   "changed": 37
+  }
+ },
+ "table": {
+  "title": "Schnellnachschlagetabelle der 64 Hexagramme",
+  "lead": "Alle 64 Hexagramme auf einer Seite: Nummer, Hexagrammbild, obere/untere Trigramme, Name und eine kurze Bedeutung. Klicke auf den Namen, um die vollständige Seite mit Hexagrammtext, Linientexten und echten Beispielen zu sehen.",
+  "colNo": "Nr.",
+  "colFigure": "Hexagrammbild",
+  "colName": "Hexagrammname",
+  "colTrigrams": "Oberes / unteres Trigramm",
+  "colMeaning": "Kurze Bedeutung"
+ }
+}

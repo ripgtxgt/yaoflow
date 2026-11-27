@@ -1,0 +1,729 @@
+{
+ "stems": {
+  "甲": {
+   "plain": "Se o seu Mestre do Dia é Jia (Madeira), você é como uma árvore grande que cresce para cima: gosta de ter direção e estrutura no que faz e segue até o fim com o que decidiu. Você valoriza princípios e protege quem está por perto, por isso costuma ser visto como a pessoa confiável. O ponto em que pode travar é a dificuldade de fazer curvas: o que acha certo, você empurra, e quando os outros não acompanham, você guarda o incômodo. Experimente perguntar primeiro \"o que você acha?\" e só então decidir se vai insistir. Quanto mais alta a árvore, mais espaço ela precisa deixar para os galhos ao lado."
+  },
+  "乙": {
+   "plain": "Se o seu Mestre do Dia é Yi (Madeira), você é como uma trepadeira ou uma flor: macio, resistente e hábil em achar caminho conforme o ambiente. Você observa os detalhes, percebe o clima no rosto das pessoas e sabe ligar gente e assuntos; muita coisa se resolve em suas mãos sem ninguém notar. Essa flexibilidade às vezes faz você se sacrificar, dizendo sim quando não queria. Deixe claro para si mesmo, antes, qual é o seu limite, e só então se ajuste aos outros. Ser macio não é não ter posição: quando você sabe onde quer chegar, até o desvio é firme."
+  },
+  "丙": {
+   "plain": "Se o seu Mestre do Dia é Bing (Fogo), você é como o sol do meio-dia: caloroso, direto, e o ambiente se ilumina quando você entra. Você gosta de compartilhar, é generoso e tem dificuldade em ficar calado diante de uma injustiça. Quando a luz é forte demais, quem está perto pode ficar ofuscado, ou você corre tanto que ninguém cuida dos detalhes que ficaram para trás. Antes de falar, pare por três segundos e pergunte se a outra pessoa precisa de companhia ou de conselho. Reserve um pouco desse calor para a paciência, e sua influência vai mais longe."
+  },
+  "丁": {
+   "plain": "Se o seu Mestre do Dia é Ding (Fogo), você é como a luz de uma vela ou o fogo de um fogão à noite: o calor não chama atenção, mas aquece tudo ao redor. Você é sensível, percebe as emoções dos outros e muitas vezes nota que algo está errado antes de quem está envolvido; quando entende um assunto, vai fundo nele. O ponto em que pode travar é pensar demais, deixar as preocupações queimando por dentro e não dizer que está cansado. Reserve um tempo fixo para desligar, escreva o que o preocupa ou converse com alguém de confiança. O fogo precisa de ar para durar, e você também precisa respirar."
+  },
+  "戊": {
+   "plain": "Se o seu Mestre do Dia é Wu (Terra), você é como uma montanha ou uma terra espessa: firme, de palavra, e leva a sério o que promete. Você não tem pressa em se posicionar e prefere entender bem a situação antes de agir, por isso as pessoas costumam procurar você para pedir conselho. O outro lado dessa firmeza é esquentar devagar e não gostar de mudanças; diante de uma oportunidade nova, pensa primeiro nos riscos. Crie para si um pequeno espaço de \"vou experimentar\": dê um passo curto e depois avalie. A montanha não precisa se mover, mas pode abrir mais caminhos para que cheguem até ela."
+  },
+  "己": {
+   "plain": "Se o seu Mestre do Dia é Ji (Terra), você é como a terra úmida de uma horta: acolhedor, atento, bom em receber as ideias dos outros e cultivar resultados aos poucos. Você é prático, cuida dos detalhes e se importa com o bem-estar de quem está perto. O ponto em que pode travar é assumir tudo para si, pensar muito e falar pouco, até sentir que ninguém o vê. Pratique dizer com clareza o que precisa, por exemplo: \"Preciso da sua ajuda com isto\". A terra nutre todas as coisas, mas lembre-se de guardar um pedaço para você."
+  },
+  "庚": {
+   "plain": "Se o seu Mestre do Dia é Geng (Metal), você é como um aço ainda não polido: decidido, leal, costuma resolver as coisas direto e não gosta de enrolação. Você tem iniciativa, aguenta firme em momentos de aperto e se apresenta quando um amigo está em dificuldade. O ponto em que pode travar é falar de modo duro demais: a outra pessoa ainda não decidiu e já está sendo levada por você, e o atrito na relação é inevitável. Troque o \"é para o seu bem\" por \"quero ouvir o que você pensa em fazer\". O aço só ganha bom fio depois de forjado, e a paciência é o seu fogo."
+  },
+  "辛": {
+   "plain": "Se o seu Mestre do Dia é Xin (Metal), você é como uma joia lapidada: refinado, de bom gosto, com seus próprios critérios para si e para as coisas. Você tem noção de medida, cuida da qualidade no que faz e não gosta de arranjos grosseiros. Esse capricho gera resultados excelentes, mas também faz você se prender a pequenos defeitos, e uma frase sem querer de alguém pode ficar rodando na sua cabeça. Distinga o que vale ser exigente e o que pode ser deixado para lá. O brilho da joia vem da lapidação e também de ser bem guardada; não fique o tempo todo na bancada de inspeção."
+  },
+  "壬": {
+   "plain": "Se o seu Mestre do Dia é Ren (Água), você é como um rio ou o mar: visão ampla, reação rápida, e a cabeça muitas vezes gira com várias ideias ao mesmo tempo. Você gosta de liberdade, não suporta ser encaixotado e se adapta a ambientes novos mais rápido que a maioria. Quando a água corre depressa, você pode largar uma tarefa pela metade para ir à próxima, ou aceitar demais e não dar conta. Escolha um ou dois leitos principais e deixe a água correr por eles até o fim. A amplitude é o seu capital, e é a água com direção que consegue levar um barco."
+  },
+  "癸": {
+   "plain": "Se o seu Mestre do Dia é Gui (Água), você é como orvalho ou uma nascente fina na montanha: quieto, de forte intuição, e muitas vezes sente o que os outros não disseram. Você tem imaginação rica, encontra inspiração nos detalhes e é muito compreensivo. O ponto em que pode travar é a emoção chegar como neblina, deixando difícil saber o que você quer, e o humor ser facilmente puxado pelo ambiente. Reserve mais tempo a sós, deixe a mente assentar e só então decida. A água fina não precisa virar rio com pressa: infiltrando devagar, ela também nutre uma grande extensão de terra."
+  }
+ },
+ "gods": {
+  "比肩": {
+   "plain": "O Amigo é a força que tem o mesmo elemento e o mesmo yin-yang do Mestre do Dia, como um companheiro muito parecido com você. Traz autoconfiança, opinião própria e independência, e faz você querer carregar as coisas sozinho e concluí-las do seu jeito. Quem tem muito Amigo costuma não gostar de ser mandado, valoriza a justiça e cultiva laços como de irmãos. O ponto em que pode travar é cada um manter a sua posição: na parceria, ninguém cede, e os recursos vão sendo divididos sem que se perceba. Troque o \"eu faço sozinho\" por \"vamos dividir as tarefas\" e use sua opinião própria para liderar.",
+   "in_month": "Com o Amigo no pilar do mês, no trabalho e na vida social você costuma contar consigo mesmo, caminha lado a lado com colegas e também disputa com eles em silêncio. Na colaboração, combinar bem a divisão de tarefas deixa tudo mais fluido.",
+   "in_hour": "Com o Amigo no pilar da hora, quanto mais o tempo avança, mais você valoriza a autonomia e gosta de decidir sozinho a parte final dos planos. Ao lidar com os mais novos e com a equipe, lembre-se de ouvir também as ideias deles."
+  },
+  "劫財": {
+   "plain": "O Roubo de Riqueza tem o mesmo elemento do Mestre do Dia, mas yin-yang diferente, como um amigo caloroso e competitivo. Faz você agir rápido, ousar, ter um círculo social amplo e render mais diante da competição. Quem tem Roubo de Riqueza evidente costuma ser leal e disposto a ajudar os amigos, e também pode, num impulso, emprestar dinheiro ou tempo. O ponto em que pode travar é decidir quando a emoção sobe e só depois perceber que saiu perdendo. Crie uma pausa para si, como responder compromissos importantes só no dia seguinte, para que esse impulso seja usado no lugar certo.",
+   "in_month": "Com o Roubo de Riqueza no pilar do mês, o ambiente de trabalho é bem competitivo e você costuma ser empurrado para a posição de disputar destaque. Pense um passo a mais antes de gastar ou emprestar dinheiro, e mantenha favores e contas separados.",
+   "in_hour": "Com o Roubo de Riqueza no pilar da hora, os planos da segunda metade tendem a envolver sociedade ou recursos compartilhados. Escreva as regras antes e deixe tudo claro, e a relação durará mais."
+  },
+  "食神": {
+   "plain": "O Deus da Comida é o elemento gerado pelo Mestre do Dia, com o mesmo yin-yang, e representa o talento que flui naturalmente e a capacidade de aproveitar a vida. Deixa a pessoa gentil, de bom apetite, que sabe tornar os dias confortáveis e alegra os outros com trabalhos, habilidade manual ou expressão. Quem tem um Deus da Comida forte costuma não gostar de disputa e prefere fazer bem e com sabor. O ponto em que pode travar é a acomodação: confortável, não quer avançar. Defina uma pequena meta para o que você gosta, para que o interesse vá crescendo até virar algo que possa ser visto.",
+   "in_month": "Com o Deus da Comida no pilar do mês, no trabalho você se dá bem com habilidade manual, conteúdo ou expressão, e rende mais fazendo o que gosta. Lembre-se de definir um ritmo para si, em vez de ficar só no pensamento.",
+   "in_hour": "Com o Deus da Comida no pilar da hora, quanto mais o tempo avança, mais você sabe aproveitar e compartilhar. Os planos da fase final costumam ter a ver com criação, ensino ou cuidar de pessoas, e os dias passam com tranquilidade."
+  },
+  "傷官": {
+   "plain": "O Oficial Ferinte é o elemento gerado pelo Mestre do Dia, com yin-yang diferente, e representa talento afiado, reação rápida e vontade de se expressar. Deixa você ágil de cabeça, cheio de ideias, avesso a seguir o roteiro e com opinião própria sobre as regras. Quem tem Oficial Ferinte evidente tem charme, fala direto ao ponto e costuma brilhar em posições de inovação. O ponto em que pode travar é falar rápido demais e deixar chefes ou mais velhos sem saída. Troque a crítica por proposta: diga primeiro \"tenho um jeito de fazer\" e só depois aponte o problema, e seu talento vira uma força que os outros aceitam.",
+   "in_month": "Com o Oficial Ferinte no pilar do mês, no trabalho você tem muitas ideias, não gosta de ser mandado e combina com posições que pedem criatividade ou julgamento profissional. Ao falar com chefes, deixe um pouco mais de margem.",
+   "in_hour": "Com o Oficial Ferinte no pilar da hora, na segunda metade você quer cada vez mais seguir o seu próprio caminho, os planos finais têm um toque de fugir do convencional, e você se atreve mais a se expressar."
+  },
+  "偏財": {
+   "plain": "A Riqueza Indireta é o elemento que o Mestre do Dia controla, com o mesmo yin-yang, e representa recursos em circulação, oportunidades e contatos. Deixa você generoso e flexível, com bom faro para caminhos de renda e mudanças de mercado, além de hábil em fazer amigos. Quem tem Riqueza Indireta evidente costuma receber oportunidades inesperadas e gasta com mais desprendimento. O ponto em que pode travar é espalhar demais dinheiro e energia, querendo pegar um pouco de tudo. Divida as oportunidades em duas colunas, \"fazer agora\" e \"anotar por enquanto\", e concentre os recursos em uma ou duas coisas; assim a riqueza que circula consegue ficar.",
+   "in_month": "Quando a Riqueza Indireta aparece no pilar do mês, no trabalho combinam com você funções como vendas, trabalhos autônomos ou papéis que dependem de contatos. As oportunidades costumam vir de amigos. Lembre-se de organizar suas contas com regularidade.",
+   "in_hour": "Quando a Riqueza Indireta aparece no pilar da hora, os projetos da fase final tendem a trazer ideias de uma atividade paralela ou de uma renda extra. Teste em pequena escala e só amplie aos poucos, quando tiver certeza de que funciona."
+  },
+  "正財": {
+   "plain": "A Riqueza Direta é o elemento que o Mestre do Dia controla, com polaridade yin-yang diferente da dele. Representa renda estável, senso de responsabilidade e domínio sobre a vida. Ela deixa você prático, respeitador das regras, valorizando acumular passo a passo e evitando riscos. Quem tem a Riqueza Direta forte costuma administrar bem o dia a dia e cumpre o que promete, sendo o administrador confiável da família ou da equipe. O ponto em que pode travar é a cautela excessiva: quando surge uma oportunidade, você pensa primeiro nos riscos, e a vida pode ficar só com o que precisa ser feito. Você pode reservar todo mês um pouco de folga para si, para que haja também algum prazer nessa solidez.",
+   "in_month": "Quando a Riqueza Direta aparece no pilar do mês, no trabalho você valoriza estabilidade e fazer tudo passo a passo, e combina com funções que pedem cuidado e credibilidade. Não deixe que a busca por segurança o impeça de se manifestar e pedir o que quer.",
+   "in_hour": "Quando a Riqueza Direta aparece no pilar da hora, quanto mais o tempo avança, mais você valoriza a tranquilidade. Os projetos da fase final tendem a proteger bem o que foi acumulado, e você dedica mais atenção ao cuidado com a família."
+  },
+  "七殺": {
+   "plain": "Os Sete Assassinos são o elemento que controla o Mestre do Dia, com a mesma polaridade yin-yang; também são chamados de Oficial Indireto. Representam pressão, desafios e a força que faz o potencial aparecer. Eles dão a você ousadia e disposição para assumir responsabilidades; em crises, você até fica calmo e costuma ser empurrado para o lugar de quem decide. Quem tem os Sete Assassinos marcantes age com decisão e cobra muito de si. O ponto em que pode travar é carregar pressão demais: depois de muito tempo tenso, o temperamento fica mais impaciente. Você pode dividir os grandes objetivos em passos pequenos e reservar momentos de descanso de verdade, para que a pressão vire ação, e não algo que fica apenas acumulado.",
+   "in_month": "Quando os Sete Assassinos aparecem no pilar do mês, o ambiente de trabalho costuma trazer desafios, e é fácil você receber problemas difíceis ou liderar equipes. Aprenda a delegar e não carregue tudo sozinho.",
+   "in_hour": "Quando os Sete Assassinos aparecem no pilar da hora, você mantém garra na segunda metade da vida, e os projetos da fase final muitas vezes buscam novos desafios. Lembre-se de reservar tempo para descansar; diminuir um pouco o ritmo não tem problema."
+  },
+  "正官": {
+   "plain": "O Oficial Direto é o elemento que controla o Mestre do Dia, com polaridade yin-yang diferente da dele. Representa normas, reputação e autodisciplina. Ele deixa você comedido, responsável, atento à opinião dos outros e organizado no que faz. Quem tem o Oficial Direto forte costuma ganhar a confiança das organizações e combina com caminhos de regras claras e promoção gradual. O ponto em que pode travar é a preocupação demais com certo e errado e com a imagem: por medo de errar, você não ousa tentar, e carrega no peito muitos \"deveres\". Você pode se perguntar de vez em quando \"o que eu quero?\" e achar seu ritmo dentro das regras, para que a responsabilidade não vire um peso.",
+   "in_month": "Quando o Oficial Direto aparece no pilar do mês, no trabalho você dá valor a regras e reputação, combina com ambientes de normas claras, e os chefes tendem a notar você. Não deixe que a avaliação dos outros decida todo o seu ritmo.",
+   "in_hour": "Quando o Oficial Direto aparece no pilar da hora, os projetos da fase final valorizam reputação e legado: você quer deixar resultados em que as pessoas confiem e também se preocupa com o caminho dos mais jovens."
+  },
+  "偏印": {
+   "plain": "O Recurso Indireto é o elemento que gera o Mestre do Dia, com a mesma polaridade yin-yang; também é chamado de Deus Coruja. Representa intuição peculiar, saberes pouco comuns e capacidade de ficar sozinho. Ele dá a você ideias originais e gosto por estudar áreas que os outros não notam; você costuma aprender por conta própria, tateando. Quem tem o Recurso Indireto marcante carrega um certo ar de mistério. O ponto em que pode travar é pensar muito e fazer pouco, ou oscilar entre entusiasmo e desinteresse por coisas novas. Você pode dar à curiosidade uma saída que se sustente, como anotações regulares ou pequenos trabalhos, para que as ideias singulares ganhem forma.",
+   "in_month": "Quando o Recurso Indireto aparece no pilar do mês, no trabalho combinam com você pesquisa, técnica ou funções que exigem pensar de forma independente. Alinhe o andamento com os colegas e não trabalhe fechado em si mesmo.",
+   "in_hour": "Quando o Recurso Indireto aparece no pilar da hora, quanto mais o tempo passa, mais você gosta de estudar em silêncio. Os projetos da fase final costumam envolver aprendizado, cultivo interior ou um ofício especializado."
+  },
+  "正印": {
+   "plain": "O Recurso Direto é o elemento que gera o Mestre do Dia, com polaridade yin-yang diferente da dele. Representa cuidado, aprendizado e a força de ser apoiado. Ele deixa você acolhedor e paciente, com gosto por ler e absorver conhecimento, e é fácil receber a ajuda de pessoas mais velhas ou de mestres. Quem tem o Recurso Direto forte trata os outros com generosidade. O ponto em que pode travar é se acostumar demais a ser cuidado: na hora de decidir sozinho, você hesita, ou pensa em tudo e demora a agir. Você pode adotar o princípio de \"fazer primeiro e corrigir depois\" e colocar em prática o que aprendeu, para que o apoio vire confiança própria.",
+   "in_month": "Quando o Recurso Direto aparece no pilar do mês, no trabalho você costuma encontrar veteranos dispostos a ensinar, e combina com educação, trabalho de escritório ou áreas que pedem experiência acumulada. Quando aprender algo, tome a iniciativa de usar.",
+   "in_hour": "Quando o Recurso Direto aparece no pilar da hora, os projetos da fase final valorizam a paz interior e o aprendizado; há sempre quem cuide de você, e você também terá vontade de passar sua experiência à geração seguinte."
+  }
+ },
+ "strength": {
+  "偏強": {
+   "plain": "Mestre do Dia forte significa que há muita força apoiando você no mapa: o ramo do mês ajuda, os Ramos Terrestres dão raiz e os Troncos Celestiais também trazem companheiros. Você tem opinião firme e muita energia, aguenta o que vier e quase não precisa de empurrão. O ponto em que pode travar é a confiança excessiva, que o impede de ouvir opiniões diferentes; quando a força não tem onde ser usada, surgem abafamento ou impaciência. Pelo método de apoiar e conter, um mapa forte gosta de aplicar sua força para fora.",
+   "tips": "Coloque sua energia onde ela possa se expressar, como criar trabalhos, liderar projetos ou assumir responsabilidades; diante de opiniões diferentes, ouça até o fim antes de responder."
+  },
+  "稍強": {
+   "plain": "Mestre do Dia um pouco forte significa que a força que o apoia é ligeiramente maior que a que o desgasta, e no conjunto você tende à autoconfiança e à ação. Em geral decide por conta própria e aguenta a pressão, só que às vezes parece teimoso. Pelo método de apoiar e conter, um mapa um pouco forte pede mais expressão e contenção, para que a força tenha direção, por exemplo com metas ou regras claras para si.",
+   "tips": "Procure um desafio que exija dedicação de longo prazo, para dar saída à energia que sobra; ao trabalhar com outras pessoas, ceder um pouco costuma render mais."
+  },
+  "中和": {
+   "plain": "Mestre do Dia equilibrado significa que as forças que o ajudam e as que o desgastam são parecidas, e os cinco elementos estão relativamente em equilíbrio. Um mapa assim não tem direção especial para apoiar ou conter, por isso não se indica um elemento útil à parte. Em geral você é flexível e se ajusta quando o ambiente muda. Vale notar que equilíbrio também quer dizer ausência de um impulso especialmente forte, e a direção cabe a você definir.",
+   "tips": "Defina metas para si com regularidade e veja com clareza aonde quer ir; diante das mudanças trazidas pelo pilar de sorte e pelo pilar anual, basta ajustar-se ao fluxo, sem forçar."
+  },
+  "稍弱": {
+   "plain": "Mestre do Dia um pouco fraco significa que a força que o desgasta é ligeiramente maior que a que o apoia. Em geral você é cuidadoso e sabe cooperar, e pensa uma camada a mais antes de agir. Quando está cansado, é fácil sentir que a vontade é maior que a energia, e você precisa de bom ambiente e de parceiros que o sustentem. Pelo método de apoiar e conter, um mapa um pouco fraco gosta de forças que nutrem, como estudo, descanso e encontrar quem o apoie.",
+   "tips": "Cuide primeiro da rotina e da disposição física, depois assuma novas tarefas; diante de um problema difícil, converse com alguém de confiança, sem precisar carregar tudo sozinho."
+  },
+  "偏弱": {
+   "plain": "Mestre do Dia fraco significa que há mais forças desgastando e restringindo você no mapa, e menos apoiando. Isso não é bom nem ruim; quer dizer que você se dá melhor aproveitando a força dos outros: sabe observar, cooperar e sente bem o ambiente. O ponto em que pode travar é assumir expectativas demais dos outros e esquecer de guardar energia para si. Pelo método de apoiar e conter, um mapa fraco gosta das estrelas Recurso e das estrelas Companheiro, isto é, estudo, descanso e companhia.",
+   "tips": "Diga em voz alta \"preciso de ajuda\" e procure pessoas e ambientes que o apoiem; deixe as decisões importantes para depois de uma boa noite de sono, quando estiver com a mente descansada."
+  }
+ },
+ "elements": {
+  "木": {
+   "plain": "O elemento útil tende a ser Madeira, o que indica que combina com você o ritmo de \"crescer\" e \"se estender\". No dia a dia, você pode ter um plano de estudo de longo prazo, como uma árvore que cresce devagar, sem querer acertar de uma vez; quando tiver tempo, passeie mais ao ar livre. Em parcerias, buscar quem queira crescer junto e se orientar mutuamente rende mais do que ir sozinho. Também combinam com você tarefas de planejamento, ensino ou de começar algo do zero e fazê-lo crescer."
+  },
+  "火": {
+   "plain": "O elemento útil tende a ser Fogo, o que indica que você precisa de \"calor\" e de \"ser visto\". No ritmo, vale se expressar com mais iniciativa, como compartilhar o andamento, subir ao palco ou escrever suas ideias; quanto ao ambiente, prefere espaços claros e movimentados, que lhe dão mais ânimo do que o isolamento. Em parcerias, combina com pessoas entusiasmadas e ágeis, que acendem a motivação uma da outra. Tomar mais sol e se exercitar também ajuda o humor a ficar mais caloroso."
+  },
+  "土": {
+   "plain": "O elemento útil tende a ser Terra, o que indica que você precisa de \"estabilidade\" e \"acúmulo\". Uma rotina regular e um ritmo de trabalho fixo lhe dão mais segurança; quanto ao ambiente, prefere lugares conhecidos onde possa ficar, sem precisar mudar sempre. Em parcerias, combina com pessoas práticas e confiáveis, com quem construir a base passo a passo ao longo do tempo. Ao decidir, dê-se mais tempo: seguir firme costuma trazer resultados mais fáceis do que pular com pressa."
+  },
+  "金": {
+   "plain": "O elemento útil tende a ser Metal, o que indica que você precisa de \"ordem\" e de \"escolhas\". No ritmo, vale treinar o estabelecimento de limites e regras e deixar a lista de tarefas bem organizada; quanto ao ambiente, prefere espaços arrumados e simples, com poucos objetos, onde as ideias ficam mais claras. Em parcerias, combina com pessoas que valorizam eficiência e falam de forma direta, deixando as condições claras para ambos. Trabalhos que exigem discernimento e habilidade profissional também combinam com você."
+  },
+  "水": {
+   "plain": "O elemento útil tende a ser Água, o que indica que você precisa de \"fluidez\" e \"flexibilidade\". No ritmo, não é preciso fechar cada coisa na agenda: deixe uma folga para a inspiração e para oportunidades de última hora. No ambiente, combinam espaços silenciosos, que ajudem você a assentar e pensar. Nas parcerias, vale trocar com pessoas bem informadas e de reação rápida: ouça mais, pergunte mais, conecte mais. Ler, caminhar e ter conversas profundas ajudam você a voltar a fluir."
+  }
+ },
+ "dayun": {
+  "比肩": "Nesta década de pilar de sorte de Amigo, o foco está em \"você mesmo\". Você sente mais vontade de decidir por conta própria, a confiança e as opiniões ficam mais fortes, e é comum encontrar companheiros ou rivais parecidos com você. É um bom período para construir sua própria competência e seu ritmo, aprendendo a manter a liderança nas parcerias. O que costuma travar é a comparação com os outros e os recursos que acabam divididos. Deixe claras a divisão de tarefas e os limites, e este pilar de sorte vai deixar você mais firme.",
+  "劫財": "O pilar de sorte de Roubo de Riqueza costuma trazer competição e movimento nas relações: muitos amigos, muitas oportunidades e também mais tempo e dinheiro gastos. Nesta década você tem muita iniciativa, ousa avançar e experimentar, e é um bom momento para ampliar contatos e buscar destaque. É preciso atenção com decisões por impulso e com favores e dívidas entre pessoas: antes de pedir ou emprestar dinheiro, ou de firmar sociedade, pense bem nas condições. Use a vontade de vencer para treinar sua capacidade, e este pilar de sorte será um ótimo período de preparo.",
+  "食神": "Ao entrar no pilar de sorte de Deus da Comida, o centro da vida se volta para o talento e o prazer. Você quer fazer o que gosta, aprimorar o que cria, e fica mais tranquilo. Nesta década, combina aprender um ofício, cuidar da sua marca pessoal ou transformar aos poucos um interesse em renda. O que costuma travar é o conforto demais, que tira o impulso. Defina alguns marcos visíveis para si: mesmo na calma, dá para chegar a resultados.",
+  "傷官": "O pilar de sorte de Oficial Ferinte traz mais ideias e mais vontade de se expressar, e dá vontade de romper o quadro de sempre. Nesta década combinam mudar de rumo, empreender ou atuar numa área que exija criatividade, e também é fácil discordar de regras e chefes no trabalho. O ponto é transformar a insatisfação em propostas e deixar os resultados falarem. Pense um passo a mais antes de falar, e sua ponta afiada será vista como talento, não como provocação.",
+  "偏財": "Nesta década de pilar de sorte de Riqueza Indireta, as oportunidades costumam vir de fora: novos contatos, novos projetos, novos mercados ou caminhos para uma renda extra. Seu olhar fica mais ágil e você topa experimentar áreas desconhecidas. Este pilar de sorte combina com expandir, vender e conhecer pessoas diferentes. É preciso atenção para gastos que crescem e para excesso de coisas ao mesmo tempo: cuide bem das contas e da energia, e escolha uma ou duas oportunidades principais para aprofundar.",
+  "正財": "O foco do pilar de sorte de Riqueza Direta é \"administrar e acumular\". Nesta década você dá mais valor a uma renda estável, às responsabilidades de família e à ordem na vida, e trabalha com os pés no chão, firmando a base passo a passo. Combina aprofundar-se na profissão, organizar as finanças da casa e traçar planos de longo prazo. O que costuma travar é cuidar só do que deve ser feito e esquecer o que você quer. Deixe um espaço para os interesses, e os dias terão mais sabor.",
+  "七殺": "O pilar de sorte de Sete Assassinos costuma colocar você em posições em que precisa carregar peso: novas responsabilidades, ambientes rígidos ou desafios que pedem decisão rápida. Nesta década a pressão é maior, mas é também quando mais se desenvolvem coragem e capacidade, e muita gente chega a cargos de gestão nesta fase. O ponto é cuidar da rotina de descanso, dividir o grande objetivo em partes pequenas e dividir o peso com pessoas de confiança: assim a pressão vira impulso para avançar.",
+  "正官": "O foco do pilar de sorte de Oficial Direto está em \"reputação e responsabilidade\". Você se importa mais com seu papel social, seu cargo e com ser reconhecido, e aceita melhor seguir regras e escolher um caminho estável. Nesta década combinam buscar promoção numa organização, tirar certificações ou construir uma imagem que inspire confiança. O que costuma travar é se impor \"deveres\" demais. De vez em quando, largue o olhar dos outros e pergunte a si mesmo que direção você realmente quer seguir.",
+  "偏印": "No pilar de sorte de Recurso Indireto, você passa a olhar mais para dentro e se interessa por conhecimentos pouco comuns, técnicas ou cultivo do corpo e da mente. Nesta década combinam estudar, pesquisar, aprender uma habilidade especializada, e a inspiração também é abundante. O que costuma travar é ter muitas ideias e dificuldade de concretizá-las, ou se afastar aos poucos das pessoas. Dê a si mesmo um ritmo fixo de produção e mantenha alguns vínculos estáveis, e este pilar de sorte vai dar mais profundidade a você.",
+  "正印": "O pilar de sorte de Recurso Direto costuma trazer apoio e oportunidades de aprender: você encontra mentores dispostos a ajudar, tem espaço para se aperfeiçoar e o ânimo fica mais firme. Nesta década combinam tirar um diploma, acumular competência profissional e organizar seu mundo interior. O que costuma travar é se apoiar na zona de conforto e adiar decisões. Ponha em prática o que aprendeu e assuma algumas responsabilidades por iniciativa própria, e o apoio vira capacidade sua."
+ },
+ "liunian": {
+  "比肩": {
+   "plain": "O pilar anual deste ano é Amigo: você vai querer decidir por conta própria e é fácil encontrar colaborações ou comparações entre pares. Combina criar seu próprio ritmo e firmar sua competência. Ao trabalhar com outras pessoas, deixe clara a divisão de tarefas, e muito atrito será evitado.",
+   "ask_next": "Aquilo que você mais quer decidir por conta própria este ano é do trabalho ou da vida pessoal?"
+  },
+  "劫財": {
+   "plain": "No pilar anual de Roubo de Riqueza, as relações ficam animadas, com mais encontros, parcerias e competição, e você também ousa mais. Atenção a promessas e gastos feitos por impulso: antes de pedir dinheiro emprestado ou firmar sociedade, pense bem nas condições, para que o entusiasmo não vire peso.",
+   "ask_next": "A oportunidade pela qual você mais quer se lançar este ano deve aparecer em que época?"
+  },
+  "食神": {
+   "plain": "O pilar anual de Deus da Comida tem um clima mais leve e combina com cultivar interesses, criar e cuidar da qualidade de vida, e a convivência também vai bem. Lembre-se de definir uma pequena meta para o que você gosta, para que um ano confortável também deixe uma obra sua.",
+   "ask_next": "Qual é a obra ou o projeto que você mais quer fazer direito este ano?"
+  },
+  "傷官": {
+   "plain": "No pilar anual de Oficial Ferinte, há muitas ideias e vontade de se expressar, vontade de mudar o que está aí, e é fácil discordar de regras ou de chefes. Organizar as ideias em propostas concretas e deixar os resultados falarem costuma funcionar melhor do que bater de frente.",
+   "ask_next": "Aquilo que você mais quer mudar este ano: com quem conversar primeiro e quando?"
+  },
+  "偏財": {
+   "plain": "No pilar anual de Riqueza Indireta, as oportunidades vêm em geral de fora: novos contatos, projetos ou ideias de renda extra podem surgir. Você também gasta com mais facilidade; anote bem cada entrada e saída e escolha uma ou duas oportunidades para fazer direito.",
+   "ask_next": "Entre as novas oportunidades que surgiram este ano, qual você mais quer saber se vale a pena agarrar?"
+  },
+  "正財": {
+   "plain": "O foco do pilar anual de Riqueza Direta é administrar com os pés no chão: renda, família e ordem na vida pedem sua atenção. Combina organizar as finanças e manter o ritmo de trabalho. Não cuide só do que deve ser feito: reserve também um tempo para respirar.",
+   "ask_next": "O que você mais quer manter firme este ano: a renda, o trabalho ou os arranjos de casa?"
+  },
+  "七殺": {
+   "plain": "O pilar anual de Sete Assassinos traz mais pressão e desafios: você pode receber uma tarefa difícil ou enfrentar algo que exige decisão rápida. Também é um ano para treinar a capacidade. Cuide da rotina de descanso e divida o peso com alguém, e a pressão vira impulso.",
+   "ask_next": "Aquilo que mais pressiona você este ano: quando seria um bom momento para agir?"
+  },
+  "正官": {
+   "plain": "O foco do pilar anual de Oficial Direto está na responsabilidade e na reputação: aumentam as chances de promoção, avaliação e de receber um papel formal. Seguir as regras e fazer bem o trabalho será notado, mas não deixe que a opinião dos outros pese demais.",
+   "ask_next": "De quem você mais quer reconhecimento este ano? E como pedir por isso?"
+  },
+  "偏印": {
+   "plain": "O pilar anual de Recurso Indireto combina com estudar, pesquisar e organizar o mundo interior; intuição e inspiração abundam, e dá vontade de ficar um pouco sozinho. Cuide para não pensar demais e adiar a ação: escolha uma coisa e faça até o fim, com os pés no chão.",
+   "ask_next": "O que você mais quer estudar ou aprender direito este ano?"
+  },
+  "正印": {
+   "plain": "No pilar anual de Recurso Direto, é fácil receber apoio de pessoas mais velhas, professores ou benfeitores, e também combina estudar, tirar certificações e descansar o corpo e a mente. Além de aceitar ajuda, lembre-se de tomar decisões por iniciativa própria, para que o apoio vire a sua segurança.",
+   "ask_next": "De quem você mais quer apoio este ano? E como pretende pedir?"
+  }
+ },
+ "nayin": {
+  "海中金": "Metal escondido no fundo do mar, cujo brilho não aparece. Simboliza uma competência discreta, que precisa de tempo e de ocasião para ser vista aos poucos.",
+  "爐中火": "Fogo aceso dentro de um forno, firme e concentrado. Simboliza pôr o entusiasmo num só lugar e forjar resultados aos poucos, com foco.",
+  "大林木": "Uma grande floresta inteira, de folhas densas e apoiadas umas nas outras. Simboliza visão ampla e grande capacidade de acolher, boa para crescer em grupo.",
+  "路旁土": "Terra espalhada à beira do caminho, que sustenta quem passa a pé e de carro. Simboliza simplicidade e generosidade, sustentando em silêncio o caminho dos outros.",
+  "劍鋒金": "Metal forjado em lâmina de espada, afiado e decidido. Simboliza bom julgamento e coragem de decidir, e lembra que é preciso saber quando mostrar e quando recolher a ponta.",
+  "山頭火": "Fogo aceso no alto da montanha, visível de longe. Simboliza forte presença e ideias que se espalham para fora, e pede atenção ao ritmo das chamas.",
+  "澗下水": "Água limpa de riacho que corre entre vales, fina mas sem parar. Simboliza mente clara e paciência, chegando longe pelo acúmulo constante.",
+  "城頭土": "Terra que forma a muralha de uma cidade, espessa e protetora. Simboliza responsabilidade e capacidade de proteger quem está perto, com limites próprios.",
+  "白蠟金": "Metal recém-fundido, de textura macia e brilhante, ainda tomando forma. Simboliza grande maleabilidade: com o treino, ganha cada vez mais brilho.",
+  "楊柳木": "Salgueiros à beira do rio, de galhos macios que balançam ao vento. Simboliza suavidade e flexibilidade, seguir o fluxo e ainda assim criar raízes.",
+  "泉中水": "Água de nascente que brota do subsolo, sem se esgotar. Simboliza riqueza de recursos interiores, com ideias e sentimentos que surgem por conta própria.",
+  "屋上土": "Telhas de barro sobre o telhado, que protegem do vento e da chuva. Simboliza apego à família e à estabilidade, e disposição de sustentar um céu para quem está por perto.",
+  "霹靂火": "Clarão de fogo no meio de raios e trovões, que chega rápido e brilha intenso. Simboliza força explosiva e inspiração, e lembra que o calor precisa de um jeito de durar.",
+  "松柏木": "Pinheiros e ciprestes que continuam verdes no inverno rigoroso, altos e duráveis. Simbolizam firmeza de caráter e a capacidade de atravessar provações, mostrando mais resiliência quanto mais o tempo passa.",
+  "長流水": "Um rio longo e ininterrupto, avançando devagar. Simboliza resistência e visão de longo prazo: mesmo empurradas aos poucos, as coisas podem chegar longe.",
+  "沙中金": "Ouro misturado à areia, que só aparece depois de ser lavado e peneirado. Simboliza o potencial escondido no comum, que só brilha depois de passar por seleção e prática.",
+  "山下火": "O fogo ao pé da montanha, como a luz das casas ao entardecer. Simboliza calor humano e o cuidado com quem está por perto: uma luz que não é forte, mas é bem calorosa.",
+  "平地木": "Mudas e plantações crescendo na planície, perto das pessoas. Simbolizam firmeza e boa convivência, crescendo devagar num ambiente estável.",
+  "壁上土": "Barro aplicado na parede, que dá forma à casa. Simboliza atenção aos detalhes e boa cooperação, com talento para completar a estrutura nos bastidores.",
+  "金箔金": "Folha de ouro batida até ficar finíssima, delicada e preciosa. Simboliza bom gosto e engenho, com talento para criar nos detalhes toques que chamam a atenção.",
+  "覆燈火": "A chama sob o quebra-luz, que ilumina o caminho no escuro. Simboliza uma sabedoria gentil, capaz de dar um pouco de direção quando os outros estão perdidos.",
+  "天河水": "Chuva e orvalho que caem do céu e umedecem a terra. Simbolizam acolhimento e nutrição, com uma influência que costuma ser silenciosa, mas ampla.",
+  "大驛土": "A grande estrada entre as antigas estações de posta, ligando todas as direções. Simboliza troca e contato, e combina com posições de movimento e ligação entre pessoas.",
+  "釵釧金": "Ouro moldado em grampos de cabelo e pulseiras, delicado e próximo ao corpo. Simboliza sensibilidade e senso estético, além de saber cuidar das relações ao redor.",
+  "桑柘木": "Amoreiras e árvores de cudrânia, cujas folhas servem para alimentar bichos-da-seda. Simbolizam praticidade e generosidade: o que você faz de melhor muitas vezes vira sustento e calor para os outros.",
+  "大溪水": "Um grande riacho que corre pela montanha, com muita água e impulso. Simboliza capacidade de ação e coragem, mas também precisa de um leito que guie a direção.",
+  "沙中土": "A terra da areia à beira do rio, solta e permeável. Simboliza acolhimento e flexibilidade: segura o que flui, mas lembra de firmar a base.",
+  "天上火": "O sol alto no céu, iluminando todas as direções. Simboliza amplitude, entusiasmo e franqueza, com grande influência, mas também a necessidade de lembrar de descansar.",
+  "石榴木": "Uma romãzeira carregada de frutos, resistente ao calor e cheia de sementes. Simboliza vitalidade, valor da família e dos encontros, e esforços que costumam florescer e dar frutos.",
+  "大海水": "O mar vasto e sem limites, que recebe todos os rios. Simboliza generosidade e capacidade de acolher as pessoas, além de um mundo interior de profundidade sem fim."
+ },
+ "rizhu": {
+  "乙丑": {
+   "plain": "Yi é a trepadeira macia, que se enrosca nas coisas e vai subindo; Chou é a terra fria e úmida do campo no inverno. A trepadeira é você, e o campo é o chão que você pisa todo dia. A terra pode ser fria, mas é barro de verdade, por isso você é prático no fundo e sabe acumular aos poucos. Você não gosta de aparecer: costuma observar o ambiente antes de escolher seu lugar. Parece suave, mas tem uma resistência surpreendente e ainda está firme quando outros desistem. Segurança importa muito para você: só sossega quando tem reserva e uma saída. No inverno tudo cresce devagar, então permita-se ir devagar e não se compare com a velocidade dos outros.",
+   "love": "No amor, você demora a se aquecer, mas, quando decide, cuida muito da casa e da pessoa, com atitudes concretas, como lembrar os hábitos dela e resolver as coisas em silêncio. Não se limite a dar: diga também o que você quer, para que o outro consiga corresponder.",
+   "work": "Você trabalha com firmeza, cuidado e fôlego, e combina com tarefas que pedem paciência, como controle de contas, atendimento a clientes e projetos de longo prazo. Não teme o esforço, mas se cansa quando o ambiente muda o tempo todo. Com um cronograma claro, o que você acumula pode ser bem considerável.",
+   "watch": "Por medo de instabilidade, você pode se prender a um lugar que não combina com você. De vez em quando, pergunte: fico porque gosto ou só porque tenho medo de mudar?",
+   "ask_next": "Isto que venho sustentando há tanto tempo ainda vale a pena eu continuar sustentando?",
+   "title": "A trepadeira que não solta o campo no inverno"
+  },
+  "丙寅": {
+   "title": "Sol da manhã sobre o bosque da primavera",
+   "plain": "Imagine-se como o sol que acaba de nascer: Bing é essa luz. Sob seus pés, Yin é a floresta do começo da primavera, uma mata inteira que lhe dá lenha. Por isso você tem um calor natural que avança, muitas ideias, ação rápida e, aonde vai, costuma puxar o clima do grupo. Você é generoso e, diante de uma injustiça, quer se posicionar. Sua luz é forte e, às vezes, deixa quem está por perto um pouco sobrecarregado, ou gasta sua energia de uma vez. Aprenda a dosar o calor, e o sol da manhã poderá iluminar até o entardecer.",
+   "love": "Quando gosta, você demonstra: sua conquista é direta e calorosa, e a outra pessoa se sente valorizada. O calor chega rápido, mas dê tempo para a relação assentar aos poucos, e não conclua que o outro não se importa só porque demorou a responder uma mensagem.",
+   "work": "Papéis de começar coisas, liderar pessoas e se comunicar com o exterior combinam mais com você, e um projeto novo rende mais com a sua energia. O mais pesado são o fechamento e os detalhes repetitivos. Procure um parceiro cuidadoso ou crie pontos de checagem para si, e o entusiasmo vira resultado visível.",
+   "watch": "Você pode aceitar coisas demais de uma vez e se esgotar. Antes de aceitar, pare por três segundos, veja quanta energia ainda resta hoje e só então decida.",
+   "ask_next": "Aquilo em que mais coloquei entusiasmo ultimamente: eu o encerrei direito?"
+  },
+  "丁卯": {
+   "title": "Uma lâmpada suave sobre a mesa de madeira",
+   "plain": "Ding é a chama de vela, uma lampadinha, e representa você; Mao é a vegetação tenra da primavera, o lugar onde você se senta. Sob a lâmpada, a madeira fornece combustível devagar, por isso seu calor não ofusca: é o tipo de calor de que as pessoas querem se aproximar. Você é atento, sensível, e especialmente receptivo à beleza, às palavras e ao clima de um ambiente, e muitas vezes percebe emoções que os outros não disseram. Você precisa ser compreendido e também sabe compreender. Só que a chama de vela balança com o vento, e uma frase de fora pode abalar você por muito tempo. Aprenda a proteger seu coração um pouco do vento.",
+   "love": "Você dá muito valor aos detalhes e à sintonia no amor: um olhar, uma mensagem, tudo fica guardado. É carinhoso e atencioso, mas também pode pensar demais. Quando algo importa, perguntar diretamente acalma mais do que ficar adivinhando.",
+   "work": "Trabalhos delicados, criativos ou de cuidado com pessoas combinam com você, como design, escrita, ensino e serviços de acompanhamento. Você rende mais em ambientes de confiança. Diante de críticas, separe primeiro o fato da pessoa e não leve tudo para dentro.",
+   "watch": "Uma frase dita por alguém pode fazer você duvidar de si. Mantenha uma lista de \"coisas que faço bem\" e consulte-a quando o coração balançar.",
+   "ask_next": "A frase que me abalou por tanto tempo ultimamente: o que ela realmente quer me avisar?"
+  },
+  "戊辰": {
+   "title": "Um reservatório escondido ao pé da montanha",
+   "plain": "Wu é uma montanha grande e sólida, que é você; Chen é a terra úmida do fim da primavera, com água dentro, o lugar onde você tem raízes. A montanha assenta sobre terra da mesma natureza, por isso você tem opinião própria, firmeza e não é fácil de convencer. Em Chen há água e madeira, o que mostra que, por dentro, você guarda muita coisa: ideias, emoções, planos ainda não ditos, embora por fora pareça imperturbável. Você é confiável, cumpre o que promete e mantém a calma quando os outros se agitam. Uma montanha firme demais custa a virar o corpo; deixe a água de dentro escorrer um pouco de vez em quando, e você se sentirá mais leve.",
+   "love": "No namoro, você é o lado confiável: promete e cumpre, mas fala pouco palavras doces. Costuma guardar as emoções, e o outro pode não perceber o quanto você se importa. Falar do que sente de vez em quando deixa a relação mais solta.",
+   "work": "No trabalho, você é bom em acumular a longo prazo e executar com estabilidade, assume responsabilidades e respeita as regras. O que pesa é a mudança repentina, à qual a primeira reação costuma ser resistir. Dê a si um tempo de respiro antes de se posicionar, e seu julgamento ficará mais completo.",
+   "watch": "Você pode guardar o que sente por tempo demais e, quando explode, até você se assusta. Converse com alguém ou escreva com regularidade, para abrir as comportas do reservatório.",
+   "ask_next": "O que guardo há mais tempo dentro de mim, sem nunca dizer?"
+  },
+  "己巳": {
+   "title": "Campo aquecido pelo sol do começo do verão",
+   "plain": "Você é Ji, uma terra de campo onde se pode plantar; está sobre Si, o sol e o fogo do começo do verão. O campo aquecido pelo sol é que faz crescer as coisas, por isso você parece suave e discreto por fora, mas tem muito calor por dentro e se entrega fundo ao que e a quem importa. É cuidadoso, sabe cuidar dos outros e é bom em organizar a bagunça, uma coisa de cada vez. Pensa em tudo e, por isso, vive se preocupando com os outros. O fogo aquece a terra, mas também pode ressecá-la; antes de cuidar dos outros, lembre-se de regar a si mesmo.",
+   "love": "Você cuida muito bem do outro, lembra do que ele gosta e do que precisa, com calor por dentro e reserva por fora. Cuidar não é organizar tudo pela outra pessoa: deixe um espaço para ela decidir, e os dois ficam mais leves.",
+   "work": "Planejar, coordenar e formar pessoas são seus pontos fortes, como em administração, educação e gestão de projetos. Você é quem faz as coisas fluírem na equipe. Não carregue tudo sozinho: aprenda a repartir, e terá mais folga.",
+   "watch": "Você pode se preocupar demais e tomar os assuntos dos outros como sua responsabilidade. Quando não souber distinguir, pergunte: isto realmente precisa de mim?",
+   "ask_next": "Entre as coisas que me preocupam pelos outros agora, qual eu poderia soltar?"
+  },
+  "庚午": {
+   "title": "Ferro tomando forma aos poucos no fogo da forja",
+   "plain": "Geng é um ferro ainda não polido, duro e direto, que é você; Wu é o grande fogo do meio-dia no auge do verão, o lugar onde você se senta. Ferro sobre o fogo é como estar sempre sendo forjado, por isso você sentiu cedo a pressão e as exigências, e com isso desenvolveu disciplina e resistência. Valoriza princípios e lealdade, age com objetividade e não gosta de enrolação. Exige muito de si e, muitas vezes sem perceber, se força. O fogo pode transformar ferro em boa lâmina, mas queimar sem parar também cansa; aprenda a achar pausas para respirar no meio da pressão.",
+   "love": "Com quem gosta, você é direto, firme nos compromissos e não curte ambiguidade, e pode ter muitas expectativas e regras para o parceiro. O outro nem sempre demonstra cuidado do seu jeito: afrouxe a régua e olhe mais para o que a pessoa realmente faz.",
+   "work": "Você combina com trabalhos de objetivo claro que pedem execução, e quanto mais desafio, mais resultado consegue sustentar. Está acostumado a suportar pressão, mas também pode se apertar demais. Defina limites para o fim do expediente, para que o treino não vire desgaste.",
+   "watch": "Você pode tratar a pressão como algo natural e não dizer quando está cansado. Quando o corpo e o humor derem sinais, pare e descanse: isso não é fraqueza.",
+   "ask_next": "Da pressão que carrego agora, quanto fui eu mesmo que acrescentei?"
+  },
+  "辛未": {
+   "title": "Uma joia enterrada na terra seca",
+   "plain": "Xin é como uma joia refinada, delicada e exigente, e isso fala de você; Wei é a terra seca e quente do fim do verão, o chão sob você. A joia enterrada é alimentada pela terra, mas também coberta por ela, por isso você tem talento e bom gosto, mas muitas vezes sente que ainda não foi visto. Você cuida dos detalhes, tem exigências para si e para o ambiente, é minucioso e de boa memória, e uma coisa pequena pode girar muito tempo na sua cabeça. Quando a terra pesa demais, você se sente sufocado e precisa de chance para se polir. Mostrar seu trabalho por iniciativa própria é bem mais rápido do que esperar ser descoberto.",
+   "love": "Você é exigente ao escolher, mas, depois de escolher, é muito fiel e leva a pessoa muito a sério. Não costuma se expressar por iniciativa, mas se importa muito com o outro entender você. Diga com mais clareza o que espera, para que ele não perca pontos num jogo de adivinhação.",
+   "work": "Trabalhos que valorizam gosto e detalhe são onde você mais se destaca, como controle de qualidade, design, edição e artesanato fino. O que você faz tem alta qualidade, mas muitas vezes você não entrega por medo de não estar perfeito. Defina uma data de entrega: entregue primeiro e ajuste depois.",
+   "watch": "Você pode ficar repetindo a mesma coisa desagradável. Ao perceber que está dando voltas no mesmo lugar, mude de ambiente, caminhe, deixe a cabeça respirar e só depois volte ao assunto.",
+   "ask_next": "Que habilidade ou obra minha continua escondida, sem que ninguém tenha visto?"
+  },
+  "壬申": {
+   "title": "Um rio que brota das frestas da rocha",
+   "plain": "Ren é um grande rio, que corre e se alarga: essa é a sua natureza. Shen é a rocha e o metal do início do outono, o lugar de onde você parte. O rio nasce de uma fonte entre as pedras e a água não para de vir. Por isso você tem a cabeça ágil, reage rápido, aprende depressa e, diante de um obstáculo, quase sempre dá a volta e encontra uma saída. Você gosta de novidades, tem curiosidade pelo mundo e faz amigos em muitos lugares. A água corre depressa e às vezes não consegue parar: os interesses mudam o tempo todo, ou você percebe só depois de falar que foi rápido demais. De vez em quando, fique em silêncio como um lago; suas ideias ficam mais claras.",
+   "love": "Você é divertido, bom de conversa e atrai as pessoas com facilidade, mas também pode esquentar e esfriar de uma hora para outra. Quando gostar de alguém, além do encanto da novidade, treine acompanhar o outro nos dias comuns. É assim que a relação cria raiz.",
+   "work": "Adaptar-se, se comunicar e reunir informações são seus pontos fortes, em áreas como vendas, planejamento, comércio e mídia. Ter muitas ideias e mudar de rumo rápido é sua vantagem. O que mais pede treino é o foco: escolha uma ou duas coisas e aprofunde-se, e seu talento será mais notado.",
+   "watch": "É fácil abrir muitas frentes ao mesmo tempo e deixar tudo pela metade. A cada semana, escolha a coisa mais importante e termine-a antes de começar a próxima.",
+   "ask_next": "Entre as coisas que estou perseguindo agora, qual vale mais a minha dedicação?"
+  },
+  "癸酉": {
+   "title": "O orvalho da madrugada sobre o metal",
+   "plain": "Gui é orvalho e chuva fina, silencioso e límpido: esse é você. You é o metal refinado do outono, o lugar onde você se senta. O metal esfria e condensa gotas, e o orvalho é sempre alimentado pelo metal. Por isso você tem a mente clara, observa com delicadeza e tem muita sensibilidade para o que é certo e errado. Você tem seu jeito de ser exigente com a limpeza e a ordem, e não gosta de bagunça nem de ambiguidade. Por fora é gentil, mas por dentro carrega uma régua. O orvalho é puro e se decepciona com facilidade com pessoas e situações. Se permitir que o mundo e quem está perto de você tenham suas imperfeições, a vida fica bem mais leve.",
+   "love": "O afeto que você dá é verdadeiro, e você valoriza muito a honestidade do outro: uma pequena mentira pode fazer você recuar vários passos. Pergunte antes de tirar conclusões, dê ao outro a chance de explicar e permita-se um pouco de flexibilidade.",
+   "work": "Você combina com trabalhos de análise, julgamento e pesquisa, como organização de dados, estudo, revisão e auditoria. Você enxerga detalhes que os outros deixam passar. Não deixe a busca pela perfeição atrasar o andamento: se está bom o suficiente, entregue primeiro.",
+   "watch": "É fácil ser rígido demais com os outros e consigo, e ficar remoendo uma coisa pequena. Lembre-se: a maioria dos erros pode ser corrigida.",
+   "ask_next": "Aquilo que me decepcionou recentemente tem outro lado que ainda não vi?"
+  },
+  "甲戌": {
+   "title": "Uma árvore que se mantém sozinha na encosta no outono",
+   "plain": "Você é Jia, uma árvore alta e reta; embaixo está Xu, a terra seca da encosta no fim do outono. A árvore cresce em solo seco, com pouca água, e precisa aprofundar as próprias raízes. Por isso você aprendeu cedo a ser independente, tem forte senso de responsabilidade e costuma carregar as coisas sozinho. Você é íntegro, tem princípios e protege quem lhe importa. A terra Xu também esconde fogo, então por dentro você é bem caloroso, só não demonstra muito. A árvore em solo seco precisa de chuva: de vez em quando deixe alguém de confiança ajudar, sem precisar se sustentar sempre cerrando os dentes.",
+   "love": "Quem está com você sente que pode contar contigo; você assume compromissos e pensa no futuro dos dois. Só que não é fácil para você mostrar fragilidade, e o outro pode achá-lo duro demais. Dizer \"eu também preciso de você\" não diminui sua força e aproxima vocês.",
+   "work": "Responsabilidades e trabalhos de longo prazo podem ser confiados a você com tranquilidade; você daria conta de ser gestor ou responsável por projetos. Trabalha com princípios e não cede facilmente. O que mais trava é não pedir ajuda: aprendendo a dividir tarefas, você vai mais longe.",
+   "watch": "É fácil assumir toda a responsabilidade e só perceber, quando já está exausto, que ninguém sabia que você precisava de ajuda. Fale mais cedo, e as coisas costumam se resolver melhor.",
+   "ask_next": "Das coisas que carrego sozinho agora, quem poderia dividir comigo?"
+  },
+  "乙亥": {
+   "title": "Uma trepadeira que floresce sobre a água",
+   "plain": "Yi é a planta e a trepadeira macias, e representa você. Hai é a grande água do início do inverno, o lugar onde você se senta. A planta sentada sobre a água tem umidade de sobra, por isso você tem o coração macio, muita imaginação, sente bem as emoções dos outros e tem empatia. Você gosta de ser tratado com delicadeza e tem o hábito de tratar os outros assim. Mas com água demais as raízes tendem a flutuar, e às vezes você não sabe o que quer e acaba seguindo o ambiente ou as pessoas ao redor. Encontre um lugar onde possa criar raiz, que pode ser algo de que goste ou uma rotina estável, e você florescerá bem.",
+   "love": "Você é romântico e atencioso, e se deixa afetar facilmente pelo humor do outro: se ele está feliz, você está feliz. Não entregue todas as suas emoções nas mãos do outro; mantenha seus amigos e sua vida, e a relação tende a ficar mais estável.",
+   "work": "Você combina com trabalhos que pedem imaginação e empatia, como arte, ensino e papéis de acompanhamento e cuidado. Você faz as pessoas se sentirem compreendidas. O que mais pede treino é decidir: marque um prazo para si e não fique esperando que os outros escolham por você.",
+   "watch": "É fácil oscilar com a opinião alheia e acabar esquecendo o que você pensa. Nas coisas importantes, escreva primeiro a sua resposta e só depois pergunte aos outros.",
+   "ask_next": "Se eu não levasse em conta o que os outros pensam, o que eu realmente quero?"
+  },
+  "丙子": {
+   "title": "O sol refletido num lago em noite de inverno",
+   "plain": "Bing é o sol, caloroso e brilhante, e é o seu jeito. Zi é a água funda da noite de inverno, o chão sob seus pés. O sol sentado sobre a água fria: por fora você parece aberto e generoso, bom em cuidar do ambiente, mas por dentro costuma haver uma pressão silenciosa, como uma voz lembrando que é preciso seguir as regras e fazer bem-feito. Isso faz de você alguém com mais noção de medida do que as pessoas calorosas em geral, que sabe quando avançar e quando recuar. Sua luz ilumina para fora e também se reflete na água, por isso você se importa muito com o que os outros pensam de você. Aprenda a guardar parte da luz para si, e o calor dura mais.",
+   "love": "Quem está com você costuma se sentir aquecido e cuidado, e você também se importa muito com a opinião do outro. Por fora está contente, mas por dentro tem muitas preocupações. Diga o que realmente o preocupa e deixe o outro saber que você também precisa de cuidado às vezes.",
+   "work": "Você se sai bem em trabalhos com imagem para fora e regras para dentro, como relações públicas, gestão e cargos de liderança em serviços. Tem noção de medida e sustenta bem um evento. Não carregue sozinho todas as expectativas alheias e, de vez em quando, permita-se não ser perfeito.",
+   "watch": "É fácil engolir a pressão sorrindo: por fora está tudo bem, mas à noite o sono não vem. Procure alguém com quem possa falar de verdade, ou um tempo só seu.",
+   "ask_next": "Entre as coisas sobre as quais digo \"tudo bem\", qual delas na verdade me incomoda muito?"
+  },
+  "丁丑": {
+   "title": "A luz de uma vela acesa num depósito no inverno",
+   "plain": "Ding é a chama de uma vela e se refere a você. Chou é a terra úmida e fria do inverno, como um depósito onde se guardam coisas, o lugar onde você fica. A luz da vela é especialmente preciosa no frio: seu calor não chama atenção, mas dura. Você pensa com cuidado, tem paciência, gosta de pensar bem antes de agir e sabe transformar aos poucos o que sente em obra ou resultado. A terra Chou absorve o calor do fogo, então sua energia se gasta fácil com miudezas e, quando fica ocupado, você esquece de cuidar de si. Reserve um tempo de silêncio para si, para que a luz não se apague abafada.",
+   "love": "Seu jeito de amar é manso e constante: nada de grandes explosões, mas muita fidelidade, e você costuma fazer coisas pelo outro em silêncio. Se dá demais sem dizer nada, é fácil acumular mágoa; deixe também que o outro faça algo por você.",
+   "work": "Você combina com trabalhos que pedem paciência e concentração, como pesquisa, escrita, técnica, artesanato ou organização de contas. Você consegue esclarecer o que é complexo. Não deixe as tarefas miúdas devorarem seu tempo: coloque o mais importante no horário do dia em que você está mais disposto.",
+   "watch": "É fácil esconder o cansaço até a luz quase se apagar. Todo dia, reserve um pouco de tempo só seu, sem agenda, para o coração se aquecer aos poucos.",
+   "ask_next": "O que mais tem gastado minhas forças ultimamente, afinal, é que tipo de coisa?"
+  },
+  "戊寅": {
+   "title": "Uma grande montanha coberta de floresta",
+   "plain": "Wu é uma grande montanha, e essa é você. Yin é a floresta do início da primavera, o lugar onde você se senta. A montanha cheia de árvores parece cheia de vida, mas também significa que ela precisa sustentar toda aquela floresta. Você tem naturalmente presença de liderança e forte senso de responsabilidade; muitas vezes é empurrada para a frente para carregar as coisas, e aceita. Trabalha com energia, gosta de desafios e teme pouco as dificuldades. Mas as raízes das árvores não param de se enterrar na montanha, a pressão está sempre ali e você costuma aguentar à força. A montanha é firme, mas também precisa descansar: aprenda a confiar parte da floresta aos cuidados de outros.",
+   "love": "Para o parceiro, você é como um porto seguro: protege, enfrenta as coisas por ele e também pode ser mais mandona, acostumada a decidir sozinha. Pergunte mais vezes \"o que você acha?\", para que o outro também sinta que participa.",
+   "work": "Liderar equipes, abrir caminhos novos e lidar com problemas difíceis é onde você brilha: quanto mais desafiador o ambiente, mais você rende. Não decida tudo sozinha; dê espaço à equipe e sua carga fica mais leve.",
+   "watch": "É fácil usar a pressão como motor e continuar até o limite. Defina um dia fixo de descanso, em que você não fala de trabalho nem responde mensagens do trabalho.",
+   "ask_next": "Das responsabilidades que sigo sustentando, qual parte poderia ser entregue a outra pessoa?"
+  },
+  "己卯": {
+   "title": "Brotos novos surgindo no campo na primavera",
+   "plain": "Ji é um campo que pode ser cultivado, e esse campo é você; Mao é a vegetação tenra da primavera, que cresce sobre você. Brotos novos surgem na terra, cheios de vida, e pedem que o campo os alimente sem parar. Você é gentil, acolhedor e cuida bem de quem está por perto, e muita gente conta com você. Você trata bem as pessoas, mas muitas vezes se sente cobrado, como se corresse atrás de algo, como um campo que vive sendo apressado para produzir. Você tem talento para nutrir e combina com quem acompanha pessoas e projetos enquanto crescem aos poucos. Lembre-se de que o campo também precisa de pousio: de vez em quando, permita-se não produzir nada.",
+   "love": "Atenção e acolhimento são a primeira impressão que você passa. Você raramente cobra o outro e pode engolir o que sente para manter a harmonia. Quando algo incomodar, diga com gentileza; assim a outra pessoa fica sabendo onde estão os seus limites.",
+   "work": "Você combina com trabalhos que pedem paciência para nutrir, como educação, orientação, recursos humanos ou cuidado com plantas e animais. Você ajuda as pessoas a crescerem com segurança. Cuidado para não ficar soterrado de pedidos; pratique dizer \"desta vez não dá\".",
+   "watch": "É fácil entregar todo o seu tempo por vergonha de recusar. Dizer não a algo que você não quer fazer é deixar um pedaço de terra em pousio para o seu coração.",
+   "ask_next": "Entre as coisas que aceitei fazer ultimamente, alguma delas eu, no fundo, queria muito recusar?"
+  },
+  "甲子": {
+   "title": "Uma grande árvore sentada à beira da água de inverno",
+   "plain": "Jia é uma grande árvore que cresce para o alto, e essa é você; Zi é a água da noite de inverno, o lugar onde você está sentada. Com água sob a árvore, você costuma buscar nutrição nos livros, nas pessoas e no seu próprio pensamento; a cabeça não para, e vive pensando \"como isso poderia ser ainda melhor\". Você tem ideais e firmeza, e não gosta muito de se dobrar só para se encaixar no grupo. Só que a água do inverno é fria, e seu entusiasmo costuma ficar guardado por dentro; os outros a veem como quieta e distante, quando na verdade você ainda está pensando. Dê a si mesma um pouco de sol, e as ideias vão virar ação.",
+   "love": "Você gosta de quem conversa com profundidade; só beleza ou animação não a conquistam. Você cuida do outro em silêncio, mas quase não fala, e a pessoa pode achar que você é fria. Quando algo importa, dizer uma frase direta de vez em quando dá menos trabalho do que fazer a pessoa adivinhar.",
+   "work": "Você combina com trabalhos que pedem planejamento, pesquisa e aprendizado, e quanto mais pode pensar a estrutura inteira por conta própria, mais se empolga. O ponto fraco é pensar muito e agir devagar, ficando tempo demais na fase do plano. Faça primeiro uma versão pequena e vá ajustando enquanto faz: você vai mais rápido do que imagina.",
+   "watch": "É fácil travar no \"só me mexo quando tiver pensado tudo\". Quando perceber que está reescrevendo o mesmo plano pela terceira vez, é hora de dar um pequeno passo primeiro.",
+   "ask_next": "Qual é a coisa em que penso o tempo todo, mas ainda não comecei a fazer?"
+  },
+  "丙戌": {
+   "plain": "Bing é o Sol, e esse é você; Xu é a terra seca da montanha no fim do outono, o lugar onde você está sentado. O Sol sobre a montanha de outono lembra o pôr do sol no fim da tarde: caloroso, generoso e com um toque de nostalgia. Você é atencioso, gosta de compartilhar, sabe contar suas experiências aos outros e fica feliz em ajudar. A Terra de Xu recolhe o Fogo, por isso seu entusiasmo dura e você leva o que começa até o fim. Você valoriza os afetos, é apegado ao passado e trata os velhos amigos com carinho especial. Só que você costuma dar muito e, às vezes, esquece que também precisa de cuidado.",
+   "love": "Quando ama, você é generoso e caloroso, gosta de fazer coisas pela pessoa e leva a sério o que promete. Você dá muito amor, e nem sempre o outro consegue receber tudo. Pergunte do que a pessoa precisa, em vez de dar só o que você acha bom.",
+   "work": "Expressar, compartilhar e transmitir é o que você faz com mais paixão: ensinar, criar, dar consultoria, orientar quem chega, tudo o que deixa o conhecimento mais caloroso. Cuidado para não aceitar pedidos demais de uma vez; guarde um pouco de energia para os seus próprios planos.",
+   "watch": "Você pode se empolgar demais em ajudar e entregar todo o seu tempo. Antes de dizer sim, olhe sua agenda da semana e veja se ainda há espaço.",
+   "ask_next": "Entre as coisas que dou sempre aos outros, existe alguma de que eu mesmo também preciso?",
+   "title": "O pôr do sol iluminando a montanha de outono"
+  },
+  "丁亥": {
+   "title": "Uma lamparina refletida na água à noite",
+   "plain": "Ding é a chama de uma lamparina, e esse é você; Hai é a grande água de uma noite no início do inverno, o lugar sob você. A chama refletida na água é pequena, mas ilumina uma grande área escura. Por isso sua intuição é aguçada, você costuma enxergar um rumo no meio da confusão e pode se tornar uma referência para os outros. Você é gentil, tem senso de medida, respeita as regras e cobra muito de si. Quando a água é grande, a lamparina treme com facilidade, e você sente a pressão e as expectativas de fora. Mantenha firme a sua luz: você não precisa iluminar todo mundo, basta cuidar bem de algumas pessoas ao seu redor.",
+   "love": "Você sabe ler o coração do outro, é gentil e delicado, e também deseja ser compreendido. É fácil você se ajustar demais pela outra pessoa. Lembre-se de guardar algumas convicções que são só suas, para que a relação não faça você ficar cada vez menor.",
+   "work": "Intuição, percepção e liderança são seus pontos fortes no trabalho, em áreas como ensino, criação, planejamento e serviços de escuta e acompanhamento, onde você vê rumos que outros não veem. Quando as expectativas de fora aumentam, você fica tenso; defina prioridades antes de agir.",
+   "watch": "Você pode ser engolido pelas emoções e expectativas dos outros. Quando se sentir cansado, desligue as mensagens por um tempo, acalme-se e ouça a sua própria voz.",
+   "ask_next": "Entre as pessoas que tenho tentado iluminar ultimamente, eu também estou incluído?"
+  },
+  "戊子": {
+   "title": "Uma montanha guardando o lago de inverno",
+   "plain": "Wu é uma montanha sólida, e esse é você; Zi é a água do lago no inverno, o lugar onde você está. A montanha guarda o lago, e a água é cercada pela montanha. Isso mostra que você sabe proteger e acumular: cuida bem dos recursos que tem e das pessoas ao seu redor. Você é prático e firme, faz planos e não gosta de correr riscos desnecessários. Por fora parece um pouco sério, mas por dentro é bem gentil. O lago de inverno é quieto, e você também costuma guardar no coração o que lhe importa. Só que, ao guardar com muita força, às vezes você perde oportunidades que vêm com o movimento. Deixe a água do lago correr um pouco.",
+   "love": "Seu amor é concreto e estável: você cuida do outro com ações, como organizar os detalhes do dia a dia. Não fique só no prático; de vez em quando diga palavras carinhosas ou prepare uma pequena surpresa, e a pessoa sentirá mais e entenderá melhor o que você sente.",
+   "work": "Você combina com trabalhos que pedem gestão estável e planejamento de recursos, como administração, contabilidade e operações, onde é confiável e cuidadoso. Não deixe o excesso de cautela fazer você perder novas oportunidades; teste primeiro em pequena escala e amplie quando vir que funciona.",
+   "watch": "Por medo de errar, você pode acabar não mudando nada. Escolha uma coisa pequena para tentar de outro jeito, como mudar o caminho para o trabalho, e vá se acostumando com a mudança aos poucos.",
+   "ask_next": "Daquilo que venho guardando sem me atrever a mexer, há alguma parte que eu poderia tentar ajustar?"
+  },
+  "己丑": {
+   "title": "Um campo que descansa e se renova no inverno",
+   "plain": "Ji é um campo, e esse é você; Chou é a terra úmida e fria do inverno, da mesma natureza que você, o lugar onde você está. O campo no inverno não tem pressa de produzir: descansa e acumula nutrientes. Por isso você é sereno e paciente, e sabe esperar o momento certo. Não gosta de aparecer, trabalha com os pés no chão, passo a passo, e mesmo quando ninguém vê você está juntando forças em silêncio. Você é apegado ao passado e tem um vínculo profundo com pessoas e coisas conhecidas. Sua teimosia às vezes faz você parecer difícil de conversar, mas na verdade você só precisa de tempo para digerir. Quando a primavera chegar, tudo o que você acumulou vai brotar.",
+   "love": "Demorar a se aquecer e ser dedicado a uma só pessoa é o seu jeito nas relações: quando confia, é muito firme. Você não é de palavras doces, mas está sempre presente. Quando o outro precisar de uma resposta, diga uma frase a mais, para que seu silêncio não seja confundido com frieza.",
+   "work": "Trabalhos de cultivo a longo prazo combinam com o seu ritmo, como pesquisa, contabilidade, agricultura e gestão de dados. Você aguenta a repetição e constrói bem a base. Tende a resistir a métodos novos; experimente uma vez antes de decidir se vai usá-los.",
+   "watch": "Você pode ficar preso aos velhos hábitos e não querer mudar. Quando se pegar dizendo \"sempre foi assim\", pergunte se não existe um jeito melhor.",
+   "ask_next": "Isso que acumulo em silêncio agora: quando eu gostaria que florescesse?"
+  },
+  "庚寅": {
+   "title": "Um machado entrando na floresta da primavera",
+   "plain": "Geng é como um machado, um ferro duro, e esse é você; Yin é a floresta do início da primavera, o lugar onde você está. Quando o machado entra na floresta, só vê madeira com a qual se pode abrir caminho e trabalhar. Por isso você tem muita iniciativa: vendo uma oportunidade, quer agir, e decide com firmeza, sem rodeios. Você gosta de desafios e de controlar os próprios recursos. Em Yin também há Fogo escondido, o que dá um impulso extra às suas ações. Só que, com pressa demais, o machado corta rápido e pode ferir o que não devia. Espere um instante antes de agir, e o caminho se abrirá com mais suavidade.",
+   "love": "Quando se interessa por alguém, você é direto e toma a iniciativa: gostou, vai atrás. Também é prático e faz planos para a vida a dois. Falar com franqueza é uma qualidade, mas quando a pessoa estiver triste, fique em silêncio ao lado dela e só dê conselhos quando ela quiser ouvir.",
+   "work": "Iniciar, decidir e agir são as três palavras-chave do seu jeito de trabalhar, em áreas como empreendedorismo, vendas, engenharia e abertura de novos mercados, onde você transforma ideias em ação. Não faça coisas demais de uma vez: escolha uma direção e avance golpe a golpe.",
+   "watch": "Você pode correr rápido demais e ignorar os sentimentos dos outros ou os detalhes. Antes de agir, gaste cinco minutos listando onde pode travar e quem será afetado.",
+   "ask_next": "Esse caminho que mais quero abrir: já vi com clareza para onde ele vai?"
+  },
+  "辛卯": {
+   "title": "Uma tesoura delicada no jardim",
+   "plain": "Xin é como uma pequena tesoura refinada, e esse é você; Mao é o jardim da primavera, o lugar onde você está. A tesoura no jardim deixa as plantas mais bonitas. Por isso você tem bom gosto e olhar apurado, percebe onde algo pode melhorar e sabe arrumar os detalhes com beleza. Você é inteligente, sensível e exigente com a beleza e a qualidade. Só que quem vê os problemas também tende a criticar pessoas e situações, e suas palavras às vezes cortam alguém. Podar serve para a flor ficar melhor, não para cortá-la toda: use mais o seu olhar para apreciar.",
+   "love": "No amor, você tem ideias próprias e expectativas em relação ao parceiro, e é tão atento que percebe pequenas mudanças. Antes de fazer uma observação, diga algo que aprecia nele: a pessoa ouvirá melhor e terá mais vontade de mudar.",
+   "work": "Você combina com trabalhos que pedem senso estético, atenção aos detalhes e julgamento, como edição, design, estilo e organização de espaços, em que você refina o que é bruto. Não fique preso demais nos detalhes: pegue primeiro o rumo geral e depois ajuste o resto.",
+   "watch": "Você pode notar de cara os defeitos dos outros e falar rápido demais. Antes de abrir a boca, pense: essa frase é para ajudar ou é só porque me incomoda?",
+   "ask_next": "Entre as coisas que ando criticando ultimamente, alguma é só porque eu mesmo estou cansado?"
+  },
+  "壬辰": {
+   "title": "Um grande rio que corre para um reservatório profundo",
+   "plain": "Ren é um grande rio, e esse é você; Chen é a terra úmida do fim da primavera, como um reservatório, o lugar onde você está. O grande rio corre para o reservatório, é contido e administrado. Por isso você tem uma visão ampla e muita ambição, mas também sabe se controlar. Você pensa longe, enxerga o quadro de longo prazo e costuma ter planos que os outros não imaginam. Chen também é o Dragão, e há em você um ímpeto de quem não se contenta com o comum. Só que o reservatório às vezes fica fechado demais, e você se sente limitado e abafado. Ao encontrar uma saída para soltar a água, sua energia se torna força que move as coisas.",
+   "love": "Nas relações íntimas você é mais profundo, não revela facilmente o que sente, mas assume suas responsabilidades. O outro pode não entender o que você pensa; de vez em quando compartilhe seus planos e preocupações, para que ele possa entrar no seu mundo.",
+   "work": "Visão de longo prazo e capacidade de organização são o seu capital, em áreas como planejamento estratégico, gestão, administração de negócios e grandes projetos, onde você enxerga o conjunto. Não deixe todos os cálculos só na sua cabeça: converse com a equipe na hora certa, para que todos acompanhem você.",
+   "watch": "Você pode se sentir preso pelo ambiente e ficar abatido. Escreva o que o sufoca e veja qual dessas coisas você mesmo pode mudar.",
+   "ask_next": "Esse plano maior que carrego no coração: qual passo posso dar primeiro agora?"
+  },
+  "癸巳": {
+   "title": "Chuva caindo sob o sol do início do verão",
+   "plain": "Gui é a chuva fina, é você; Si é o sol e o fogo do início do verão, é o lugar onde você se senta. A chuva cai numa terra quente e logo evapora em névoa, por isso você é sensível, reage rápido e sente com facilidade as mudanças à sua volta. Você é delicado(a) no pensar, valoriza a qualidade de vida e os ganhos concretos, e sabe aproveitar oportunidades. Água e Fogo se encontram em você: ora você fica calmo(a), ora ansioso(a), e seu humor muda mais depressa que o dos outros. Você é inteligente e flexível; quando aprende a manter o ânimo firme, essa delicadeza vira um ótimo senso de julgamento.",
+   "love": "Num relacionamento, você é atencioso(a) e cuidadoso(a), muito sensível às emoções do outro, e também se inquieta com facilidade diante de uma pequena mudança. Quando bater a insegurança, pergunte primeiro, em vez de imaginar sozinho(a) o pior cenário.",
+   "work": "Você combina com trabalhos que pedem sensibilidade e jogo de cintura, como marketing, atendimento, organização de contas e trabalho freelancer, em que dá para captar oportunidades sutis. Quando está apressado(a), tende a fazer coisas demais de uma vez; organize a ordem antes de agir.",
+   "watch": "Pequenas coisas podem bagunçar o seu humor e, depois, o ritmo do dia inteiro. Quando a cabeça estiver agitada, faça primeiro uma tarefa simples e pequena para voltar a si.",
+   "ask_next": "Aquilo que tem me deixado ansioso(a) ultimamente realmente precisa de uma resposta agora?"
+  },
+  "庚辰": {
+   "title": "Um aço que guarda força na terra úmida",
+   "plain": "Geng é o metal duro, e ele é você; Chen é a terra úmida do fim da primavera, que guarda água e madeira dentro de si, e é onde você se assenta. A terra nutre o metal. Você está sobre uma terra que o sustenta, por isso tem base firme e resistência, e dificilmente cai diante das dificuldades. Você tem ambição, coragem para avançar e um instinto de proteger os outros, e costuma ser quem se destaca na turma. A terra de Chen guarda muita coisa, e o que você pensa é mais do que mostra, o que às vezes deixa os outros sem entender você. Sua força é grande; direcionada para o lado certo, leva você longe.",
+   "love": "Quando ama, você é leal, protege a pessoa e às vezes decide por ela com autoridade. Se usar sua força para apoiar, e não para mandar, a pessoa se aproxima mais e confia melhor seus sentimentos a você.",
+   "work": "Você brilha onde se pedem coragem e capacidade de execução, como empreender, engenharia, gestão ou cargos em que é preciso decidir. Você aguenta o peso e entrega resultados. Quando se irrita, tende a falar de forma direta demais; respire antes de falar.",
+   "watch": "É fácil não dizer nada por achar que dá conta sozinho, ou soltar um tom ríspido quando está apressado. Quando a pressa vier, saia do local por três minutos, tome um copo d'água e volte para conversar.",
+   "ask_next": "Aquilo que mais quero atacar agora: a direção é mesmo a que eu desejo?"
+  },
+  "辛巳": {
+   "title": "Uma joia que brilha à luz do fogo",
+   "plain": "Xin é uma joia refinada, e essa joia é você; Si é o fogo do início do verão, a posição em que você se assenta. A joia brilha mais sob a luz do fogo e também vai sendo lapidada por ele, por isso você cuida da imagem, tem bom gosto e se preocupa em fazer bem-feito. Você é inteligente, rápido e sabe ler o ambiente, e costuma se portar com elegância em grupo. Mas, com o fogo sempre aceso, a exigência consigo também não cessa, e é fácil sentir que ainda não é o bastante. Você já brilha muito; às vezes, ficar longe do fogo e descansar também é uma forma de cuidar de si.",
+   "love": "Você se importa muito com o que o outro pensa de você e quer ser apreciado. Dedica-se à relação, mas também fica ansioso com facilidade. Seu valor não vem só da aprovação do outro; reconheça-se primeiro e o afeto ficará mais estável.",
+   "work": "Você combina com trabalhos que valorizam imagem, qualidade e regras, como marca, atendimento, artigos de luxo ou cargos de gestão. Você faz tudo com capricho e bom senso. Não trate cada avaliação como um julgamento sobre você: ela se refere ao trabalho, não à sua pessoa.",
+   "watch": "É fácil ficar tenso por medo de não ir bem. Concluir vale mais que a perfeição: termine uma primeira versão e vá ajustando aos poucos. Sua régua pode esperar um pouco para entrar em cena.",
+   "ask_next": "O que estou me esforçando para provar agora é para os outros verem ou para eu mesmo ver?"
+  },
+  "壬午": {
+   "title": "O vapor que surge quando água e fogo se encontram",
+   "plain": "Ren é um grande rio, e ele representa você; Wu é o grande fogo do pleno verão, onde você se assenta. A água sobre o fogo é como água fervendo que solta vapor, por isso você tem ao mesmo tempo um lado calmo e outro apaixonado. Você pensa com clareza, age com disposição e vai atrás do que quer. Enxerga bem as oportunidades e é muito sensível a recursos e contatos. Mas, com água e fogo juntos, suas emoções oscilam mais que as dos outros: ora você se entrega por inteiro, ora quer se afastar. Ao encontrar um ritmo em que os dois lados convivam em paz, você terá muita energia.",
+   "love": "Seu charme é facilmente notado: você toma a iniciativa e é intenso, mas seu humor muda rápido e pode deixar o outro perdido. Quando a emoção subir, diga \"estou meio confuso agora\"; é bem melhor do que esfriar de repente.",
+   "work": "Avaliar oportunidades e se adaptar com agilidade é o seu forte, como em vendas, marketing, comércio ou trabalho autônomo. Você capta chances que outros não veem. Não persiga metas demais ao mesmo tempo; primeiro leve o que já tem em mãos a um resultado.",
+   "watch": "É fácil decidir no auge da emoção e se arrepender depois. Em assuntos importantes, não se apresse: durma uma noite e responda quando o humor tiver assentado.",
+   "ask_next": "Aquilo que mais mexeu com minhas emoções ultimamente: o que, de fato, importa para mim ali?"
+  },
+  "癸未": {
+   "title": "Chuva caindo sobre a terra seca do fim do verão",
+   "plain": "Gui é a chuva fina, quieta e suave, e ela é você; Wei é a terra seca e quente do fim do verão, o lugar onde você pousa. A chuva que cai na terra seca é logo absorvida, por isso você vive se doando e cuidando dos outros, mas sente que sua própria força não basta. Você é sensível e atencioso, percebe o cansaço alheio e costuma se preocupar pelos outros. A terra seca precisa da chuva, e para os outros você é, na verdade, muito importante. O que você precisa aprender: a chuva também precisa de nuvens que a reabasteçam; cuidando bem de si, você terá forças para continuar nutrindo os outros.",
+   "love": "Gentil e acolhedor, você costuma pôr as necessidades do outro na frente. Não se limite a acompanhar em silêncio: diga também suas mágoas e expectativas, para que a relação não dependa só de você e o outro possa cuidar de você.",
+   "work": "Em funções que pedem atenção e paciência você é muito competente, como atendimento ao cliente, cuidado, administração e redação, dando conta bem dos detalhes. Cuidado para não assumir emoções e tarefas demais dos outros; primeiro cuide do seu próprio espaço.",
+   "watch": "É fácil pensar \"será que eu não sou bom o bastante?\". Quando esse pensamento surgir, anote em um papel três coisas que você fez hoje e olhe de novo.",
+   "ask_next": "Das preocupações que carrego pelos outros ultimamente, deixei um pouco para mim?"
+  },
+  "甲申": {
+   "title": "Uma árvore crescendo na parede de rocha",
+   "plain": "Jia é uma grande árvore, e ela é você; Shen é a rocha e o metal do início do outono, o lugar onde você finca raízes. A árvore na parede de rocha precisa passar as raízes pelas frestas da pedra para se firmar, por isso você enfrentou mais provas que os outros e, justamente por isso, tem uma resistência especial. Você decide com firmeza e, sob pressão, mostra ainda mais capacidade; costuma crescer nas dificuldades. Não gosta de ser mandado, mas tem muita autodisciplina. A árvore na rocha tem um porte singular, e suas vivências também fazem de você alguém diferente. Só não fique sempre batendo de frente: aprenda a achar nas frestas o caminho mais fácil.",
+   "love": "Mesmo apaixonado, você é independente e tem opinião própria, não gosta de grude e dificilmente depende dos outros. A firmeza é a sua casca de proteção; se de vez em quando mostrar seu lado macio, vocês ficam mais próximos e a outra pessoa sabe melhor como estar ao seu lado.",
+   "work": "Quanto maior a pressão, melhor você rende, como em gestão de crises, vendas muito competitivas ou cargos que exigem decisão rápida; quanto maior o desafio, mais disposição você tem. Não trate tudo como uma batalha: dê um respiro a si e aos colegas.",
+   "watch": "É fácil encarar a opinião dos outros como pressão e querer revidar de imediato. Escute até o fim, respire fundo uma vez e só então decida se vai responder.",
+   "ask_next": "Isto que estou sustentando à força agora: existe um caminho mais fácil?"
+  },
+  "乙酉": {
+   "title": "Uma flor que desabrocha agarrada à grade de ferro",
+   "plain": "Yi é a planta macia, a flor e a trepadeira, e ela é você; You é o metal refinado do outono, o lugar onde você se assenta. A flor agarrada à grade de ferro parece delicada, mas na verdade encontrou seu próprio jeito de crescer num ambiente duro. Por fora você é gentil e educado, por dentro é muito resistente, e tem gosto próprio pela beleza e pela ordem. Você muitas vezes se sente preso por regras e, por isso, aprendeu a achar espaço dentro dos limites. Sabe se proteger e não deixa qualquer um chegar perto. A grade lhe dá apoio e também pressão; tente vê-la como um corrimão, e não como uma gaiola.",
+   "love": "Diante de um novo amor, você é cauteloso: precisa de tempo para confirmar que a pessoa merece confiança e valoriza muito ser respeitado. A defesa protege, mas, se durar demais, o outro também se cansa; deem-se tempo e se aproximem passo a passo.",
+   "work": "Você combina com trabalhos que pedem delicadeza e normas, como design, estética, redação e controle de qualidade, fazendo bons trabalhos mesmo com condições limitadas. Não se cale só porque o ambiente tem muitas restrições; se precisar de algo, diga.",
+   "watch": "É fácil guardar a pressão dentro de si e parecer que está tudo bem. Quando estiver cansado, faça uma caminhada, fique em contato com a natureza, solte o coração e deixe a cabeça ver outra paisagem.",
+   "ask_next": "Isto que me faz sentir preso agora: há algum espaço para ajustar?"
+  },
+  "甲午": {
+   "title": "Uma grande árvore sob o sol do meio-dia",
+   "plain": "Jia Madeira é uma grande árvore crescendo para o alto; Wu é a hora mais quente do verão, o meio-dia. A árvore brilha sob o sol, e as folhas não param de liberar água. Você passa a impressão de ser generoso(a), de falar com franqueza e de querer mostrar as ideias que tem; muitas vezes é você quem esquenta o ambiente. Só que o sol do meio-dia não fica parado no alto para sempre: seu entusiasmo chega rápido e também se gasta rápido. Você fica melhor quando tem algo que vale a dedicação, onde seu talento possa aparecer, e quando sabe procurar uma sombra para si na hora em que o sol está mais forte.",
+   "love": "Quando gosta de alguém, você demonstra isso de forma bem clara: responde mensagens rápido e fala bastante. Se a outra pessoa for mais reservada, pode parecer que só você está empolgado(a). Tente desacelerar um pouco o ritmo e deixar espaço para ela se aproximar.",
+   "work": "Combina com funções que pedem expressão, criatividade ou animar o ambiente, como planejamento, ensino e vendas. Você tem muitas ideias e começa com muita força, mas perde a paciência com mais facilidade no meio do caminho; ter um parceiro que ajude a concluir deixa tudo bem mais leve.",
+   "watch": "Falar rápido demais às vezes torna a frase mais afiada do que você queria. Quando a emoção subir, pare por três segundos e pense: essa frase é para resolver a questão ou só para ganhar a discussão?",
+   "ask_next": "Aquilo que mais tem acendido você ultimamente é algo que você realmente quer, ou é algo para o qual as expectativas o empurram?"
+  },
+  "乙未": {
+   "title": "Uma trepadeira agarrada ao aterro do campo no fim do verão",
+   "plain": "Imagine uma trepadeira macia: essa é Yi Madeira, ou seja, você. Wei, onde você se assenta, é o fim do verão, uma terra de cultivo um pouco ressecada pelo sol. Plantas num campo seco parecem discretas, mas suas raízes se agarram firme; quanto mais comuns as condições, mais elas acham frestas para sobreviver. Por fora você é gentil e fácil de lidar; por dentro, muito resistente, e quando decide algo, faz em silêncio por muito tempo. Você também é nostálgico(a) e tem dificuldade em se desprender da família, dos velhos amigos e dos lugares conhecidos. Essa firmeza é muito confiável, só que às vezes você engole as dificuldades e os outros não percebem que você também está cansado(a).",
+   "love": "No amor, você cuida bem do outro, lembra seus hábitos e se adapta. Mas quase não diz o que quer, e só explode depois que a mágoa se acumula. Experimente dizer cedo as pequenas necessidades.",
+   "work": "Combina com o que exige paciência e cultivo de longo prazo, como administração, atendimento ao cliente, produtos agrícolas ou marcas artesanais. Você não gosta de roubar a cena, mas conclui com firmeza o que lhe é confiado, e os chefes costumam confiar cada vez mais. Lembre-se de registrar as suas contribuições.",
+   "watch": "Você tem o hábito de cuidar primeiro dos outros e acaba se colocando por último. Quando estiver cansado(a), dizer \"preciso descansar\" não é capricho: é cuidar das raízes da sua trepadeira.",
+   "ask_next": "Há algo que você vem sustentando em silêncio, mas que, no fundo, gostaria de dividir com alguém?"
+  },
+  "丙申": {
+   "title": "O sol iluminando uma trilha de montanha no outono",
+   "plain": "Bing Fogo é o sol; Shen é o início do outono, um lugar com energia de Metal, que também tem o jeito de estradas e de movimento. O sol ilumina uma trilha de montanha que segue para longe: luminosa, aberta, sempre com vontade de ver o que há mais adiante. Você pensa rápido, é muito curioso(a) e gosta de lugares, amigos e ideias novas; no meio de muita gente, é fácil ser notado(a). O ponto fraco é ter muitos interesses e abrir vários caminhos ao mesmo tempo, sem saber ao certo qual levar até o fim. O que você precisa não é diminuir o entusiasmo, e sim escolher o caminho que mais quer seguir.",
+   "love": "Você se sente atraído(a) por pessoas interessantes e de boa conversa, e é muito charmoso(a) na fase de flerte, mas quando o calor passa, se distrai com facilidade. Se o outro precisa de segurança, mostre com atitudes que você continua ali e ainda quer caminhar junto.",
+   "work": "Combina com trabalhos que envolvem deslocamento e contato frequente com pessoas ou informações, como marketing, vendas, turismo e mídia. Você é bom(boa) em abrir novas oportunidades, mas cuide para não prometer demais. A cada trimestre, escolha uma ou duas coisas para aprofundar, e os resultados ficarão mais visíveis.",
+   "watch": "Abrir muitas frentes de uma vez faz as coisas ficarem paradas no meio do caminho. Antes de começar, pergunte-se: daqui a três meses, isso ainda vai importar para mim? Se não, deixe de lado por enquanto.",
+   "ask_next": "Entre os caminhos que você tem à frente, se só pudesse seguir um primeiro, qual escolheria?"
+  },
+  "丁酉": {
+   "title": "A luz de uma vela sobre uma caixa de joias delicadas",
+   "plain": "Pense em você como a luz de uma vela ou de um abajur, que é Ding Fogo: uma luz pequena, mas que ilumina bem o que está perto. You, onde você se assenta, é a colheita do outono, com brilho de metal, como uma caixa de joias. A luz da vela sobre as joias faz cada detalhe cintilar. Você é muito sensível à estética e à qualidade, escolhe objetos e observa pessoas com muito cuidado, e sabe dar sabor ao dia a dia. Não gosta de se exibir, mas se dedica aos pequenos detalhes, e quem está perto percebe. Só que a exigência com os detalhes às vezes vira rigor demais consigo mesmo(a), e uma pequena falha fica na sua cabeça por muito tempo.",
+   "love": "Você expressa amor em pequenos gestos, como lembrar de algo que a pessoa comentou de passagem. Também quer ser tratado(a) com o mesmo cuidado, e quando o outro é descuidado, você se decepciona sem dizer nada. Falar diretamente o que importa para você funciona melhor do que deixar a pessoa adivinhar.",
+   "work": "Combina com trabalhos que valorizam qualidade e detalhes, como design, edição, finanças, joalheria ou beleza. Você enxerga problemas que os outros não notam e é ótimo(a) em revisar. Só não deixe cada coisa ficar perfeita antes de entregar: entregar com oitenta por cento também serve.",
+   "watch": "Você é rigoroso(a) demais consigo e repassa um errinho várias vezes. Ao terminar algo, anote primeiro três pontos que ficaram bons e só depois veja o que ajustar.",
+   "ask_next": "Aquela pequena falha de que você não consegue se desligar ultimamente é mesmo tão importante assim?"
+  },
+  "戊戌": {
+   "title": "Uma montanha sobre outra montanha",
+   "plain": "Wu Terra é uma montanha; Xu é o fim do outono, uma terra seca e espessa, como um planalto no topo do monte. Uma montanha sobre outra: alta, firme, difícil de mover. Você tem princípios, cumpre o que diz e não muda de posição à toa; diante de grandes questões, mantém a calma, e as pessoas ao redor costumam ver em você um apoio. Por estar no alto, você costuma carregar tudo sozinho(a) e raramente pede ajuda, o que às vezes faz os outros acharem você pouco acessível. Sua firmeza é uma grande habilidade; basta deixar que, de vez em quando, os outros subam a montanha para ver você, sem precisar guardar tudo sozinho(a).",
+   "love": "Você leva o amor a sério e não começa à toa, mas, quando começa, é muito fiel. Expressa-se de modo contido, muitas vezes fazendo em vez de falar. Se o outro precisa ouvir uma frase, tente dizer o que sente; isso não vai diminuir você.",
+   "work": "Combina com papéis que exigem assumir responsabilidades e tomar decisões, como gestão, engenharia, imóveis e serviço público. Você aguenta projetos de longo prazo e dá segurança ao ambiente. Vale cuidar para não se apegar demais ao seu jeito de fazer; ouça os métodos novos dos colegas mais jovens.",
+   "watch": "Quando você é teimoso(a) demais, até uma boa intenção soa como ordem. Começar com um \"o que você acha?\" costuma facilitar a conversa, e o outro fica mais disposto a colaborar.",
+   "ask_next": "Há algo que você poderia deixar outra pessoa tentar fazer?"
+  },
+  "己亥": {
+   "title": "Um campo úmido à beira do rio",
+   "plain": "Você é um campo cultivável, ou seja, Ji Terra; Hai, onde você se assenta, é a água do início do inverno, como um rio ou um lago. O campo à beira da água tem a terra úmida e macia, onde tudo pode ser plantado, mas também onde a água leva um pouco embora. Você tem temperamento gentil e acolhedor, entende bem o que os outros sentem, e quem vem desabafar com você encontra escuta. Sua cabeça tem muitas ideias e você planeja bem os pequenos detalhes da vida. Só que seus limites são um pouco frouxos: as emoções e pedidos dos outros entram e você costuma aceitar tudo junto, e com o tempo o seu campo fica encharcado demais. Construir um pequeno aterro dentro de si é um exercício de que você precisa muito.",
+   "love": "No amor, você é atencioso(a) e disposto(a) a ceder. Com medo de desagradar o outro, recua logo, e depois de tanto recuar nem você sabe dizer o que quer. Definir antes o seu limite e só então conversar sobre ceder traz mais firmeza.",
+   "work": "Combina com trabalhos de cuidar de pessoas e reunir recursos, como RH, assistência social, alimentação e administração. Você tem boas relações, comunica-se bem e é muito procurado(a). Pratique recusar o que não é seu e reserve tempo para o que realmente importa.",
+   "watch": "Ser fácil demais de lidar faz você se afogar nos assuntos dos outros. Antes de aceitar, diga \"vou pensar\", dê a si mesmo um tempo de reação e responda só depois de ter clareza.",
+   "ask_next": "Ultimamente, houve algo a que você disse sim sem realmente querer?"
+  },
+  "庚子": {
+   "title": "Uma faca mergulhada na água do rio no inverno",
+   "plain": "Geng (Metal) é uma faca ou um pedaço de ferro, e Zi é a água do pleno inverno. O ferro mergulhado no rio gelado fica lavado, brilhante e afiado, e o reflexo aparece nítido. Você tem a mente clara e reage rápido, vai direto ao ponto, fala sem rodeios e não gosta de enrolação. Seu senso de justiça é forte, e o que incomoda você acaba sendo dito. Essa agudeza ajuda a resolver problemas, mas pode parecer frieza. Por dentro, você se importa muito com as pessoas, só que costuma falar primeiro a razão e depois o sentimento. Se inverter a ordem, vão entender você melhor.",
+   "love": "No amor, você é honesto(a) e não gosta de jogos de adivinhação. Mas, se apontar rápido demais os defeitos do outro, a pessoa pode se sentir examinada. Ouça primeiro tudo o que ela quer dizer e só depois dê sua opinião: a relação fica bem mais leve.",
+   "work": "Combina com trabalhos que pedem julgamento, análise ou técnica, como engenharia, assistência jurídica, pesquisa e controle de qualidade. Você encontra falhas com facilidade e rende bem. Na equipe, lembre-se de reconhecer o trabalho dos outros: suas sugestões serão mais bem aceitas.",
+   "watch": "Suas palavras podem ter fio de lâmina e machucar quem você mais ama. Antes de dizer algo duro, pergunte-se: quero ajudar ou quero provar que estou certo(a)?",
+   "ask_next": "Aquela frase que você não disse ultimamente: como ela soaria se tivesse outra temperatura?"
+  },
+  "辛丑": {
+   "title": "Uma joia enterrada na terra úmida do inverno",
+   "plain": "Há uma joia, Xin (Metal), enterrada em Chou, a terra mais fria, úmida e congelada do inverno. Enterrada, ela não aparece por fora, mas fica bem guardada até chegar a hora de ser desenterrada. Você passa a impressão de ser discreto(a) e firme, sem pressa de se mostrar, mas por dentro tem ideias e bom gosto próprios. Você demora a se abrir, avança com cuidado e raramente age por impulso. Essa paciência é a sua base. Só que às vezes você se esconde demais, e coisas boas deixam de ser vistas, perdendo a chance de aparecer.",
+   "love": "No amor, você é cauteloso(a) e precisa observar por muito tempo antes de abrir o coração. Quando decide, dá muito de si em silêncio. O outro pode não entender sua calma; dizer de vez em quando que sente saudade tranquiliza bastante.",
+   "work": "Combina com trabalhos de acúmulo, como contabilidade, pesquisa, técnica, coleção ou conservação. Você aguenta a repetição e cuida bem dos detalhes. Lembre-se de mostrar seus resultados na hora certa, em vez de terminar e guardar na gaveta.",
+   "watch": "Você pensa demais antes de agir e pode perder o momento. Dê um prazo a si mesmo(a): quando acabar, dê um pequeno passo. O caminho só fica claro depois que se anda.",
+   "ask_next": "Que coisa boa você tem em mãos e ainda não mostrou a ninguém?"
+  },
+  "壬寅": {
+   "title": "Um grande rio atravessando a floresta da primavera",
+   "plain": "Ren (Água) é um grande rio, e Yin é o início da primavera, quando as árvores começam a brotar. O rio atravessa a floresta, irriga as árvores novas pelo caminho e segue para mais longe. Você tem a mente aberta, gosta de aprender coisas novas, conhecer gente nova e é cheio(a) de curiosidade pelo mundo. Cuida bem das pessoas, divide o que sabe e costuma ser quem tem as ideias no grupo de amigos. Mas rio não gosta de parar: você se cansa logo de dias iguais e troca de interesse depressa. Precisa aprender a deixar uma coisa crescer devagar.",
+   "love": "No amor, você é generoso(a) e fácil de conviver, e leva o outro a muitos lugares novos. Mas precisa de liberdade e, se for controlado(a) demais, quer fugir. Combinar com a pessoa o espaço de cada um é bem melhor do que se afastar em silêncio, e tranquiliza o outro.",
+   "work": "Combina com ensino, editoração, turismo, criação ou trabalhos que abrem novos mercados. Você orienta bem os novatos e sabe explicar o complicado de forma simples. Ao escolher um trabalho, veja se há espaço para crescer: isso pesa na hora de ficar por muito tempo.",
+   "watch": "Você tem muitas ideias e age rápido, e por isso tende a fazer um pouco de cada coisa. Antes de encerrar o dia, reserve cinco minutos para ver o que de fato avançou.",
+   "ask_next": "Se tivesse um ano inteiro para se dedicar a plantar uma única árvore, qual seria?"
+  },
+  "癸卯": {
+   "title": "Garoa caindo sobre o gramado da primavera",
+   "plain": "A garoa da primavera é Gui (Água), e Mao é o meio da primavera, quando plantas e árvores estão mais exuberantes. A garoa cai no gramado em silêncio e faz crescer todo um verde. Você é delicado(a) e sensível, percebe o clima e as emoções dos outros, e muitas vezes um olhar basta para entender. Tem senso artístico, gosta de palavras, música e coisas belas, e tem seu mundinho próprio. Sua gentileza alimenta quem está por perto. Só que, se chove demais, você também gasta todas as forças e esquece que precisa de cuidado.",
+   "love": "No amor, você é gentil e atencioso(a) e lê bem o humor do outro. Por ser tão sensível, qualquer frieza da pessoa o(a) faz pensar demais. Em vez de adivinhar por dentro, pergunte com leveza: \"Como você está hoje?\"",
+   "work": "Combina com trabalhos que pedem sensibilidade e comunicação, como design, escrita, aconselhamento, educação e estética. Você percebe bem o que usuários ou clientes sentem. Cuide para não se preocupar demais com a opinião alheia, que pode atrapalhar seu julgamento.",
+   "watch": "Suas emoções se deixam levar pelos outros com facilidade. Quando sentir o coração cansado, saia um pouco do ambiente, deixe sua chuva parar e depois decida se quer voltar.",
+   "ask_next": "Para quem você tem dado sua gentileza ultimamente, e quem tem cuidado do seu coração?"
+  },
+  "甲辰": {
+   "title": "As raízes de uma grande árvore firmes em solo fértil e úmido",
+   "plain": "Jia (Madeira) é uma grande árvore, e Chen é a terra úmida do fim da primavera, carregada de água. As raízes fundas num solo fértil bebem água, ficam firmes e a árvore cresce alta e reta. Você tem ambição, quer fazer algo grande e tem fôlego para colocar planos em prática. Trabalha com planejamento, gosta de ter a visão do todo e, em equipe, costuma ser naturalmente quem decide. Sua base é sólida, e mudanças não o(a) derrubam fácil. O que praticar é ser um pouco mais flexível e não segurar tudo nas próprias mãos, para que os outros também cresçam com você.",
+   "love": "No amor, você é confiável e responsável, e pensa no futuro do casal. Às vezes é racional demais: planeja e esquece o romantismo. De vez em quando, largue o plano e faça com o outro algo sem objetivo nenhum.",
+   "work": "Combina com trabalhos de coordenação, planejamento e construção de longo prazo, como gestão, construção, planejamento financeiro e empreendedorismo. Você aguenta pressão e sustenta responsabilidades. Lembre-se de delegar: você não precisa cuidar pessoalmente de cada detalhe.",
+   "watch": "Quando você quer controlar coisas demais, a pressão vai se acumulando. Toda semana, liste uma tarefa que pode passar para outra pessoa, para treinar o soltar e dar chance aos outros de crescerem.",
+   "ask_next": "Entre as coisas que você carrega agora, qual poderia ser entregue a outra pessoa?"
+  },
+  "乙巳": {
+   "title": "Uma flor desabrochando ao sol do início do verão",
+   "plain": "O sol do início do verão fica mais forte a cada dia: isso é Si; e você é a flor iluminada, Yi (Madeira). Com o sol cada vez mais forte, a flor se abre linda e o perfume vai longe. Você é extrovertido(a), fala bem, sabe se expressar e cuida da aparência e da imagem. Reage rápido, tem muitas ideias e, quando fala, as pessoas se lembram. Mas, quando o sol é forte demais, a flor também seca: diante dos outros você brilha, mas em particular costuma ficar sem energia e precisa de tempo sozinho(a) para repor a água. Para a flor durar, a raiz também precisa beber.",
+   "love": "No amor, você tem charme e sabe criar surpresas e romantismo. Precisa ser apreciado(a), e, se o outro responde pouco, você sente que faz um monólogo. Dizer como quer ser tratado(a) facilita para a pessoa.",
+   "work": "Combina com trabalhos de expressão, criatividade e comunicação, como marketing, apresentação, design, relações públicas e beleza. Você embala bem as ideias. Cuide para não falar muito e fazer pouco: transforme seus destaques em resultados.",
+   "watch": "Se importar demais com o olhar dos outros pode esgotar você. Toda semana, reserve um tempo em que ninguém vê e faça só o que lhe dá alegria, sem foto e sem compartilhar.",
+   "ask_next": "Se ninguém estivesse olhando, em que você mais gostaria de gastar seu tempo?"
+  },
+  "丙午": {
+   "title": "O sol do meio-dia no ponto mais alto",
+   "plain": "Bing (Fogo) é o sol, e Wu é a hora do dia em que o sol está mais alto e mais quente. Ao meio-dia, a luz é a mais forte e direta, e todos a veem. Você é caloroso(a), franco(a) e age com disposição: pensou, fez, sem gostar de enrolar. Contagia as pessoas, anima o ambiente aonde vai e é leal: se um amigo passa por dificuldade, você é o(a) primeiro(a) a correr. Esse calor é seu maior patrimônio, mas, quando o fogo é forte demais, você se impacienta, quer atropelar o que não anda e pode se queimar na correria, esquecendo que descansar também é uma força.",
+   "love": "No amor, você é intenso(a) e direto(a): gostou, diz, e quase não faz jogo de sedução. Mas é apressado(a) e perde a paciência se o outro responde devagar. Aprender a esperar um pouco, deixando o calor chegar aos poucos, faz a relação durar mais.",
+   "work": "Combina com trabalhos que pedem impulso e liderança, como vendas, empreendedorismo, eventos, esportes e cargos de chefia. Você age rápido e tem coragem de decidir. Cuide para não ter pressa demais pelo resultado: deixe tempo para detalhes e conversa.",
+   "watch": "Seu temperamento esquenta rápido e, com pressa, você diz coisas duras. Ao perceber que está elevando a voz, beba água, levante e dê uma volta antes de voltar: ficará bem mais fácil conversar.",
+   "ask_next": "Esse resultado que você quer com tanta pressa ultimamente: e se viesse mais devagar?"
+  },
+  "丁未": {
+   "title": "A luz de uma lamparina sobre os campos numa noite de verão",
+   "plain": "Uma lamparina num campo em uma noite de verão é a imagem de Ding Fogo; Wei é o fim do verão, a terra aquecida pelo sol. A luz da lamparina sobre o campo à noite não ofusca, mas traz tranquilidade. Você é gentil, afetuoso, cuida da família e das pessoas ao redor, e muitas vezes é a luz no coração de todos. Tem paciência no que faz e gosta de deixar o dia a dia aquecido e confortável. Por dentro, tem muitas ideias, só não as exibe. O ponto de atenção é a chama ficar tão voltada para os outros que você só percebe que o óleo da sua lamparina está acabando quando já é tarde, e acendê-la de novo dá muito trabalho.",
+   "love": "No amor, você é atento e carinhoso, guarda os gostos do outro no coração e dá muito valor à sensação de lar. Às vezes esconde o descontentamento para manter a harmonia. Fale das coisas pequenas enquanto são pequenas, sem esperar que virem uma montanha.",
+   "work": "Combina com trabalhos de cuidado, de atendimento ou que exigem construção a longo prazo, como alimentação, educação, administração em enfermagem e trabalho comunitário. Você dá coesão à equipe. Lembre-se de também buscar os recursos e o reconhecimento que merece.",
+   "watch": "Você costuma se sacrificar para preservar o conjunto. Uma vez por semana, pergunte-se: eu quero mesmo fazer isso, ou só tenho vergonha de recusar? A resposta mostra o próximo passo.",
+   "ask_next": "As pessoas ao seu redor são cuidadas por você; e como você gostaria de ser cuidado?"
+  },
+  "戊申": {
+   "title": "Dentro da grande montanha, caminhos que levam a todo lugar",
+   "plain": "Wu Terra é uma montanha, e Shen é o início do outono, com um ar de metal e de estradas. A montanha guarda minas e caminhos: parece pesada, mas tem passagem para todo lado. Por fora você é firme, por dentro é bem flexível, pensa rápido e é bom em dar um jeito e encontrar recursos. É prático, gosta de transformar ideias em resultados visíveis e muitas vezes acha outro caminho no meio da dificuldade. Não gosta de conversa vazia e trabalha com eficiência. Só que suas ideias mudam rápido, e quem está por perto às vezes não acompanha; também é fácil assumir coisas demais e lotar a própria agenda.",
+   "love": "No amor, você é prático e cuida do outro com ações, como ajudar a resolver problemas e organizar a vida. Mas, quando está muito ocupado, tende a deixar de lado o que o outro sente. De vez em quando, pare para ouvir, sem pressa de dar respostas.",
+   "work": "Combina com trabalhos que pedem resolução de problemas e execução, como engenharia, logística, área técnica, desenvolvimento de negócios e gestão de projetos. Você tem jogo de cintura e sustenta a parte prática. Cuidado para não aceitar projetos demais; guarde a qualidade para o que mais importa.",
+   "watch": "Com pressa de resolver, você pode esquecer de perguntar primeiro o que o outro quer. Confirmar o objetivo antes de começar evita muito retrabalho e alguns mal-entendidos.",
+   "ask_next": "Entre as coisas que você tem em mãos agora, qual é a que mais quer fazer da melhor forma?"
+  },
+  "己酉": {
+   "title": "Um campo bem cuidado na estação da colheita",
+   "plain": "A época da colheita de outono se chama You; você é esse campo, Ji Terra. Depois de cuidado com atenção, o campo no outono dá cachos de frutos. Você trabalha com capricho, tem mãos habilidosas, gosta de fazer as coisas com refinamento e sabe aproveitar os pequenos prazeres da vida. Tem seu gosto e seu método, e muitas vezes resolve tudo em silêncio, de forma bonita. Fala com suavidade, mas com opinião, e é ótimo de conversar depois que se cria intimidade. O ponto de atenção é que você exige muito de si, sente que ainda não está bom o bastante e hesita em mostrar o que fez; assim, bons frutos ficam no galho.",
+   "love": "No amor, você é carinhoso e atento aos detalhes, lembra dos pequenos hábitos do outro. Também quer que o outro perceba o seu esforço, e fica abafado quando não é notado. Dizer o que você fez na hora certa não é querer aplauso.",
+   "work": "Combina com trabalhos que pedem habilidade manual, detalhe e planejamento, como design, confeitaria, artesanato, edição e contabilidade. Seu trabalho resiste ao olhar. O que você precisa treinar é a confiança em si: cobrar com generosidade e mostrar o que faz sem receio.",
+   "watch": "Por perfeccionismo, você pode ficar adiando a entrega. Diga a si mesmo: \"primeiro termino, depois ajusto\". Mostre a primeira versão, e o retorno ajuda a melhorá-la.",
+   "ask_next": "Aquela obra que você não para de ajustar: quando você pode mostrá-la a alguém, mesmo antes de ficar pronta?"
+  },
+  "庚戌": {
+   "title": "Uma peça de ferro ao lado de uma muralha sólida",
+   "plain": "Geng (Metal) é um pedaço de ferro ou uma arma, e Xu é o fim do outono, terra seca e pesada, como uma muralha ou fortaleza. O ferro junto à muralha se defende bem e pode partir a qualquer momento. Você tem personalidade forte, princípios e lealdade, e é difícil mudar o que decidiu. Aguenta bem a pressão, tem garra para não se dar por vencido e muitas vezes dá um passo à frente quando os outros recuam. Sua franqueza passa confiança, mas também pode criar distância. Por dentro, você sente muito; só a casca é mais dura. Se mostrar o lado mais macio, vai ganhar muitos amigos de verdade.",
+   "love": "No amor, você é leal e responsável: o que promete, cumpre. Seu jeito de demonstrar amor é mais firme, resolve as coisas em vez de dizer palavras doces. De vez em quando, suavize o tom e diga uma palavra de cuidado; o outro vai gostar muito.",
+   "work": "Combina com trabalhos que pedem iniciativa e execução, como gestão, engenharia, corporações com disciplina, empreendedorismo e funções técnicas. Você decide com coragem e mantém seus limites. Deixar um pouco de flexibilidade na parceria faz mais gente apoiar suas decisões.",
+   "watch": "Insistir demais no seu certo e errado leva a choques frontais. Numa discussão, comece achando um ponto em que vocês concordam e só depois fale das diferenças; o clima fica bem mais leve.",
+   "ask_next": "Naquilo em que você tem insistido ultimamente, existe outro jeito de chegar ao mesmo objetivo?"
+  },
+  "辛亥": {
+   "title": "Uma joia lavada por água clara",
+   "plain": "A água limpa do início do inverno é Hai, e você é uma joia lavada por ela, Xin (Metal). Lavada em água clara, a joia brilha limpa e chama a atenção. Você é inteligente, reage rápido, se expressa bem e muitas vezes diz com precisão o que todos pensavam e não diziam. Valoriza limpeza e agilidade, tem exigência com estética e qualidade e opiniões próprias. Seu talento é fácil de ser notado, mas, quando fala bonito demais ou rápido demais, pode ferir alguém sem perceber. Seu brilho é forte; se for mais suave, alcança mais gente.",
+   "love": "No amor, você é romântico e exigente, gosta de uma convivência com qualidade e dá atenção ao jeito de falar do outro. Fala bem, mas fala rápido nas brigas. Com a cabeça quente, não responda mensagens; conversar depois que acalmar dá menos arrependimento.",
+   "work": "Combina com trabalhos que pedem boa fala, criatividade e julgamento, como escrita, design, consultoria, ensino e mídia. Você tem ideias novas e se expressa bem. Cuidado para não ficar só no pensamento: escolha uma direção e continue produzindo.",
+   "watch": "A boca vai mais rápido que o coração, e uma brincadeira pode ficar na memória por muito tempo. Antes de falar, pense: o outro vai se sentir bem ouvindo isso? Pensar antes de dizer nunca é tarde.",
+   "ask_next": "Existe alguma frase que você disse de forma bonita, mas ainda não colocou em prática?"
+  },
+  "壬子": {
+   "title": "O grande mar corre fundo na noite de inverno",
+   "plain": "Ren Água são rios e mares, e Zi é a água do pleno inverno; água sobre água, como um mar sem fundo numa noite de inverno. Na superfície é calmo, mas por baixo há uma correnteza forte. Você é inteligente, tem opinião própria, pensa fundo e longe, e muitas vezes tem seu próprio modo de ver. É independente, não gosta de ser mandado e precisa de muito espaço. Se adapta bem ao ambiente e, diante de mudanças, fica até mais animado. Mas, com água demais, também guarda os sentimentos bem no fundo; os outros têm dificuldade em decifrar você, e você tende a ruminar sozinho por muito tempo, complicando coisas simples.",
+   "love": "No amor, você tem charme e precisa de liberdade. Pensa muito sobre o relacionamento, mas nem sempre diz, e o outro pode sentir que não consegue alcançar você. De vez em quando, compartilhe o que está pensando; a relação fica mais próxima.",
+   "work": "Combina com trabalhos que pedem estratégia, fluidez e adaptação, como comércio, logística, pesquisa, consultoria e trabalho autônomo. Você enxerga longe e sabe encontrar oportunidades. Cuidado para não carregar tudo sozinho; aprenda a buscar parceiros de confiança.",
+   "watch": "Pensar demais e não falar leva a se prender num beco sem saída. Quando algo estiver travado, conte a alguém de confiança ou, se preferir, escreva.",
+   "ask_next": "Aquilo que anda rondando sua cabeça nos últimos tempos: com quem você mais gostaria de conversar sobre isso?"
+  },
+  "癸丑": {
+   "title": "Chuva de inverno caindo num campo coberto de geada",
+   "plain": "Falando de Gui Chou, imagine a chuva de inverno: Gui Água é a chuva, e Chou é a terra mais fria, úmida e congelada. A chuva de inverno cai sobre o campo com geada; parece fria e deserta, mas está alimentando em silêncio o solo da próxima primavera. Você é calmo, reservado e tem muita resistência; diante das dificuldades, reclama pouco e aguenta em silêncio. Pensa fundo, tem seus próprios julgamentos e não se deixa convencer facilmente. Sua persistência é admirável, mas você costuma guardar a pressão dentro de si: por fora parece tudo bem, por dentro pesa muito, e precisa de uma saída. Ao achar alguém com quem se sinta à vontade para falar, o inverno fica menos frio.",
+   "love": "No amor, você esquenta devagar, demora para entregar o coração, mas, quando decide, é muito fiel. Você quase não fala de suas dificuldades, e o outro pode não saber que você precisa de apoio. Experimente dizer \"hoje estou um pouco cansado\" e dê a chance de a pessoa chegar perto.",
+   "work": "Combina com trabalhos que pedem resistência e acúmulo de experiência, como pesquisa, finanças, área técnica, gestão de arquivos e projetos de longo prazo. Você aguenta a solidão e mantém o ritmo do andamento. Lembre-se de reservar descanso para si, sem insistir o tempo todo.",
+   "watch": "Guardar toda a pressão dentro de si, com o tempo, deixa corpo e mente tensos. Reserve todo dia um tempo para desligar e desacelerar o ritmo, sem ficar tenso o tempo inteiro.",
+   "ask_next": "Naquilo que você vem sustentando em silêncio, de que tipo de apoio você mais precisa agora?"
+  },
+  "甲寅": {
+   "title": "A árvore mais reta da floresta",
+   "plain": "Jia Madeira é a árvore grande, e Yin é o início da primavera, quando as árvores estão em pleno vigor. A árvore está na própria floresta, com raiz funda e galhos retos, sem precisar que ninguém a sustente. Você é independente, tem firmeza de caráter e um rumo próprio no que faz, e não gosta muito de receber ordens. É íntegro, tem vontade de crescer, o que quer fazer vai subindo passo a passo, e você também cuida bem dos amigos. Só que a árvore muito reta nem sempre se curva: diante de opiniões diferentes você insiste, e é fácil esbarrar em quem também tem opinião forte. Aprender a se curvar um pouco quando o vento vem faz a árvore ficar de pé por mais tempo.",
+   "love": "No amor, você é sincero: se gosta, diz, e respeita o espaço do outro. Você precisa de respeito, e quando cobram demais, tende a se afastar. Quando as opiniões divergem, tente primeiro entender o ponto de partida da outra pessoa.",
+   "work": "Combina com trabalhos que pedem autonomia e iniciativa, como empreender, planejar, educação e desenvolvimento técnico. Você é ótimo para abrir caminho no que é novo e não gosta de ficar rodando dentro de moldes. O que vale praticar é a cooperação: dividir o mérito com quem se esforçou junto.",
+   "watch": "Querer fazer tudo sozinho faz você recusar a ajuda dos outros. Da próxima vez que alguém estender a mão, tente dizer \"tá bom, obrigado\". Isso não faz de você alguém mais fraco.",
+   "ask_next": "Em que coisa você anda se segurando sozinho ultimamente? Quem poderia fazer isso junto com você?"
+  },
+  "乙卯": {
+   "title": "Capim de primavera cobrindo a montanha inteira",
+   "plain": "Você é como flor, capim e trepadeira: Yi Madeira. O Mao em que se assenta é o meio da primavera, quando a vegetação está mais exuberante. O capim da primavera cobre a encosta inteira, macio, mas quase impossível de arrancar, e cresce onde houver um espaço. Você é simpático, fácil de lidar, sabe se relacionar, tem boa popularidade e se adapta bem. Parece tranquilo, mas tem ideias próprias: o que quer fazer, faz, nem que seja dando a volta. Você valoriza a liberdade e não gosta de se sentir preso. Fique atento, porque ao se preocupar demais com o sentimento de cada um, seu próprio rumo às vezes balança, e você se ocupa o dia todo sem saber aonde está indo.",
+   "love": "No amor, você é carinhoso e romântico, e sabe cuidar do clima. Como tem muitos amigos, o outro pode se sentir inseguro. Deixe a pessoa conhecer seu círculo e sentir que é especial para você, e a segurança vai crescendo aos poucos.",
+   "work": "Combina com trabalhos de relacionamento e flexibilidade, como relações públicas, marketing, estética, ensino e atendimento a clientes. Você conecta bem as pessoas. Cuidado: de tanto querer agradar a todos, no fim o seu próprio trabalho fica por terminar.",
+   "watch": "Ligar demais para a reação de cada um faz as decisões ficarem indo e voltando. Anote primeiro o que você realmente quer e só depois ouça as opiniões dos outros. O coração fica mais firme.",
+   "ask_next": "Se você não precisasse se importar com a opinião de ninguém, qual decisão mais gostaria de tomar?"
+  },
+  "丙辰": {
+   "title": "A luz da manhã sobre um campo úmido",
+   "plain": "Bing Fogo é o sol, e Chen é o fim da primavera, uma terra úmida e fértil. A luz do sol cai sobre o campo carregado de umidade, aquece, e tudo na terra cresce bem. Você é generoso, caloroso, gosta de compartilhar e de ver as pessoas ao redor felizes. Tem muita criatividade e sabe transformar uma ideia em algo de que todos podem participar. Trata os outros com largueza, não costuma fazer contas e muitas vezes é quem anima o grupo de amigos. Só que você se doa com facilidade, pensa mais nos outros do que em si e aceita mais coisas do que aguenta, até não sobrar tempo nem para você.",
+   "love": "No amor, você é caloroso e generoso, gosta de planejar e criar momentos felizes para o outro. Também quer ser correspondido com o mesmo entusiasmo, e se decepciona quando a pessoa é fria demais. Diga que tipo de resposta você precisa.",
+   "work": "Combina com trabalhos que pedem criatividade, partilha e serviço, como educação, gastronomia, eventos, criação de conteúdo e causas sociais. Você dá calor humano à equipe. Cuidado para não ser fácil demais de convencer: o que não é seu, devolva com educação.",
+   "watch": "Dar demais e ter vergonha de pedir faz você sentir que a balança está desigual. Antes de dar aos outros, veja se ainda tem fôlego. Agir dentro do que consegue também é uma forma de cuidado.",
+   "ask_next": "Você tem feito muito pelos outros ultimamente. O que gostaria de fazer por você?"
+  },
+  "丁巳": {
+   "title": "Chama de vela ao lado do fogo da lareira antes do meio-dia",
+   "plain": "Uma luz de vela é Ding Fogo, e Si é o início do verão, quando o calor vai ficando forte. A vela ao lado da lareira faz as duas chamas se refletirem e arderem cada vez mais. Você é apaixonado e sensível, tem uma forte motivação interna e, quando se dedica, fica muito concentrado. Tem boa intuição, muitas vezes capta o essencial logo na primeira impressão, gosta de se expressar e de ser visto. Seu fogo aquece as pessoas e também ilumina o lugar aonde você quer ir. Mas quando o fogo é forte demais, as emoções oscilam: ora você está cheio de entusiasmo, ora cansado, como uma chama que o vento faz crescer e diminuir.",
+   "love": "No amor, você se entrega, ama com atenção total e se importa muito com a resposta do outro. Quando esquenta, tende a pensar demais e depressa demais. Desacelere e dê tempo para o sentimento esquentar aos poucos. O outro também se aproxima com mais tranquilidade.",
+   "work": "Combina com trabalhos que pedem foco e paixão, como pesquisa, criação, artes cênicas, técnica e consultoria especializada. Quando se envolve, você vai fundo. Cuidado com a distribuição do seu calor: guarde energia para os momentos realmente decisivos.",
+   "watch": "Quando a emoção sobe, ela não para e pode esgotar você. Ao perceber que está agitado ou abatido demais, volte primeiro a uma rotina regular.",
+   "ask_next": "Dessa paixão que você sente agora, em que coisa gostaria de aplicá-la bem?"
+  },
+  "戊午": {
+   "title": "A grande montanha aquecida pelo sol",
+   "plain": "Wu Terra é uma montanha, e Wu, o ramo, é o meio-dia do verão. A grande montanha, aquecida pelo sol do meio-dia, é firme por fora e guarda calor por dentro. Você passa a impressão de ser confiável e de ter peso, e as pessoas gostam de pedir sua opinião nas dificuldades. Por dentro tem muita paixão e ambição, e quando decide, vai com tudo. Valoriza a imagem e a palavra dada, e cumpre o que promete. Só que o calor fica abafado dentro da montanha: você fala pouco da sua pressão e, quando aguenta por tempo demais, o temperamento pode explodir de repente, assustando até você. Dê ao calor um lugar para sair, e a montanha seguirá firme.",
+   "love": "No amor, você é firme e responsável, e dá muita segurança ao outro. Você se expressa de forma direta, e às vezes parece autoritário. Quando o outro contar o que sente, primeiro fique ao lado e escute, sem correr para dar soluções.",
+   "work": "Combina com trabalhos que pedem estabilidade e liderança, como gestão, imóveis, construção, setor público e chefia de equipe. Você sustenta o quadro geral. Cuidado para não dar importância demais à imagem: quando houver um problema, pedir ajuda cedo compensa mais do que aguentar sozinho.",
+   "watch": "Guardar a pressão sem falar pode levar a uma explosão repentina. Toda semana, encontre um jeito de soltar o calor, como exercício, uma caminhada ou uma conversa com amigos.",
+   "ask_next": "Essa pressão que você anda guardando por dentro, com quem gostaria de conversar sobre ela?"
+  },
+  "己未": {
+   "title": "Dois campos unidos no fim do verão",
+   "plain": "Você é o campo, Ji Terra, e o Wei em que se assenta também é terra seca e morna do fim do verão: campo ao lado de campo, uma terra espessa e firme. Você é prático, tem os pés no chão, valoriza uma vida estável, faz as coisas passo a passo e raramente se arrisca. É apegado ao passado, sente muito carinho pela família, pelas pessoas e pelos lugares conhecidos, e sabe guardar o que é seu. Parece suave, mas por dentro tem opinião forte e não se deixa convencer à toa. Essa firmeza faz de você alguém confiável. Só que, apegado ao seu jeito, às vezes uma oportunidade nova se aproxima, você ainda hesita em abrir a porta, e ela passa primeiro.",
+   "love": "No amor, você é constante e leal ao compromisso, e prefere uma relação estável, de fogo brando. Não é de falar palavras bonitas e costuma cuidar em vez de expressar. Quando o outro precisar de novidade, tentem ir juntos a um lugar onde nunca estiveram.",
+   "work": "Combina com trabalhos que pedem estabilidade e paciência, como administração, finanças, agricultura, imóveis e relacionamento de longo prazo com clientes. Você trabalha de forma confiável e passa tranquilidade. Cuidado para não ter medo demais de mudanças: de vez em quando, experimente uma ferramenta ou método novo.",
+   "watch": "Quando se apega demais ao antigo, você pode perder oportunidades novas. Diante do que nunca experimentou, não se apresse em dizer não. Dê uma pequena chance e decida depois de tentar, sem pressa.",
+   "ask_next": "Existe alguma coisa nova que você tem vontade de tentar, mas nunca começou?"
+  },
+  "庚申": {
+   "title": "Duas facas recém-afiadas lado a lado",
+   "plain": "Geng (Metal) é um pedaço de ferro ou uma faca, e Shen é o início do outono, quando o Metal está em pleno vigor. Ferro sobre ferro é como duas facas recém-afiadas lado a lado: cortantes e ágeis. Você é decidido e age rápido: viu com clareza, faz, e não gosta de enrolação. Tem um forte espírito competitivo, fica mais animado diante de desafios e é leal aos amigos. Sua eficiência impressiona. Só que, quando a faca é afiada demais, a fala e as decisões podem ficar duras, e diante de alguém tão forte quanto você, é fácil nenhum dos dois ceder e a coisa travar. Saber guardar a faca é mais raro do que saber sacá-la.",
+   "love": "No amor, você é direto e objetivo: se gosta, vai atrás, e se não gosta, diz com clareza. Mas você valoriza tanto a eficiência que pode não dar ao outro o acompanhamento e a paciência de que ele precisa. Vá um pouco mais devagar e escute o que a pessoa sente.",
+   "work": "Combina com trabalhos que pedem decisão e rapidez, como vendas, engenharia, técnica, áreas muito competitivas e empreendedorismo. Você tem coragem de avançar e lutar. Cuidado com o atrito com colegas: deixe as regras claras antes de dividir as tarefas.",
+   "watch": "Quando o espírito competitivo é forte demais, a cooperação vira disputa. Ao perceber que está brigando por ganhar ou perder, pergunte primeiro: o que eu quero alcançar com isso no final?",
+   "ask_next": "Com quem você tem disputado ultimamente? Essa disputa realmente vale a pena ganhar?"
+  },
+  "辛酉": {
+   "title": "Uma caixa inteira de joias brilhantes",
+   "plain": "O momento do outono em que o Qi do Metal é mais puro se chama You, e você é uma das joias desse tempo: Xin (Metal). Numa caixa cheia de joias, cada peça é limpa, brilhante e bem-acabada. Você valoriza bom gosto e qualidade, tem exigências altas consigo e com o que está ao seu redor, e trabalha com cuidado e capricho. Tem amor-próprio forte, princípios claros e não cede com facilidade. Seu olhar é bom e muitas vezes você escolhe o melhor. Mas, quando a exigência passa do ponto, tudo parece ter defeito, e você mesmo(a) sente que nunca está bom o bastante. Se aceitar um pouco de imperfeição, seu brilho fica mais à vontade.",
+   "love": "No amor, você é exigente e fiel: só se entrega quando encontra alguém que admira de verdade. Presta muita atenção aos detalhes e se decepciona quando o outro é descuidado. Tente dizer com clareza o que espera e dar ao outro um pouco de espaço para errar.",
+   "work": "Combina com trabalhos que pedem precisão e qualidade, como joalheria, design, técnica de precisão, contabilidade e controle de qualidade. Seu trabalho é detalhado e vale a pena olhar de perto. Cuidado com a busca excessiva pela perfeição: lembre que o tempo também faz parte da qualidade.",
+   "watch": "Ser rígido(a) demais com os outros e consigo mesmo(a) deixa as relações tensas. Todo dia, procure algo que alguém fez bem e elogie em voz alta. Aos poucos, a relação vai se soltando.",
+   "ask_next": "Onde você tem sido mais rigoroso(a) consigo mesmo(a) ultimamente? Será que dá para relaxar um pouco?"
+  },
+  "壬戌": {
+   "title": "Um grande rio firmemente cercado por um dique",
+   "plain": "Ren Água é o grande rio, e Xu é terra seca e espessa do fim do outono, como um dique. O rio, cercado pelo dique, tem muita força, mas ganha um limite que o impede de correr sem rumo. Você tem ambição e determinação, pensa longe e ousa fazer coisas grandes. Por fora parece calmo(a), mas por dentro carrega muitas ideias e pressão, e sente que precisa sustentar alguma coisa. Você rende bem dentro de regras e sabe dar resultado sob pressão. Porém, quando a água fica represada por muito tempo, a emoção se acumula e, no fim, sai de uma vez, a ponto de você mesmo(a) não conseguir conter.",
+   "love": "No amor, você é responsável e pensa muito no outro. Mas quase não fala da sua pressão, e o outro costuma sentir você distante. Compartilhe um pouco das suas preocupações: assim fica mais fácil para o outro saber como estar ao seu lado.",
+   "work": "Combina com trabalhos que pedem estratégia e resistência à pressão, como gestão, administração ligada a finanças, logística, consultoria e setor público. Sob pressão, você até rende melhor. Cuidado para não ficar sempre aguentando: crie um ritmo fixo de descanso.",
+   "watch": "Pressão guardada por muito tempo pode explodir de repente ou levar ao esgotamento. Reserve toda semana um período sem falar de trabalho, para a água do seu coração poder correr.",
+   "ask_next": "Esse dique dentro de você: será que ultimamente ele tem segurado coisas demais?"
+  },
+  "癸亥": {
+   "title": "A chuva cai no mar sem fim",
+   "plain": "A chuva é Gui Água, e Hai é o rio e o mar do início do inverno. A chuva cai no mar, água sobre água, a perder de vista, sem margens. Você tem intuição forte, muita imaginação e sensibilidade, e percebe emoções que os outros não dizem. É acolhedor(a) e gentil, se dá bem com todo tipo de gente e se adapta bem a mudanças. Seu mundo interior é enorme, com muitos pensamentos e sentimentos em movimento. Mas, quando há água demais, os limites ficam borrados: as emoções dos outros entram, você oscila junto e às vezes não sabe bem o que é seu.",
+   "love": "No amor, você é gentil e acolhedor(a), e cuida bem do estado de espírito do outro. Tende a tomar as emoções dele como suas, e se ele fica mal, você também cai. Pratique cuidar dele sem abrir mão do seu próprio sentimento.",
+   "work": "Combina com trabalhos que pedem imaginação e sensibilidade, como criação, aconselhamento, gestão de comunidades, design e turismo. Você entende bem as pessoas. Cuidado com direções demais: escolha um objetivo para dar uma saída à água.",
+   "watch": "Ser levado(a) com tanta facilidade pelas emoções dos outros também cansa você. Reserve um tempo diário a sós para voltar ao que sente e separar quais sentimentos são seus.",
+   "ask_next": "Esse sentimento que você tem percebido ultimamente é seu ou é de outra pessoa?"
+  }
+ },
+ "howto": "No BaZi (Quatro Pilares), a força é medida pelo quanto o Mestre do Dia (o tronco do pilar do dia, isto é, você) recebe de apoio no mapa inteiro. O método tradicional de apoiar e conter costuma olhar três pontos. O primeiro é o ramo do mês: o ramo do mês de nascimento representa o elemento que comanda a estação; se ele é do mesmo tipo do Mestre do Dia ou o alimenta, diz-se que está na estação, e este é o ponto de maior peso. O segundo são os ramos: observa-se quantos dos troncos ocultos nos quatro ramos são do mesmo tipo do Mestre do Dia ou o alimentam, o que se chama enraizado, ou seja, se o Mestre do Dia tem raízes. O terceiro são os troncos: conta-se quantos dos outros troncos são ajudantes como Amigo, Roubo de Riqueza, Recurso Direto e Recurso Indireto, o que se chama apoiado. Somando os três pontos, se há mais forças a favor, tende a ser forte; se há mais forças que o desgastam, tende a ser fraco; se estão parecidas, é equilibrado. Um mapa mais forte gosta de pôr sua força para fora; um mais fraco gosta de receber apoio. Este é o olhar do método de apoiar e conter; outras escolas, como a de ajuste climático e a da estrutura, podem ver de outra forma, e isso pode servir como mais um ângulo para se entender.",
+ "intro": "O BaZi associa a cada um dos elementos do seu nascimento (ano, mês, dia e hora) um par de Tronco Celestial e Ramo Terrestre, formando os quatro pilares, com oito caracteres no total. Cada caractere carrega um dos cinco elementos, e eles se alimentam e se controlam entre si, compondo um mapa só seu. Pelo BaZi dá para ver o Mestre do Dia, a essência de quem você é; os Dez Deuses, que mostram sua relação com talento, recursos, pressão e aprendizado; o equilíbrio e a força dos cinco elementos, que indicam o ritmo em que as coisas fluem melhor para você; e, pelos pilares de sorte e pelo pilar anual, onde está o foco de cada dez anos e de cada ano. Muita gente não sabe a hora em que nasceu, e tudo bem: com ano, mês e dia já se montam os três pilares (ano, mês e dia), e dá para ver o Mestre do Dia, o ramo do mês e a maior parte dos Dez Deuses, só que a coluna da hora fica em branco por enquanto. O BaZi não tira conclusões sobre você; é um mapa que ajuda a se enxergar com mais clareza.",
+ "faq": [
+  {
+   "q": "E se eu não sei a hora em que nasci?",
+   "a": "Tudo bem, o BaZi pode ser montado primeiro com três pilares: ano, mês e dia aparecem, e o Mestre do Dia, o ramo do mês e a maior parte dos Dez Deuses também estão lá. Sem o pilar da hora, uma parte da leitura de força fica de fora, e as informações ligadas à velhice e aos filhos ficam menos visíveis. Quando você descobrir a hora aproximada, basta acrescentar e montar de novo."
+  },
+  {
+   "q": "Qual é a diferença entre Zi cedo e Zi tarde?",
+   "a": "A hora Zi vai das 23:00 à 01:00. O costume mais comum é considerar o dia seguinte assim que passam as 23:00, e o pilar do dia muda junto; chama-se trocar de dia no início de Zi. Outra visão é que o \"Zi tarde\", das 23:00 à meia-noite, não troca de dia: o pilar do dia continua sendo o do próprio dia, e o tronco do pilar da hora é calculado a partir da hora Zi do dia seguinte. Para quem nasceu nessa hora, o pilar do dia é diferente nos dois métodos, e vale comparar os dois."
+  },
+  {
+   "q": "O que é o tempo solar verdadeiro? Devo ativar?",
+   "a": "O horário do relógio é unificado por fuso horário, mas a posição real do sol varia conforme a longitude do lugar onde você está e, somada à variação da velocidade da órbita da Terra ao longo do ano, a diferença pode chegar a mais de dez minutos. O tempo solar verdadeiro é o horário já corrigido por essa diferença. O pilar da hora observa a posição do sol, por isso recomendamos deixar ativado; a diferença é mais notável para quem nasceu perto da divisa entre duas horas."
+  },
+  {
+   "q": "Por que o signo do zodíaco chinês e o pilar do ano do BaZi mudam no Início da primavera?",
+   "a": "O BaZi usa o calendário dos termos solares, em que o ano começa no Início da primavera, e não no primeiro dia do primeiro mês do calendário lunar chinês. Por isso, o pilar do ano e o signo do zodíaco chinês só mudam no instante exato do Início da primavera. Se você nasceu entre o fim de janeiro e o começo de fevereiro, depois do Ano-Novo lunar mas antes do Início da primavera, o pilar do ano e o signo contam como os do ano anterior; já quando o Ano-Novo vem depois do Início da primavera, conta-se o novo ano."
+  },
+  {
+   "q": "Por que o resultado é diferente do de outros sites?",
+   "a": "Na maioria das vezes é uma diferença de critério. Os três mais comuns são: usar ou não o tempo solar verdadeiro, o que afeta o pilar da hora; trocar o dia às 23:00 ou usar o Zi tarde sem troca, o que afeta o pilar do dia; e até quantos minutos se conta o momento da virada do termo solar, o que pode deixar o pilar do ano ou do mês uma posição diferente para quem nasceu perto do Início da primavera ou do dia de troca de mês. Ajustando esses itens do mesmo jeito, o resultado costuma coincidir."
+  },
+  {
+   "q": "E se faltar um dos cinco elementos?",
+   "a": "Não é preciso completar de propósito. O BaZi olha o equilíbrio do conjunto, e faltar um elemento não significa que falte algo; às vezes deixa o mapa até mais simples. O que realmente importa é a força do Mestre do Dia e o fluxo do mapa inteiro, e além disso esse elemento pode estar oculto nos Ramos Terrestres, só sem aparecer. Entender o ritmo que combina com você é mais prático do que correr para completar um caractere."
+  },
+  {
+   "q": "O que são os pilares de sorte? Com que idade começam?",
+   "a": "Os pilares de sorte são o ritmo de vida em blocos de dez anos: a partir do pilar do mês, avançam-se ou recuam-se os pares de tronco e ramo para ver onde está o foco daquela década. Se a ordem é direta ou inversa depende do yin e yang do tronco do ano e do gênero. A idade do início dos pilares de sorte é calculada pelos dias entre o dia do nascimento e o termo solar mais próximo, antes ou depois; é diferente para cada pessoa, e há quem comece com um ou dois anos e quem só comece aos oito ou nove."
+  },
+  {
+   "q": "Qual é a diferença entre o BaZi e o Zi Wei Dou Shu?",
+   "a": "Os dois usam a hora do nascimento, mas veem de modos diferentes. O BaZi usa os Troncos Celestiais, os Ramos Terrestres e os cinco elementos, observa a força do Mestre do Dia e a relação dos Dez Deuses, e mesmo sem saber a hora dá para montar três pilares. O Zi Wei Dou Shu distribui estrelas pelos doze palácios e olha por áreas, como o palácio da vida, o palácio do cônjuge e o palácio da carreira, e exige saber a hora. Dá para ver o BaZi como o mapa da estrutura geral, e o Zi Wei como o mapa das várias áreas da vida."
+  }
+ ]
+}

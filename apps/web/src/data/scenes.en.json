@@ -1,0 +1,522 @@
+{
+ "job-change": {
+  "slug": "job-change",
+  "topic": "career",
+  "hexagrams": [
+   11,
+   5,
+   46,
+   35
+  ],
+  "title": "I Ching Job Offer: Should I Take the Job or Wait?",
+  "h1": "Should I take the job offer or wait?",
+  "meta": "A Liu Yao cast for a job offer or career change weighs the position, the contract, the pay and the timing. The chart is fixed; you decide.",
+  "intro": [
+   "An offer is sitting in your inbox, or a rival firm has called twice, and the decision has a deadline attached. You keep flipping between the salary, the title, the manager you would leave behind, and the feeling that saying yes too fast might cost you something you cannot name yet.",
+   "A Liu Yao cast does not tell you what to do. It builds a fixed chart from your question — the position, the contract, the pay, your side and theirs — and then explains what that chart shows. You still weigh it against your life, your rent, and what you actually want."
+  ],
+  "how": {
+   "lead": "For a job offer or a move, the chart looks at the position itself, the paperwork behind it, the money, and which side is pulling.",
+   "points": [
+    "The Officer line (官鬼) stands for the job and the employer's pull toward you. If it is strong and feeds the Self line, the position genuinely wants you; if it is void — a line that has run out of force in this ten-day cycle — the role is not what the description says.",
+    "The Parent line (父母) covers the contract, the offer letter, the start date, the paperwork. A weak Parent line with a loud Officer line means the enthusiasm is real but the terms are still soft.",
+    "The Wealth line (妻财) is the pay. Strong Wealth means the money is real and reachable; weak or clashed Wealth means the number moves or shrinks once you are inside.",
+    "The Self line (世) is you, and the Other line (应) is the company. When the Other line supports the Self line, the other side is working in your favor; when it presses on it, you carry the cost.",
+    "A moving Sibling line (兄弟) signals competition — another candidate, an internal rival, or a quiet cut to the package. Watch whether that Sibling moves toward you or against you."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "The position is real and wants you",
+    "text": "Officer strong, feeding the Self line, with the Other line in support. The role is what it appears to be, and the employer's interest is genuine. The question shifts from whether they want you to whether the terms match."
+   },
+   {
+    "name": "The offer is loud, the paperwork is thin",
+    "text": "Officer strong but Parent weak or absent. The hiring manager is keen, the title is attractive, but the written terms are vague or still moving. Do not treat a verbal promise as a contract."
+   },
+   {
+    "name": "The money is the sticking point",
+    "text": "Wealth line clashed or a Sibling line moving against it. The salary quoted may be trimmed, delayed, or matched by a counter-offer that changes the shape of the deal. Get the number in writing before you resign anything."
+   },
+   {
+    "name": "The position is not what it looks like",
+    "text": "Officer void or broken by the month. The role may be restructured, the mandate narrower than described, or the team in flux. This is a chart that rewards asking harder questions before signing."
+   }
+  ],
+  "example": {
+   "values": "777868",
+   "question": "A rival firm has offered me a manager role. Should I take it now or wait?",
+   "text": "The chart is Peace (地天泰), a six-combination figure — the two sides are already linked and talking. Line 5 is the Wealth line, the pay, and it is moving: it turns into a Sibling line, and Earth overcomes Water, so the change works against the money. The offer is real, but the package is not settled; something in the pay or the terms will shift before it lands.\n\nThe Self line is line 3, you, and the Other line is line 6, the company — they are in a combining relationship, so the other side is genuinely interested. The Officer line on line 2 is the position itself: it is on the board, so the role is real — but its Wood presses on your Earth, so the job will ask a lot of you. There is no Parent line in the chart at all: the contract has not taken shape yet. Read together: the job wants you, the money is the moving part. The chart becomes Waiting (水天需) — the timing says wait until the paperwork settles and the number is fixed in writing. That is the reading, not the instruction; you decide whether the wait is worth it."
+  },
+  "faq": [
+   {
+    "q": "Can a Liu Yao cast tell me whether to accept a job offer?",
+    "a": "No. The cast produces a fixed chart of the position, the contract, the pay and the two sides. It explains what that chart shows; the decision stays with you."
+   },
+   {
+    "q": "What does it mean if the Officer line is void in my chart?",
+    "a": "Void means the line has run out of force in this ten-day cycle. For a job question it suggests the role is not what the description says — restructured, narrower, or in flux. It is a prompt to ask more questions, not a verdict."
+   },
+   {
+    "q": "Should I cast again if I do not like the answer?",
+    "a": "A second cast on the same matter gives you a second chart, not a truer one — the six lines fall as they fall. The tradition's rule is one matter, one cast: sit with the first reading, decide, and cast again only when the situation itself has changed."
+   }
+  ],
+  "ask": "Should I take this job offer, wait, or stay where I am?"
+ },
+ "moving": {
+  "slug": "moving",
+  "topic": "decision",
+  "hexagrams": [
+   35,
+   56,
+   53,
+   39
+  ],
+  "title": "I Ching for Moving Abroad: Relocation Cast Reading",
+  "h1": "Should I move? Reading a Liu Yao cast for relocation",
+  "meta": "A Liu Yao I Ching cast for moving abroad or changing cities, read through home, paperwork, obstruction and safe passage. The chart is fixed; you decide.",
+  "intro": [
+   "The boxes are half-packed, the lease ends in two months, and one of you keeps refreshing the visa page at midnight. A move to another country or another city is a stack of small decisions wearing one big name, and most of the weight sits in the parts you cannot see yet: the paperwork, the timing, whether the new place will hold you.",
+   "A Liu Yao cast does not tell you whether to go. It draws a fixed, reproducible chart from your six lines, and the reading explains what that chart weighs — the home and the documents, the obstruction and officialdom, the ease of the passage, and whether you are settled enough to move at all. You read it, you argue with it, and you decide."
+  ],
+  "how": {
+   "lead": "For a move, the chart weighs the asker's own line, the line of home and paperwork, the line of obstruction and officials, and the line of ease and safe passage.",
+   "points": [
+    "The Self line (世爻, the line standing for you, the asker) shows whether you are actually in motion. Strong and moving, you can move; the decision has weight behind it. If it is void (旬空, a line sitting in a calendar gap where it has no force), you have not decided yet, whatever the calendar says.",
+    "The Parent line (父母, the line of home, documents and the visa) shows whether the new place holds. Strong Parent means the address, the lease, the permit have something under them. Weak or clashed Parent means the home side of the move is thin.",
+    "The Officer line (官鬼, the line of obstruction and officialdom) is the queue at the consulate, the missing stamp, the landlord who will not sign. Officer moving to overcome your Self line is red tape or trouble on the way — not a verdict, a warning about where the friction sits.",
+    "The Descendants line (子孙, the line of ease and safe passage) is the smooth part: the flight that lands, the friend who meets you, the week that goes quietly. When it is present and unbroken, the passage itself is not the problem.",
+    "The Other line (应爻, the line of the other side — the city, the employer, the country) shows what you are moving toward. Read it against your Self line: support, indifference, or pressure."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "World strong and moving",
+    "text": "Your line has force and is changing, which is the chart saying the move has momentum in you. The question shifts from whether to how. Look at the Parent line next: momentum without a home to land in is just a departure."
+   },
+   {
+    "name": "World void",
+    "text": "Your line sits in a calendar gap with no force, which reads as not yet decided. This is not a no. It usually means the real question is still upstream — the job, the money, the person you have not told yet."
+   },
+   {
+    "name": "Officer moving against the world",
+    "text": "The obstruction line is active and pressing on your line: paperwork, officialdom, a delay with a name on it. The chart is pointing at the friction, not forbidding the move. Budget time and money for the queue."
+   },
+   {
+    "name": "Parent strong, Descendants present",
+    "text": "The home line has substance and the ease line is unbroken, which is the steadiest shape for a move. The new place holds and the passage is quiet. What remains is the ordinary work of going."
+   }
+  ],
+  "example": {
+   "values": "888987",
+   "question": "Should we move to another country this year?",
+   "text": "The chart is 火地晋, Progress, becoming 山地剥, Splitting Apart, with line 4 moving. Line 4 is your Self line — the two of you as askers — and it is yang and moving, so the move is genuinely in motion. Line 1 is the Other line, the other side, and it is a Parent line of 未 earth: the country you are moving toward is a home line, not an indifferent one. Line 5 is also Parent, so the home-and-paperwork side of this move has two supports. Line 6 and line 2 are Officer lines, the obstruction and officialdom side, and neither is moving against your line.\n\nThe one moving line is your own, and it turns from a Sibling line of 酉 metal into a Parent line of 戌 earth. In plain terms, the thing that moves is you, and what it becomes is home and paperwork — and the line is fed back by what it becomes, so it comes out of the change stronger. Read together: the move opens, and the paperwork drags. Nothing here says go or stay. It says the passage is real, the destination is a home line, and the slow part will be the documents."
+  },
+  "faq": [
+   {
+    "q": "Can a cast tell me whether I will get the visa?",
+    "a": "No. The chart can show the Parent line — home and paperwork — and whether it is strong or thin, and it can show the Officer line of officialdom pressing or quiet. That tells you where the friction is likely to sit. It does not issue the visa."
+   },
+   {
+    "q": "What if my Self line is void?",
+    "a": "Void (旬空) means the line sits in a calendar gap with no force, which for a move usually reads as not decided yet rather than no. Sit with the upstream question — the job, the money, the conversation — and cast again when something has actually changed."
+   },
+   {
+    "q": "Should I cast once or several times about the same move?",
+    "a": "One cast answers one question at one moment, and the chart is fixed once drawn. If the situation genuinely changes — an offer, a refusal, a date — that is a new question and a new cast. Recasting the same unchanged question mostly produces noise."
+   }
+  ],
+  "ask": "Should I move to another city or country this year?"
+ },
+ "negotiation-deal": {
+  "slug": "negotiation-deal",
+  "topic": "money",
+  "hexagrams": [
+   13,
+   49,
+   6,
+   14
+  ],
+  "title": "I Ching for Negotiation & Contracts: Will the Deal Close?",
+  "h1": "Will the deal close, and on whose terms?",
+  "meta": "A Liu Yao I Ching cast shows whether a negotiation closes: the counterparty, the contract, and the money on the table. The chart is fixed; you decide.",
+  "intro": [
+   "You are in the middle of a negotiation — a contract, a sale, a term sheet — and the ground keeps shifting. The other side seems interested, then slow, then interested again, and you want a straight look at where this actually stands.",
+   "A Liu Yao cast does not decide the outcome or tell you what to sign. It gives you a fixed, reproducible chart of the moment: who the counterparty is in the reading, whether the paper is ready, and where the money sits. You read it, then you decide."
+  ],
+  "how": {
+   "lead": "The chart weighs three things for a negotiation: the counterparty, the contract itself, and the money on the table.",
+   "points": [
+    "The Other line (应) is the counterparty — the other side across the table. Its strength, its movement, and whether it is void tell you how real their position is right now.",
+    "The Parent line (父母) is the contract — the paper, the terms, the signature page. If it is void, the document is not ready yet, no matter how good the conversation feels.",
+    "The Wealth line (妻财) is the money on the table — the price, the fee, the consideration. Where it sits and whether it is supported shows what is actually being negotiated.",
+    "The Self line (世) is you — your position, your leverage, your ask. When Self and Other combine, the two sides meet. When they clash, there is no meeting point.",
+    "A moving line shows where the situation is heading. A line that retreats — same phase, branch steps back — loses momentum, even if it stays the same kind of line."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "World and response combine",
+    "text": "The two sides meet. This is the clearest sign a deal closes — not because it is destined, but because the chart shows a point of contact. The terms still have to be written, but the will is there."
+   },
+   {
+    "name": "Response void",
+    "text": "The counterparty is not real about it right now. They may be polite, interested, even enthusiastic, but the Other line being void means their position is hollow at this moment. Wait for it to fill before you commit."
+   },
+   {
+    "name": "World and response clash",
+    "text": "No meeting point. The two positions are not touching — you are talking past each other. This does not mean the deal is dead forever, but the current shape of it does not close. Something has to change."
+   },
+   {
+    "name": "Parent void",
+    "text": "The paper is not ready. The contract, the terms, the signature page — whatever form the agreement takes — is not in a state to be signed. Do not mistake a good conversation for a done deal."
+   }
+  ],
+  "example": {
+   "values": "787779",
+   "question": "Will this investment close, and on what terms?",
+   "text": "The chart is Fellowship (天火同人), becoming Revolution (泽火革), with line 6 moving. Line 3 is the Self line — the founder asking. Line 6 is the Other line — the investor — and it is moving. Line 1 is the Parent line, the contract. Line 5 is the Wealth line, the money on the table. The Self and Other lines do not combine: the Other line's Earth overcomes the Self line's Water, so the investor holds the upper hand and sets the pace. Their interest is real — the line is moving — and the Parent line is present, so the paper exists in some form.\n\nBut line 6, the investor, is moving — and it retreats. It stays a Descendant line, but the branch steps back from 戌 to 未. The counterparty loses momentum at the last step. The deal closes in shape, but the terms get rewritten on the way. Fellowship becomes Revolution: what started as mutual agreement ends as a restructured document. The money line sits at line 5, fed by the investor's line, but the final terms are not the ones first discussed."
+  },
+  "faq": [
+   {
+    "q": "Can a Liu Yao cast tell me whether to sign?",
+    "a": "No. The chart shows the state of the counterparty, the contract, and the money. It does not tell you what to do. You read the chart, weigh it against everything else you know, and decide."
+   },
+   {
+    "q": "What does it mean if the Other line is void?",
+    "a": "The counterparty is not solid right now. They may be waiting on something, or not fully committed. It does not mean they are lying — it means their position is hollow at this moment. Give it time to fill before you act."
+   },
+   {
+    "q": "The deal looks good in conversation but the chart shows a clash. What then?",
+    "a": "A clash between Self and Other means the two positions are not touching. The conversation may be warm, but the structure of the deal does not meet. Something has to change — the terms, the timing, or the parties — before it closes."
+   }
+  ],
+  "ask": "Will this deal close, and on whose terms?"
+ },
+ "starting-a-business": {
+  "slug": "starting-a-business",
+  "topic": "money",
+  "hexagrams": [
+   48,
+   42,
+   3,
+   50
+  ],
+  "title": "I Ching for Starting a Business: Should I Go Independent?",
+  "h1": "Should I start my business now, later, or not at all?",
+  "meta": "A Liu Yao cast weighs profit, customers, competition and partners. It shows what is in the chart, not what to do. You decide.",
+  "intro": [
+   "You have a skill people pay for, or an idea you keep circling. The question is not whether you can do the work — it is whether the money, the customers and the timing line up. You want a straight look at the ground before you step onto it.",
+   "A Liu Yao cast builds a fixed chart from your question: six lines, each carrying a relation and an element. The chart does not tell you to jump or stay. It shows where profit sits, who brings it, what drains it, and whether the structure holds. You read that against your own numbers and decide."
+  ],
+  "how": {
+   "lead": "For a business question the chart weighs the profit line, the customer line, the pressure line and the expense line against the strength of your own position.",
+   "points": [
+    "The Wealth line (妻财) is profit — money that actually lands. A strong Wealth line in a strong position means the ground can carry income; a weak or absent one means the revenue is not there yet, however good the idea.",
+    "The Descendants line (子孙) is the source of profit and the customers themselves. When it is present and moving well, demand exists and people come to you. When it is missing, you are selling into a quiet room.",
+    "The Officer line (官鬼) is the venture's pressure — competition, regulation, licences, the cost of being seen. A heavy Officer line is not a stop sign; it tells you the entry price and who else is already there.",
+    "The Sibling line (兄弟) is expense and partners who take. If Sibling holds the Self line (世爻, the line that stands for you), money goes out faster than it comes in, often through shared costs or a partner's draw.",
+    "A moving line that advances (进神) shows momentum building in that area. A six-clash chart (六冲), where the lines pull against each other, is hard to make last — it can start, but it rarely holds."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Skill present, customers absent",
+    "text": "The Parent line (the line of preparation and skill) is strong, but the Descendants line (customers and the source of profit) is weak or hidden. You can do the work; the people who pay for it have not arrived. This is a timing signal, not a verdict on your ability."
+   },
+   {
+    "name": "Profit line strong, you are not",
+    "text": "Wealth is strong in the chart, but the Self line (you) is weak or under pressure. The market is real, yet your position cannot hold it — you may be undercapitalised, overcommitted, or spread too thin. The opportunity is not the problem."
+   },
+   {
+    "name": "Sibling holds the world",
+    "text": "The Sibling line (expense, partners who take) sits on the Self line. Money leaves as fast as it arrives, often through a partner's share, shared overheads, or the cost of keeping others afloat. Read every partnership agreement twice."
+   },
+   {
+    "name": "Six-clash, hard to last",
+    "text": "The six lines clash against each other rather than supporting. A venture can launch under a clash chart, but it struggles to hold together — early wins do not compound. This favors waiting for a chart where the lines support one another."
+   }
+  ],
+  "example": {
+   "values": "897878",
+   "question": "I am a designer thinking of leaving my job to freelance. Is now the time?",
+   "text": "The chart is 水风井 (The Well, hexagram 48), turning into 水山蹇 (Obstruction, hexagram 39) at line 2. The Self line (you) is line 5, a Wealth line — the ability to earn is there, and your Earth overcomes the Other line's Water: you would be the one setting the terms. The Other line (the other side — clients, the market) is line 2, a Parent line, and it is the moving line. Parent is preparation and skill, not customers. The line that would carry demand is not the one answering you.\n\nLine 2 moves from Parent into Descendant — from skill into the source of profit. But the movement is Water overcoming Fire: the line wears itself out making the change. The reading is not that freelancing fails. It is that the skill is ready and the customers are not yet in the chart. The Well is full; no one has come to draw from it. Build the client list before you cut the salary, and the same chart reads differently."
+  },
+  "faq": [
+   {
+    "q": "Can I cast again if I do not like the answer?",
+    "a": "You can, but the chart is a snapshot of the question you asked. If you ask the same question twice, you get two charts and no clearer ground. Better to ask a sharper question — about the customers, the timing, or the money — than to repeat the same one."
+   },
+   {
+    "q": "Does a bad chart mean I should not start?",
+    "a": "No. The chart shows where the pressure sits and what is missing. A weak Descendants line means customers are not yet visible, not that they will never come. You decide whether to wait, build, or proceed anyway."
+   },
+   {
+    "q": "What if the chart shows strong profit but I feel unprepared?",
+    "a": "The Wealth line is the market's capacity, not your readiness. A strong Wealth line with a weak Self line says the opportunity is real but your position needs work — capital, time, or a partner who does not drain you. The chart does not overrule your own read of your readiness."
+   }
+  ],
+  "ask": "Is now the time to go independent with my work?"
+ },
+ "get-back-together": {
+  "slug": "get-back-together",
+  "topic": "relationship",
+  "hexagrams": [
+   31,
+   24,
+   38,
+   45
+  ],
+  "title": "I Ching for Getting Back Together: Will My Ex Return?",
+  "h1": "Will my ex come back, and is there a way back?",
+  "meta": "A Liu Yao cast for reconciliation reads the other person's line, the Self and Other lines, and whether the hexagram binds or scatters. You decide.",
+  "intro": [
+   "After a breakup, the question is rarely just whether they will come back. It is whether you want them to, whether anything has actually changed, and whether reaching out would help or only reopen the wound. You replay the last conversation, you check your phone, you wonder if silence means they are moving on or waiting for you to move first.",
+   "A Liu Yao cast does not decide whether your ex returns, and it cannot make them want you. What it does is lay out the shape of the situation in a fixed, reproducible chart: who is leaning in, who is holding back, whether the two of you are bound together or scattering, and whether your own effort is likely to land or wear itself out. The reading explains the chart. You decide what to do with it."
+  ],
+  "how": {
+   "lead": "For a reconciliation question, the chart looks at the line that stands for the other person, the line that stands for you, and whether the two are feeding each other or fighting.",
+   "points": [
+    "If you are a woman asking about a man, the Officer line (官鬼, the line that represents him) is read as him. If you are a man asking about a woman, the Wealth line (妻财, the line that represents her) is read as her. How that line sits in the hexagram — supported, empty, moving, or still — tells you how present and how willing the other person is.",
+    "The Self line (世爻) is you, the asker. The Other line (应爻) is the other person in a general sense. When the Other line feeds or combines with the Self line, the other side leans in. When the Other line overcomes the Self line, what you feel from them is pressure, not warmth.",
+    "A six-combination hexagram (六合) means things bind: the two of you are held together, and separation takes effort. A six-clash hexagram (六冲) means things scatter: the connection is loose, and pulling harder tends to push it further apart.",
+    "A moving line that changes into the same branch (伏吟) means going in circles — the same argument, the same silence, the same almost-contact. A line that changes into its clashing branch (反吟) means back and forth: one step toward you, one step away.",
+    "The moving line shows what is actually in motion. If your own line moves and turns into something it then overcomes, the chart is showing effort with little return — you pushing, and the push itself costing you more than it brings."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "The other side leans in",
+    "text": "The Other line feeds or combines with the Self line, or the line that stands for your ex is supported and active. The chart shows the other person still oriented toward you. That does not mean they will act well or soon, but the pull is real and not only on your side."
+   },
+   {
+    "name": "You are pushing against pressure",
+    "text": "The Other line overcomes the Self line. Contact from the other side feels like weight — a cold reply, a demand, a silence that reads as judgment. More reaching out tends to increase that pressure rather than soften it."
+   },
+   {
+    "name": "Bound, but stuck in a loop",
+    "text": "A six-combination hexagram with a line changing into the same branch (伏吟). The two of you stay connected, but the contact repeats the same shape: the same conversation, the same half-promise, the same retreat. Binding is not the same as progress."
+   },
+   {
+    "name": "Scattering, and your effort wears you out",
+    "text": "A six-clash hexagram (六冲) with your own moving line turning into something it overcomes. The connection is loose, and your attempts to close the distance drain you without moving them. The chart is not saying never; it is saying this effort, now, has little return."
+   }
+  ],
+  "example": {
+   "values": "889778",
+   "question": "Will my ex come back to me?",
+   "text": "The chart is hexagram 31, Influence (泽山咸), with the third line moving, becoming hexagram 45, Gathering Together (泽地萃). The Self line — you, the asker — is line 3, a Sibling line. The Other line — the other person — is line 6, a Parent line. The hexagram is one of mutual influence: two sides affecting each other, feeling moving in both directions. That is the first thing the chart says. The feeling is not one-sided.\n\nThe moving line is your own. Line 3 starts as a Sibling and turns into Wealth, and in doing so it overcomes what it becomes — metal cutting wood, effort with little return. Read plainly: the reaching, the checking, the drafting and deleting, is yours, and it is wearing you out. The other side moves only after you stop pushing. The change into Gathering Together points to a later coming-together, but it comes after the push stops, not because of it."
+  },
+  "faq": [
+   {
+    "q": "Can a cast tell me for certain whether my ex will come back?",
+    "a": "No. The chart is fixed and reproducible, and the reading explains what it shows about who is leaning in, who is holding back, and whether the connection binds or scatters. It does not decide the outcome, and it cannot make another person want something they do not want."
+   },
+   {
+    "q": "What does it mean if my hexagram is a six-clash (六冲)?",
+    "a": "A six-clash hexagram means things scatter — the connection is loose and pulling harder tends to push it further apart. It is not a verdict that reconciliation is impossible, but it does say that force is the wrong tool here."
+   },
+   {
+    "q": "Should I reach out based on what the chart says?",
+    "a": "The chart can show whether your effort is likely to land or to wear you out, and whether the other side is leaning in or applying pressure. What you do with that is your decision, and it is the only part of this that was ever yours to decide."
+   }
+  ],
+  "ask": "Is there a way back with my ex, and do they want it?"
+ },
+ "new-love": {
+  "slug": "new-love",
+  "topic": "relationship",
+  "hexagrams": [
+   61,
+   31,
+   32,
+   53
+  ],
+  "title": "I Ching New Relationship: Is It Going Anywhere?",
+  "h1": "Is this new relationship going anywhere?",
+  "meta": "A Liu Yao I Ching reading for a new relationship or unspoken interest: what the chart weighs, what it can't decide, and how to cast your own question.",
+  "intro": [
+   "You have seen each other a few times. The messages are warm, the time together is easy, and still you catch yourself replaying the last conversation, wondering whether this is the start of something or a pleasant few weeks that will quietly fade. Asking a friend only gets you their read on it; asking the person directly can feel like too much too soon.",
+   "A Liu Yao cast does not tell you what he or she feels or what will happen. It gives you a fixed, reproducible chart — six lines built from your toss — and a reading that explains what that chart shows about the two sides of this matter. You decide what to do with it."
+  ],
+  "how": {
+   "lead": "For a new relationship, the chart looks at the other person's line, your own line, and whether the two are moving toward each other or standing apart.",
+   "points": [
+    "If you are a woman asking about a man, his line is the Officer line (官鬼), the line that stands for the man in the matter. If you are a man asking about a woman, her line is the Wealth line (妻财). Either way it is the person you are asking about, read as one line in the chart.",
+    "The Self line (世爻) is you — your position, your stance, what you are bringing. The Other line (应爻) is the other side in general, the person or situation you are facing. Where these two sit relative to each other is the spine of the reading.",
+    "When the Other line feeds or combines with the Self line, the other side leans in — there is pull toward you. When the Other line overcomes the Self line, that is pressure, not warmth; something in the dynamic is pushing rather than inviting.",
+    "A six-combination hexagram (六合) means things bind: the connection has a way of holding together. A six-clash hexagram (六冲) means things scatter: the energy is dispersing rather than gathering. Neither is a verdict; each describes the shape of the moment.",
+    "A changing line can turn into the same branch it came from — that is 伏吟, going in circles, motion without progress. Or it can turn into its clashing branch — 反吟, back and forth, one step forward and one back."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Both sides sincere, nothing pushing",
+    "text": "The chart is still — no line moving — and the Self and Other lines are not at odds. This is the 中孚 shape: inner truth, slow trust being built. Nothing is forcing the pace, and nothing is blocking it either. What is needed is time and a little more contact, not a grand gesture."
+   },
+   {
+    "name": "The other side leans in",
+    "text": "The Other line feeds or combines with the Self line. In plain terms, the other person is oriented toward you — their line is supporting yours rather than pressing on it. That does not promise an outcome, but it does say the interest is not one-sided."
+   },
+   {
+    "name": "Pressure instead of warmth",
+    "text": "The Other line overcomes the Self line. Something on the other side is bearing down on your position — could be their intensity, could be circumstances around them, could be your own sense of being weighed. It reads as friction, not affection, and it is worth naming before you invest more."
+   },
+   {
+    "name": "Going in circles",
+    "text": "A moving line turns into the same branch it came from — 伏吟. The same conversation, the same almost-plans, the same warm messages with no next step. The chart is not saying it is doomed; it is saying the motion is circular, and something has to change for it to become forward."
+   }
+  ],
+  "example": {
+   "values": "778877",
+   "question": "We have been on three dates. Is this going anywhere?",
+   "text": "The chart is 风泽中孚, Inner Truth, with no line moving. A still chart means nothing in this situation is currently forcing a change — no push, no break, just the shape as it stands. The Self line, which is you, sits at line 4. The Other line, the other side, sits at line 1. They are not clashing and not combining, but the Other line's Fire feeds the Self line's Earth: the other person is leaning toward you, without hurry — which matches three dates that have been warm and unhurried.\n\nThere is an Officer line at line 2 and another at line 6 — the man in the matter appears twice, which often reads as a person who is present in the situation but not yet declared. Nothing in this chart says he is pulling away, and nothing says he is about to step forward. 中孚 is the hexagram of inner truth: what is real here is being built slowly, by contact and consistency rather than by a single decisive moment. The honest reading is that the ground is good and the pace is yours to set — the chart does not decide, you do."
+  },
+  "faq": [
+   {
+    "q": "Can an I Ching love reading tell me whether he likes me?",
+    "a": "No. The chart shows the shape of the situation — whether the other side leans in or presses on, whether things bind or scatter — but it does not report feelings. It gives you a fixed picture to think with, not a verdict on his heart."
+   },
+   {
+    "q": "What does it mean if my new relationship cast has no moving lines?",
+    "a": "A still chart means nothing is currently forcing a change. It often shows up when the situation is sincere but slow, with neither side pushing. It is not a bad sign; it is a picture of the moment as it stands, and the next move is still yours to make."
+   },
+   {
+    "q": "Should I cast again if I don't like the answer?",
+    "a": "You can, but the second chart does not cancel the first — it just adds another picture. In Liu Yao the value is in the fixed, reproducible chart you already have. Sit with it, act on what you know, and cast again only when the situation itself has genuinely changed."
+   }
+  ],
+  "ask": "Is this new relationship going anywhere?"
+ },
+ "exam-or-interview": {
+  "slug": "exam-or-interview",
+  "topic": "study",
+  "hexagrams": [
+   4,
+   35,
+   46,
+   26
+  ],
+  "title": "I Ching Exam Reading: Will I Pass or Get the Job?",
+  "h1": "I Ching for an Exam or Interview: Will You Pass?",
+  "meta": "A Liu Yao I Ching cast for an exam, certification or interview reads the grade line, the post line and your own state. Here is how, with a worked example.",
+  "intro": [
+   "You have a date circled on the calendar — a licensing exam, a certification, a final interview — and the outcome matters more than you would like to admit. You have done the work, or most of it, and now you are stuck in the strange week where nothing you do feels like enough and everything you feel is either confidence or dread.",
+   "A Liu Yao cast will not tell you your score or hand you the job. What it does is fix a small, reproducible chart — six lines, computed the same way every time — and then explain what that chart says about your preparation, the paper in front of you, and the institution on the other side. You still sit the exam. You still walk into the room. The chart just tells you where you stand."
+  ],
+  "how": {
+   "lead": "For an exam or an interview, the chart weighs three things: the paper and the grade, the school or the post, and your own state on the day.",
+   "points": [
+    "The Parent line (父母) is the grade, the paper, the certificate, the offer letter itself. If it is strong and in season, the result is good. If it is void — a line that has fallen into an empty space in the calendar and cannot act — or broken, the result is not this time.",
+    "The Officer line (官鬼) is the school, the examiner, the hiring panel, the post. When it feeds the Self line, the institution wants you. When it turns into something else, the relationship is shifting before you arrive.",
+    "The Self line (世) is you: your state, your readiness, your nerves. A strong Self line means you are ready. A weak or clashed Self line means the day itself, not the material, is the risk.",
+    "A moving line is the part of the chart that is changing. When the Officer line moves, the post or the panel is in motion — and what it moves into tells you whether that motion helps you or wears you out.",
+    "The Other line (应) is the other side: the examiner, the interviewer, the room. If it is a Parent line and it is strong, the paper itself is on your side."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Parent strong, world strong",
+    "text": "The paper is solid and you are solid. This is the chart of someone who has done the work and is not fighting themselves. Sit the exam, answer the questions, do not invent new problems in the last week."
+   },
+   {
+    "name": "Parent void",
+    "text": "The grade line has fallen into an empty space in the calendar. That usually means the result is not this time — not that you are incapable, but that this particular paper, on this particular day, does not land. Use the week to consolidate rather than to cram, and treat the sitting as information."
+   },
+   {
+    "name": "Officer feeding the world",
+    "text": "The school or the panel is actively on your side. In an interview chart this reads as a room that wants to like you. Your job is to not talk them out of it — answer the question asked, then stop."
+   },
+   {
+    "name": "Officer moving into Sibling",
+    "text": "The post or the panel is in motion and the motion costs you. Effort goes out and little comes back — extra rounds, changed dates, a process that wears you down. Prepare for the process to be longer than advertised, and protect your energy accordingly."
+   }
+  ],
+  "example": {
+   "values": "878867",
+   "question": "Will I pass my licensing exam next week?",
+   "text": "The chart is Youthful Folly (山水蒙), which becomes Dispersion (风水涣), with line 5 moving. Line 4 is the Self line — that is you — and it is a Descendant line, which is the line of ease and output rather than strain. Line 1 is the Other line, the other side, and it is a Parent line: the paper itself. Line 6 is also a Parent line, so the paper appears twice. The Other line's Wood overcomes your Earth: the exam itself is the pressure, not a formality. You are prepared enough — the question is holding steady under that pressure. That is the plain reading of this chart.\n\nThe risk sits in line 5, which is the Officer line — the licensing body, the examiner, the post — and it is moving. It turns from Officer into Sibling, and in doing so it wears itself out overcoming what it becomes. In plain words: the institution and the process will drain you more than the material will. A week out, the useful move is not more content. It is sleep, a timed run-through under exam conditions, and a plan for the nerves on the morning itself. The chart says the preparation is there; the day is where it can be lost."
+  },
+  "faq": [
+   {
+    "q": "Can an I Ching reading tell me if I will pass?",
+    "a": "It can tell you what the chart says about the paper, the institution and your own state — whether the grade line is strong or void, whether the panel is on your side, whether you are ready. It cannot tell you a score or a yes. You sit the exam and you decide what to do with the reading."
+   },
+   {
+    "q": "When should I cast before an exam or interview?",
+    "a": "A week out is a good window: close enough that your state is real, far enough that you can still act on what the chart says. Casting the night before tends to produce a chart about your nerves rather than about the exam."
+   },
+   {
+    "q": "What if the chart looks bad?",
+    "a": "A void Parent line means the result is not this time — it is not a verdict on you. The chart is fixed and reproducible; the reading explains it; you decide whether to sit, defer, or treat the day as a rehearsal for the next attempt. Nothing in the chart decides anything for you."
+   }
+  ],
+  "ask": "Will I pass my exam, and what should I do this week?"
+ },
+ "waiting-for-news": {
+  "slug": "waiting-for-news",
+  "topic": "decision",
+  "hexagrams": [
+   5,
+   61,
+   25,
+   64
+  ],
+  "title": "I Ching When Will I Hear Back — Timing a Waiting Decision",
+  "h1": "Waiting to hear back: what does the I Ching say about timing?",
+  "meta": "A Liu Yao cast for a decision you're waiting on reads the moving lines and branches to name a window — not a promise. The chart is fixed; you decide.",
+  "intro": [
+   "You sent the application, the email, the message. Now the days pass and the answer sits with someone else — a hiring manager, a visa officer, a landlord, a friend who owes you a reply. The waiting is its own kind of work, and it is hard to do well.",
+   "A Liu Yao cast cannot make the other side decide, and it cannot tell you the outcome as a fact. What it can do is show you the shape of the wait: whether the matter is moving or stalled, where the power sits, and which days the chart points to as a window. You still choose what to do when that window opens or closes."
+  ],
+  "how": {
+   "lead": "For a matter that sits with someone else, the chart weighs the Self line (you, the asker), the Other line (the other side), and the moving lines that carry the timing.",
+   "points": [
+    "The Self line is the line that represents you in this cast. If it is strong and advancing, you are still in motion; if it retreats or drains, your own energy is going into the waiting rather than into the outcome.",
+    "The Other line is the line that represents the other side — the person or office holding your answer. Where it sits, whether it is void (旬空, a line whose branch has no support in the current cycle, so it 'fills' only on its own day), and whether it is active tells you how reachable the decision actually is.",
+    "A void line fills on its own day. In plain terms: if the line that carries your answer is void, the chart is saying the matter is not empty forever — it opens when that branch's day comes around.",
+    "A combined line opens on the clashing day. When two branches are in a combining relationship, the tension releases on the day that clashes with one of them; that clash day is your window.",
+    "An advancing line lands when its branch arrives. If a moving line steps forward to a new branch, the matter resolves when a day or month carrying that branch comes up. A retreating line loses momentum — the branch steps back, and the timing stretches."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "The answer is on the other side's clock",
+    "text": "When the Other line is strong but the Self line is the one moving and draining, the chart shows you pushing and the other side simply not yet at your door. The timing belongs to them. The useful move is to name a window and then stop refreshing your inbox until it passes."
+   },
+   {
+    "name": "The line that carries the answer is void",
+    "text": "A void Other line means the answer has not yet landed in the cycle you are in. It fills on its own branch day. Until then, follow-up is noise; after that day, a short, plain email is the right move."
+   },
+   {
+    "name": "A retreating moving line",
+    "text": "When a moving line steps back to an earlier branch, the matter loses momentum rather than resolving. This is the chart saying the wait will be longer than the calendar suggests, and that you should plan around the delay instead of against it."
+   },
+   {
+    "name": "Both lines moving toward each other",
+    "text": "If the Self line and the Other line are both active and neither is void, the two sides are in contact even when it does not feel like it. The window is usually narrow — a few days around the branch the moving lines land on — and a follow-up sent inside that window tends to get a real reply."
+   }
+  ],
+  "example": {
+   "values": "779678",
+   "question": "When will I hear back about my visa application?",
+   "text": "The primary hexagram is 5 Waiting (水天需), which becomes 58 The Joyous (兑为泽). Lines 3 and 4 are moving. Line 4 is the Self line — you, the asker — and it is a Descendant line, metal, turning into a Wealth line, water. Metal feeds water, so the line spends its own strength on the change: you are the one doing the waiting, and the waiting is costing you. Line 1, the Other line, is the other side — the visa office — and it sits still. Line 3 is a Sibling line that retreats from the branch 辰 to 丑: the same phase, the branch stepping back, so that line loses momentum. The chart does not say the answer is no. It says the answer comes on the other side's clock, not yours, and that the delay is structural rather than a sign of trouble.\n\nThe timing read is this: with the Self line draining into what it becomes and the Other line quiet, the window is not in the next few days. The retreating Sibling line points to a longer wait than the posted processing time suggests. The practical read is to stop checking daily, pick a date after the retreating branch's window has passed, and send one short follow-up then — not before. The chart names a window; the email asks how it went when the window has passed."
+  },
+  "faq": [
+   {
+    "q": "Can the I Ching tell me the exact day I'll hear back?",
+    "a": "No. The chart names a window based on the moving lines and their branches — a void line fills on its own day, a combined line opens on the clashing day, an advancing line lands when its branch arrives. Treat that as a window to plan around, not a date the other side has agreed to."
+   },
+   {
+    "q": "Should I follow up before the window the chart names?",
+    "a": "The reading rule here is to wait until the window has passed, then send one short, plain follow-up. If the line carrying your answer is void, the matter has not yet landed in the current cycle, and a follow-up before the fill day tends to get a non-answer."
+   },
+   {
+    "q": "What if the chart shows a retreating line?",
+    "a": "A retreating line means the branch steps back and the line loses momentum. For a waiting matter, that reads as a longer wait than expected rather than a refusal. Plan around the delay; do not read it as a no."
+   }
+  ],
+  "ask": "When will I hear back, and what should I do while I wait?"
+ }
+}

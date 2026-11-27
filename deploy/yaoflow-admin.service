@@ -1,0 +1,27 @@
+# 10-13 防崩溃 ①: the back office and the cron jobs in a process of their own, so a slow admin page or a long cron run
+# can never stall the site readers use (10-13 01:22 台北: one 80-second admin query froze yaoflow for ~25 minutes).
+# Same build, same code, same database as yaoflow.service; port 3201. nginx sends /admin and /api/admin here, except
+# /admin/live and /api/admin/live (the live board reads presence kept in the reader-facing process's memory).
+# Lower priority than the site: if the box is busy, readers come first.
+# Install: sudo cp deploy/yaoflow-admin.service /etc/systemd/system/ && sudo systemctl daemon-reload && sudo systemctl enable --now yaoflow-admin
+[Unit]
+Description=YaoFlow back office + cron (separate from the reader-facing site)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/yaoflow
+ExecStart=/usr/bin/npm run start -w web
+Restart=always
+RestartSec=3
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+Environment=PORT=3201
+Environment=YF_ROLE=admin
+Nice=5
+CPUWeight=100
+MemoryMax=1200M
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,29 @@
+/* 10-16 进度表 68 塔羅: the card back, the shuffle, the fan, the flip — transform/opacity only, this page only */
+.back{position:absolute;inset:0;border-radius:6px;background:var(--ink);border:1px solid var(--gold);box-shadow:inset 0 0 0 4px var(--ink),inset 0 0 0 5px color-mix(in srgb,var(--gold) 60%,transparent);display:flex;align-items:center;justify-content:center;backface-visibility:hidden}
+.back::before{content:"";width:46%;aspect-ratio:1;border:1px solid color-mix(in srgb,var(--gold) 70%,transparent);transform:rotate(45deg)}
+.back::after{content:"";position:absolute;width:16%;aspect-ratio:1;border-radius:50%;background:var(--gold);opacity:.8}
+.face{position:absolute;inset:0;border-radius:6px;overflow:hidden;backface-visibility:hidden;transform:rotateY(180deg);background:var(--paper);border:1px solid var(--ink-16)}
+.face img{width:100%;height:100%;object-fit:cover;display:block}
+.rev img{transform:rotate(180deg)}
+
+.deck{position:relative;width:96px;aspect-ratio:4/7;margin:24px auto 0}
+.deck .c{position:absolute;inset:0}
+@keyframes cutL{0%,100%{transform:none}40%{transform:translateX(-62px) rotate(-8deg)}}
+@keyframes cutR{0%,100%{transform:none}40%{transform:translateX(62px) rotate(8deg)}}
+.shuffling .c:nth-child(odd){animation:cutL .7s ease-in-out 2}
+.shuffling .c:nth-child(even){animation:cutR .7s ease-in-out .08s 2}
+
+.fan{position:relative;height:210px;margin:18px auto 0;max-width:34rem}
+.slot{position:absolute;left:50%;bottom:0;width:64px;aspect-ratio:4/7;margin-left:-32px;transform-origin:50% 260%;transition:transform .35s ease,opacity .25s ease;cursor:pointer;border:0;padding:0;background:none}
+.slot:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.slot.picked{opacity:.15;pointer-events:none}
+@media (max-width:480px){.slot{width:52px;margin-left:-26px}.fan{height:180px}}
+
+.row{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:22px}
+.card{position:relative;width:132px;aspect-ratio:4/7;perspective:900px}
+@media (max-width:480px){.card{width:100px}}
+.inner{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.3,.6,.3,1)}
+.flipped .inner{transform:rotateY(180deg)}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.enter{animation:rise .35s ease both}
+@media (prefers-reduced-motion: reduce){.shuffling .c,.enter{animation:none}.inner,.slot{transition:none}}

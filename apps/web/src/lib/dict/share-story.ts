@@ -1,0 +1,20 @@
+/**
+ * 09-29 裂变 Q1: the share card as a story image with a QR code. Same keys in every language.
+ * Words follow the site: 深断 / full reading / 本格鑑定 / 심층 풀이 / lecture approfondie / Tiefendeutung / lectura completa / leitura completa.
+ */
+export const SHARE_STORY_T = {
+  zh: { shareOne: "分享给朋友：他起第一卦，你们各得一次轻解读；他读完免费的第一份深断，你再得一份深断。", shareOnly: "分享给朋友", both: "朋友起第一卦，你们各得一次轻解读", when: "应期", lead: "我问了一件事，摇出这一卦", scan: "扫码，问你自己的一件事", free: "从这里进来，第一份深断免费", save: "存成图片（带二维码）" },
+  "zh-hant": { shareOne: "分享給朋友：他起第一卦，你們各得一次輕解讀；他讀完免費的第一份深斷，你再得一份深斷。", shareOnly: "分享給朋友", both: "朋友起第一卦，你們各得一次輕解讀", when: "應期", lead: "我問了一件事，搖出這一卦", scan: "掃碼，問你自己的一件事", free: "從這裡進來，第一份深斷免費", save: "存成圖片（帶 QR 碼）" },
+  en: { shareOne: "Share with a friend: when they cast their first reading, you each get a light reading; once they've read their free first full reading, you get a full reading too.", shareOnly: "Share with a friend", both: "When a friend casts their first reading, you each get a light reading", when: "When", lead: "I asked one question and cast this", scan: "Scan to ask about your own matter", free: "Your first full reading is free from here", save: "Save as image (with QR code)" },
+  ja: { shareOne: "友だちにシェア：友だちが最初の卦を立てると、ふたりともライト鑑定を1回。友だちが無料の最初の本格鑑定を読み終えると、あなたにも本格鑑定を1回。", shareOnly: "友だちにシェア", both: "友だちが最初の卦を立てると、ふたりともライト鑑定を1回", when: "応期", lead: "ひとつ問いを立てて、この卦が出ました", scan: "読み取って、あなた自身のことを問う", free: "ここからなら最初の本格鑑定は無料", save: "画像で保存（QRコード付き）" },
+  ko: { shareOne: "친구에게 공유: 친구가 첫 괘를 뽑으면 두 사람 모두 간단 풀이 1회, 친구가 무료 첫 심층 풀이를 다 읽으면 당신에게도 심층 풀이 1회.", shareOnly: "친구에게 공유", both: "친구가 첫 괘를 뽑으면 두 사람 모두 간단 풀이 1회", when: "시기", lead: "한 가지를 묻고 이 괘가 나왔어요", scan: "스캔해서 당신의 일을 물어보세요", free: "여기로 오면 첫 심층 풀이 무료", save: "이미지로 저장 (QR 코드 포함)" },
+  fr: { shareOne: "Partagez avec un proche : à son premier tirage, vous recevez chacun une lecture express ; quand il a lu sa première lecture approfondie offerte, vous en recevez une aussi.", shareOnly: "Partager avec un proche", both: "Quand un ami fait son premier tirage, vous recevez chacun une lecture express", when: "Quand", lead: "J'ai posé une question et tiré ceci", scan: "Scannez pour poser votre propre question", free: "Par ici, la première lecture approfondie est offerte", save: "Enregistrer l'image (avec QR code)" },
+  de: { shareOne: "Mit einem Freund teilen: Beim ersten Wurf bekommt ihr beide eine Kurzdeutung; hat er seine kostenlose erste Tiefendeutung gelesen, bekommst du auch eine.", shareOnly: "Mit einem Freund teilen", both: "Wirft ein Freund seinen ersten Wurf, bekommt ihr beide eine Kurzdeutung", when: "Wann", lead: "Ich habe eine Frage gestellt und das geworfen", scan: "Scannen und die eigene Frage stellen", free: "Von hier aus ist die erste Tiefendeutung gratis", save: "Als Bild speichern (mit QR-Code)" },
+  es: { shareOne: "Compártelo con un amigo: en su primera tirada, cada uno recibe una lectura breve; cuando lea su primera lectura completa gratis, tú también recibes una.", shareOnly: "Compártelo con un amigo", both: "Cuando un amigo hace su primera tirada, cada uno recibe una lectura breve", when: "Cuándo", lead: "Hice una pregunta y salió esto", scan: "Escanea y pregunta por lo tuyo", free: "Desde aquí, la primera lectura completa es gratis", save: "Guardar imagen (con código QR)" },
+  pt: { shareOne: "Compartilhe com um amigo: na primeira tiragem dele, cada um ganha uma leitura breve; quando ele ler a primeira leitura completa grátis, você também ganha uma.", shareOnly: "Compartilhe com um amigo", both: "Quando um amigo faz a primeira tiragem, cada um ganha uma leitura breve", when: "Quando", lead: "Fiz uma pergunta e saiu isto", scan: "Escaneie e pergunte sobre o seu assunto", free: "Por aqui, a primeira leitura completa é grátis", save: "Salvar imagem (com QR code)" },
+} as const;
+
+export type ShareStoryKey = keyof (typeof SHARE_STORY_T)["zh"];
+export function sst(locale: string, key: ShareStoryKey): string {
+  return ((SHARE_STORY_T as Record<string, Record<ShareStoryKey, string>>)[locale] ?? SHARE_STORY_T.en)[key];
+}

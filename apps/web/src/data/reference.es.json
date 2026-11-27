@@ -1,0 +1,210 @@
+{
+ "glossary": {
+  "title": "Glosario de términos de Liu Yao",
+  "lead": "Las palabras que aparecen en un hexagrama de Liu Yao, explicadas en una página: qué es cada término y cómo se lee en el tablero. Se conserva el término chino original para cotejar con los libros antiguos y las distintas escuelas.",
+  "groups": [
+   {
+    "name": "Consulta y tablero",
+    "terms": [
+     {
+      "zh": "六爻",
+      "def": "Método adivinatorio que consiste en lanzar tres monedas seis veces para obtener seis líneas y formar un hexagrama con el que dirimir un asunto; también se llama «método de la inclusión de los troncos y ramas» (納甲筮法) o «hexagrama del rey Wen» (文王卦). A diferencia de los métodos que solo leen los dictámenes del hexagrama, el Liu Yao coloca los troncos y ramas, los cinco elementos y los seis parientes en cada línea, lo que permite deducir fechas concretas."
+     },
+     {
+      "zh": "本卦 / 之卦",
+      "def": "El hexagrama que sale al lanzar es el hexagrama base (本卦); el que resulta tras el cambio de las líneas móviles es el hexagrama derivado (之卦, también 變卦). El base habla del presente; el derivado, del rumbo."
+     },
+     {
+      "zh": "動爻",
+      "def": "La línea en la que sale un yang viejo (tres caras) o un yin viejo (tres cruces); cambiará de yang a yin o de yin a yang. Las líneas móviles son «lo que está ocurriendo» en el hexagrama; un hexagrama sin líneas móviles se llama hexagrama estático."
+     },
+     {
+      "zh": "納甲",
+      "def": "Regla que asigna los troncos celestes y las ramas terrestres a las seis líneas, de modo que cada línea obtiene su propio elemento. Que el plazo pueda fijarse en un día concreto se debe a que cada línea se corresponde con el calendario."
+     },
+     {
+      "zh": "六親",
+      "def": "Padres, hermanos, hijos, esposa/riqueza y oficiales/fantasmas. Se determinan por la relación entre el elemento de la línea y el palacio al que pertenece el hexagrama base; cada uno representa un tipo de asunto humano: padres para documentos y mayores, oficiales/fantasmas para el trabajo y el varón, esposa/riqueza para el dinero y la mujer, hijos para los menores y la resolución, hermanos para los pares y la competencia."
+     },
+     {
+      "zh": "世爻 / 應爻",
+      "def": "La línea del mundo representa al consultante; la línea de la respuesta representa a la otra parte o el otro extremo del asunto. En preguntas sobre relaciones, cooperación y similares, la línea de la respuesta suele ser el punto clave."
+     },
+     {
+      "zh": "六神",
+      "def": "Dragón azul, Gorrión bermellón, Serpiente enroscada, Serpiente voladora, Tigre blanco y Guerrero oscuro; se ordenan junto a las seis líneas según el tronco del día de la consulta y añaden una cualidad a cada línea: el Dragón azul rige lo festivo, el Gorrión bermellón los pleitos y documentos, el Tigre blanco las heridas, enfermedades y conflictos."
+     }
+    ]
+   },
+   {
+    "name": "Uso y fuerza",
+    "terms": [
+     {
+      "zh": "用神",
+      "def": "La línea del hexagrama que representa el asunto preguntado. Para preguntar por la otra parte se toma la línea de la respuesta o los oficiales/fantasmas, o esposa/riqueza; para el dinero, esposa/riqueza; para el trabajo, oficiales/fantasmas; para los hijos, hijos. Al interpretar hay que acertar primero con el dios de uso; el plazo también se deduce de él."
+     },
+     {
+      "zh": "原神 / 忌神",
+      "def": "La línea que genera al dios de uso se llama dios original; la que lo controla, dios tabú. Si el dios original está próspero y se mueve para generar al dios de uso, el asunto tiene ayuda; si el dios tabú se mueve y controla al dios de uso, el asunto encuentra resistencia."
+     },
+     {
+      "zh": "旺衰",
+      "def": "La fuerza de una línea. Se mira principalmente la orden mensual y el día: si recibe generación o apoyo de la orden mensual, está próspera; si la orden mensual la controla o el día la choca, está decaída. Una línea próspera tiene voz; una decaída, intención sin fuerza."
+     },
+     {
+      "zh": "月令 / 日辰",
+      "def": "La rama del mes y la rama del día en que se consulta; son el «clima» de todo el tablero. La orden mensual gobierna la tendencia del mes; el día gobierna el desencadenante de la jornada; ambos determinan juntos la fuerza de cada línea."
+     },
+     {
+      "zh": "旬空",
+      "def": "Las dos ramas terrestres que no entran en el decenio (旬) al que pertenece el día de la consulta. Las líneas que caen en esas dos ramas se llaman vacías de decenio; significan «ausente por ahora, sin validez por ahora», y solo vuelven cuando se sale de ese decenio o son chocadas."
+     },
+     {
+      "zh": "月破",
+      "def": "La línea que recibe el choque directo de la rama del mes. Como si la tendencia del mes la embistiera de frente, su fuerza queda casi a cero; en general hay que esperar a que pase el mes o a un día en que se rellene para que haya un giro."
+     },
+     {
+      "zh": "入墓",
+      "def": "Cuando el elemento de una línea cae en la rama de su tumba (la madera en 未, el fuego en 戌, el metal en 丑, la tierra y el agua en 辰), como si la encerraran en un almacén: no puede moverse por un tiempo, hasta el día en que se abra la tumba."
+     }
+    ]
+   },
+   {
+    "name": "Relaciones de movimiento y cambio",
+    "terms": [
+     {
+      "zh": "化生 / 化剋",
+      "def": "Cuando la línea en que se transforma una línea móvil vuelve a generarla, se llama transformación generativa (generación de retorno); cuando vuelve a controlarla, transformación de control (control de retorno). El control de retorno es un mal presagio frecuente: en cuanto se mueve, la propia transformación la aplasta."
+     },
+     {
+      "zh": "化進 / 化退",
+      "def": "Cuando una línea móvil se transforma en otra del mismo elemento y su rama avanza, se llama transformación de avance; cuando retrocede, transformación de retroceso. La de avance cobra fuerza; la de retroceso se va quedando sin ella."
+     },
+     {
+      "zh": "伏吟 / 反吟",
+      "def": "Cuando el hexagrama o la línea resultantes son idénticos a los originales, se llama recitación oculta: girar en el sitio, sin poder avanzar ni retroceder. Cuando resultan en choque directo, se llama recitación inversa: repetición, dar vueltas una y otra vez."
+     },
+     {
+      "zh": "六沖 / 六合",
+      "def": "Las ramas terrestres se chocan por pares (子午, 丑未, 寅申, 卯酉, 辰戌, 巳亥) y se combinan por pares (子丑, 寅亥, 卯戌, 辰酉, 巳申, 午未). El choque rige dispersión, movimiento, rapidez; la combinación rige reunión, traba, lentitud. El plazo suele caer en el día en que el dios de uso encuentra choque o combinación."
+     },
+     {
+      "zh": "暗動",
+      "def": "Una línea estática que recibe el choque del día: aunque no haya salido como línea móvil, como si la despertaran, adquiere movimiento. Al leer el tablero no hay que mirar solo las líneas móviles que salieron."
+     }
+    ]
+   },
+   {
+    "name": "Interpretación y plazos",
+    "terms": [
+     {
+      "zh": "斷語",
+      "def": "La conclusión sobre el asunto preguntado: si se cumple o no, si viene o no, si conviene o no. El dictamen del Liu Yao debe ser lo bastante concreto como para poder verificarse, no una frase que nunca falla."
+     },
+     {
+      "zh": "應期",
+      "def": "El día en que el asunto dará señales. Se deduce del estado del dios de uso: si está móvil, se mira el día de combinación o de valor; si está quieto, el de choque o de valor; si está vacío de decenio, el de salida del vacío; si está roto por el mes, el de salida del mes; si está en la tumba, el de apertura de la tumba. En un mismo hexagrama, quienquiera que lo interprete llega al mismo día."
+     },
+     {
+      "zh": "逢值 / 逢沖 / 逢合",
+      "def": "«Valor» es cuando le toca a esa rama ser el día; «choque» es cuando se encuentra con la rama que la choca; «combinación» es cuando se encuentra con la rama que se combina con ella. Estos tres tipos de días son los puntos más frecuentes para el plazo."
+     },
+     {
+      "zh": "一事一占",
+      "def": "Se lanza una sola vez por asunto. Si se lanza repetidamente por lo mismo, el hexagrama no dará una segunda respuesta, solo confundirá más a quien pregunta. Si hay que volver a preguntar, se espera a que pase el plazo y la situación cambie de verdad."
+     }
+    ]
+   }
+  ]
+ },
+ "timing": {
+  "title": "Cómo se deduce el plazo: de dónde sale ese «día» en un hexagrama de Liu Yao",
+  "lead": "El hexagrama dice «alrededor del 29 de septiembre habrá señales»; esa fecha no se dice por intuición. Con un hexagrama real, se calcula el plazo paso a paso.",
+  "sections": [
+   {
+    "h": "Primero, la conclusión",
+    "p": [
+     "Lo que más quiere saber quien consulta no suele ser «si sí o si no», sino «cuándo». ¿Volverá a buscarme? ¿Cuándo? ¿Se cerrará este trabajo? ¿Hasta qué día hay que esperar?",
+     "En esto el Liu Yao se distingue de muchos métodos adivinatorios: no solo da una dirección, también da un día concreto, que los libros antiguos llaman «plazo» (應期). Ese día no lo dice al azar quien interpreta: se deduce del tablero siguiendo reglas; con el mismo hexagrama y la misma hora de consulta, cualquiera que lo interprete llegará al mismo día."
+    ]
+   },
+   {
+    "h": "Primero, el hexagrama",
+    "p": [
+     "Tomé una pregunta de amor muy común y lancé de verdad: «Llevo casi dos meses sin contacto con mi ex; ¿volverá a buscarme antes de fin de año?». Aclaro desde ya: esta pregunta es un ejemplo, no hay una persona real detrás, así que este artículo no tendrá un final del tipo «y luego se cumplió»; solo explica cómo se calcula el día.",
+     "La consulta fue el 20 de septiembre de 2026, día Ding You (丁酉), mes You (酉). Salió Ze Lei Sui (澤雷隨, Seguir), con las líneas tercera, cuarta y superior móviles, y se transformó en Feng Huo Jia Ren (風火家人, La familia)."
+    ],
+    "list": [
+     "Para preguntar por la otra parte, se toma como dios de uso la línea de la respuesta. La respuesta está en la línea superior: esposa/riqueza, Tierra Wei (未土).",
+     "La Tierra Wei en el mes You está «en reposo»: no recibe fuerza de la orden mensual.",
+     "La línea superior se mueve y se transforma en Madera Mao (卯木); la madera controla la tierra, lo que se llama «control de retorno»: en cuanto se mueve, la propia transformación la aplasta. Además, la Madera Mao resultante recibe el choque del mes You: está «rota por el mes» (月破).",
+     "La línea del mundo (el consultante) está en la tercera línea: esposa/riqueza, Tierra Chen (辰土). Chen y Si son justamente las ramas vacías de este decenio; la línea del mundo está vacía de decenio.",
+     "La cuarta línea, padres, Agua Hai (亥水), se mueve y se transforma en Tierra Wei con control de retorno: el canal de comunicación, el intermediario, no fluye."
+    ],
+    "after": [
+     "Según esto, el dictamen es: no volverá a buscarte por iniciativa propia antes de fin de año. Su voluntad es débil; en cuanto se mueve, sus propias reservas lo aplastan. Entonces, ¿de dónde sale el «29 de septiembre»?"
+    ]
+   },
+   {
+    "h": "Las reglas clásicas del plazo",
+    "p": [
+     "El plazo se mira en el día en que el dios de uso se «activa». Las reglas de los libros antiguos no son muchas; las más usadas son estas:"
+    ],
+    "list": [
+     "Si el dios de uso está móvil, se miran los días de combinación y de valor. Una línea móvil es como alguien que ya se ha puesto en pie para irse: solo aterriza el día en que la «combinan» o en que le toca «valor» a ella misma.",
+     "Si el dios de uso está quieto, se miran los días de choque y de valor. Una línea quieta es como alguien dormido: solo se mueve si la despiertan de un choque o si le toca su día de valor.",
+     "Si el dios de uso está vacío de decenio, se mira el día en que sale del vacío o el día en que recibe choque. El vacío es «ausente por ahora»; solo cuenta como vuelta cuando pasa el decenio o la rellenan de un choque.",
+     "Si el dios de uso está roto por el mes, se mira el día en que sale del mes o en que se rellena.",
+     "Si el dios de uso está en la tumba, se mira el día en que se abre la tumba."
+    ],
+    "after": [
+     "Cada regla se corresponde con un día del calendario, así que el plazo se puede «consultar», no «adivinar»."
+    ]
+   },
+   {
+    "h": "Aplicado a este hexagrama",
+    "p": [
+     "El dios de uso es la línea superior, Tierra Wei, y además está móvil, así que se aplica la regla 1: buscar los días en que «se combina Wei» y en que «Wei tiene valor»."
+    ],
+    "list": [
+     "En las seis combinaciones de ramas terrestres, Wu (午) se combina con Wei (未).",
+     "El primer día Wu después de la consulta es el 29 de septiembre (Bing Wu, 丙午); justo después, el 30 de septiembre (Ding Wei, 丁未) es el día en que la Tierra Wei tiene valor por sí misma."
+    ],
+    "after": [
+     "Así, la primera ventana es del 29 al 30 de septiembre: el hexagrama dice que «puede haber un pequeño gesto: un mensaje, una publicación o un intermediario en común».",
+     "Las doce ramas terrestres dan una vuelta completa; los siguientes días Wu y Wei son el 11 de octubre (Wu Wu, 戊午) y el 12 de octubre (Ji Wei, 己未); esa es la segunda ronda. El hexagrama dice: para juzgar si se cumple o no, hay que mirar esta ronda; si pasan las dos rondas y no hay señales, no hay que esperar más a fin de año.",
+     "Verás que el «no esperes más» del dictamen también se deduce del plazo: el dios de uso recibe control de retorno y la línea transformada está rota por el mes; si pasan los dos días de activación y no se mueve, es muy difícil que este asunto se dé la vuelta antes de fin de año."
+    ]
+   },
+   {
+    "h": "Por qué fijar el día",
+    "p": [
+     "Dar un día concreto es fácil que te digan «no acertaste». ¿Y por qué darlo igualmente?",
+     "Porque sin día no hay forma de verificarlo. Frases como «en su corazón todavía estás» o «el destino aún no ha llegado» nunca fallan y nunca te ayudan a decidir. En cambio, «el 29 y el 30 de septiembre, mira si hay señales»: cuando lleguen esos dos días, lo sabrás tú mismo, sin que nadie te lo explique.",
+     "Haces una tirada y recibes un día concreto; cuando llegue, te enviamos una carta preguntando «¿se cumplió?»."
+    ]
+   },
+   {
+    "h": "Por último, un pequeño consejo",
+    "p": [
+     "Si vas a lanzar el hexagrama tú mismo, formula la pregunta lo más estrecha posible y con un margen verificable: no preguntes «¿todavía me ama?», sino «¿me enviará un mensaje por iniciativa propia antes de fin de mes?». Cuanto más estrecha la pregunta, mejor se elige el dios de uso y el plazo caerá en un día que de verdad puedas esperar."
+    ]
+   }
+  ],
+  "note": "El ejemplo del hexagrama es un tablero y un dictamen realmente calculados; el nombre del hexagrama, las fechas y el dictamen no se han modificado; la pregunta es de demostración, sin una persona real detrás.",
+  "example": {
+   "code": "786976",
+   "primary": 17,
+   "changed": 37
+  }
+ },
+ "table": {
+  "title": "Tabla rápida de los sesenta y cuatro hexagramas",
+  "lead": "Los sesenta y cuatro hexagramas en una página: número, figura, trigramas superior e inferior, nombre y una frase de significado. Haz clic en el nombre para ver la página completa con dictámenes, líneas y ejemplos reales.",
+  "colNo": "N.º",
+  "colFigure": "Figura",
+  "colName": "Nombre",
+  "colTrigrams": "Superior / Inferior",
+  "colMeaning": "Significado en una frase"
+ }
+}

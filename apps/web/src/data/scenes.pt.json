@@ -1,0 +1,522 @@
+{
+ "job-change": {
+  "slug": "job-change",
+  "topic": "career",
+  "hexagrams": [
+   11,
+   5,
+   46,
+   35
+  ],
+  "title": "I Ching e trabalho: aceito a proposta de emprego?",
+  "h1": "Aceito a proposta de emprego ou espero?",
+  "meta": "Tiragem de I Ching (Liu Yao) para proposta de emprego ou troca de carreira: o cargo, o contrato, o salário e o momento. A figura é fixa; você decide.",
+  "intro": [
+   "A proposta está na sua caixa de entrada, ou a concorrente já ligou duas vezes, e a decisão tem data para acontecer. Você fica indo e voltando entre o salário, o cargo, o chefe que deixaria para trás e a sensação de que um “sim” rápido demais pode custar algo que você ainda não sabe nomear.",
+   "Uma tiragem de I Ching pelo método Liu Yao não diz o que você deve fazer. Ela monta uma figura fixa a partir da sua pergunta — o cargo, o contrato, o salário, o seu lado e o da empresa — e depois explica o que essa figura mostra. Quem pesa tudo isso contra a sua vida, as suas contas e o que você realmente quer continua sendo você."
+  ],
+  "how": {
+   "lead": "Numa pergunta sobre proposta de emprego ou troca de empresa, a figura olha para o cargo em si, a papelada por trás dele, o dinheiro e qual dos lados está puxando.",
+   "points": [
+    "A linha do Oficial representa o emprego e o interesse da empresa por você. Se estiver forte e apoiar a linha do Eu, o cargo quer você de verdade; se estiver no vazio — uma linha sem força neste ciclo de dez dias —, o cargo não é bem o que a descrição promete.",
+    "A linha dos Pais cobre o contrato, a carta-proposta, a data de início, a papelada. Linha dos Pais fraca com linha do Oficial forte quer dizer que o entusiasmo é real, mas as condições ainda estão moles.",
+    "A linha da Riqueza é o salário. Riqueza forte indica dinheiro real e ao alcance; Riqueza fraca ou em choque indica um número que muda ou encolhe depois que você entra.",
+    "A linha do Eu é você, e a linha do Outro é a empresa. Quando a linha do Outro apoia a linha do Eu, o outro lado trabalha a seu favor; quando pressiona, quem paga a conta é você.",
+    "Uma linha dos Irmãos em movimento sinaliza concorrência — outro candidato, um rival interno ou um corte discreto no pacote. Observe se essa linha se move a seu favor ou contra você."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "O cargo é real e quer você",
+    "text": "Oficial forte, apoiando a linha do Eu, com a linha do Outro a favor. O cargo é o que parece ser, e o interesse da empresa é genuíno. A pergunta deixa de ser “eles me querem?” e passa a ser “as condições batem?”."
+   },
+   {
+    "name": "A proposta é animada, a papelada é fraca",
+    "text": "Oficial forte, mas Pais fraco ou ausente. O gestor está empolgado, o cargo é atraente, mas as condições por escrito são vagas ou ainda estão mudando. Não trate promessa verbal como contrato."
+   },
+   {
+    "name": "O dinheiro é o ponto de atrito",
+    "text": "Linha da Riqueza em choque, ou uma linha dos Irmãos se movendo contra ela. O salário oferecido pode ser reduzido, atrasado ou esbarrar numa contraproposta que muda o formato do acordo. Tenha o número por escrito antes de pedir demissão."
+   },
+   {
+    "name": "O cargo não é o que parece",
+    "text": "Oficial no vazio ou quebrado pelo mês. O cargo pode ser reestruturado, o escopo pode ser menor do que o descrito ou a equipe pode estar em reorganização. É uma figura que pede perguntas mais duras antes de assinar."
+   }
+  ],
+  "example": {
+   "values": "777868",
+   "question": "Uma empresa concorrente me ofereceu um cargo de gerente. Aceito agora ou espero?",
+   "text": "A figura é o hexagrama 11, A Paz, um hexagrama de seis combinações — os dois lados já estão ligados e conversando. A linha 5 é a linha da Riqueza, o salário, e ela está em movimento: vira uma linha dos Irmãos, e a Terra domina a Água, então a mudança trabalha contra o dinheiro. A proposta é real, mas o pacote não está fechado; algo no salário ou nas condições vai mudar antes de se concretizar.\n\nA linha do Eu é a linha 3, você, e a linha do Outro é a linha 6, a empresa — as duas estão em combinação, então o outro lado tem interesse de verdade. A linha do Oficial, na linha 2, é o próprio cargo, e ele está presente na figura. Lendo tudo junto: o cargo existe e quer você; o dinheiro é a parte que se move. O hexagrama transformado é o 5, A Espera — o momento pede esperar até a papelada assentar e o número estar fixado por escrito. Isso é a leitura, não uma ordem; se vale a pena esperar, quem decide é você."
+  },
+  "faq": [
+   {
+    "q": "Uma tiragem de I Ching pode me dizer se devo aceitar a proposta de emprego?",
+    "a": "Não. A tiragem gera uma figura fixa do cargo, do contrato, do salário e dos dois lados. Ela explica o que essa figura mostra; a decisão continua sendo sua."
+   },
+   {
+    "q": "O que significa a linha do Oficial estar no vazio na minha figura?",
+    "a": "Vazio quer dizer que a linha ficou sem força neste ciclo de dez dias. Numa pergunta sobre emprego, sugere que o cargo não é o que a descrição diz — reestruturado, mais restrito ou ainda em definição. É um convite a fazer mais perguntas, não um veredito."
+   },
+   {
+    "q": "Posso fazer outra tiragem se não gostar da resposta?",
+    "a": "Uma segunda tiragem sobre o mesmo assunto dá uma segunda figura, não uma mais verdadeira — as seis linhas caem como caem. A regra da tradição é uma pergunta, uma tiragem: fique com a primeira leitura, decida e só volte a consultar quando a situação em si tiver mudado."
+   }
+  ],
+  "ask": "Aceito esta proposta de emprego, espero ou fico onde estou?"
+ },
+ "moving": {
+  "slug": "moving",
+  "topic": "decision",
+  "hexagrams": [
+   35,
+   56,
+   53,
+   39
+  ],
+  "title": "I Ching e mudança: devo me mudar de cidade ou de país?",
+  "h1": "Devo me mudar? Uma tiragem de I Ching para mudança",
+  "meta": "Tiragem de I Ching (Liu Yao) para morar fora ou mudar de cidade, lida pela casa, a papelada, os obstáculos e a travessia. A figura é fixa; quem decide é você.",
+  "intro": [
+   "As caixas estão meio feitas, o aluguel vence em dois meses e alguém em casa atualiza a página do visto à meia-noite. Mudar de país ou de cidade é uma pilha de pequenas decisões com um nome só, e a maior parte do peso está no que você ainda não enxerga: a papelada, o momento, se o lugar novo vai segurar você.",
+   "Uma tiragem pelo método Liu Yao não diz se você deve ir. Ela gera uma figura fixa e reproduzível a partir das suas seis linhas, e a leitura explica o que essa figura pesa — a casa e os documentos, os obstáculos e a burocracia, a facilidade da travessia e se você está decidido o bastante para ir. Você lê, discute com ela e decide."
+  ],
+  "how": {
+   "lead": "Numa mudança, a figura pesa a sua própria linha, a linha da casa e da papelada, a linha dos obstáculos e da burocracia e a linha da facilidade e da travessia tranquila.",
+   "points": [
+    "A linha do Eu (a linha que representa você, quem pergunta) mostra se você está de fato em movimento. Forte e móvel, você consegue ir; a decisão tem peso por trás. Se estiver no vazio (uma linha que cai num intervalo do calendário e fica sem força), você ainda não decidiu, diga o calendário o que disser.",
+    "A linha dos Pais (a linha da casa, dos documentos e do visto) mostra se o lugar novo sustenta você. Pais forte quer dizer que o endereço, o contrato de aluguel e a autorização têm base. Pais fraco ou em choque quer dizer que o lado “casa” da mudança está frágil.",
+    "A linha do Oficial (a linha dos obstáculos e da burocracia) é a fila no consulado, o carimbo que falta, o proprietário que não assina. Oficial em movimento dominando a sua linha do Eu é papelada ou problema no caminho — não um veredito, mas um aviso de onde está o atrito.",
+    "A linha dos Descendentes (a linha da facilidade e da travessia tranquila) é a parte que flui: o voo que pousa, o amigo que vai buscar você, a semana que passa em paz. Quando ela está presente e inteira, a travessia em si não é o problema.",
+    "A linha do Outro (a linha do outro lado — a cidade, o empregador, o país) mostra para onde você está indo. Leia em relação à sua linha do Eu: apoio, indiferença ou pressão."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Eu forte e em movimento",
+    "text": "A sua linha tem força e está mudando: a figura está dizendo que a mudança já ganhou impulso dentro de você. A pergunta deixa de ser “se” e passa a ser “como”. Olhe a linha dos Pais em seguida: impulso sem uma casa onde chegar é só uma partida."
+   },
+   {
+    "name": "Eu no vazio",
+    "text": "A sua linha cai num intervalo do calendário, sem força, o que se lê como “ainda não decidido”. Isso não é um não. Normalmente quer dizer que a pergunta de verdade está antes — o emprego, o dinheiro, a pessoa a quem você ainda não contou."
+   },
+   {
+    "name": "Oficial em movimento contra o Eu",
+    "text": "A linha dos obstáculos está ativa e pressionando a sua: papelada, burocracia, um atraso com nome e sobrenome. A figura aponta o atrito, não proíbe a mudança. Reserve tempo e dinheiro para a fila."
+   },
+   {
+    "name": "Pais forte, Descendentes presente",
+    "text": "A linha da casa tem substância e a linha da facilidade está inteira: é o formato mais estável para uma mudança. O lugar novo sustenta você e a travessia é tranquila. O que falta é o trabalho comum de ir."
+   }
+  ],
+  "example": {
+   "values": "888987",
+   "question": "Devemos nos mudar para outro país este ano?",
+   "text": "A figura é o hexagrama 35, O Progresso, que se transforma no 23, A Desintegração, com a linha 4 em movimento. A linha 4 é a linha do Eu — vocês dois, que perguntam — e é yang e móvel: a mudança está de fato em andamento. A linha 1 é a linha do Outro, o outro lado, e é uma linha dos Pais de wèi Terra: o país para onde vocês vão aparece como uma linha de casa, não como indiferença. A linha 5 também é dos Pais, então o lado casa-e-papelada dessa mudança tem dois apoios. As linhas 6 e 2 são linhas do Oficial, o lado dos obstáculos e da burocracia, e nenhuma delas se move contra a sua linha.\n\nA única linha móvel é a de vocês, e ela passa de uma linha dos Irmãos de yǒu Metal para uma linha dos Pais de xū Terra. Em palavras simples: quem se move são vocês, e isso vira casa e papelada — e a linha é alimentada por aquilo em que se transforma, então sai da mudança mais forte. Lendo tudo junto: a mudança se abre, e a papelada se arrasta. Nada aqui diz vá ou fique. Diz que a travessia é real, que o destino é uma linha de casa e que a parte lenta serão os documentos."
+  },
+  "faq": [
+   {
+    "q": "A tiragem pode me dizer se vou conseguir o visto?",
+    "a": "Não. A figura pode mostrar a linha dos Pais — casa e papelada — e se ela está forte ou frágil, e pode mostrar a linha do Oficial, da burocracia, pressionando ou quieta. Isso indica onde o atrito tende a ficar. Não emite o visto."
+   },
+   {
+    "q": "E se a minha linha do Eu estiver no vazio?",
+    "a": "Vazio quer dizer que a linha cai num intervalo do calendário, sem força; numa mudança, costuma significar “ainda não decidido”, e não “não”. Fique com a pergunta que vem antes — o emprego, o dinheiro, a conversa — e faça outra tiragem quando algo tiver mudado de fato."
+   },
+   {
+    "q": "Faço uma tiragem só ou várias sobre a mesma mudança?",
+    "a": "Uma tiragem responde a uma pergunta num momento, e a figura fica fixa depois de tirada. Se a situação mudar de verdade — uma proposta, uma recusa, uma data —, é uma pergunta nova e uma tiragem nova. Repetir a mesma pergunta sem nada ter mudado só produz ruído."
+   }
+  ],
+  "ask": "Devo me mudar para outra cidade ou país este ano?"
+ },
+ "negotiation-deal": {
+  "slug": "negotiation-deal",
+  "topic": "money",
+  "hexagrams": [
+   13,
+   49,
+   6,
+   14
+  ],
+  "title": "I Ching para negociação e contrato: o negócio vai fechar?",
+  "h1": "O negócio vai fechar? E nas condições de quem?",
+  "meta": "Uma tiragem de I Ching (Liu Yao) mostra se uma negociação fecha: a outra parte, o contrato e o dinheiro na mesa. A figura é fixa; quem decide é você.",
+  "intro": [
+   "Você está no meio de uma negociação — um contrato, uma venda, uma rodada de investimento — e o chão não para de mexer. O outro lado parece interessado, depois esfria, depois se interessa de novo, e você quer uma visão direta de onde isso realmente está.",
+   "Uma tiragem pelo método Liu Yao não decide o resultado nem diz o que assinar. Ela dá uma figura fixa e reproduzível do momento: quem é a outra parte na leitura, se o papel está pronto e onde está o dinheiro. Você lê e depois decide."
+  ],
+  "how": {
+   "lead": "Numa negociação, a figura pesa três coisas: a outra parte, o contrato em si e o dinheiro na mesa.",
+   "points": [
+    "A linha do Outro é a outra parte — quem está do outro lado da mesa. A força dela, se está em movimento e se está no vazio mostram o quanto a posição deles é real agora.",
+    "A linha dos Pais é o contrato — o papel, as cláusulas, a página de assinatura. Se estiver no vazio, o documento ainda não está pronto, por melhor que pareça a conversa.",
+    "A linha da Riqueza é o dinheiro na mesa — o preço, os honorários, o valor do acordo. Onde ela está e se tem apoio mostra o que de fato está sendo negociado.",
+    "A linha do Eu é você — a sua posição, o seu poder de barganha, o seu pedido. Quando o Eu e o Outro se combinam, os dois lados se encontram. Quando se chocam, não há ponto de encontro. Quando o Outro domina o Eu, quem dita o ritmo é o outro lado.",
+    "Uma linha móvel mostra para onde a situação vai. Uma linha que recua — mesmo elemento, ramo que volta um passo — perde impulso, mesmo continuando a ser o mesmo tipo de linha."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Eu e Outro se combinam",
+    "text": "Os dois lados se encontram. É o sinal mais claro de que o negócio fecha — não porque esteja escrito, mas porque a figura mostra um ponto de contato. As condições ainda precisam ser redigidas, mas a vontade existe."
+   },
+   {
+    "name": "Outro no vazio",
+    "text": "A outra parte não está falando sério agora. Pode ser educada, interessada, até empolgada, mas a linha do Outro no vazio quer dizer que a posição dela está oca neste momento. Espere ela se preencher antes de se comprometer."
+   },
+   {
+    "name": "Eu e Outro se chocam",
+    "text": "Não há ponto de encontro. As duas posições não se tocam — vocês estão falando um por cima do outro. Isso não quer dizer que o negócio morreu para sempre, mas no formato atual ele não fecha. Algo precisa mudar."
+   },
+   {
+    "name": "Pais no vazio",
+    "text": "O papel não está pronto. O contrato, as cláusulas, a página de assinatura — seja qual for a forma do acordo — não estão em condição de ser assinados. Não confunda uma boa conversa com negócio fechado."
+   }
+  ],
+  "example": {
+   "values": "787779",
+   "question": "Esse investimento vai sair? E em quais condições?",
+   "text": "A figura é o hexagrama 13, Comunidade com os Homens, que se transforma no 49, A Revolução, com a linha 6 em movimento. A linha 3 é a linha do Eu — o fundador que pergunta — e é uma linha do Oficial: a pressão do negócio está nas suas costas. A linha 6 é a linha do Outro — o investidor —, é uma linha dos Descendentes e está em movimento. A linha 1 é a linha dos Pais, o contrato; a linha 5 é a linha da Riqueza, o dinheiro na mesa. O Outro (xū Terra) domina o Eu (hài Água): quem dá as cartas é o investidor, não você. A linha dos Pais está presente, então o papel existe de alguma forma.\n\nE a linha 6, o investidor, se move — e recua. Continua sendo uma linha dos Descendentes, mas o ramo volta de xū para wèi. A outra parte perde impulso na reta final. Comunidade com os Homens vira Revolução: o que começou como acordo de intenções termina como um documento reestruturado. A linha da Riqueza, na linha 5, está no lugar, mas as condições finais não serão as que foram conversadas no começo. Negocie sabendo que o ritmo é deles e que o texto vai mudar."
+  },
+  "faq": [
+   {
+    "q": "Uma tiragem de I Ching pode me dizer se devo assinar?",
+    "a": "Não. A figura mostra a situação da outra parte, do contrato e do dinheiro. Ela não diz o que fazer. Você lê a figura, pesa com tudo o que sabe e decide."
+   },
+   {
+    "q": "O que significa a linha do Outro estar no vazio?",
+    "a": "A outra parte não está firme agora. Pode estar esperando alguma coisa ou não estar totalmente comprometida. Não quer dizer que esteja mentindo — quer dizer que a posição dela está oca neste momento. Dê tempo para ela se preencher antes de agir."
+   },
+   {
+    "q": "A conversa vai bem, mas a figura mostra um choque. E agora?",
+    "a": "Um choque entre o Eu e o Outro quer dizer que as duas posições não se tocam. A conversa pode ser calorosa, mas a estrutura do acordo não se encontra. Algo precisa mudar — as condições, o prazo ou as partes — antes de fechar."
+   }
+  ],
+  "ask": "Este negócio vai fechar, e nas condições de quem?"
+ },
+ "starting-a-business": {
+  "slug": "starting-a-business",
+  "topic": "money",
+  "hexagrams": [
+   48,
+   42,
+   3,
+   50
+  ],
+  "title": "I Ching para abrir um negócio: é hora de empreender?",
+  "h1": "Abro meu negócio agora, mais tarde ou não abro?",
+  "meta": "Uma tiragem de I Ching (Liu Yao) pesa lucro, clientes, concorrência e sócios. Mostra o que está na figura, não o que fazer. Quem decide é você.",
+  "intro": [
+   "Você tem uma habilidade pela qual as pessoas pagam, ou uma ideia que não sai da cabeça. A dúvida não é se você dá conta do trabalho — é se o dinheiro, os clientes e o momento se alinham. Você quer olhar o terreno com clareza antes de pisar nele.",
+   "Uma tiragem pelo método Liu Yao monta uma figura fixa a partir da sua pergunta: seis linhas, cada uma com uma relação e um elemento. A figura não manda você pular nem ficar. Ela mostra onde está o lucro, quem o traz, o que o drena e se a estrutura se sustenta. Você compara isso com os seus próprios números e decide."
+  ],
+  "how": {
+   "lead": "Numa pergunta sobre negócio, a figura pesa a linha do lucro, a dos clientes, a da pressão e a das despesas contra a força da sua própria posição.",
+   "points": [
+    "A linha da Riqueza é o lucro — o dinheiro que de fato entra. Uma linha da Riqueza forte, em boa posição, quer dizer que o terreno aguenta receita; fraca ou ausente, a receita ainda não está lá, por melhor que seja a ideia.",
+    "A linha dos Descendentes é a fonte do lucro e os próprios clientes. Quando está presente e se move bem, existe demanda e as pessoas procuram você. Quando falta, você está vendendo para uma sala vazia.",
+    "A linha do Oficial é a pressão sobre o empreendimento — concorrência, regulamentação, alvarás, o custo de aparecer. Um Oficial pesado não é placa de pare; mostra o preço de entrada e quem já está lá.",
+    "A linha dos Irmãos é despesa e sócios que tiram. Se os Irmãos ocupam a linha do Eu (a linha que representa você), o dinheiro sai mais rápido do que entra, muitas vezes por custos divididos ou retiradas de um sócio.",
+    "Uma linha móvel que avança mostra impulso crescendo naquela área. Um hexagrama de seis choques, em que as linhas se puxam umas contra as outras, é difícil de sustentar — pode até começar, mas raramente dura."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Habilidade presente, clientes ausentes",
+    "text": "A linha dos Pais (a linha do preparo e da habilidade) está forte, mas a linha dos Descendentes (clientes e fonte do lucro) está fraca ou escondida. Você sabe fazer o trabalho; quem paga por ele ainda não chegou. É um sinal de momento, não um veredito sobre a sua capacidade."
+   },
+   {
+    "name": "Lucro forte, você não",
+    "text": "A Riqueza está forte na figura, mas a linha do Eu (você) está fraca ou sob pressão. O mercado existe, mas a sua posição não consegue segurá-lo — talvez falte capital, sobre compromisso ou você esteja espalhado demais. A oportunidade não é o problema."
+   },
+   {
+    "name": "Irmãos ocupam o Eu",
+    "text": "A linha dos Irmãos (despesa, sócios que tiram) está sobre a linha do Eu. O dinheiro sai tão rápido quanto entra, muitas vezes pela parte de um sócio, por custos fixos divididos ou pelo custo de manter outras pessoas à tona. Leia todo contrato de sociedade duas vezes."
+   },
+   {
+    "name": "Seis choques, difícil de durar",
+    "text": "As seis linhas se chocam em vez de se apoiar. Um empreendimento pode começar sob uma figura assim, mas custa a se manter de pé — as primeiras vitórias não se acumulam. Isso favorece esperar uma figura em que as linhas se apoiem."
+   }
+  ],
+  "example": {
+   "values": "897878",
+   "question": "Sou designer e estou pensando em largar o emprego para trabalhar como freelancer. É a hora?",
+   "text": "A figura é o hexagrama 48, O Poço, que se transforma no 39, O Impedimento, pela linha 2. A linha do Eu (você) é a linha 5, uma linha da Riqueza forte — a capacidade de ganhar dinheiro existe, e o chão debaixo de você é firme. A linha do Outro (o outro lado — clientes, o mercado) é a linha 2, uma linha dos Pais, e é ela a linha móvel. Pais é preparo e habilidade, não clientes. A linha que traria a demanda não é a que está respondendo a você.\n\nA linha 2 passa de Pais para Descendentes — da habilidade para a fonte do lucro. Mas o movimento é Água dominando Fogo: a linha se desgasta ao fazer a mudança. A leitura não é que o freelance vai dar errado. É que a habilidade está pronta e os clientes ainda não estão na figura. O Poço está cheio; ninguém veio tirar água dele ainda. Monte a carteira de clientes antes de cortar o salário, e a mesma figura passa a ser lida de outro jeito."
+  },
+  "faq": [
+   {
+    "q": "Posso fazer outra tiragem se não gostar da resposta?",
+    "a": "Pode, mas a figura é um retrato da pergunta que você fez. Se você fizer a mesma pergunta duas vezes, terá duas figuras e nenhum terreno mais claro. Melhor fazer uma pergunta mais precisa — sobre os clientes, o momento ou o dinheiro — do que repetir a mesma."
+   },
+   {
+    "q": "Uma figura ruim quer dizer que eu não devo começar?",
+    "a": "Não. A figura mostra onde está a pressão e o que está faltando. Uma linha dos Descendentes fraca quer dizer que os clientes ainda não estão visíveis, não que nunca virão. Você decide se espera, se prepara ou segue mesmo assim."
+   },
+   {
+    "q": "E se a figura mostra lucro forte, mas eu não me sinto preparado?",
+    "a": "A linha da Riqueza é a capacidade do mercado, não o seu preparo. Riqueza forte com a linha do Eu fraca diz que a oportunidade é real, mas a sua posição precisa de trabalho — capital, tempo ou um sócio que não drene você. A figura não passa por cima da sua própria avaliação."
+   }
+  ],
+  "ask": "É a hora de trabalhar por conta própria?"
+ },
+ "get-back-together": {
+  "slug": "get-back-together",
+  "topic": "relationship",
+  "hexagrams": [
+   31,
+   24,
+   38,
+   45
+  ],
+  "title": "I Ching do amor: meu ex vai voltar? Há caminho de volta?",
+  "h1": "Meu ex vai voltar? Existe um caminho de volta?",
+  "meta": "Tiragem de I Ching (Liu Yao) para reconciliação: a linha do ex, as linhas do Eu e do Outro e se o hexagrama une ou dispersa. Quem decide é você.",
+  "intro": [
+   "Depois de um término, a pergunta raramente é só se a pessoa vai voltar. É se você quer que ela volte, se algo mudou de verdade e se mandar mensagem ajudaria ou só reabriria a ferida. Você repassa a última conversa, olha o celular, se pergunta se o silêncio quer dizer que ela está seguindo em frente ou esperando você dar o primeiro passo.",
+   "Uma tiragem pelo método Liu Yao não decide se o seu ex volta e não faz ninguém querer você. O que ela faz é desenhar a situação numa figura fixa e reproduzível: quem está se aproximando, quem está se segurando, se vocês dois estão ligados ou se dispersando, e se o seu esforço tende a chegar lá ou só a desgastar você. A leitura explica a figura. O que fazer com ela, você decide."
+  ],
+  "how": {
+   "lead": "Numa pergunta sobre reconciliação, a figura olha para a linha que representa a outra pessoa, a linha que representa você e se as duas se alimentam ou se enfrentam.",
+   "points": [
+    "Se você é mulher e pergunta sobre um homem, a linha do Oficial (a linha que o representa) é lida como ele. Se você é homem e pergunta sobre uma mulher, a linha da Riqueza (a linha que a representa) é lida como ela. O jeito como essa linha está no hexagrama — apoiada, vazia, em movimento ou parada — mostra o quanto a outra pessoa está presente e disposta.",
+    "A linha do Eu é você, quem pergunta. A linha do Outro é a outra pessoa em sentido geral. Quando a linha do Outro alimenta ou se combina com a linha do Eu, o outro lado se aproxima. Quando a linha do Outro domina a linha do Eu, o que você sente vindo dela é pressão, não carinho.",
+    "Um hexagrama de seis combinações quer dizer que as coisas se unem: vocês dois estão presos um ao outro, e separar dá trabalho. Um hexagrama de seis choques quer dizer que as coisas se dispersam: a ligação está frouxa, e puxar com mais força tende a afastar ainda mais.",
+    "Uma linha móvel que se transforma no mesmo ramo “marca passo” — a mesma briga, o mesmo silêncio, o mesmo quase-contato. Uma linha que se transforma no ramo com que se choca “vai e volta”: um passo na sua direção, um passo para longe.",
+    "A linha móvel mostra o que está de fato em movimento. Se a sua própria linha se move e vira algo que ela mesma domina, a figura mostra esforço com pouco retorno — você insistindo, e a insistência custando mais do que traz."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "O outro lado se aproxima",
+    "text": "A linha do Outro alimenta ou se combina com a linha do Eu, ou a linha que representa o seu ex está apoiada e ativa. A figura mostra a outra pessoa ainda voltada para você. Isso não quer dizer que ela vá agir bem ou logo, mas a atração é real e não vem só do seu lado."
+   },
+   {
+    "name": "Você insiste contra a pressão",
+    "text": "A linha do Outro domina a linha do Eu. O contato vindo do outro lado pesa — uma resposta fria, uma cobrança, um silêncio que soa como julgamento. Procurar mais tende a aumentar essa pressão, não a suavizá-la."
+   },
+   {
+    "name": "Ligados, mas andando em círculos",
+    "text": "Um hexagrama de seis combinações com uma linha que se transforma no mesmo ramo. Vocês continuam ligados, mas o contato repete o mesmo formato: a mesma conversa, a mesma meia-promessa, o mesmo recuo. Estar ligado não é o mesmo que avançar."
+   },
+   {
+    "name": "Dispersão, e o seu esforço desgasta você",
+    "text": "Um hexagrama de seis choques com a sua própria linha móvel virando algo que ela domina. A ligação está frouxa, e as suas tentativas de encurtar a distância cansam você sem mover a outra pessoa. A figura não está dizendo “nunca”; está dizendo que este esforço, agora, dá pouco retorno."
+   }
+  ],
+  "example": {
+   "values": "889778",
+   "question": "Meu ex vai voltar para mim?",
+   "text": "A figura é o hexagrama 31, A Influência, com a terceira linha em movimento, que se transforma no hexagrama 45, A Reunião. A linha do Eu — você, quem pergunta — é a linha 3, uma linha dos Irmãos. A linha do Outro — a outra pessoa — é a linha 6, uma linha dos Pais, e ela alimenta a sua. O hexagrama é de influência mútua: dois lados que se afetam, com o sentimento circulando nas duas direções. Essa é a primeira coisa que a figura diz. O sentimento não é de um lado só.\n\nA linha móvel é a sua. A linha 3 começa como Irmãos e vira Riqueza, e ao fazer isso domina aquilo em que se transforma — o Metal cortando a Madeira, esforço com pouco retorno. Em palavras simples: a procura, as checadas no celular, as mensagens escritas e apagadas são suas, e estão desgastando você. O outro lado só se move depois que você para de insistir. A transformação em A Reunião aponta para um reencontro mais adiante, mas ele vem depois que a insistência para, não por causa dela."
+  },
+  "faq": [
+   {
+    "q": "Uma tiragem pode me dizer com certeza se meu ex vai voltar?",
+    "a": "Não. A figura é fixa e reproduzível, e a leitura explica o que ela mostra sobre quem está se aproximando, quem está se segurando e se a ligação une ou dispersa. Ela não decide o resultado e não faz outra pessoa querer algo que não quer."
+   },
+   {
+    "q": "O que significa meu hexagrama ser de seis choques?",
+    "a": "Um hexagrama de seis choques quer dizer que as coisas se dispersam — a ligação está frouxa, e puxar com mais força tende a afastar ainda mais. Não é um veredito de que a reconciliação é impossível, mas diz que a força é a ferramenta errada aqui."
+   },
+   {
+    "q": "Devo procurar meu ex com base no que a figura diz?",
+    "a": "A figura pode mostrar se o seu esforço tende a chegar lá ou a desgastar você, e se o outro lado está se aproximando ou pressionando. O que fazer com isso é decisão sua — e é a única parte disso tudo que sempre foi sua para decidir."
+   }
+  ],
+  "ask": "Existe caminho de volta com meu ex? A pessoa quer isso?"
+ },
+ "new-love": {
+  "slug": "new-love",
+  "topic": "relationship",
+  "hexagrams": [
+   61,
+   31,
+   32,
+   53
+  ],
+  "title": "I Ching do amor: essa nova relação vai dar em algo?",
+  "h1": "Essa relação nova vai dar em alguma coisa?",
+  "meta": "I Ching do amor (Liu Yao) para uma relação nova ou um interesse não declarado: o que a figura pesa, o que ela não decide e como fazer a sua pergunta.",
+  "intro": [
+   "Vocês já saíram algumas vezes. As mensagens são carinhosas, o tempo junto flui, e mesmo assim você se pega repassando a última conversa, pensando se isso é o começo de algo ou umas semanas boas que vão sumir sem alarde. Perguntar a um amigo só traz a opinião dele; perguntar direto à pessoa pode parecer cedo demais.",
+   "Uma tiragem pelo método Liu Yao não diz o que ele ou ela sente nem o que vai acontecer. Ela dá uma figura fixa e reproduzível — seis linhas formadas pelo seu lançamento de moedas — e uma leitura que explica o que essa figura mostra sobre os dois lados da questão. O que fazer com isso, você decide."
+  ],
+  "how": {
+   "lead": "Numa relação nova, a figura olha para a linha da outra pessoa, a sua própria linha e se as duas estão indo uma em direção à outra ou mantendo distância.",
+   "points": [
+    "Se você é mulher e pergunta sobre um homem, a linha dele é a linha do Oficial, a linha que representa o homem na questão. Se você é homem e pergunta sobre uma mulher, a linha dela é a linha da Riqueza. Em qualquer caso, é a pessoa sobre quem você pergunta, lida como uma linha da figura.",
+    "A linha do Eu é você — a sua posição, a sua postura, o que você traz. A linha do Outro é o outro lado em geral, a pessoa ou a situação à sua frente. A posição de uma em relação à outra é a espinha da leitura.",
+    "Quando a linha do Outro alimenta ou se combina com a linha do Eu, o outro lado se aproxima — há atração na sua direção. Quando a linha do Outro domina a linha do Eu, é pressão, não carinho; algo na dinâmica está empurrando em vez de convidar.",
+    "Um hexagrama de seis combinações quer dizer que as coisas se unem: a ligação tende a se manter. Um hexagrama de seis choques quer dizer que as coisas se dispersam: a energia está se espalhando em vez de se juntar. Nenhum dos dois é veredito; cada um descreve o formato do momento.",
+    "Uma linha móvel pode se transformar no mesmo ramo de onde veio — é “marcar passo”, andar em círculos, movimento sem avanço. Ou pode se transformar no ramo com que se choca — é “ir e voltar”, um passo à frente e um atrás."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Os dois sinceros, nada empurrando",
+    "text": "A figura está parada — nenhuma linha em movimento — e as linhas do Eu e do Outro não estão em conflito. É o formato de A Verdade Interior: confiança sendo construída devagar. Nada está forçando o ritmo, e nada está bloqueando. O que falta é tempo e um pouco mais de contato, não um grande gesto."
+   },
+   {
+    "name": "O outro lado se aproxima",
+    "text": "A linha do Outro alimenta ou se combina com a linha do Eu. Em palavras simples, a outra pessoa está voltada para você — a linha dela apoia a sua em vez de pressioná-la. Isso não promete um resultado, mas diz que o interesse não é de um lado só."
+   },
+   {
+    "name": "Pressão em vez de carinho",
+    "text": "A linha do Outro domina a linha do Eu. Algo do outro lado está pesando sobre a sua posição — pode ser a intensidade da pessoa, as circunstâncias em volta dela ou a sua própria sensação de estar sendo avaliado. Isso se lê como atrito, não como afeto, e vale nomeá-lo antes de investir mais."
+   },
+   {
+    "name": "Andando em círculos",
+    "text": "Uma linha móvel se transforma no mesmo ramo de onde veio. A mesma conversa, os mesmos quase-planos, as mesmas mensagens carinhosas sem próximo passo. A figura não diz que está condenado; diz que o movimento é circular e que algo precisa mudar para ele virar avanço."
+   }
+  ],
+  "example": {
+   "values": "778877",
+   "question": "Já saímos três vezes. Isso vai dar em alguma coisa?",
+   "text": "A figura é o hexagrama 61, A Verdade Interior, sem nenhuma linha em movimento. Uma figura parada quer dizer que nada nessa situação está forçando uma mudança agora — nem empurrão, nem ruptura, só o formato como está. A linha do Eu, que é você, fica na linha 4. A linha do Outro, o outro lado, fica na linha 1. Elas não se chocam; a linha do Outro (sì Fogo) alimenta a sua (wèi Terra) — a outra pessoa está voltada para você, e o interesse é real. Isso combina com três encontros carinhosos e sem pressa.\n\nHá uma linha do Oficial na linha 2 e outra na linha 6 — o homem da questão aparece duas vezes, o que costuma indicar alguém presente na situação, mas que ainda não se declarou. Nada nesta figura diz que ele está se afastando, e nada diz que ele está prestes a dar o passo. A Verdade Interior é o hexagrama da sinceridade: o que é real aqui está sendo construído devagar, com contato e constância, e não num único momento decisivo. A leitura honesta é que o terreno é bom e o ritmo é você quem define — a figura não decide, você decide."
+  },
+  "faq": [
+   {
+    "q": "Uma leitura de I Ching do amor pode me dizer se ele gosta de mim?",
+    "a": "Não. A figura mostra o formato da situação — se o outro lado se aproxima ou pressiona, se as coisas se unem ou se dispersam —, mas não relata sentimentos. Ela dá um retrato fixo para você pensar, não um veredito sobre o coração dele."
+   },
+   {
+    "q": "O que significa a minha tiragem sobre a relação nova não ter linhas móveis?",
+    "a": "Uma figura parada quer dizer que nada está forçando uma mudança agora. Aparece muito quando a situação é sincera, mas lenta, sem nenhum dos lados empurrando. Não é mau sinal; é um retrato do momento como ele está, e o próximo passo continua sendo seu."
+   },
+   {
+    "q": "Faço outra tiragem se não gostar da resposta?",
+    "a": "Pode fazer, mas a segunda figura não anula a primeira — só acrescenta outro retrato. No Liu Yao, o valor está na figura fixa e reproduzível que você já tem. Fique com ela, aja com base no que você sabe e volte a consultar só quando a situação em si tiver mudado de verdade."
+   }
+  ],
+  "ask": "Essa relação nova vai dar em alguma coisa?"
+ },
+ "exam-or-interview": {
+  "slug": "exam-or-interview",
+  "topic": "study",
+  "hexagrams": [
+   4,
+   35,
+   46,
+   26
+  ],
+  "title": "I Ching para prova, concurso ou entrevista: vou passar?",
+  "h1": "I Ching para prova ou entrevista: você vai passar?",
+  "meta": "Tiragem de I Ching (Liu Yao) para prova, concurso ou entrevista: a linha da nota, a da vaga e o seu próprio estado. Veja como, com um exemplo.",
+  "intro": [
+   "Você tem uma data marcada no calendário — uma prova de habilitação profissional, um concurso, uma certificação, a entrevista final — e o resultado importa mais do que você gostaria de admitir. Você estudou, ou quase tudo, e agora está naquela semana estranha em que nada do que você faz parece suficiente e tudo o que sente é confiança ou pavor.",
+   "Uma tiragem pelo método Liu Yao não vai dizer a sua nota nem entregar a vaga. O que ela faz é fixar uma figura pequena e reproduzível — seis linhas, calculadas sempre do mesmo jeito — e explicar o que essa figura diz sobre o seu preparo, a prova à sua frente e a instituição do outro lado. Quem faz a prova continua sendo você. Quem entra na sala é você. A figura só mostra onde você está."
+  ],
+  "how": {
+   "lead": "Numa prova ou entrevista, a figura pesa três coisas: a prova e a nota, a instituição ou a vaga, e o seu estado no dia.",
+   "points": [
+    "A linha dos Pais é a nota, a prova, o certificado, a própria carta de oferta. Se estiver forte e na estação, o resultado é bom. Se estiver no vazio — uma linha que caiu num intervalo do calendário e não consegue agir — ou quebrada, o resultado não é desta vez.",
+    "A linha do Oficial é a escola, a banca, o comitê de contratação, a vaga. Quando apoia a linha do Eu, a instituição quer você. Quando se transforma em outra coisa, a relação está mudando antes mesmo de você chegar.",
+    "A linha do Eu é você: o seu estado, o seu preparo, o seu nervosismo. Uma linha do Eu forte quer dizer que você está pronto. Fraca ou em choque, o risco é o dia em si, não a matéria.",
+    "Uma linha móvel é a parte da figura que está mudando. Quando a linha do Oficial se move, a vaga ou a banca está em movimento — e aquilo em que ela se transforma mostra se esse movimento ajuda você ou desgasta você.",
+    "A linha do Outro é o outro lado: o examinador, o entrevistador, a sala. Se for uma linha dos Pais e estiver forte, a própria prova está do seu lado."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Pais forte, Eu forte",
+    "text": "A prova está sólida e você está sólido. É a figura de quem fez o dever de casa e não está brigando consigo mesmo. Faça a prova, responda às questões, não invente problemas novos na última semana."
+   },
+   {
+    "name": "Pais no vazio",
+    "text": "A linha da nota caiu num intervalo do calendário. Isso costuma querer dizer que o resultado não é desta vez — não que você seja incapaz, mas que esta prova, neste dia, não encaixa. Use a semana para consolidar em vez de decorar às pressas e trate a prova como informação."
+   },
+   {
+    "name": "Oficial apoiando o Eu",
+    "text": "A instituição ou a banca está ativamente do seu lado. Numa figura de entrevista, isso se lê como uma sala que quer gostar de você. O seu trabalho é não convencê-los do contrário — responda ao que foi perguntado e pare."
+   },
+   {
+    "name": "Oficial virando Irmãos",
+    "text": "A vaga ou a banca está em movimento, e esse movimento custa caro para você. O esforço sai e pouco volta — etapas extras, datas remarcadas, um processo que cansa. Prepare-se para um processo mais longo do que o anunciado e proteja a sua energia."
+   }
+  ],
+  "example": {
+   "values": "878867",
+   "question": "Vou passar na prova da minha habilitação profissional semana que vem?",
+   "text": "A figura é o hexagrama 4, A Insensatez Juvenil, que se transforma no 59, A Dissolução, com a linha 5 em movimento. A linha 4 é a linha do Eu — você — e é uma linha dos Descendentes, a linha da fluidez e da produção, não do esforço forçado. A linha 1 é a linha do Outro, o outro lado, e é uma linha dos Pais: a própria prova. A linha 6 também é dos Pais. Ou seja, a linha da nota aparece duas vezes. Você está preparado o suficiente. Essa é a leitura direta desta figura.\n\nO risco está na linha 5, a linha do Oficial — o órgão que emite a habilitação, a banca, a vaga —, e ela está em movimento. Passa de Oficial para Irmãos e, ao fazer isso, se desgasta dominando aquilo em que se transforma. Em palavras simples: a instituição e o processo vão cansar você mais do que a matéria. A uma semana da prova, o movimento útil não é mais conteúdo. É dormir, fazer um simulado cronometrado nas condições da prova e ter um plano para o nervosismo na própria manhã. A figura diz que o preparo existe; é no dia que ele pode se perder."
+  },
+  "faq": [
+   {
+    "q": "Uma leitura de I Ching pode me dizer se vou passar?",
+    "a": "Ela pode dizer o que a figura mostra sobre a prova, a instituição e o seu próprio estado — se a linha da nota está forte ou no vazio, se a banca está do seu lado, se você está pronto. Não pode dizer uma nota nem um sim. Quem faz a prova é você, e quem decide o que fazer com a leitura também."
+   },
+   {
+    "q": "Quando fazer a tiragem antes de uma prova ou entrevista?",
+    "a": "Uma semana antes é uma boa janela: perto o bastante para o seu estado ser real, longe o bastante para você ainda agir com base no que a figura diz. Consultar na véspera tende a produzir uma figura sobre o seu nervosismo, e não sobre a prova."
+   },
+   {
+    "q": "E se a figura parecer ruim?",
+    "a": "Uma linha dos Pais no vazio quer dizer que o resultado não é desta vez — não é um veredito sobre você. A figura é fixa e reproduzível; a leitura a explica; você decide se faz a prova, se adia ou se trata o dia como um ensaio para a próxima tentativa. Nada na figura decide nada por você."
+   }
+  ],
+  "ask": "Vou passar na prova? O que devo fazer esta semana?"
+ },
+ "waiting-for-news": {
+  "slug": "waiting-for-news",
+  "topic": "decision",
+  "hexagrams": [
+   5,
+   61,
+   25,
+   64
+  ],
+  "title": "I Ching: quando vou ter resposta? O prazo de uma espera",
+  "h1": "Esperando uma resposta: o que o I Ching diz sobre o prazo?",
+  "meta": "Tiragem de I Ching (Liu Yao) para uma resposta que não chega: as linhas móveis e os ramos indicam um prazo, não uma promessa. Quem decide é você.",
+  "intro": [
+   "Você mandou o currículo, o e-mail, a mensagem. Agora os dias passam e a resposta está nas mãos de outra pessoa — um recrutador, um consulado, um proprietário, um amigo que está devendo uma resposta. Esperar é um trabalho em si, e é difícil fazer isso bem.",
+   "Uma tiragem pelo método Liu Yao não faz o outro lado decidir e não diz o resultado como fato. O que ela pode fazer é mostrar o formato da espera: se o assunto está andando ou parado, onde está o poder e quais dias a figura aponta como prazo. O que fazer quando esse prazo abrir ou fechar continua sendo escolha sua."
+  ],
+  "how": {
+   "lead": "Num assunto que está nas mãos de outra pessoa, a figura pesa a linha do Eu (você, quem pergunta), a linha do Outro (o outro lado) e as linhas móveis, que carregam o prazo.",
+   "points": [
+    "A linha do Eu é a linha que representa você nesta tiragem. Se estiver forte e avançando, você ainda está em movimento; se recuar ou se esvaziar, a sua energia está indo para a espera, e não para o resultado.",
+    "A linha do Outro é a linha que representa o outro lado — a pessoa ou o órgão que tem a sua resposta. Onde ela está, se está no vazio (uma linha cujo ramo não tem apoio no ciclo atual e só se “preenche” no seu próprio dia) e se está ativa mostram o quanto a decisão está de fato ao alcance.",
+    "Uma linha no vazio se preenche no seu próprio dia. Em palavras simples: se a linha que carrega a sua resposta está no vazio, a figura diz que o assunto não está vazio para sempre — ele se abre quando chega o dia desse ramo.",
+    "Uma linha em combinação se abre no dia do choque. Quando dois ramos estão combinados, a tensão se solta no dia que se choca com um deles; esse dia de choque é o seu prazo.",
+    "Uma linha que avança se concretiza quando o seu ramo chega. Se uma linha móvel dá um passo à frente para um novo ramo, o assunto se resolve quando vier um dia ou um mês com esse ramo. Uma linha que recua perde impulso — o ramo volta um passo, e o prazo se estica."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "A resposta está no relógio do outro lado",
+    "text": "Quando a linha do Outro está forte, mas é a linha do Eu que se move e se esvazia, a figura mostra você empurrando e o outro lado simplesmente ainda não chegou à sua porta. O tempo pertence a eles. O movimento útil é definir um prazo e parar de atualizar a caixa de entrada até ele passar."
+   },
+   {
+    "name": "A linha que carrega a resposta está no vazio",
+    "text": "Uma linha do Outro no vazio quer dizer que a resposta ainda não caiu no ciclo em que você está. Ela se preenche no dia do seu ramo. Até lá, cobrar é ruído; depois desse dia, um e-mail curto e simples é o movimento certo."
+   },
+   {
+    "name": "Uma linha móvel que recua",
+    "text": "Quando uma linha móvel volta para um ramo anterior, o assunto perde impulso em vez de se resolver. É a figura dizendo que a espera será mais longa do que o calendário sugere e que você deve se planejar em torno do atraso, e não contra ele."
+   },
+   {
+    "name": "As duas linhas se movendo uma em direção à outra",
+    "text": "Se a linha do Eu e a linha do Outro estão ativas e nenhuma está no vazio, os dois lados estão em contato mesmo quando não parece. O prazo costuma ser curto — alguns dias em torno do ramo em que as linhas móveis caem —, e uma cobrança enviada dentro desse prazo costuma receber uma resposta de verdade."
+   }
+  ],
+  "example": {
+   "values": "779678",
+   "question": "Quando vou ter resposta do meu pedido de visto?",
+   "text": "O hexagrama original é o 5, A Espera, e o hexagrama transformado é o 58, A Alegria. As linhas 3 e 4 estão em movimento. A linha 4 é a linha do Eu — você, quem pergunta — e é uma linha dos Descendentes, de Metal, que vira uma linha da Riqueza, de Água. O Metal alimenta a Água, então a linha gasta a própria força na mudança: quem está esperando é você, e a espera está custando caro. A linha 1, a linha do Outro, é o outro lado — o consulado — e está parada. A linha 3 é uma linha dos Irmãos que recua do ramo chén para chǒu: mesmo elemento, o ramo voltando um passo, então essa linha perde impulso. A figura não diz que a resposta é não. Diz que a resposta vem no relógio do outro lado, não no seu, e que o atraso é estrutural, não sinal de problema.\n\nA leitura do prazo é esta: com a linha do Eu se esvaziando naquilo em que se transforma e a linha do Outro quieta, a janela não está nos próximos dias. A linha dos Irmãos que recua aponta para uma espera mais longa do que o prazo de processamento divulgado. Na prática: pare de conferir todo dia, escolha uma data depois que o prazo do ramo que recua tiver passado e mande uma única cobrança curta nesse dia — não antes. A figura indica um prazo; o e-mail pergunta como ficou quando o prazo já passou."
+  },
+  "faq": [
+   {
+    "q": "O I Ching pode me dizer o dia exato em que vou ter resposta?",
+    "a": "Não. A figura indica um prazo com base nas linhas móveis e nos seus ramos — uma linha no vazio se preenche no seu próprio dia, uma linha em combinação se abre no dia do choque, uma linha que avança se concretiza quando o seu ramo chega. Trate isso como um prazo para se planejar, não como uma data que o outro lado combinou com você."
+   },
+   {
+    "q": "Devo cobrar antes do prazo que a figura indica?",
+    "a": "A regra de leitura aqui é esperar o prazo passar e então mandar uma única cobrança curta e simples. Se a linha que carrega a sua resposta está no vazio, o assunto ainda não caiu no ciclo atual, e uma cobrança antes do dia de preenchimento costuma receber uma não resposta."
+   },
+   {
+    "q": "E se a figura mostrar uma linha que recua?",
+    "a": "Uma linha que recua quer dizer que o ramo volta um passo e a linha perde impulso. Num assunto de espera, isso se lê como uma espera mais longa do que o esperado, e não como uma recusa. Planeje-se em torno do atraso; não leia isso como um não."
+   }
+  ],
+  "ask": "Quando vou ter resposta? O que faço enquanto espero?"
+ }
+}

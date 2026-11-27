@@ -1,0 +1,522 @@
+{
+ "job-change": {
+  "slug": "job-change",
+  "topic": "career",
+  "hexagrams": [
+   11,
+   5,
+   46,
+   35
+  ],
+  "title": "Tirage Yi King travail : accepter l'offre d'emploi ou attendre ?",
+  "h1": "Accepter cette offre d'emploi, ou attendre ?",
+  "meta": "Tirage Yi Jing (Liu Yao) pour une offre d'emploi ou un changement de poste : le poste, le contrat, le salaire, le bon moment. Vous décidez.",
+  "intro": [
+   "Une offre attend dans votre boîte mail, ou un concurrent vous a rappelé deux fois, et la réponse est attendue pour une date précise. Vous oscillez entre le salaire, l'intitulé du poste, le manager que vous laisseriez derrière vous, et cette impression que dire oui trop vite pourrait vous coûter quelque chose que vous ne savez pas encore nommer.",
+   "Un tirage Liu Yao ne vous dit pas quoi faire. Il établit à partir de votre question un tableau fixe — le poste, le contrat, la rémunération, votre côté et celui de l'employeur — puis explique ce que ce tableau montre. C'est ensuite à vous de le confronter à votre vie, à votre loyer et à ce que vous voulez vraiment."
+  ],
+  "how": {
+   "lead": "Pour une offre d'emploi ou un changement de poste, le tableau regarde le poste lui-même, les papiers qui l'accompagnent, l'argent, et de quel côté vient l'élan.",
+   "points": [
+    "Le trait Officier représente le poste et l'intérêt que l'employeur vous porte. S'il est fort et nourrit votre trait Soi, le poste vous veut vraiment ; s'il est vide — un trait sans force pendant le cycle de dix jours en cours —, le poste n'est pas tout à fait celui que décrit l'annonce.",
+    "Le trait Parents couvre le contrat, la lettre d'offre, la date d'embauche, les papiers. Un trait Parents faible face à un trait Officier très présent : l'enthousiasme est réel, mais les conditions restent floues.",
+    "Le trait Richesse, c'est le salaire. Richesse forte : l'argent est réel et atteignable. Richesse faible ou heurtée : le chiffre bouge, ou fond une fois que vous êtes dans la place.",
+    "Le trait Soi, c'est vous ; le trait Autre, c'est l'entreprise. Quand le trait Autre soutient le trait Soi, l'autre partie joue en votre faveur ; quand il pèse sur lui, c'est vous qui payez la note.",
+    "Un trait Frères mutant signale une concurrence : un autre candidat, un rival en interne, ou une baisse discrète de l'enveloppe. Regardez si ce trait Frères va vers vous ou contre vous."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Le poste est réel et vous veut",
+    "text": "Officier fort, qui nourrit le trait Soi, avec un trait Autre favorable. Le poste est bien ce qu'il paraît, et l'intérêt de l'employeur est sincère. La question n'est plus de savoir s'ils vous veulent, mais si les conditions suivent."
+   },
+   {
+    "name": "Beaucoup d'enthousiasme, peu de papier",
+    "text": "Officier fort, mais Parents faible ou absent. Le recruteur est pressé, l'intitulé est séduisant, mais les conditions écrites restent vagues ou changent encore. Ne prenez pas une promesse orale pour un contrat."
+   },
+   {
+    "name": "L'argent coince",
+    "text": "Trait Richesse heurté, ou trait Frères mutant contre lui. Le salaire annoncé peut être rogné, retardé, ou bousculé par une contre-offre qui change toute la donne. Obtenez le chiffre par écrit avant de démissionner de quoi que ce soit."
+   },
+   {
+    "name": "Le poste n'est pas ce qu'il paraît",
+    "text": "Officier vide ou brisé par le mois. Le poste peut être restructuré, le périmètre plus étroit qu'annoncé, ou l'équipe en plein remaniement. Ce tableau récompense ceux qui posent les questions qui fâchent avant de signer."
+   }
+  ],
+  "example": {
+   "values": "777868",
+   "question": "Un concurrent me propose un poste de manager. Dois-je accepter maintenant ou attendre ?",
+   "text": "Le tableau est La Paix (hexagramme 11), un hexagramme des six unions : les deux parties sont déjà liées et se parlent. Le trait 5 est le trait Richesse, le salaire, et il est mutant : il devient un trait Frères, et comme la Terre attaque l'Eau, il est attaqué en retour par sa mutation. L'offre est réelle, mais l'enveloppe n'est pas arrêtée ; quelque chose dans le salaire ou les conditions va bouger avant la signature.\n\nLe trait Soi est au trait 3 (vous), le trait Autre au trait 6 (l'entreprise), et leurs branches, chén et yǒu, sont en union : l'autre partie est sincèrement intéressée. Le trait Officier, au trait 2, c'est le poste lui-même : il est bien présent, le poste existe. En revanche, aucun trait Parents n'apparaît dans le tableau : le contrat n'est pas encore là. Lu d'un bloc : le poste vous veut, c'est l'argent qui bouge. Le tableau devient L'Attente (hexagramme 5) : il invite à attendre que les papiers se stabilisent et que le chiffre soit écrit noir sur blanc. C'est une lecture, pas une consigne ; à vous de juger si l'attente en vaut la peine."
+  },
+  "faq": [
+   {
+    "q": "Un tirage Liu Yao peut-il me dire si je dois accepter une offre d'emploi ?",
+    "a": "Non. Le tirage produit un tableau fixe du poste, du contrat, du salaire et des deux parties. Il explique ce que montre ce tableau ; la décision vous appartient."
+   },
+   {
+    "q": "Que signifie un trait Officier vide dans mon tableau ?",
+    "a": "Vide signifie que le trait n'a pas de force pendant le cycle de dix jours en cours. Pour une question de travail, cela suggère que le poste n'est pas celui que décrit l'annonce : restructuré, plus étroit, ou mouvant. C'est une invitation à poser davantage de questions, pas un verdict."
+   },
+   {
+    "q": "Dois-je refaire un tirage si la réponse ne me plaît pas ?",
+    "a": "Un second tirage sur la même affaire vous donne un second tableau, pas un tableau plus juste : les six traits tombent comme ils tombent. La règle de la tradition, c'est une affaire, un tirage : prenez le temps avec la première lecture, décidez, et ne refaites un tirage que si la situation elle-même a changé."
+   }
+  ],
+  "ask": "Dois-je accepter cette offre d'emploi, attendre, ou rester où je suis ?"
+ },
+ "moving": {
+  "slug": "moving",
+  "topic": "decision",
+  "hexagrams": [
+   35,
+   56,
+   53,
+   39
+  ],
+  "title": "Yi King déménagement : partir vivre à l'étranger ou rester ?",
+  "h1": "Faut-il déménager ? Lire un tirage Liu Yao pour un départ",
+  "meta": "Tirage Yi Jing (Liu Yao) pour partir à l'étranger ou changer de ville : le foyer, les papiers, les obstacles, le passage. Vous décidez.",
+  "intro": [
+   "Les cartons sont à moitié faits, le bail se termine dans deux mois, et l'un de vous actualise la page du visa à minuit. Partir dans un autre pays ou une autre ville, c'est une pile de petites décisions sous un seul grand mot, et l'essentiel du poids se trouve dans ce qu'on ne voit pas encore : les papiers, le calendrier, et la question de savoir si le nouvel endroit vous accueillera vraiment.",
+   "Un tirage Liu Yao ne vous dit pas s'il faut partir. Il dresse à partir de vos six traits un tableau fixe et reproductible, et la lecture explique ce que ce tableau met en balance : le foyer et les documents, les obstacles et l'administration, la facilité du passage, et si vous êtes vous-même assez décidé pour bouger. Vous le lisez, vous le discutez, et vous décidez."
+  ],
+  "how": {
+   "lead": "Pour un déménagement, le tableau met en balance votre propre trait, celui du foyer et des papiers, celui des obstacles et de l'administration, et celui de la facilité et du passage sans encombre.",
+   "points": [
+    "Le trait Soi (celui qui vous représente, vous qui posez la question) montre si vous êtes réellement en mouvement. Fort et mutant : vous pouvez partir, la décision a du poids derrière elle. Vide (un trait tombé dans un creux du calendrier, sans force), vous n'avez pas encore décidé, quoi qu'en dise l'agenda.",
+    "Le trait Parents (le foyer, les documents, le visa) montre si le nouvel endroit tient. Parents fort : l'adresse, le bail, le titre de séjour reposent sur quelque chose. Parents faible ou heurté : le côté « foyer » du projet est mince.",
+    "Le trait Officier (les obstacles, l'administration), c'est la file d'attente au consulat, le tampon qui manque, le propriétaire qui ne signe pas. Un Officier mutant qui attaque votre trait Soi annonce de la paperasse ou des ennuis en chemin : pas un verdict, un avertissement sur l'endroit où ça frotte.",
+    "Le trait Descendants (la facilité, le passage sans encombre), c'est la partie fluide : l'avion qui atterrit, l'ami qui vous attend, la semaine qui se passe sans histoire. Quand il est présent et intact, le passage lui-même n'est pas le problème.",
+    "Le trait Autre (l'autre côté : la ville, l'employeur, le pays) montre ce vers quoi vous allez. Lisez-le face à votre trait Soi : soutien, indifférence ou pression."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Trait Soi fort et mutant",
+    "text": "Votre trait a de la force et se transforme : le tableau dit que le projet a de l'élan en vous. La question n'est plus « faut-il ? » mais « comment ? ». Regardez ensuite le trait Parents : de l'élan sans foyer où atterrir, ce n'est qu'un départ."
+   },
+   {
+    "name": "Trait Soi vide",
+    "text": "Votre trait est tombé dans un creux du calendrier, sans force : ce n'est pas encore décidé. Ce n'est pas un non. Le plus souvent, la vraie question se situe en amont — le travail, l'argent, la personne à qui vous n'avez encore rien dit."
+   },
+   {
+    "name": "L'Officier contre le trait Soi",
+    "text": "Le trait des obstacles est actif et pèse sur le vôtre : paperasse, administration, un retard qui porte un nom. Le tableau désigne la friction, il n'interdit pas le départ. Prévoyez du temps et de l'argent pour la file d'attente."
+   },
+   {
+    "name": "Parents fort, Descendants présent",
+    "text": "Le trait du foyer a de la substance et celui de la facilité est intact : c'est la configuration la plus stable pour un déménagement. Le nouvel endroit tient et le passage est calme. Reste le travail ordinaire du départ."
+   }
+  ],
+  "example": {
+   "values": "888987",
+   "question": "Devons-nous partir vivre dans un autre pays cette année ?",
+   "text": "Le tableau est Le Progrès (hexagramme 35), qui devient L'Éclatement (hexagramme 23), avec le trait 4 mutant. Le trait 4 est votre trait Soi — vous deux, qui posez la question — et il est yang et mutant : le projet est réellement en mouvement. Le trait 1 est le trait Autre, l'autre côté, et c'est un trait Parents de branche wèi (Terre) : le pays vers lequel vous allez se présente comme un foyer, pas comme un lieu indifférent. Le trait 5 est lui aussi un trait Parents : le côté foyer et papiers a donc deux appuis. Les traits 6 et 2 sont des traits Officier, le côté obstacles et administration, et aucun des deux n'est mutant.\n\nLe seul trait mutant est le vôtre : il passe d'un trait Frères de branche yǒu (Métal) à un trait Parents de branche xū (Terre). Concrètement, ce qui bouge, c'est vous, et ce que cela devient, c'est le foyer et les papiers — et comme la Terre nourrit le Métal, le trait est nourri en retour par sa mutation : il sort du changement renforcé. Lu d'un bloc : le départ s'ouvre, et ce sont les papiers qui traîneront. Rien ici ne dit « partez » ou « restez ». Le tableau dit que le passage est réel, que la destination est un trait de foyer, et que la partie lente, ce seront les documents."
+  },
+  "faq": [
+   {
+    "q": "Un tirage peut-il me dire si j'obtiendrai mon visa ?",
+    "a": "Non. Le tableau peut montrer le trait Parents — le foyer et les papiers —, s'il est solide ou mince, et le trait Officier de l'administration, pressant ou calme. Cela vous indique où la friction risque de se situer. Il ne délivre pas le visa."
+   },
+   {
+    "q": "Et si mon trait Soi est vide ?",
+    "a": "Vide signifie que le trait est tombé dans un creux du calendrier, sans force ; pour un déménagement, cela se lit plutôt comme « pas encore décidé » que comme un non. Prenez le temps de la question en amont — le travail, l'argent, la conversation à avoir — et refaites un tirage quand quelque chose aura réellement changé."
+   },
+   {
+    "q": "Faut-il faire un seul tirage ou plusieurs pour le même déménagement ?",
+    "a": "Un tirage répond à une question à un moment donné, et une fois dressé, le tableau est fixe. Si la situation change vraiment — une offre, un refus, une date —, c'est une nouvelle question et un nouveau tirage. Reposer la même question sans que rien n'ait bougé produit surtout du bruit."
+   }
+  ],
+  "ask": "Dois-je partir vivre dans une autre ville ou un autre pays cette année ?"
+ },
+ "negotiation-deal": {
+  "slug": "negotiation-deal",
+  "topic": "money",
+  "hexagrams": [
+   13,
+   49,
+   6,
+   14
+  ],
+  "title": "Yi King négociation et contrat : l'affaire va-t-elle se conclure ?",
+  "h1": "L'affaire va-t-elle se conclure, et à quelles conditions ?",
+  "meta": "Un tirage Yi Jing (Liu Yao) montre si une négociation aboutit : l'autre partie, le contrat et l'argent sur la table. Le tableau est fixe ; vous décidez.",
+  "intro": [
+   "Vous êtes en pleine négociation — un contrat, une vente, une lettre d'intention — et le terrain ne cesse de bouger. L'autre partie semble intéressée, puis traîne, puis se montre de nouveau intéressée, et vous voulez voir clairement où en sont réellement les choses.",
+   "Un tirage Liu Yao ne décide pas de l'issue et ne vous dit pas quoi signer. Il vous donne un tableau fixe et reproductible du moment : qui est l'autre partie dans la lecture, si le document est prêt, et où se trouve l'argent. Vous le lisez, puis vous décidez."
+  ],
+  "how": {
+   "lead": "Pour une négociation, le tableau met en balance trois choses : l'autre partie, le contrat lui-même, et l'argent sur la table.",
+   "points": [
+    "Le trait Autre, c'est l'autre partie, celle qui est en face de vous. Sa force, sa mutation éventuelle et le fait qu'il soit vide ou non disent à quel point sa position est réelle en ce moment.",
+    "Le trait Parents, c'est le contrat : le document, les clauses, la page des signatures. S'il est vide, le document n'est pas encore prêt, aussi bonne que soit la discussion.",
+    "Le trait Richesse, c'est l'argent sur la table : le prix, les honoraires, la contrepartie. Sa place et les soutiens qu'il reçoit montrent ce qui se négocie vraiment.",
+    "Le trait Soi, c'est vous : votre position, votre marge de manœuvre, votre demande. Quand Soi et Autre sont en union, les deux parties se rejoignent. Quand ils se heurtent, il n'y a pas de point de rencontre.",
+    "Un trait mutant montre où va la situation. Un trait qui recule — même élément, branche qui revient en arrière — perd de l'élan, même s'il reste le même type de trait."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Soi et Autre en union",
+    "text": "Les deux parties se rejoignent. C'est le signe le plus net qu'une affaire se conclut — non parce que c'est écrit d'avance, mais parce que le tableau montre un point de contact. Il reste à rédiger les conditions, mais la volonté est là."
+   },
+   {
+    "name": "Trait Autre vide",
+    "text": "L'autre partie n'est pas sérieuse en ce moment. Elle peut être polie, intéressée, voire enthousiaste, mais un trait Autre vide signifie que sa position est creuse à cet instant. Attendez qu'elle se remplisse avant de vous engager."
+   },
+   {
+    "name": "Soi et Autre se heurtent",
+    "text": "Aucun point de rencontre. Les deux positions ne se touchent pas : vous vous parlez sans vous entendre. L'affaire n'est pas morte pour autant, mais sous sa forme actuelle, elle ne se conclut pas. Quelque chose doit changer."
+   },
+   {
+    "name": "Trait Parents vide",
+    "text": "Le document n'est pas prêt. Le contrat, les clauses, la page des signatures — quelle que soit la forme de l'accord — ne sont pas en état d'être signés. Ne confondez pas une bonne conversation avec une affaire conclue."
+   }
+  ],
+  "example": {
+   "values": "787779",
+   "question": "Cette levée de fonds va-t-elle aboutir, et à quelles conditions ?",
+   "text": "Le tableau est Communauté avec les hommes (hexagramme 13), qui devient La Révolution (hexagramme 49), avec le trait 6 mutant. Le trait 3 est le trait Soi : la fondatrice qui pose la question. Le trait 6 est le trait Autre : l'investisseur, et il est mutant. Le trait 1 est le trait Parents, le contrat ; le trait 5 est le trait Richesse, l'argent sur la table. Soi et Autre ne sont pas en union : la branche de l'investisseur, xū (Terre), attaque la vôtre, hài (Eau). C'est lui qui a la main et qui fait pression. En revanche, le trait Richesse, shēn (Métal), nourrit votre trait : l'argent est bien là et joue en votre faveur. Le trait Parents est présent : le document existe sous une forme ou une autre.\n\nMais le trait 6, l'investisseur, est mutant — et il recule. Il reste un trait Descendants, mais sa branche revient de xū à wèi. L'autre partie perd de l'élan au dernier moment. L'affaire peut se faire dans les grandes lignes, mais les conditions seront réécrites en chemin. Communauté avec les hommes devient La Révolution : ce qui a commencé comme un accord de principe se termine par un document remanié. Attendez-vous à ce que les conditions finales ne soient pas celles discutées au départ."
+  },
+  "faq": [
+   {
+    "q": "Un tirage Liu Yao peut-il me dire si je dois signer ?",
+    "a": "Non. Le tableau montre l'état de l'autre partie, du contrat et de l'argent. Il ne vous dit pas quoi faire. Vous lisez le tableau, vous le confrontez à tout ce que vous savez par ailleurs, et vous décidez."
+   },
+   {
+    "q": "Que signifie un trait Autre vide ?",
+    "a": "L'autre partie n'est pas solide en ce moment. Elle attend peut-être quelque chose, ou n'est pas pleinement engagée. Cela ne veut pas dire qu'elle ment : sa position est creuse à cet instant. Laissez-lui le temps de se remplir avant d'agir."
+   },
+   {
+    "q": "La discussion se passe bien, mais le tableau montre un heurt. Que faire ?",
+    "a": "Un heurt entre Soi et Autre signifie que les deux positions ne se touchent pas. La conversation peut être chaleureuse, mais la structure de l'affaire ne se rejoint pas. Quelque chose doit changer — les conditions, le calendrier ou les parties — avant qu'elle se conclue."
+   }
+  ],
+  "ask": "Cette affaire va-t-elle se conclure, et à quelles conditions ?"
+ },
+ "starting-a-business": {
+  "slug": "starting-a-business",
+  "topic": "money",
+  "hexagrams": [
+   48,
+   42,
+   3,
+   50
+  ],
+  "title": "Yi King création d'entreprise : se lancer à son compte ?",
+  "h1": "Créer mon entreprise : maintenant, plus tard, ou pas du tout ?",
+  "meta": "Un tirage Yi Jing (Liu Yao) met en balance bénéfices, clients, concurrence et associés. Il montre ce que dit le tableau, pas quoi faire. Vous décidez.",
+  "intro": [
+   "Vous avez un savoir-faire pour lequel on vous paie, ou une idée qui ne vous quitte pas. La question n'est pas de savoir si vous êtes capable de faire le travail, mais si l'argent, les clients et le calendrier s'alignent. Vous voulez regarder le terrain en face avant d'y poser le pied.",
+   "Un tirage Liu Yao construit un tableau fixe à partir de votre question : six traits, chacun porteur d'une parenté et d'un élément. Le tableau ne vous dit ni de sauter ni de rester. Il montre où se trouve le bénéfice, qui l'apporte, ce qui le draine, et si la structure tient. Vous le lisez à la lumière de vos propres chiffres, et vous décidez."
+  ],
+  "how": {
+   "lead": "Pour une question d'entreprise, le tableau met en balance le trait du bénéfice, celui des clients, celui de la pression et celui des dépenses, face à la solidité de votre propre position.",
+   "points": [
+    "Le trait Richesse, c'est le bénéfice : l'argent qui rentre vraiment. Un trait Richesse fort, bien placé, signifie que le terrain peut porter un revenu ; faible ou absent, le chiffre d'affaires n'est pas encore là, aussi bonne que soit l'idée.",
+    "Le trait Descendants, c'est la source du bénéfice et les clients eux-mêmes. Présent et bien orienté : la demande existe et les gens viennent à vous. Absent : vous vendez dans une salle vide.",
+    "Le trait Officier, c'est la pression qui pèse sur le projet : la concurrence, la réglementation, les autorisations, le coût pour se faire connaître. Un Officier lourd n'est pas un panneau stop ; il vous indique le prix d'entrée et qui occupe déjà la place.",
+    "Le trait Frères, ce sont les dépenses et les associés qui prennent. Si le trait Frères porte le trait Soi (celui qui vous représente), l'argent sort plus vite qu'il ne rentre, souvent par des frais partagés ou les prélèvements d'un associé.",
+    "Un trait mutant qui avance montre un élan qui se construit dans ce domaine. Un hexagramme des six heurts, où les traits tirent les uns contre les autres, dure difficilement : on peut démarrer, mais cela tient rarement."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Le savoir-faire est là, les clients non",
+    "text": "Le trait Parents (la préparation, les compétences) est fort, mais le trait Descendants (les clients, la source du bénéfice) est faible ou caché. Vous savez faire le travail ; ceux qui le paieront ne sont pas encore arrivés. C'est un signal de calendrier, pas un jugement sur vos capacités."
+   },
+   {
+    "name": "Le bénéfice est fort, vous ne l'êtes pas",
+    "text": "La Richesse est forte dans le tableau, mais le trait Soi (vous) est faible ou sous pression. Le marché est réel, mais votre position ne permet pas de le tenir : trop peu de fonds propres, trop d'engagements, ou une énergie trop dispersée. Le problème n'est pas l'occasion."
+   },
+   {
+    "name": "Frères porte le trait Soi",
+    "text": "Le trait Frères (les dépenses, les associés qui prennent) occupe la place du trait Soi. L'argent part aussi vite qu'il arrive, souvent par la part d'un associé, des frais communs, ou le coût de maintenir d'autres à flot. Relisez deux fois chaque pacte d'associés."
+   },
+   {
+    "name": "Six heurts, difficile à faire durer",
+    "text": "Les six traits se heurtent au lieu de se soutenir. Une activité peut démarrer sous un tel tableau, mais elle peine à tenir : les premiers succès ne s'additionnent pas. Mieux vaut attendre un tableau où les traits s'épaulent."
+   }
+  ],
+  "example": {
+   "values": "897878",
+   "question": "Je suis graphiste et j'envisage de quitter mon poste pour me mettre à mon compte. Est-ce le bon moment ?",
+   "text": "Le tableau est Le Puits (hexagramme 48), qui devient L'Obstacle (hexagramme 39) par le trait 2. Le trait Soi (vous) est au trait 5, et c'est un trait Richesse : la capacité à gagner votre vie est là, et le sol sous vos pieds est solide. Le trait Autre (l'autre côté : les clients, le marché) est au trait 2 ; c'est un trait Parents, et c'est le trait mutant. Parents, c'est la préparation et le savoir-faire, pas les clients. Le trait qui porterait la demande n'est pas celui qui vous répond.\n\nLe trait 2 passe de Parents à Descendants : du savoir-faire vers la source du bénéfice. Mais cette mutation se fait Eau contre Feu : le trait s'épuise à se transformer. La lecture n'est pas que l'indépendance échouera. Elle dit que le savoir-faire est prêt et que les clients ne sont pas encore dans le tableau. Le Puits est plein ; personne n'est encore venu y puiser. Constituez votre liste de clients avant de renoncer au salaire, et le même tableau se lira autrement."
+  },
+  "faq": [
+   {
+    "q": "Puis-je refaire un tirage si la réponse ne me plaît pas ?",
+    "a": "Vous le pouvez, mais le tableau est un instantané de la question posée. Poser deux fois la même question donne deux tableaux, pas un terrain plus clair. Mieux vaut poser une question plus précise — sur les clients, le calendrier ou l'argent — que répéter la même."
+   },
+   {
+    "q": "Un tableau défavorable signifie-t-il que je ne dois pas me lancer ?",
+    "a": "Non. Le tableau montre où se situe la pression et ce qui manque. Un trait Descendants faible signifie que les clients ne sont pas encore visibles, pas qu'ils ne viendront jamais. À vous de décider s'il faut attendre, préparer le terrain, ou y aller quand même."
+   },
+   {
+    "q": "Et si le tableau montre un bénéfice fort alors que je ne me sens pas prêt ?",
+    "a": "Le trait Richesse mesure ce que le marché peut absorber, pas votre état de préparation. Un trait Richesse fort avec un trait Soi faible dit que l'occasion est réelle mais que votre position doit être consolidée : des fonds, du temps, ou un associé qui ne vous épuise pas. Le tableau ne remplace pas votre propre jugement sur votre préparation."
+   }
+  ],
+  "ask": "Est-ce le bon moment pour me mettre à mon compte ?"
+ },
+ "get-back-together": {
+  "slug": "get-back-together",
+  "topic": "relationship",
+  "hexagrams": [
+   31,
+   24,
+   38,
+   45
+  ],
+  "title": "Yi King retour de l'ex : va-t-il ou va-t-elle revenir ?",
+  "h1": "Mon ex va-t-il revenir, et y a-t-il un chemin de retour ?",
+  "meta": "Un tirage Yi Jing (Liu Yao) pour un retour de l'ex : le trait de l'autre personne, les traits Soi et Autre, et si l'hexagramme lie ou disperse. Vous décidez.",
+  "intro": [
+   "Après une rupture, la question n'est presque jamais seulement de savoir si l'autre reviendra. C'est aussi de savoir si vous le voulez, si quelque chose a vraiment changé, et si reprendre contact aiderait ou ne ferait que rouvrir la plaie. Vous rejouez la dernière conversation, vous regardez votre téléphone, vous vous demandez si le silence veut dire qu'il ou elle passe à autre chose, ou attend que vous fassiez le premier pas.",
+   "Un tirage Liu Yao ne décide pas du retour de votre ex, et il ne peut pas faire qu'on vous désire. Ce qu'il fait, c'est poser la forme de la situation dans un tableau fixe et reproductible : qui se rapproche, qui se retient, si vous êtes encore liés ou en train de vous éloigner, et si vos efforts ont une chance d'aboutir ou vont vous épuiser. La lecture explique le tableau. C'est vous qui décidez quoi en faire."
+  ],
+  "how": {
+   "lead": "Pour une question de réconciliation, le tableau regarde le trait qui représente l'autre personne, celui qui vous représente, et si ces deux traits se nourrissent ou se combattent.",
+   "points": [
+    "Si vous êtes une femme et que vous interrogez sur un homme, c'est le trait Officier qui le représente. Si vous êtes un homme et que vous interrogez sur une femme, c'est le trait Richesse qui la représente. La façon dont ce trait se tient dans l'hexagramme — soutenu, vide, mutant ou immobile — dit à quel point l'autre est présent et disposé.",
+    "Le trait Soi, c'est vous, qui posez la question. Le trait Autre, c'est l'autre personne au sens large. Quand le trait Autre nourrit le trait Soi ou s'unit à lui, l'autre se rapproche. Quand il l'attaque, ce que vous ressentez de sa part est une pression, pas de la chaleur.",
+    "Un hexagramme des six unions signifie que les choses se lient : vous restez attachés l'un à l'autre, et se séparer demande un effort. Un hexagramme des six heurts signifie que les choses se dispersent : le lien est lâche, et tirer plus fort a tendance à l'éloigner davantage.",
+    "Un trait mutant qui se transforme en la même branche piétine : on tourne en rond — la même dispute, le même silence, le même contact manqué. Un trait qui se transforme en sa branche opposée se retourne : un pas vers vous, un pas en arrière.",
+    "Le trait mutant montre ce qui est réellement en mouvement. Si c'est votre propre trait qui bouge et qu'il attaque ce qu'il devient, le tableau montre un effort qui rapporte peu : vous poussez, et la poussée elle-même vous coûte plus qu'elle ne vous rapporte."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "L'autre se rapproche",
+    "text": "Le trait Autre nourrit le trait Soi ou s'unit à lui, ou bien le trait qui représente votre ex est soutenu et actif. Le tableau montre une personne encore tournée vers vous. Cela ne veut pas dire qu'elle agira bien ni vite, mais l'attirance est réelle, et pas seulement de votre côté."
+   },
+   {
+    "name": "Vous poussez contre une pression",
+    "text": "Le trait Autre attaque le trait Soi. Les signes venus de l'autre pèsent : une réponse froide, une exigence, un silence qui sonne comme un jugement. Multiplier les messages a tendance à accentuer cette pression plutôt qu'à l'adoucir."
+   },
+   {
+    "name": "Liés, mais pris dans une boucle",
+    "text": "Un hexagramme des six unions avec un trait qui se transforme en la même branche. Vous restez en lien, mais le contact reprend toujours la même forme : la même conversation, la même demi-promesse, le même recul. Être lié n'est pas avancer."
+   },
+   {
+    "name": "Le lien se disperse, et vos efforts vous épuisent",
+    "text": "Un hexagramme des six heurts, avec votre propre trait mutant qui attaque ce qu'il devient. Le lien est lâche, et vos tentatives pour réduire la distance vous vident sans faire bouger l'autre. Le tableau ne dit pas « jamais » ; il dit que cet effort-là, maintenant, rapporte peu."
+   }
+  ],
+  "example": {
+   "values": "889778",
+   "question": "Mon ex va-t-il revenir vers moi ?",
+   "text": "Le tableau est l'hexagramme 31, L'Influence, avec le trait 3 mutant ; il devient l'hexagramme 45, Le Rassemblement. Le trait Soi — vous, qui posez la question — est au trait 3, un trait Frères. Le trait Autre — l'autre personne — est au trait 6, un trait Parents, et sa branche Terre nourrit votre branche Métal. L'hexagramme est celui de l'influence mutuelle : deux personnes qui se touchent, un sentiment qui circule dans les deux sens. C'est la première chose que dit le tableau : ce sentiment n'est pas à sens unique.\n\nLe trait mutant, c'est le vôtre. Le trait 3 part de Frères et devient Richesse, et ce faisant, il attaque ce qu'il devient : le Métal tranche le Bois, un effort qui rapporte peu. Dit simplement : les tentatives, les coups d'œil au téléphone, les messages écrits puis effacés, c'est vous, et cela vous épuise. L'autre ne bouge qu'une fois que vous cessez de pousser. La transformation en Rassemblement annonce des retrouvailles plus tard, mais elles viennent après que vous avez arrêté de pousser, pas grâce à la poussée."
+  },
+  "faq": [
+   {
+    "q": "Un tirage peut-il me dire avec certitude si mon ex va revenir ?",
+    "a": "Non. Le tableau est fixe et reproductible, et la lecture explique ce qu'il montre : qui se rapproche, qui se retient, si le lien se resserre ou se disperse. Il ne décide pas de l'issue, et il ne peut pas faire qu'une autre personne veuille ce qu'elle ne veut pas."
+   },
+   {
+    "q": "Que signifie un hexagramme des six heurts ?",
+    "a": "Un hexagramme des six heurts signifie que les choses se dispersent : le lien est lâche, et tirer plus fort a tendance à l'éloigner davantage. Ce n'est pas un verdict disant qu'une réconciliation est impossible, mais cela dit que la force n'est pas le bon outil ici."
+   },
+   {
+    "q": "Dois-je reprendre contact en fonction de ce que dit le tableau ?",
+    "a": "Le tableau peut montrer si votre effort a des chances d'aboutir ou de vous épuiser, et si l'autre se rapproche ou exerce une pression. Ce que vous en faites vous appartient, et c'est la seule partie de l'histoire qui ait jamais été entre vos mains."
+   }
+  ],
+  "ask": "Y a-t-il un chemin de retour avec mon ex, et le souhaite-t-il ?"
+ },
+ "new-love": {
+  "slug": "new-love",
+  "topic": "relationship",
+  "hexagrams": [
+   61,
+   31,
+   32,
+   53
+  ],
+  "title": "Yi King amour : cette nouvelle relation va-t-elle durer ?",
+  "h1": "Cette nouvelle relation va-t-elle quelque part ?",
+  "meta": "Tirage Yi Jing (Liu Yao) pour une nouvelle relation ou un sentiment inavoué : ce que le tableau montre, ce qu'il ne décide pas.",
+  "intro": [
+   "Vous vous êtes vus quelques fois. Les messages sont chaleureux, les moments passés ensemble sont simples, et pourtant vous vous surprenez à rejouer la dernière conversation, en vous demandant si c'est le début de quelque chose ou quelques semaines agréables qui vont s'éteindre sans bruit. Demander à un ami, c'est seulement obtenir son avis ; demander directement à l'intéressé peut sembler trop, trop tôt.",
+   "Un tirage Liu Yao ne vous dit pas ce que l'autre ressent ni ce qui va se passer. Il vous donne un tableau fixe et reproductible — six traits issus de vos lancers — et une lecture qui explique ce que ce tableau montre des deux côtés de l'affaire. C'est vous qui décidez quoi en faire."
+  ],
+  "how": {
+   "lead": "Pour une nouvelle relation, le tableau regarde le trait de l'autre personne, votre propre trait, et si les deux vont l'un vers l'autre ou restent à distance.",
+   "points": [
+    "Si vous êtes une femme et que vous interrogez sur un homme, son trait est le trait Officier, celui qui représente l'homme dans l'affaire. Si vous êtes un homme et que vous interrogez sur une femme, son trait est le trait Richesse. Dans les deux cas, c'est la personne sur laquelle vous interrogez, lue comme un trait du tableau.",
+    "Le trait Soi, c'est vous : votre position, votre attitude, ce que vous apportez. Le trait Autre, c'est l'autre côté en général, la personne ou la situation en face de vous. La place de ces deux traits l'un par rapport à l'autre est la colonne vertébrale de la lecture.",
+    "Quand le trait Autre nourrit le trait Soi ou s'unit à lui, l'autre se rapproche : il y a une attirance vers vous. Quand le trait Autre attaque le trait Soi, c'est une pression, pas de la chaleur ; quelque chose dans la dynamique pousse au lieu d'inviter.",
+    "Un hexagramme des six unions signifie que les choses se lient : le lien a tendance à tenir. Un hexagramme des six heurts signifie que les choses se dispersent : l'énergie s'éparpille au lieu de se rassembler. Ni l'un ni l'autre n'est un verdict ; chacun décrit la forme du moment.",
+    "Un trait mutant peut se transformer en la même branche : il piétine, du mouvement sans progrès. Ou bien en sa branche opposée : il se retourne, un pas en avant, un pas en arrière."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Deux sincérités, rien ne presse",
+    "text": "Le tableau est immobile — aucun trait mutant — et les traits Soi et Autre ne s'opposent pas. C'est la forme de La Vérité intérieure : une confiance qui se construit lentement. Rien n'impose le rythme, et rien ne le bloque non plus. Ce qu'il faut, c'est du temps et un peu plus de contact, pas un grand geste."
+   },
+   {
+    "name": "L'autre se rapproche",
+    "text": "Le trait Autre nourrit le trait Soi ou s'unit à lui. Concrètement, l'autre personne est tournée vers vous : son trait soutient le vôtre au lieu de peser dessus. Cela ne promet aucune issue, mais cela dit que l'intérêt n'est pas à sens unique."
+   },
+   {
+    "name": "De la pression plutôt que de la chaleur",
+    "text": "Le trait Autre attaque le trait Soi. Quelque chose, du côté de l'autre, pèse sur votre position : son intensité, les circonstances qui l'entourent, ou votre propre impression d'être jugé. Cela se lit comme une friction, pas comme de l'affection, et mieux vaut le nommer avant d'investir davantage."
+   },
+   {
+    "name": "Tourner en rond",
+    "text": "Un trait mutant se transforme en la même branche : il piétine. La même conversation, les mêmes projets à moitié faits, les mêmes messages chaleureux sans suite. Le tableau ne dit pas que c'est voué à l'échec ; il dit que le mouvement tourne en rond, et que quelque chose doit changer pour qu'il aille de l'avant."
+   }
+  ],
+  "example": {
+   "values": "778877",
+   "question": "Nous nous sommes vus trois fois. Est-ce que cela mène quelque part ?",
+   "text": "Le tableau est La Vérité intérieure (hexagramme 61), sans aucun trait mutant. Un tableau immobile signifie que rien, dans la situation, n'impose de changement pour l'instant : ni poussée, ni rupture, seulement la forme telle qu'elle est. Le trait Soi, c'est-à-dire vous, est au trait 4. Le trait Autre, l'autre côté, est au trait 1. Ils ne se heurtent pas, et la branche de l'Autre, Feu, nourrit la vôtre, Terre : l'autre se tourne vers vous, et cet intérêt est sincère, pas de pure politesse — ce qui correspond bien à trois rendez-vous chaleureux et sans précipitation.\n\nOn trouve un trait Officier au trait 2 et un autre au trait 6 : l'homme de l'affaire apparaît deux fois, ce qui se lit souvent comme quelqu'un de présent dans la situation mais qui ne s'est pas encore déclaré. Rien dans ce tableau ne dit qu'il s'éloigne, et rien ne dit qu'il va faire le premier pas. La Vérité intérieure est l'hexagramme de la sincérité : ce qui est réel ici se construit lentement, par le contact et la constance plutôt que par un moment décisif. La lecture honnête, c'est que le terrain est bon et que c'est à vous de donner le rythme — le tableau ne décide pas, vous si."
+  },
+  "faq": [
+   {
+    "q": "Un tirage Yi Jing amour peut-il me dire s'il m'aime ?",
+    "a": "Non. Le tableau montre la forme de la situation — si l'autre se rapproche ou fait pression, si les choses se lient ou se dispersent —, mais il ne rapporte pas de sentiments. Il vous donne une image fixe pour réfléchir, pas un verdict sur son cœur."
+   },
+   {
+    "q": "Que signifie un tirage sans trait mutant pour une nouvelle relation ?",
+    "a": "Un tableau immobile signifie que rien n'impose de changement pour l'instant. On le rencontre souvent quand la situation est sincère mais lente, sans que personne ne force. Ce n'est pas un mauvais signe ; c'est l'image du moment tel qu'il est, et le prochain pas vous appartient toujours."
+   },
+   {
+    "q": "Dois-je refaire un tirage si la réponse ne me plaît pas ?",
+    "a": "Vous le pouvez, mais le second tableau n'annule pas le premier : il ajoute simplement une autre image. En Liu Yao, la valeur est dans le tableau fixe et reproductible que vous avez déjà. Prenez-le au sérieux, agissez selon ce que vous savez, et ne refaites un tirage que si la situation elle-même a réellement changé."
+   }
+  ],
+  "ask": "Cette nouvelle relation va-t-elle quelque part ?"
+ },
+ "exam-or-interview": {
+  "slug": "exam-or-interview",
+  "topic": "study",
+  "hexagrams": [
+   4,
+   35,
+   46,
+   26
+  ],
+  "title": "Yi King examen ou entretien : vais-je réussir ?",
+  "h1": "Yi Jing pour un examen ou un entretien : allez-vous réussir ?",
+  "meta": "Tirage Yi Jing (Liu Yao) pour un examen ou un entretien d'embauche : le trait du résultat, celui du poste et votre état. Exemple commenté.",
+  "intro": [
+   "Une date est entourée sur le calendrier — un concours, une certification, un dernier entretien — et le résultat compte plus que vous ne voudriez l'admettre. Vous avez fait le travail, ou presque, et vous voilà dans cette semaine étrange où rien de ce que vous faites ne semble suffire, où vous passez sans cesse de la confiance à l'appréhension.",
+   "Un tirage Liu Yao ne vous donnera ni votre note ni le poste. Il fixe un petit tableau reproductible — six traits, calculés de la même façon à chaque fois — puis explique ce qu'il dit de votre préparation, de l'épreuve qui vous attend et de l'institution en face. Vous passerez quand même l'examen. Vous entrerez quand même dans la salle. Le tableau vous dit simplement où vous en êtes."
+  ],
+  "how": {
+   "lead": "Pour un examen ou un entretien, le tableau met en balance trois choses : l'épreuve et le résultat, l'établissement ou le poste, et votre propre état le jour J.",
+   "points": [
+    "Le trait Parents, c'est le résultat, la copie, le diplôme, la lettre d'offre elle-même. S'il est fort et de saison, le résultat est bon. S'il est vide — tombé dans un creux du calendrier, sans pouvoir agir — ou brisé, ce n'est pas pour cette fois.",
+    "Le trait Officier, c'est l'établissement, l'examinateur, le jury de recrutement, le poste. Quand il nourrit le trait Soi, l'institution veut de vous. Quand il se transforme, la relation évolue avant même votre arrivée.",
+    "Le trait Soi, c'est vous : votre état, votre préparation, votre trac. Un trait Soi fort signifie que vous êtes prêt. Un trait Soi faible ou heurté signifie que le risque tient au jour lui-même, pas à la matière.",
+    "Un trait mutant est la partie du tableau qui change. Quand le trait Officier est mutant, le poste ou le jury est en mouvement — et ce en quoi il se transforme dit si ce mouvement vous aide ou vous épuise.",
+    "Le trait Autre, c'est l'autre côté : l'examinateur, le recruteur, la salle. S'il s'agit d'un trait Parents et qu'il est fort, l'épreuve elle-même est de votre côté."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "Parents fort, Soi fort",
+    "text": "L'épreuve est solide et vous l'êtes aussi. C'est le tableau de quelqu'un qui a fait le travail et qui ne se bat pas contre lui-même. Passez l'examen, répondez aux questions, n'inventez pas de nouveaux problèmes la dernière semaine."
+   },
+   {
+    "name": "Parents vide",
+    "text": "Le trait du résultat est tombé dans un creux du calendrier. Cela signifie généralement que ce n'est pas pour cette fois — non que vous en êtes incapable, mais que cette épreuve-là, ce jour-là, ne passe pas. Profitez de la semaine pour consolider plutôt que pour bachoter, et considérez la session comme une source d'informations."
+   },
+   {
+    "name": "L'Officier nourrit le trait Soi",
+    "text": "L'établissement ou le jury est activement de votre côté. Dans un tableau d'entretien, cela se lit comme une salle qui a envie de vous apprécier. Votre travail consiste à ne pas l'en dissuader : répondez à la question posée, puis arrêtez-vous."
+   },
+   {
+    "name": "L'Officier se transforme en Frères",
+    "text": "Le poste ou le jury est en mouvement, et ce mouvement vous coûte. L'effort part, peu revient : des tours supplémentaires, des dates décalées, un processus qui vous use. Attendez-vous à un processus plus long qu'annoncé, et ménagez votre énergie en conséquence."
+   }
+  ],
+  "example": {
+   "values": "878867",
+   "question": "Vais-je réussir mon examen professionnel la semaine prochaine ?",
+   "text": "Le tableau est La Folie juvénile (hexagramme 4), qui devient La Dissolution (hexagramme 59), avec le trait 5 mutant. Le trait 4 est le trait Soi — c'est vous — et c'est un trait Descendants, celui de l'aisance et de la production plutôt que de l'effort forcé. Le trait 1 est le trait Autre, l'autre côté, et c'est un trait Parents : l'épreuve elle-même. Le trait 6 est lui aussi un trait Parents. Le trait du résultat apparaît donc deux fois : vous êtes suffisamment préparé. C'est la lecture simple de ce tableau. La branche de l'Autre, Bois, pèse sur la vôtre, Terre : l'épreuve sera exigeante, ce qui n'a rien d'anormal pour un examen.\n\nLe risque se trouve au trait 5, le trait Officier — l'organisme certificateur, l'examinateur, le poste —, et il est mutant. Il passe d'Officier à Frères, et ce faisant, il s'épuise à attaquer ce qu'il devient. Autrement dit : l'institution et la procédure vous fatigueront davantage que la matière. À une semaine de l'épreuve, le plus utile n'est pas d'ajouter du contenu. C'est de dormir, de faire un examen blanc chronométré dans les conditions réelles, et de prévoir comment gérer le trac le matin même. Le tableau dit que la préparation est là ; c'est le jour J qui peut tout faire perdre."
+  },
+  "faq": [
+   {
+    "q": "Un tirage Yi Jing peut-il me dire si je vais réussir ?",
+    "a": "Il peut vous dire ce que le tableau montre de l'épreuve, de l'institution et de votre propre état : si le trait du résultat est fort ou vide, si le jury est de votre côté, si vous êtes prêt. Il ne peut pas vous donner une note ni un oui. Vous passez l'examen, et vous décidez quoi faire de la lecture."
+   },
+   {
+    "q": "Quand faire le tirage avant un examen ou un entretien ?",
+    "a": "Une semaine avant, c'est un bon moment : assez près pour que votre état soit réel, assez loin pour pouvoir encore agir sur ce que dit le tableau. Un tirage la veille au soir tend à produire un tableau de votre trac plutôt que de l'examen."
+   },
+   {
+    "q": "Et si le tableau est défavorable ?",
+    "a": "Un trait Parents vide signifie que ce n'est pas pour cette fois — ce n'est pas un verdict sur vous. Le tableau est fixe et reproductible ; la lecture l'explique ; à vous de décider si vous vous présentez, si vous reportez, ou si vous prenez cette session comme une répétition avant la prochaine. Rien dans le tableau ne décide à votre place."
+   }
+  ],
+  "ask": "Vais-je réussir mon examen, et que faire cette semaine ?"
+ },
+ "waiting-for-news": {
+  "slug": "waiting-for-news",
+  "topic": "decision",
+  "hexagrams": [
+   5,
+   61,
+   25,
+   64
+  ],
+  "title": "Yi King : quand aurai-je une réponse ? L'échéance d'une attente",
+  "h1": "En attente d'une réponse : que dit le Yi Jing de l'échéance ?",
+  "meta": "Tirage Yi Jing (Liu Yao) pour une réponse que vous attendez : les traits mutants désignent une échéance, pas une promesse. Vous décidez.",
+  "intro": [
+   "Vous avez envoyé la candidature, le mail, le message. Les jours passent, et la réponse est entre les mains de quelqu'un d'autre : un recruteur, un agent de la préfecture ou du consulat, un propriétaire, un ami qui vous doit une réponse. Attendre est un travail en soi, et il est difficile de bien le faire.",
+   "Un tirage Liu Yao ne peut pas forcer l'autre partie à décider, et il ne peut pas vous annoncer l'issue comme un fait. Il peut en revanche vous montrer la forme de l'attente : si l'affaire avance ou stagne, où se trouve le pouvoir, et quels jours le tableau désigne comme échéance. C'est toujours vous qui choisissez quoi faire quand cette échéance s'ouvre ou se referme."
+  ],
+  "how": {
+   "lead": "Pour une affaire qui dépend de quelqu'un d'autre, le tableau met en balance le trait Soi (vous, qui posez la question), le trait Autre (l'autre partie), et les traits mutants qui portent le calendrier.",
+   "points": [
+    "Le trait Soi est celui qui vous représente dans ce tirage. S'il est fort et qu'il avance, vous êtes encore en mouvement ; s'il recule ou s'épuise, votre énergie part dans l'attente plutôt que dans le résultat.",
+    "Le trait Autre représente l'autre partie : la personne ou le service qui détient votre réponse. Sa position, le fait qu'il soit vide ou non (vide : sa branche n'a pas d'appui dans le cycle en cours, et il ne se « remplit » que le jour de sa propre branche), et le fait qu'il soit actif disent à quel point la décision est réellement à portée.",
+    "Un trait vide se remplit le jour de sa branche. Concrètement : si le trait qui porte votre réponse est vide, le tableau dit que l'affaire n'est pas vide pour toujours — elle s'ouvre quand revient le jour de cette branche.",
+    "Un trait en union s'ouvre le jour du heurt. Quand deux branches sont en union, la tension se relâche le jour qui heurte l'une d'elles ; ce jour de heurt est votre échéance.",
+    "Un trait qui avance aboutit quand sa branche arrive. Si un trait mutant progresse vers une nouvelle branche, l'affaire se dénoue quand arrive un jour ou un mois portant cette branche. Un trait qui recule perd de l'élan : la branche revient en arrière, et le délai s'allonge."
+   ]
+  },
+  "patterns": [
+   {
+    "name": "La réponse suit l'horloge de l'autre",
+    "text": "Quand le trait Autre est fort mais que c'est le trait Soi qui bouge et s'épuise, le tableau montre que vous poussez et que l'autre partie n'est simplement pas encore à votre porte. Le calendrier lui appartient. Le plus utile est de fixer une échéance, puis d'arrêter d'actualiser votre boîte mail tant qu'elle n'est pas passée."
+   },
+   {
+    "name": "Le trait qui porte la réponse est vide",
+    "text": "Un trait Autre vide signifie que la réponse n'est pas encore arrivée dans le cycle en cours. Elle se remplit le jour de sa branche. D'ici là, relancer ne sert à rien ; après ce jour, un mail court et simple est la bonne démarche."
+   },
+   {
+    "name": "Un trait mutant qui recule",
+    "text": "Quand un trait mutant revient à une branche antérieure, l'affaire perd de l'élan au lieu de se dénouer. Le tableau dit que l'attente sera plus longue que ne le laisse penser le calendrier, et qu'il vaut mieux vous organiser autour du retard plutôt que lutter contre lui."
+   },
+   {
+    "name": "Les deux traits vont l'un vers l'autre",
+    "text": "Si le trait Soi et le trait Autre sont tous deux actifs et qu'aucun n'est vide, les deux parties sont en contact, même si vous n'en avez pas l'impression. L'échéance est généralement étroite — quelques jours autour de la branche où aboutissent les traits mutants — et une relance envoyée dans cette fenêtre obtient souvent une vraie réponse."
+   }
+  ],
+  "example": {
+   "values": "779678",
+   "question": "Quand aurai-je une réponse pour ma demande de visa ?",
+   "text": "L'hexagramme initial est L'Attente (hexagramme 5), qui devient Le Serein (hexagramme 58). Les traits 3 et 4 sont mutants. Le trait 4 est le trait Soi — vous, qui posez la question — et c'est un trait Descendants, Métal, qui devient un trait Richesse, Eau. Le Métal nourrit l'Eau : le trait dépense sa propre force dans la transformation. C'est vous qui attendez, et l'attente vous coûte. Le trait 1, le trait Autre, représente l'autre partie — le service des visas — et il reste immobile. Le trait 3 est un trait Frères qui recule de la branche chén à la branche chǒu : même élément, branche qui revient en arrière, donc ce trait perd de l'élan. Le tableau ne dit pas que la réponse sera négative. Il dit qu'elle viendra selon l'horloge de l'autre partie, pas la vôtre, et que le retard tient à la structure, pas à un problème.\n\nPour l'échéance : avec un trait Soi qui s'épuise dans ce qu'il devient et un trait Autre immobile, la réponse n'est pas pour les tout prochains jours. Le trait Frères qui recule annonce une attente plus longue que le délai de traitement affiché. Concrètement : arrêtez de vérifier tous les jours, choisissez une date une fois passée l'échéance de la branche qui recule, et envoyez alors une seule relance courte — pas avant. Le tableau désigne une échéance ; le mail vient demander où en est le dossier une fois cette échéance passée."
+  },
+  "faq": [
+   {
+    "q": "Le Yi Jing peut-il me donner le jour exact de la réponse ?",
+    "a": "Non. Le tableau désigne une échéance à partir des traits mutants et de leurs branches : un trait vide se remplit le jour de sa branche, un trait en union s'ouvre le jour du heurt, un trait qui avance aboutit quand sa branche arrive. Voyez-la comme une période autour de laquelle vous organiser, pas comme une date convenue avec l'autre partie."
+   },
+   {
+    "q": "Faut-il relancer avant l'échéance désignée par le tableau ?",
+    "a": "La règle de lecture ici, c'est d'attendre que l'échéance soit passée, puis d'envoyer une seule relance, courte et simple. Si le trait qui porte votre réponse est vide, l'affaire n'est pas encore arrivée dans le cycle en cours, et une relance avant le jour où il se remplit obtient généralement une non-réponse."
+   },
+   {
+    "q": "Et si le tableau montre un trait qui recule ?",
+    "a": "Un trait qui recule signifie que la branche revient en arrière et que le trait perd de l'élan. Pour une attente, cela se lit comme un délai plus long que prévu plutôt que comme un refus. Organisez-vous autour du retard ; n'y voyez pas un non."
+   }
+  ],
+  "ask": "Quand aurai-je une réponse, et que faire en attendant ?"
+ }
+}
