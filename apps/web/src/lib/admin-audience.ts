@@ -54,7 +54,7 @@ function compute(days: number, now: number): { groups: Group[]; since: number } 
     src.set(r.bid, r.first_c ? `推广 ${r.first_c}` : r.first_ref ? r.first_ref.replace(/^~ref:/, "").replace(/^www\./, "") : "直接打开");
   const net = new Map<string, { country: string | null; city: string | null; model: string | null }>();
   try {
-    for (const r of d.prepare("SELECT bid, country, city, model FROM browser_net WHERE last_at >= ? ORDER BY last_at").all(since) as { bid: string; country: string | null; city: string | null; model: string | null }[]) net.set(r.bid, r);
+    for (const r of d.prepare("SELECT bid, country, city, model FROM browser_net WHERE last_at >= ? AND device IS NOT 'bot' ORDER BY last_at").all(since) as { bid: string; country: string | null; city: string | null; model: string | null }[]) net.set(r.bid, r);
   } catch { /* table appears with the first visit after 10-31 */ }
 
   // people: a customer (all their browsers) or a lone browser

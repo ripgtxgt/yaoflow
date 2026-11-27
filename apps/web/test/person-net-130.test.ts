@@ -11,10 +11,11 @@ const IPHONE = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebK
 const CHROME = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36";
 
 describe("130 网络与设备", () => {
-  it("records address, place and device; skips bots; throttles; finds twins; scrubs after 180 days", async () => {
+  it("records address, place and device; files bots as bots (11-27); throttles; finds twins; scrubs after 180 days", async () => {
     const { noteNet, netOf, twinsOf, scrubNet, resetNetThrottle, netFacts } = await import("../src/lib/browser-net");
     const t0 = Date.UTC(2026, 9, 31, 4);
-    expect(netFacts(h({ "cf-connecting-ip": "1.2.3.4", "user-agent": "Googlebot/2.1" }))).toBeNull();
+    expect(netFacts(h({ "cf-connecting-ip": "1.2.3.4", "user-agent": "Googlebot/2.1" }))?.device).toBe("bot");
+    noteNet("botbotbotbotbotb", h({ "cf-connecting-ip": "1.2.3.4", "user-agent": "Googlebot/2.1" }), t0); // a bot on the same address is no twin
     const a = h({ "cf-connecting-ip": "1.2.3.4", "cf-ipcountry": "TW", "cf-ipcity": "Taipei", "cf-region": "Taipei City", "cf-timezone": "Asia/Taipei", "user-agent": IPHONE, "accept-language": "zh-TW,zh;q=0.9" });
     noteNet("aaaaaaaaaaaaaaaa", a, t0);
     noteNet("aaaaaaaaaaaaaaaa", a, t0 + 60_000); // throttled
@@ -27,7 +28,7 @@ describe("130 网络与设备", () => {
     expect(tw.map((x) => x.bid)).toEqual(["bbbbbbbbbbbbbbbb"]);
     expect(tw[0]!.why).toContain("1.2.3.4");
     resetNetThrottle();
-    expect(scrubNet(t0 + 181 * 86_400_000)).toBe(2);
+    expect(scrubNet(t0 + 181 * 86_400_000)).toBe(3); // the bot row too
     expect(netOf(["aaaaaaaaaaaaaaaa"])[0]).toMatchObject({ ip: "", city: "Taipei", ua: null });
   });
 

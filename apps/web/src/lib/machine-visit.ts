@@ -1,6 +1,62 @@
 import { db } from "./db";
 import { cloudOf, HUMAN_EVENTS } from "./cloud-ip";
-import { ipsOf } from "./browser-net";
+import { ipsOf, uasOf } from "./browser-net";
+import { deviceFromUA } from "./presence";
+
+/**
+ * 11-27 (Sakura：「为什么在我后台，很多机器的流量被判定是真人访客呢」): the cloud-network rule below misses a scraper that
+ * runs our scripts from home lines (residential proxies). 11-27 brought 133 such "visitors" on /ja — no referrer, one page,
+ * desktop Chrome 119/120 · Firefox 120/121 · Edge 119 two years out of date, and our own font stylesheet blocked before
+ * the page started (client_error "res:LINK jp.css"). Each is a sign on its own; a quiet browser (never cast, tapped a
+ * price, paid, claimed, never linked to a customer) showing one of them is a machine:
+ *   - its user agent says bot / crawler / headless (it ran our scripts, so it is a rendering crawler);
+ *   - every user agent it used is a desktop browser about two years out of date — browsers update themselves, and the
+ *     last versions an old system can run (Chrome 109 on Windows 7/8, 116 and 128 on old macOS, Firefox ESR 115) are spared;
+ *   - it reported one of our own stylesheets failing to load before the page started: scrapers block CSS and fonts.
+ */
+const DAY = 86_400_000;
+/** a release every four weeks: Chrome 131 on 2024-11-12, Firefox 133 on 2024-11-26 */
+const expected = (base: number, at: number, now: number) => base + Math.floor((now - at) / (28 * DAY));
+const STALE_BEHIND = 20; // about a year and a half of updates missed
+const LAST_ON_OLD_SYSTEMS = new Set([109, 116, 128]);
+const LAST_FIREFOX_ESR = new Set([115]);
+
+/** why this user agent is a machine's, or null */
+export function machineUa(ua: string | null | undefined, now = Date.now()): "bot-ua" | "stale" | null {
+  if (!ua) return null;
+  if (deviceFromUA(ua) === "bot") return "bot-ua";
+  if (/Mobi|Android|iPhone|iPad|iPod/i.test(ua)) return null; // old phones and in-app browsers are real readers
+  const ch = /(?:Chrome|Edg)\/(\d+)\./.exec(ua);
+  if (ch && !/OPR\/|YaBrowser|SamsungBrowser/.test(ua)) {
+    const v = Number(ch[1]);
+    if (!LAST_ON_OLD_SYSTEMS.has(v) && v < expected(131, Date.UTC(2024, 10, 12), now) - STALE_BEHIND) return "stale";
+    return null;
+  }
+  const ff = /Firefox\/(\d+)\./.exec(ua);
+  if (ff) {
+    const v = Number(ff[1]);
+    if (!LAST_FIREFOX_ESR.has(v) && v < expected(133, Date.UTC(2024, 10, 26), now) - STALE_BEHIND) return "stale";
+  }
+  return null;
+}
+
+/**
+ * one of our own stylesheets (the CJK font sheets, Next's css chunks) reported as failing before the page started — the
+ * error script's "res:LINK jp.css?v=…" / "res:LINK 027e7750….css"; another host's file carries its host and a slash
+ */
+export const isBlockedSheet = (e: { e: string; method?: string }) => e.e === "client_error" && /^res:LINK [^/\s]+$/.test(e.method ?? "");
+
+/** machine by its addresses or its user agents: every address a cloud network, or every user agent a machine's */
+function machineByNet(bids: string[], now: number): Set<string> {
+  const out = new Set<string>();
+  const ips = new Map<string, string[]>();
+  for (const r of ipsOf(bids)) { const a = ips.get(r.bid); if (a) a.push(r.ip); else ips.set(r.bid, [r.ip]); }
+  for (const b of bids) { const l = ips.get(b)?.filter(Boolean); if (l && l.length && l.every((ip) => cloudOf(ip) !== null)) out.add(b); }
+  const uas = new Map<string, (string | null)[]>();
+  for (const r of uasOf(bids.filter((b) => !out.has(b)))) { const a = uas.get(r.bid); if (a) a.push(r.ua); else uas.set(r.bid, [r.ua]); }
+  for (const [b, l] of uas) { const known = l.filter((u): u is string => !!u); if (known.length && known.every((u) => machineUa(u, now) !== null)) out.add(b); }
+  return out;
+}
 
 /**
  * 11-06 (Neil：「今天的独立访客是不是加了爬虫的数据呢」→「要」): a browser that opened pages only from server-room
@@ -13,7 +69,7 @@ import { ipsOf } from "./browser-net";
  */
 type Ev = { e: string; s: string; b?: string };
 
-export function machineBrowsers(evs: readonly Ev[]): Set<string> {
+export function machineBrowsers(evs: readonly Ev[], now = Date.now()): Set<string> {
   const out = new Set<string>();
   try {
     const bidOf = new Map<string, string>();
@@ -21,22 +77,22 @@ export function machineBrowsers(evs: readonly Ev[]): Set<string> {
     const candidates = new Set<string>();
     for (const e of evs) if (e.e === "visit_day") { const b = e.b ?? bidOf.get(e.s); if (b) candidates.add(b); }
     if (!candidates.size) return out;
-    for (const e of evs) if (HUMAN_EVENTS.has(e.e)) { const b = e.b ?? bidOf.get(e.s); if (b) candidates.delete(b); }
+    const sheetBlocked = new Set<string>();
+    for (const e of evs) {
+      const b = e.b ?? bidOf.get(e.s);
+      if (!b) continue;
+      if (HUMAN_EVENTS.has(e.e)) candidates.delete(b);
+      else if (isBlockedSheet(e)) sheetBlocked.add(b);
+    }
     const d = db();
     const ids = [...candidates];
     for (let i = 0; i < ids.length; i += 400) {
       const chunk = ids.slice(i, i + 400);
       const marks = chunk.map(() => "?").join(",");
       const linked = new Set((d.prepare(`SELECT DISTINCT bid FROM browser_links WHERE bid IN (${marks})`).all(...chunk) as { bid: string }[]).map((r) => r.bid));
-      const ips = new Map<string, string[]>();
-      for (const r of ipsOf(chunk)) {
-        const a = ips.get(r.bid); if (a) a.push(r.ip); else ips.set(r.bid, [r.ip]);
-      }
-      for (const b of chunk) {
-        if (linked.has(b)) continue;
-        const list = ips.get(b);
-        if (list && list.length && list.every((ip) => cloudOf(ip) !== null)) out.add(b);
-      }
+      const quiet = chunk.filter((b) => !linked.has(b));
+      for (const b of quiet) if (sheetBlocked.has(b)) out.add(b);
+      for (const b of machineByNet(quiet.filter((b) => !out.has(b)), now)) out.add(b);
     }
   } catch { /* no tables (a fresh test database): everyone counts */ }
   return out;
@@ -53,7 +109,7 @@ export const isMachineVisit = (e: Ev, machines: ReadonlySet<string>, bidOf?: Rea
  * browser that never cast, tapped a price or went to checkout, was never filed under a customer, and was seen only on
  * server-room addresses.
  */
-export function machineBids(bids: readonly string[]): Set<string> {
+export function machineBids(bids: readonly string[], now = Date.now()): Set<string> {
   const out = new Set<string>();
   try {
     const d = db();
@@ -63,9 +119,7 @@ export function machineBids(bids: readonly string[]): Set<string> {
       const quiet = (d.prepare(`SELECT bid FROM browsers WHERE bid IN (${marks}) AND casts = 0 AND clicks = 0 AND checkouts = 0
         AND NOT EXISTS (SELECT 1 FROM browser_links l WHERE l.bid = browsers.bid)`).all(...chunk) as { bid: string }[]).map((r) => r.bid);
       if (!quiet.length) continue;
-      const ips = new Map<string, string[]>();
-      for (const r of ipsOf(quiet)) { const a = ips.get(r.bid); if (a) a.push(r.ip); else ips.set(r.bid, [r.ip]); }
-      for (const b of quiet) { const l = ips.get(b); if (l && l.length && l.every((ip) => cloudOf(ip) !== null)) out.add(b); }
+      for (const b of machineByNet(quiet, now)) out.add(b);
     }
   } catch { /* no tables: everyone counts */ }
   return out;
