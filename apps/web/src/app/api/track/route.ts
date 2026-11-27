@@ -15,6 +15,8 @@ import { isNoiseClientError } from "@/lib/err-capture";
 import { confirmNudgeSeen } from "@/lib/cast-log";
 import { isShareSurface } from "@/lib/share-meta";
 import { noteGaClient } from "@/lib/ga-mp";
+import { noteAdsClick } from "@/lib/ads-conversions";
+import { ADS_CLICK_COOKIE } from "@/lib/ads-click";
 import { clientIp, errorHoldMs, isHopping, noteHop } from "@/lib/proxy-hop";
 import { recordOps } from "@/lib/db";
 
@@ -134,6 +136,8 @@ export async function POST(req: NextRequest) {
     if (e === "nudge_shown" && bid && ev.method) confirmNudgeSeen(bid, ev.method);
     // 10-27: which GA visitor this tab is, so the order it pays for lands on that visit in Google Analytics (lib/ga-mp.ts)
     if (e === "checkout_start") noteGaClient(ev.s, req.cookies);
+    // 11-27 T-007: …and which Google Ads click it came from, so the order can be reported as that click's conversion (lib/ads-conversions.ts)
+    if (e === "checkout_start") noteAdsClick(ev.s, req.cookies.get(ADS_CLICK_COOKIE)?.value, country);
     // 10-02 实时在线: the same event updates the live board — with who is signed in (login cookie), the device
     // class and the edge's country, none of which goes into the event file
     try {

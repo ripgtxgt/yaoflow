@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { ADMIN_COOKIE, ADMIN_COOKIE_OPTIONS, adminToken } from "@/lib/admin-auth";
 import { DEFAULT_LOCALE, LOCALES, type Locale } from "./lib/locales";
+import { ADS_CLICK_COOKIE, ADS_CLICK_DAYS, adsClickAllowed, clickFromSearch } from "./lib/ads-click";
 
 /** Set by the language menu when someone switches by hand — the only signal stronger than the browser's own list. */
 export const LANG_COOKIE = "yf_lang";
@@ -82,8 +83,19 @@ function withPromo(req: NextRequest, res: NextResponse): NextResponse {
   if (/^[A-Z0-9][A-Z0-9_-]{2,23}$/.test(code)) res.cookies.set(PROMO_COOKIE, code, { path: "/", httpOnly: true, sameSite: "lax", secure: process.env.NODE_ENV === "production", maxAge: 7 * 86_400 });
   return res;
 }
+/**
+ * 11-27 T-007 Google Ads 付费转化 (lib/ads-conversions.ts): an ad click's ?gclid / ?gbraid / ?wbraid is kept for 90 days —
+ * the click id only, so a purchase days later can be credited to that click. Not kept for EEA / UK / CH visitors (no banner).
+ * The latest click wins, as Google Ads attributes.
+ */
+function withAdsClick(req: NextRequest, res: NextResponse): NextResponse {
+  const v = clickFromSearch(req.nextUrl.searchParams);
+  if (v && adsClickAllowed(req.headers.get("cf-ipcountry"))) res.cookies.set(ADS_CLICK_COOKIE, v, { path: "/", httpOnly: true, sameSite: "lax", secure: process.env.NODE_ENV === "production", maxAge: ADS_CLICK_DAYS * 86_400 });
+  return res;
+}
 function withBid(req: NextRequest, res: NextResponse): NextResponse {
   withPromo(req, res);
+  withAdsClick(req, res);
   if (/^[0-9a-f]{16}$/.test(req.cookies.get(BID_COOKIE)?.value ?? "")) return res;
   const bytes = crypto.getRandomValues(new Uint8Array(8));
   const bid = Array.from(bytes, (x) => x.toString(16).padStart(2, "0")).join("");

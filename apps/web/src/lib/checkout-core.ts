@@ -9,6 +9,8 @@ import { recordOps } from "./db";
 import type { CatalogId } from "./catalog";
 import { isPromoCode, notePromoUse, promoFor, PROMO_COOKIE } from "./promos";
 import { leftUrl, newCo, notePending } from "./recover-offer";
+import { noteAdsClick } from "./ads-conversions";
+import { ADS_CLICK_COOKIE } from "./ads-click";
 
 /**
  * 10-22 进度表 57 — the part of a checkout every product repeats, written once: which currency, how the buyer is routed
@@ -58,10 +60,13 @@ export async function checkoutCommon(req: NextRequest, body: CheckoutBody, o: { 
   const origin = (process.env.SITE_URL ?? req.nextUrl.origin).replace(/\/$/, "");
   const routing = await routingFor(req, { locale, currency, timeZone, tzOffsetMinutes: body.tzOffsetMinutes });
   const g = uaSegment(req.headers.get("user-agent"));
+  const browserSid = typeof body.bs === "string" && /^[a-z0-9]{6,24}$/.test(body.bs) ? body.bs : null;
+  // 11-27 T-007: the Google Ads click behind this tab, under the same session tag the order will keep (lib/ads-conversions.ts)
+  noteAdsClick(browserSid, req.cookies.get(ADS_CLICK_COOKIE)?.value, routing.country);
   return {
     locale, currency, timeZone, origin, routing,
     campaign: isCampaignTag(body.c) ? body.c : null,
-    browserSid: typeof body.bs === "string" && /^[a-z0-9]{6,24}$/.test(body.bs) ? body.bs : null,
+    browserSid,
     remind: body.remind === true,
     device: `${g.device}:${g.app}`,
     promo: (() => { const v = req.cookies.get(PROMO_COOKIE)?.value?.toUpperCase(); return isPromoCode(v) ? v : null; })(),
