@@ -14,8 +14,16 @@ import { warmHeat } from "./admin-heat";
  */
 export interface AdminBundle {
   at: number; since: number; realTails: Set<string>;
-  /** 10-15 进度表 60: no longer every event — inWindow holds the kinds in PAGE_KINDS, twoWindows the browser errors */
-  twoWindows: TrackedEvent[]; inWindow: TrackedEvent[];
+  /** 10-15 进度表 60: twoWindows holds the browser errors */
+  twoWindows: TrackedEvent[];
+  /**
+   * 11-27 后台内存溢出: what the page reads from the PAGE_KINDS events, counted one day at a time — no longer the events
+   * themselves (上线以来 was ~160k rows by late November, held in three windows and doubled while recomputed).
+   *   counts      events per name in the window; dailyByPile / answers by method
+   *   campaignOf  each browser tab's first campaign tag (c=)
+   *   today       today's (Taipei) PAGE_KINDS events, for the by-hour strip
+   */
+  page: PageCounts;
   stats: ReturnType<typeof computeStats>; prev: ReturnType<typeof computeStats>["funnel"] | null;
   daily: ReturnType<typeof dailyBreakdown>; vtypes: ReturnType<typeof visitorTypes>;
 }
@@ -104,6 +112,31 @@ function piece(from: number, to: number, since: number, until: number, now: numb
 /** The kinds the overview page still reads one by one (plays, today's hours, first campaign tag, browser errors). */
 const PAGE_KINDS = ["seal_sent", "seal_watch", "daily_pick", "revisit_answer", "revisit_light_claimed", "visit_day", "cast_complete", "purchase", "page_view"] as const;
 
+export interface PageCounts {
+  counts: Record<string, number>;
+  dailyByPile: number[];
+  answers: { hit: number; miss: number; open: number; partial: number };
+  campaignOf: Map<string, string>;
+  today: TrackedEvent[];
+}
+
+/** 11-27: the PAGE_KINDS readings, one Taipei day of events in memory at a time. */
+export function pageCounts(since: number, now: number, realTails: Set<string>, read = readEventsBetween): PageCounts {
+  const out: PageCounts = { counts: {}, dailyByPile: [0, 0, 0], answers: { hit: 0, miss: 0, open: 0, partial: 0 }, campaignOf: new Map(), today: [] };
+  const todayStart = taipeiDayStart(now);
+  for (const { from, to } of piecesOf(since, now + 60_000)) {
+    for (const e of read(from, to, { only: PAGE_KINDS })) {
+      if (!isRealDeliveryEvent(e, realTails)) continue;
+      out.counts[e.e] = (out.counts[e.e] ?? 0) + 1;
+      if (e.e === "daily_pick") { const n = Number(e.method); if (n >= 1 && n <= 3) out.dailyByPile[n - 1]! += 1; }
+      if (e.e === "revisit_answer" && e.method && e.method in out.answers) out.answers[e.method as keyof PageCounts["answers"]] += 1;
+      if (e.c && !out.campaignOf.has(e.s)) out.campaignOf.set(e.s, String(e.c));
+      if (e.t >= todayStart) out.today.push(e);
+    }
+  }
+  return out;
+}
+
 function compute(days: string | undefined): AdminBundle {
   const now = Date.now();
   const { window, live, since } = windowOf(days, now);
@@ -115,10 +148,10 @@ function compute(days: string | undefined): AdminBundle {
   // the overview compares against the window just before this one — only outside live mode
   const prevSince = since - window * DAY;
   const prev = live ? null : mergeStats(piecesOf(prevSince, since).map((x) => piece(x.from, x.to, prevSince, since, now, realTails, paidSessions, who).stats)).funnel;
-  const inWindow = readEventsBetween(since, now + 60_000, { only: PAGE_KINDS }).filter((e) => isRealDeliveryEvent(e, realTails));
+  const page = pageCounts(since, now, realTails);
   const twoWindows = readEventsBetween(since, now + 60_000, { only: ["client_error"] });
   return {
-    at: now, since, realTails, twoWindows, inWindow,
+    at: now, since, realTails, twoWindows, page,
     stats: mergeStats(parts.map((p) => p.stats)),
     prev,
     daily: parts.flatMap((p) => p.daily),
