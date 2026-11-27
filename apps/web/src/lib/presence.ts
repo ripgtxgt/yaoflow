@@ -3,7 +3,10 @@ import { activeMembership } from "./membership";
 import { standingKindOf, type StandingKind } from "./standing-label";
 import { PULSE_MS } from "./presence-const";
 import { BOT_UA_RE } from "./bot-ua";
-import type { BrowserStats } from "./browsers";
+import { browserStats, type BrowserStats } from "./browsers";
+import { db } from "./db";
+import { boardDevice, HUMAN_EVENTS } from "./cloud-ip";
+import { deviceModel } from "./ua-brief";
 
 /**
  * 实时在线 (10-02, Neil: 「后台能做一个实时在线的监测功能吗？显示实时的用户在线数据…人数、是否会员、新用户、
@@ -240,11 +243,59 @@ function boot(st: Store): void {
     const since = Date.now() - KEEP_MS;
     const evs = readEventsBetween(since, Date.now() + 60_000).filter((e) => e.t >= since && isTabEvent(e)).sort((a, b) => a.t - b.t);
     for (const e of evs) touch(fromEvent(e, true));
+    restoreFromDb(st);
   } catch { /* no event files yet */ }
+}
+
+/**
+ * 11-27 (Sakura：「现在所有的访客都在后台看不到设备和访客足迹了吗？」, after three restarts in 50 minutes): the replay
+ * above brings back each tab's pages, but device, model, country, who it is and the browser's history come only from
+ * the live request's headers, so every visitor from before a restart showed bare until their next heartbeat — and
+ * those who had left stayed bare for half an hour. They are on file: the browser of each tab (events carry it), its
+ * last address and device (browser_net), and the customer it is filed under (browser_links). Filled in here, once.
+ */
+function restoreFromDb(st: Store): void {
+  try {
+    const rows = [...st.rows.values()].filter((p) => p.bid);
+    if (!rows.length) return;
+    const d = db();
+    const bids = [...new Set(rows.map((p) => p.bid!))];
+    const net = new Map<string, { ip: string; country: string | null; ua: string | null; device: string | null }>();
+    const who = new Map<string, { id: number; email: string | null }>();
+    for (let i = 0; i < bids.length; i += 400) {
+      const chunk = bids.slice(i, i + 400);
+      const ph = chunk.map(() => "?").join(",");
+      try {
+        for (const r of d.prepare(`SELECT bid, ip, country, ua, device FROM browser_net WHERE bid IN (${ph}) ORDER BY last_at`).all(...chunk) as { bid: string; ip: string; country: string | null; ua: string | null; device: string | null }[])
+          net.set(r.bid, r); // the latest row wins
+      } catch { /* no table yet */ }
+      try {
+        for (const r of d.prepare(`SELECT l.bid, l.customer_id AS id, c.email FROM browser_links l LEFT JOIN customers c ON c.id = l.customer_id WHERE l.bid IN (${ph}) ORDER BY l.last_at`).all(...chunk) as { bid: string; id: number; email: string | null }[])
+          who.set(r.bid, { id: r.id, email: r.email });
+      } catch { /* no table yet */ }
+    }
+    for (const p of rows) {
+      const b = p.bid!;
+      const c = who.get(b);
+      if (c && !p.customerId && !p.knownId) { p.knownId = c.id; p.knownEmail = c.email; }
+      if (!p.bstats) p.bstats = browserStats(b);
+      const n = net.get(b);
+      if (!n) continue;
+      if (!p.country && n.country) p.country = n.country;
+      if (!p.device) {
+        const human = !!c || p.trail.some((t) => HUMAN_EVENTS.has(t.e));
+        const dev = (n.device === "phone" || n.device === "tablet" || n.device === "desktop" || n.device === "bot" ? n.device : deviceFromUA(n.ua)) as Device;
+        const bd = boardDevice(n.ip || null, dev, deviceModel(n.ua) ?? null, human, { ua: n.ua });
+        p.device = bd.device as Device;
+        if (!p.model) p.model = bd.model;
+      }
+    }
+  } catch { /* best-effort: the board works without it */ }
 }
 
 export function fromEvent(e: TrackedEvent, replay = false): TouchInput {
   return { s: e.s, t: e.t, e: e.e, path: e.path, locale: e.locale, vt: e.vt ?? null, vn: e.vn ?? null, c: e.c, via: e.via, ab: e.ab, method: e.method, tier: e.tier, replay,
+    ...(replay && e.b ? { bid: e.b } : {}), // 11-27: the tab's browser, so a restart can fill in its device (restoreFromDb)
     // 10-03: on the free line and the block before the price, the same slot says which cast of one matter this is
     ...((e.e === "repeat_blocked" || e.e === "teaser_shown" || e.e === "nudge_shown") && typeof e.hex === "number" ? { num: e.hex } : {}) };
 }
