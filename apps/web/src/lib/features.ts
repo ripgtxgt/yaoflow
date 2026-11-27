@@ -43,6 +43,8 @@ export const FEATURES: { name: string; label: string; def: FeatureState; where: 
   { name: "tongka", label: "通卡（1 日／7 天／30 天買斷，期內全站不限次）＋會員權益重整（进度表 75）", def: "preview", where: "起卦頁付費區、塔羅／解籤／報告的付費入口、/account#membership；預覽中只有後台瀏覽器看到通卡面板，其他人照舊單買" },
   { name: "checkout-v2", label: "統一結帳入口 POST /api/checkout/v2（进度表 57；舊接口照舊，同一套處理）", def: "preview", where: "POST /api/checkout/v2 {product} · 全部服務頁 /services 的按鈕（58）；預覽中只有後台瀏覽器打得到，其他人照舊走各產品自己的結帳接口" },
   { name: "services", label: "全部服務頁＋首頁主推可配置（进度表 58）", def: "preview", where: "/zh-hant/services（九語）· 首頁、解籤頁、深斷頁底部「也可以試試」的主推" },
+  // 11-27 运营 bot（Sakura：「我需要用 grokbot 新建另外一个 bot 去做自动运营」→「可以的」）：后台页本来就只有管理员能进；开关管 bot 的入口
+  { name: "ops-bot", label: "社媒运营 bot：Grok Bot 写稿进待审、发已批稿、回帖登记（11-27）", def: "preview", where: "/admin/bot 待审与派任务 · POST /api/bot/mcp（Bearer BOT_MCP_TOKEN）· 关掉＝bot 的入口 404" },
   { name: "recover-offer", label: "挽回信改版（离开 5 分钟后一封、1 小时内 7 折）", def: "on", where: "勾了「沒付完時寄信提醒我」的深断、升级、会员、通卡结账 · /offer/<token> · 预览中只寄给我们自己的邮箱，旧的四封序列照常寄给客人；开放后旧序列停止" },
 ];
 export const isFeature = (x: unknown): x is string => typeof x === "string" && FEATURES.some((f) => f.name === x);

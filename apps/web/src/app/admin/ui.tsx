@@ -24,7 +24,7 @@ const MENU: { label: string; items: { href: string; label: string }[] }[] = [
   // 10-22 进度表 94: the seventeen products; what used to be 「转化」 is about how they sell
   { label: "产品", items: [{ href: "/admin/products", label: "全部产品" }, { href: "/admin/qian", label: "解籤" }, { href: "/admin/nudges", label: "付费话术学习" }, { href: "/admin/heat", label: "热区 · 对照测试" }, { href: "/admin/traffic", label: "流量来源（Google Analytics）" }, { href: "/admin/review-links", label: "评测试用链接" }] },
   // 10-23 进度表 108 ②
-  { label: "内容", items: [{ href: "/admin/cases", label: "公开卦例（精选／撤下）" }, { href: "/admin/outcomes", label: "应验记录（件数、逐件核对）" }, { href: "/admin/today-qian", label: "今日一籤（每天抽到哪支）" }] },
+  { label: "内容", items: [{ href: "/admin/cases", label: "公开卦例（精选／撤下）" }, { href: "/admin/outcomes", label: "应验记录（件数、逐件核对）" }, { href: "/admin/today-qian", label: "今日一籤（每天抽到哪支）" }, { href: "/admin/bot", label: "社媒运营 bot（待审、派任务、回帖）" }] },
   { label: "钱", items: [{ href: "/admin/finance", label: "流水" }, { href: "/admin/members", label: "会员与通卡" }, { href: "/admin/checkout", label: "结账" }, { href: "/admin/promos", label: "优惠码与活动连结" }] },
   { label: "回访", items: [{ href: "/admin/revisits", label: "到期回访" }, { href: "/admin/retention", label: "留存" }] },
   { label: "设置与记录", items: [{ href: "/admin/features", label: "功能开关（预览／开放）" }, { href: "/admin/limits", label: "上限与权益" }, { href: "/admin/prices", label: "价格表" }, { href: "/admin/actions", label: "操作记录" }] },
