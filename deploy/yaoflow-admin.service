@@ -19,6 +19,10 @@ Environment=NODE_ENV=production
 Environment=NEXT_TELEMETRY_DISABLED=1
 Environment=PORT=3201
 Environment=YF_ROLE=admin
+# 11-27 后台内存溢出: Node's own heap ceiling was ~600 MB here (31 crashes 11-19..11-27, all in the 10-minute cron's
+# warm-up). The fix is in lib/admin-bundle.ts / lib/swr.ts; this is the margin under MemoryMax. On the server it lives in
+# /etc/systemd/system/yaoflow-admin.service.d/heap.conf (copy below), then daemon-reload + restart yaoflow-admin only.
+Environment=NODE_OPTIONS=--max-old-space-size=900
 Nice=5
 CPUWeight=100
 MemoryMax=1200M

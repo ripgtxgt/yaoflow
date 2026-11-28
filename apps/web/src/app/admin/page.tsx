@@ -140,7 +140,7 @@ export default async function AdminPage(
   // 10-14 后台变卡: the event-log readings (funnel, daily table, visitor types) come from lib/admin-bundle.ts — kept for
   // two minutes, served stale for up to 30 while recomputed behind the page, and warmed by the 10-minute cron
   const bundle = adminBundle(days);
-  const { realTails, twoWindows, inWindow, stats, prev, daily, vtypes } = bundle;
+  const { realTails, twoWindows, page: pageEv, stats, prev, daily, vtypes } = bundle;
   const paidSessions = paidOrdersIn(0).sessions;
   // the painted-door fortnight, kept for the record rather than mixed in
   // the painted door had no sales at all; a delivery is the only signal it has
@@ -247,19 +247,19 @@ export default async function AdminPage(
   const ltv = ltvStats();
   const timing = genTiming(now - 7 * 86_400_000);
   // the new plays only exist as events — count them out of the same window
-  const countOf = (name: string) => inWindow.filter((e) => e.e === name).length;
+  // 11-27: counted in lib/admin-bundle.ts one day at a time (the events are no longer kept)
+  const countOf = (name: string) => pageEv.counts[name] ?? 0;
   const play = {
     sealSent: countOf("seal_sent"),
     sealWatch: countOf("seal_watch"),
     dailyPick: countOf("daily_pick"),
-    dailyByPile: [1, 2, 3].map((n) => inWindow.filter((e) => e.e === "daily_pick" && e.method === String(n)).length),
-    answers: (["hit", "miss", "open", "partial"] as const).map((v) => inWindow.filter((e) => e.e === "revisit_answer" && e.method === v).length),
+    dailyByPile: pageEv.dailyByPile,
+    answers: (["hit", "miss", "open", "partial"] as const).map((v) => pageEv.answers[v]),
     rewardClaimed: countOf("revisit_light_claimed"),
   };
 
   /* ---- 渠道 → 钱 (09-22): first-touch c= tag, followed all the way to what Stripe settled ---- */
-  const campaignOf = new Map<string, string>();
-  for (const e of inWindow) if (e.c && !campaignOf.has(e.s)) campaignOf.set(e.s, e.c);
+  const campaignOf = pageEv.campaignOf;
   const byPiAll = ordersByPaymentIntent();
   const netByTail = new Map<string, number>();
   const campaignOfTail = new Map<string, string>();
@@ -285,7 +285,7 @@ export default async function AdminPage(
   const dayStart = Date.parse(`${homeDay(now)}T00:00:00Z`) - 8 * 3_600_000;
   const hours = Array.from({ length: 24 }, (_, h) => {
     const from = dayStart + h * 3_600_000, to = from + 3_600_000;
-    const slice = inWindow.filter((e) => e.t >= from && e.t < to);
+    const slice = pageEv.today.filter((e) => e.t >= from && e.t < to);
     return {
       h,
       // 09-30: unique visitors whose day began in this hour (visit_day), like everywhere else on the page
