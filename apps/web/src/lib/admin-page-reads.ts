@@ -17,15 +17,20 @@ import { refresh, swr } from "./swr";
  */
 export type PageWindow = { window: number; live: boolean; since: number };
 const M = 60_000;
+/**
+ * 11-27 后台内存溢出: the live window is keyed "live", not by its day count — that count grows by one every day, so each
+ * day made nine new keys and the old ones were never read again (nor dropped).
+ */
+const wk = (w: PageWindow) => (w.live ? "live" : String(w.window));
 const defs = (w: PageWindow, now: number) => ({
-  charges: { key: `charges105|${w.window}|${w.live}`, fresh: 2 * M, stale: 30 * M, f: () => chargesIn(w.since, now) },
-  deliveries: { key: `deliv105|${w.window}|${w.live}`, fresh: 2 * M, stale: 30 * M, f: () => deliveryCounts(w.since, now) },
+  charges: { key: `charges105|${wk(w)}`, fresh: 2 * M, stale: 30 * M, f: () => chargesIn(w.since, now) },
+  deliveries: { key: `deliv105|${wk(w)}`, fresh: 2 * M, stale: 30 * M, f: () => deliveryCounts(w.since, now) },
   firstDayPass: { key: "fdp105", fresh: 2 * M, stale: 30 * M, f: () => firstDayPassFollowups() },
-  recentCounts: { key: `recent1024|${w.window}|${w.live}`, fresh: M, stale: 10 * M, f: () => recentCounts(w.since) },
-  groups: { key: `groups94|${w.window}|${w.live}`, fresh: 2 * M, stale: 30 * M, f: () => groupFunnels(w.since) },
-  money: { key: `money94|${w.window}|${w.live}`, fresh: 2 * M, stale: 30 * M, f: () => moneyLine(w.since) },
-  orderSplit: { key: `orderSplit|${w.window}|${w.live}`, fresh: 2 * M, stale: 30 * M, f: () => orderSplitSince(w.since) },
-  qianStats: { key: `qianStats|${w.window}|${w.live}`, fresh: 2 * M, stale: 30 * M, f: () => qianStats(w.since) },
+  recentCounts: { key: `recent1024|${wk(w)}`, fresh: M, stale: 10 * M, f: () => recentCounts(w.since) },
+  groups: { key: `groups94|${wk(w)}`, fresh: 2 * M, stale: 30 * M, f: () => groupFunnels(w.since) },
+  money: { key: `money94|${wk(w)}`, fresh: 2 * M, stale: 30 * M, f: () => moneyLine(w.since) },
+  orderSplit: { key: `orderSplit|${wk(w)}`, fresh: 2 * M, stale: 30 * M, f: () => orderSplitSince(w.since) },
+  qianStats: { key: `qianStats|${wk(w)}`, fresh: 2 * M, stale: 30 * M, f: () => qianStats(w.since) },
   customerChannels: { key: "customerChannels", fresh: 2 * M, stale: 30 * M, f: () => customerChannels() },
 });
 type Defs = ReturnType<typeof defs>;
