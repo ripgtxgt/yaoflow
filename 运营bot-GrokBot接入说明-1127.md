@@ -43,14 +43,14 @@ Grok Bot → Plugins → 添加自定义远程 MCP 服务器：
 ### 3. YaoFlow 发帖（定时：每天 09:30、12:30、20:30、22:00 台北时间）
 
 > 先调用 get_due_posts。没有稿件就直接结束，不要自己找内容补。
-> 有稿件：打开电脑操控，只用「YaoFlow」这个 Chrome 配置（里面只登录了 Threads @yaoflow_app、Instagram @yaoflow_app、FB 专页「YaoFlow 一事一卦」）。发帖前确认当前账号是 YaoFlow 的，不是别的账号。
+> 有稿件：在你自己那台电脑（Bot 的电脑）的浏览器里发，里面登录的是 Threads @yaoflow_app、Instagram @yaoflow_app、FB 专页「YaoFlow 一事一卦」。发帖前确认当前账号是 YaoFlow 的，不是别的账号；遇到登录失效或验证码，不要自己处理，mark_failed 写清楚，再 send_report 告诉管理员。
 > 正文一个字都不改，原样贴上；有配图说明就按说明下载卡片图附上。发出后拿到帖子网址，调用 mark_posted(post_id, external_url)。
 > 发不出去（掉登录、要验证码、平台提示异常）：mark_failed(post_id, 原因)，send_report(level=problem) 说明情况，然后停下。不要输密码、不要过验证码、不要点同意条款、不要反复重试。
 > 不发私信，不加好友，不点任何广告或付款按钮。
 
 ### 4. YaoFlow 回帖巡回（定时：每天 09:00 到次日 01:00，每 2 小时一次）
 
-> 先 get_guidelines，按其中 replies 一节的规矩做。打开电脑操控，只用「YaoFlow」Chrome 配置。
+> 先 get_guidelines，按其中 replies 一节的规矩做。用你自己那台电脑（Bot 的电脑）的浏览器，里面登录的是 YaoFlow 的账号。
 > 在 Threads 搜这些词的近期帖：六爻、卜卦、求籤、解籤、擲筊、塔羅、八字、紫微、正緣、復合、已讀不回、他會不會回來、斷聯（简体同理：求签、解签、复合…）；FB 只看三个繁體六爻社團里的新求解帖。
 > 每找到一个合适的真人对象：先写回覆，调用 check_reply(platform, target_url, target_text=对方原文, body, follow_up)；有 block 就不发，换下一个。没 block 才发，发完马上 log_reply。
 > 一轮最多回 6 条；名额用完、或连续 10 个都不合适，就结束这一轮。找不到对象就照实少回，不要为了凑数降低标准。
@@ -61,9 +61,9 @@ Grok Bot → Plugins → 添加自定义远程 MCP 服务器：
 ## 四、Sakura 要亲手做的
 
 1. 新建 YaoFlow 的 Grok Bot（和 Tresora 那个分开），按第二、三节加插件、建四个例行任务；「YaoFlow 任务执行」建好后把 Webhook 网址给 Claude，写进服务器。
-2. 在 Grok Bot 里打开「电脑操控」（现在 Tresora 那个是关着的）。
-3. 这台 Mac 上新建一个 Chrome 配置，命名「YaoFlow」，只登录 Threads @yaoflow_app、Instagram @yaoflow_app、FB 专页「YaoFlow 一事一卦」。账号在 Neil 名下，密码与两步验证可能要找他。
-4. 回帖时段（09:00–01:00）Mac 保持开机、不睡眠。
+2. 11-28 查过：Grok Bot 1.3.0 没有开放「操作你 Mac 上的 Chrome」，设置里没有这个开关。改用 bot 自己的云端电脑（设置 → 电脑 →「Bot 的电脑」）。
+3. 让 bot 在它自己的电脑上打开登录页、把屏幕交给你，登录一次 Threads @yaoflow_app、Instagram @yaoflow_app、FB 专页「YaoFlow 一事一卦」（第一次可能要短信／邮箱验证码，手机放旁边）。账号在 Neil 名下，密码与两步验证可能要找他。
+4. 发帖、回帖都在 bot 自己的电脑上跑，Mac 关机不影响；登录失效时 bot 会在后台「bot 汇报」里报，需要你再登录一次。
 5. 在 Grok 的用量页看额度：电脑操控比写稿耗用量，跑两天后对一下够不够。
 
 ## 五、日常怎么管

@@ -283,6 +283,17 @@ export function autoSchedule(now = Date.now(), maxDays = 21): number {
   if (!pending.length) return 0;
   const taken = new Set((db().prepare("SELECT platform, lang, scheduled_at FROM bot_posts WHERE status IN ('approved','posted','failed') AND scheduled_at IS NOT NULL").all() as { platform: string; lang: string; scheduled_at: number }[])
     .map((r) => `${r.platform}/${r.lang}@${r.scheduled_at}`));
+  // 11-28 Sakura：同一选题的繁體、简体 Threads 不在同一天发（同一个账号，几乎一样的两条会像刷屏）
+  const threadsDays = new Map<string, Set<number>>();
+  const markThreadsDay = (topic: string, lang: string, t: number) => {
+    const k = `${topic}/${lang}`;
+    if (!threadsDays.has(k)) threadsDays.set(k, new Set());
+    threadsDays.get(k)!.add(homeDayStart(t));
+  };
+  for (const r of db().prepare("SELECT topic_id, lang, scheduled_at FROM bot_posts WHERE platform = 'threads' AND status IN ('approved','posted','failed') AND scheduled_at IS NOT NULL").all() as { topic_id: string; lang: string; scheduled_at: number }[])
+    markThreadsDay(r.topic_id, r.lang, r.scheduled_at);
+  const otherLangSameDay = (p: BotPost, t: number) => p.platform === "threads"
+    && [...threadsDays.entries()].some(([k, days]) => k.startsWith(`${p.topic_id}/`) && k !== `${p.topic_id}/${p.lang}` && days.has(homeDayStart(t)));
   const start = homeDayStart(now);
   let n = 0;
   for (const p of pending) {
@@ -301,11 +312,12 @@ export function autoSchedule(now = Date.now(), maxDays = 21): number {
       const dayStart = firstDay + d * DAY;
       for (const hhmm of slots) {
         const t = slotAt(dayStart, hhmm);
-        if (t >= earliest && !taken.has(`${key}@${t}`)) { at = t; break; }
+        if (t >= earliest && !taken.has(`${key}@${t}`) && !otherLangSameDay(p, t)) { at = t; break; }
       }
     }
     if (at === null) continue;
     taken.add(`${key}@${at}`);
+    if (p.platform === "threads") markThreadsDay(p.topic_id, p.lang, at);
     db().prepare("UPDATE bot_posts SET status = 'approved', scheduled_at = ?, decided_reason = '自动放行', error = NULL, updated_at = ? WHERE id = ? AND status = 'review'").run(at, now, p.id);
     botLog("auto_approve", { scheduled_at: at, platform: p.platform, lang: p.lang }, p.id, now);
     n++;
