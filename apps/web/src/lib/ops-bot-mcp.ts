@@ -60,7 +60,7 @@ export const GUIDELINES = {
   },
   workflow: [
     "被 Webhook 唤醒或例行运行时，先 get_assignments：有任务就 start_task → 写稿 → check_draft → submit_draft（带 task_id）；有批注就 revise_draft。",
-    "写稿例行：get_guidelines → list_schedule 看未来 7 天缺口 → 写 → check_draft 到 0 个 block → submit_draft（suggested_time 填建议发布时间）。稿件只进「待审」，管理员批准并定时间后才会发。",
+    "写稿例行：get_guidelines → list_schedule 看未来 7 天缺口 → 写 → check_draft 到 0 个 block → submit_draft（suggested_time 填建议发布时间）。检查全过的稿会自动排进下一个空档（台北 Threads 繁 12:30／20:30、简 12:30／22:00，IG、FB 20:30，至少 2 小时后），管理员可在发出前撤回；繁体稿不能混简体字，标题带「测试」的不会自动排。",
     "发帖例行：get_due_posts 拿到点的已批稿 → 在 Mac 的 YaoFlow 专用 Chrome 里发到对应平台 → mark_posted（填帖子网址）；发不出去 mark_failed 写原因，不要反复重试。只发 get_due_posts 给你的稿件，一个字都不改。",
     "回帖巡回：每轮在各平台找对象 → 每条先 check_reply（0 个 block 才能发）→ 发出后马上 log_reply。名额用完或连续找不到对象就结束这一轮。",
     "每轮结束用 send_report 汇报三行以内：发了什么、回了几条、遇到什么问题（掉登录、验证码、被平台提示）。",
@@ -76,8 +76,8 @@ const obj = (properties: Record<string, unknown>, required: string[] = []) => ({
 export const TOOLS = [
   { name: "get_guidelines", description: "YaoFlow 的品牌口径、红线、各平台写法、回帖规矩和工作流程。每次运行先调用。", inputSchema: obj({}) },
   { name: "list_schedule", description: "未来 N 天（默认 7）每天各平台各语言该发几条、已有几条（待审＋已批＋已发）、差几条，和已排的稿件。", inputSchema: obj({ days_ahead: { type: "integer", minimum: 0, maximum: 14 } }) },
-  { name: "check_draft", description: "帖子发布前检查（不保存）。返回 block（必须改）和 warn（建议改）。交稿前先自查到 0 个 block。", inputSchema: obj({ platform: platformProp, body: S }, ["platform", "body"]) },
-  { name: "submit_draft", description: "交一篇帖子到「待审」。管理员批准并定时间后才会出现在 get_due_posts 里。同一选题多平台／多语言版本传同一个 topic_id（第一次交稿返回的）。每天最多 30 篇。", inputSchema: obj({ platform: platformProp, lang: langProp, title: { type: "string", description: "给管理员看的短标题" }, body: { type: "string", description: "要发出去的正文，原样" }, media_notes: { type: "string", description: "配图：用哪张卡（网址）或怎么做图" }, suggested_time: { type: "string", description: "建议发布时间，ISO 8601 带时区，例 2026-12-01T09:30:00+08:00" }, topic_id: S, task_id: S, rationale: { type: "string", description: "为什么写这篇：依据的读者问题、节气、数据" } }, ["platform", "lang", "title", "body", "rationale"]) },
+  { name: "check_draft", description: "帖子发布前检查（不保存）。返回 block（必须改）和 warn（建议改）。交稿前先自查到 0 个 block。带上 lang 和 title，繁体稿会查有没有混简体字。", inputSchema: obj({ platform: platformProp, lang: langProp, title: S, body: S }, ["platform", "body"]) },
+  { name: "submit_draft", description: "交一篇帖子。检查全过就自动排进下一个空档，到点出现在 get_due_posts 里；没过的留在待审等管理员。同一选题多平台／多语言版本传同一个 topic_id（第一次交稿返回的）。每天最多 30 篇。", inputSchema: obj({ platform: platformProp, lang: langProp, title: { type: "string", description: "给管理员看的短标题" }, body: { type: "string", description: "要发出去的正文，原样" }, media_notes: { type: "string", description: "配图：用哪张卡（网址）或怎么做图" }, suggested_time: { type: "string", description: "建议发布时间，ISO 8601 带时区，例 2026-12-01T09:30:00+08:00" }, topic_id: S, task_id: S, rationale: { type: "string", description: "为什么写这篇：依据的读者问题、节气、数据" } }, ["platform", "lang", "title", "body", "rationale"]) },
   { name: "get_assignments", description: "派给你的任务（open／in_progress）和需要按批注修改的稿件。被唤醒或例行运行时先调用。", inputSchema: obj({}) },
   { name: "start_task", description: "开始处理某个任务（open → in_progress），防止重复做。", inputSchema: obj({ task_id: S }, ["task_id"]) },
   { name: "get_feedback", description: "读某篇稿件的全部批注。", inputSchema: obj({ post_id: S }, ["post_id"]) },
@@ -114,7 +114,7 @@ export async function callTool(name: string, raw: unknown, now = Date.now()): Pr
     }
     case "check_draft": {
       if (!isPlatform(a.platform)) return err("platform 要是 threads／instagram／facebook");
-      const f = checkText(a.platform, str(a.body), { kind: "post" });
+      const f = checkText(a.platform, str(a.body), { kind: "post", lang: isLang(a.lang) ? a.lang : undefined, title: a.title === undefined ? undefined : str(a.title, 120) });
       return text({ ok: !hasBlock(f), findings: f });
     }
     case "submit_draft": {

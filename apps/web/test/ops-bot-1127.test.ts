@@ -4,6 +4,8 @@ import { describe, expect, it } from "vitest";
 describe("ops bot", async () => {
   const bot = await import("../src/lib/ops-bot");
   const mcp = await import("../src/lib/ops-bot-mcp");
+  // 这组测的是逐条批准的流程；自动放行在 ops-bot-auto-1128.test.ts
+  (await import("../src/lib/features")).setFeature("ops-bot-auto", "off");
 
   it("blocks AI words, promises, forbidden topics, foreign links, crisis", () => {
     const rules = (t: string) => bot.checkText("threads", t).filter((f) => f.level === "block").map((f) => f.rule);
@@ -76,7 +78,7 @@ describe("ops bot", async () => {
     const sub = await mcp.callTool("submit_draft", { platform: "threads", lang: "zh-hant", title: "t3", body: "問法可以照抄：這個月他會不會主動找我？", rationale: "讀者常問怎麼問" });
     expect(sub.isError).toBeFalsy();
     const sched = JSON.parse((await mcp.callTool("list_schedule", { days_ahead: 1 })).content[0]!.text) as { days: unknown[] };
-    expect(sched.days.length).toBe(4);
+    expect(sched.days.length).toBe(8); // 2 天 × 4 个平台语言（11-28 加了 IG、FB）
     expect((await mcp.callTool("nope", {})).isError).toBe(true);
   });
 
