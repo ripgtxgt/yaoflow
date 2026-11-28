@@ -60,4 +60,19 @@ describe("ops bot auto-approve", async () => {
     expect(p.status).toBe("review");
     setFeature("ops-bot-auto", "on");
   });
+  it("keeps the traditional and simplified Threads versions of one topic on different days", () => {
+    const later = Date.parse("2026-12-20T01:00:00Z");
+    const d0 = homeDayStart(later);
+    const put = (lang: "zh-hant" | "zh", platform: "threads" | "instagram" = "threads") => {
+      const r = bot.submitPost({ platform, lang, title: `同題 ${lang} ${platform}`, body: lang === "zh" ? "同一则卦例。" : "同一則卦例。", rationale: "同题测试", topic_id: "topic-same-1220", suggested_at: later + 3 * 3_600_000 }, later);
+      if (!r.ok) throw new Error(r.error);
+      return bot.getPost(r.post.id)!;
+    };
+    const hant = put("zh-hant");
+    const hans = put("zh");
+    const ig = put("zh-hant", "instagram");
+    expect(homeDayStart(hant.scheduled_at!)).toBe(d0);
+    expect(homeDayStart(hans.scheduled_at!)).toBe(d0 + 86_400_000);
+    expect(homeDayStart(ig.scheduled_at!)).toBe(d0);
+  });
 });

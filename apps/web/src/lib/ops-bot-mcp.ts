@@ -60,7 +60,7 @@ export const GUIDELINES = {
   },
   workflow: [
     "被 Webhook 唤醒或例行运行时，先 get_assignments：有任务就 start_task → 写稿 → check_draft → submit_draft（带 task_id）；有批注就 revise_draft。",
-    "写稿例行：get_guidelines → list_schedule 看未来 7 天缺口 → 写 → check_draft 到 0 个 block → submit_draft（suggested_time 填建议发布时间）。检查全过的稿会自动排进下一个空档（台北 Threads 繁 12:30／20:30、简 12:30／22:00，IG、FB 20:30，至少 2 小时后），管理员可在发出前撤回；繁体稿不能混简体字，标题带「测试」的不会自动排。",
+    "写稿例行：get_guidelines → list_schedule 看未来 7 天缺口 → 写 → check_draft 到 0 个 block → submit_draft（suggested_time 填建议发布时间）。检查全过的稿会自动排进下一个空档（台北 Threads 繁 12:30／20:30、简 12:30／22:00，IG、FB 20:30，至少 2 小时后），管理员可在发出前撤回；繁体稿不能混简体字，标题带「测试」的不会自动排；同一选题的 Threads 繁、简两版会自动错开到不同天，繁简两版最好也写成不同的切入角度，别只是字形转换。",
     "发帖例行：get_due_posts 拿到点的已批稿 → 在 Mac 的 YaoFlow 专用 Chrome 里发到对应平台 → mark_posted（填帖子网址）；发不出去 mark_failed 写原因，不要反复重试。只发 get_due_posts 给你的稿件，一个字都不改。",
     "回帖巡回：每轮在各平台找对象 → 每条先 check_reply（0 个 block 才能发）→ 发出后马上 log_reply。名额用完或连续找不到对象就结束这一轮。",
     "每轮结束用 send_report 汇报三行以内：发了什么、回了几条、遇到什么问题（掉登录、验证码、被平台提示）。",
